@@ -99,7 +99,9 @@ for(let i=0;i<chunks.length;i++){
 }
 currentChapter=0;
 const copyrightPage='<section class="copyright-page theme-blue" id="copyright">'+marked.parse(read('版权页.md'))+'</section>';
-const bibliography='<section class="bibliography theme-blue" id="bibliography">'+marked.parse(read('参考文献.md'))+'</section>';
+const downloadIcon='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/></svg>';
+const readerDownloads='<div class="reader-downloads" id="downloads" role="group" aria-label="下载本书与配套资料"><div class="reader-download-actions"><a class="reader-download-link reader-download-pdf" href="https://wxy11117.github.io/Deep-Learning-and-AI-Agent-Development/book.pdf" download="深度学习与AI_Agent开发_精排版.pdf">'+downloadIcon+'<span>下载 PDF 版</span></a><a class="reader-download-link reader-download-bundle" href="https://github.com/wxy11117/Deep-Learning-and-AI-Agent-Development/releases/download/v2026.11/Deep-Learning-and-AI-Agent-Development-materials-v2026.11.zip" download="深度学习与AI_Agent开发_完整资料.zip">'+downloadIcon+'<span>下载完整资料包</span></a></div><p class="reader-download-note">PDF 适合阅读与打印；资料包包含离线阅读版、源稿、代码和实验记录。</p></div>';
+const bibliography='<section class="bibliography theme-blue" id="bibliography">'+marked.parse(read('参考文献.md'))+readerDownloads+'</section>';
 const introduction=source.split('## 阅读说明\n')[1].split('## 目录')[0];
 const front='<section class="front" id="reading-guide"><h2>阅读说明</h2><p class="lead">理解模型怎样学习，也理解系统怎样行动。</p>'+mathRender(introduction)+'<p class="edition-note">修订版 · 2026 年 11 月<br>正文宋体；标题黑体；注记楷体。章节、公式与图示均可按编号回查。</p></section>';
 function tocRow(item){return '<li class="toc-'+item.type+' theme-'+(item.theme||'blue')+'"><a href="#'+item.id+'"><span class="toc-title">'+escape(item.title)+'</span><span class="dots"></span><em>'+escape(String(pageMap[item.id]?.label||'—'))+'</em></a></li>';}
@@ -135,7 +137,7 @@ const printCheck=await page.evaluate(()=>({overflows:[...document.querySelectorA
 await widthStyle.evaluate(e=>e.remove());
 if(check.katexErrors||check.overflows||printCheck.overflows.length||printCheck.oversizedFigures.length)throw new Error(JSON.stringify({check,printCheck}));
 fs.mkdirSync(path.join(ROOT,'_review_revised'),{recursive:true});
-await page.pdf({path:path.join(ROOT,'_review_revised/book_unstamped.pdf'),format:'A4',printBackground:true,preferCSSPageSize:true,displayHeaderFooter:false,outline:true,tagged:true});
+if(!process.argv.includes('--html-only'))await page.pdf({path:path.join(ROOT,'_review_revised/book_unstamped.pdf'),format:'A4',printBackground:true,preferCSSPageSize:true,displayHeaderFooter:false,outline:true,tagged:true});
 await page.emulateMedia({media:'screen'});await page.setViewportSize({width:390,height:844});
 const mobile=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));
 await browser.close();

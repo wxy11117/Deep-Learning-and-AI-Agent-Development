@@ -3,7 +3,7 @@
   "repository_url": "https://github.com/wxy11117/Deep-Learning-and-AI-Agent-Development",
   "reader_url": "https://wxy11117.github.io/Deep-Learning-and-AI-Agent-Development/",
   "archive_download": "https://github.com/wxy11117/Deep-Learning-and-AI-Agent-Development/releases/download/v2026.11/Deep-Learning-and-AI-Agent-Development-materials-v2026.11.zip",
-  "archive_sha256": "5dad68bc3a084d8c571a295c79426746f3c65619821ed10d6b101cdc8993007c",
+  "archive_sha256": "10360c7ed9f413d7e179d20661dfa41514bc1bc14a38941e4371f120f64c169d",
   "files": [
     {
       "package_path": "add_beginner_material.py",
@@ -206,8 +206,8 @@
     {
       "package_path": "book.css",
       "repository_path": "textbook/book.css",
-      "bytes": 21740,
-      "sha256": "f92ba4c8ae55d4bd45df1357b850110e8e6cad837428cf1de4101ffebd773937"
+      "bytes": 22808,
+      "sha256": "d713bbcfc42c6f0dd68396cb4d1a258de707d1eb24b5273ed3240988dfde3a02"
     },
     {
       "package_path": "book_structure.json",
@@ -218,8 +218,8 @@
     {
       "package_path": "build_book.mjs",
       "repository_path": "textbook/build_book.mjs",
-      "bytes": 17034,
-      "sha256": "4da9aef56cff5a7624cb0fadffde26242988897508e623dc1957b75c0811da04"
+      "bytes": 18223,
+      "sha256": "6cd6ceffba8f4f2a310179e04df47fe37bc1ce1002739799dd8abcb00ffeef23"
     },
     {
       "package_path": "build_publication.py",
@@ -1845,7 +1845,7 @@
       "package_path": "publication/code_license_scope.json",
       "repository_path": "textbook/publication/code_license_scope.json",
       "bytes": 9154,
-      "sha256": "e07bfe7bf9af152362aba9dc7b86d4d6fcb77837b3dbea56cb789843e7b0f66e"
+      "sha256": "dd6793fc920fec7ec3d7a9abec6ecc85aa526e8386c616e799f497a99113584d"
     },
     {
       "package_path": "publication/licenses/DejaVu-LICENSE.txt",
@@ -2535,7 +2535,7 @@
       "package_path": "交付清单.json",
       "repository_path": "textbook/交付清单.json",
       "bytes": 1812,
-      "sha256": "01b7f33478c5359b662eec345d8def0febeebe25713d95f616586f59ccb0d987"
+      "sha256": "f00003f92e7f79609ff58d98098e007f03ced8aea1e4b40e0a750525fa2d2c07"
     },
     {
       "package_path": "作者与版本信息.md",
@@ -2876,8 +2876,8 @@
     {
       "package_path": "深度学习与AI_Agent开发_阅读版.html",
       "repository_path": "docs/index.html",
-      "bytes": 15619759,
-      "sha256": "f7bb88205edfd39693dbdf295bae3c798683c56685ad0e34f2c6200ab7943276"
+      "bytes": 15622113,
+      "sha256": "2df923a0a878775cb222dd1b719b2a5ff7e9d0dfa7f1e6f5b5b8af8dc2d08e68"
     },
     {
       "package_path": "版本清理记录.json",

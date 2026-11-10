@@ -68,11 +68,11 @@
     },
     {
       "path": "book.css",
-      "sha256": "f92ba4c8ae55d4bd45df1357b850110e8e6cad837428cf1de4101ffebd773937"
+      "sha256": "d713bbcfc42c6f0dd68396cb4d1a258de707d1eb24b5273ed3240988dfde3a02"
     },
     {
       "path": "build_book.mjs",
-      "sha256": "4da9aef56cff5a7624cb0fadffde26242988897508e623dc1957b75c0811da04"
+      "sha256": "6cd6ceffba8f4f2a310179e04df47fe37bc1ce1002739799dd8abcb00ffeef23"
     },
     {
       "path": "build_publication.py",

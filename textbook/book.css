@@ -39,6 +39,14 @@ figure{margin:24px 0;break-inside:avoid}figure img{display:block;width:100%;heig
 .reference-entry{text-indent:0;padding-left:2.7em;font-size:14px;line-height:1.65;text-align:left;break-inside:avoid;overflow-wrap:anywhere;margin:15px 0}
 .reference-label{display:inline-block;width:2.7em;margin-left:-2.7em;color:var(--accent);font-weight:bold}
 .reference-access{color:#637279;font-size:.9em}.reference-locator{display:block;color:#6d7b82;font-size:.88em;margin-top:3px}
+.reader-downloads{margin-top:36px;padding-top:26px;border-top:1px solid var(--rule)}
+.reader-download-actions{display:flex;flex-wrap:wrap;gap:14px}
+.reader-download-link{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:13px 22px;border:1px solid transparent;border-radius:7px;font:700 16px/1.5 BookSans,"SimHei",sans-serif;color:#fff;text-decoration:none;transition:background-color .15s ease}
+.reader-download-link svg{flex:none}.reader-download-pdf{background:#315e7a;border-color:#315e7a}.reader-download-bundle{background:#3a756c;border-color:#3a756c}
+.reader-download-pdf:hover{background:#274b62}.reader-download-bundle:hover{background:#2e6058}.reader-download-link:focus-visible{outline:3px solid #9a6b3f;outline-offset:4px}
+.reader-download-note{margin:15px 0 0;text-indent:0;text-align:left;font-size:13px;line-height:1.8;color:var(--muted)}
+@media(max-width:560px){.reader-download-actions{flex-direction:column}.reader-download-link{width:100%}}
+@media print{.reader-downloads{display:none!important}}
 @media(max-width:560px){.copyright-page,.bibliography{padding:28px 20px}.publication-facts{grid-template-columns:90px 1fr;font-size:13px}.publication-book-title{font-size:21px}.reference-entry{font-size:13px}}
 @media print{
  .copyright-page,.bibliography{padding:0;break-before:page;break-after:page}
