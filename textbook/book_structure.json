@@ -1,0 +1,185 @@
+{
+  "chapterThemes": [
+    [
+      "blue",
+      "整体地图"
+    ],
+    [
+      "blue",
+      "机器学习基线"
+    ],
+    [
+      "blue",
+      "数学基础"
+    ],
+    [
+      "blue",
+      "数学基础"
+    ],
+    [
+      "teal",
+      "神经网络"
+    ],
+    [
+      "teal",
+      "训练原理"
+    ],
+    [
+      "teal",
+      "推导实验室"
+    ],
+    [
+      "teal",
+      "训练原理"
+    ],
+    [
+      "teal",
+      "训练原理"
+    ],
+    [
+      "teal",
+      "稳定训练"
+    ],
+    [
+      "teal",
+      "泛化能力"
+    ],
+    [
+      "orange",
+      "实验设计"
+    ],
+    [
+      "violet",
+      "模型架构"
+    ],
+    [
+      "blue",
+      "视觉进阶"
+    ],
+    [
+      "violet",
+      "模型架构"
+    ],
+    [
+      "violet",
+      "模型架构"
+    ],
+    [
+      "violet",
+      "表示学习"
+    ],
+    [
+      "berry",
+      "生成模型"
+    ],
+    [
+      "violet",
+      "拓展方向"
+    ],
+    [
+      "orange",
+      "评价与诊断"
+    ],
+    [
+      "orange",
+      "工程实践"
+    ],
+    [
+      "teal",
+      "项目 / 需求预测"
+    ],
+    [
+      "blue",
+      "项目 / 图像分类"
+    ],
+    [
+      "orange",
+      "项目 / 传感器时序"
+    ],
+    [
+      "violet",
+      "项目 / 缺陷分割"
+    ],
+    [
+      "orange",
+      "工程实验室"
+    ],
+    [
+      "berry",
+      "高效训练与部署"
+    ],
+    [
+      "orange",
+      "练习与回顾"
+    ],
+    [
+      "berry",
+      "大语言模型"
+    ],
+    [
+      "violet",
+      "Transformer 实验室"
+    ],
+    [
+      "berry",
+      "项目 / 文档检索"
+    ],
+    [
+      "teal",
+      "Agent / 概念与边界"
+    ],
+    [
+      "blue",
+      "Agent / 应用接口"
+    ],
+    [
+      "violet",
+      "Agent / 工具执行"
+    ],
+    [
+      "berry",
+      "Agent / 检索与记忆"
+    ],
+    [
+      "orange",
+      "Agent / 状态与恢复"
+    ],
+    [
+      "blue",
+      "Agent / MCP 接入"
+    ],
+    [
+      "teal",
+      "Agent / 评价与测试"
+    ],
+    [
+      "orange",
+      "Agent / 部署运行"
+    ],
+    [
+      "berry",
+      "项目 / 知识库 Agent"
+    ],
+    [
+      "blue",
+      "项目 / 分析报告 Agent"
+    ],
+    [
+      "orange",
+      "项目 / 工单 Agent"
+    ],
+    [
+      "violet",
+      "Agent / 协作与设计"
+    ],
+    [
+      "teal",
+      "综合练习与术语回查"
+    ]
+  ],
+  "partPages": {
+    "0": "<section class=\"part-page theme-blue\"><div class=\"part-kicker\">PART 01 / 第 1—28 章</div><div class=\"part-numeral\">01</div><div class=\"part-overline\">模型如何学习</div><div class=\"part-title\">深度学习原理与项目</div><p>从任务与数据出发，建立张量、导数、概率与优化的共同语言，再走向卷积、序列、注意力和生成模型。四个完整应用项目保留基线与实际结果，让公式回到可检查的计算。</p><div class=\"part-rule\"></div><p class=\"part-note\">先看任务，再看假设；先建立基线，再增加复杂度。</p><div class=\"part-navigation\">原理 · 计算 · 图示 · 代码 · 验证</div></section>",
+    "28": "<section class=\"part-page theme-berry\"><div class=\"part-kicker\">PART 02 / 第 29—31 章</div><div class=\"part-numeral\">02</div><div class=\"part-overline\">从模型走向应用</div><div class=\"part-title\">大语言模型与检索</div><p>大语言模型把表示、注意力和自回归目标连接起来。这一篇通过训练机制、迷你 Transformer 代码和可复现的检索实验，为智能体开发建立共同基础。</p><div class=\"part-rule\"></div><p class=\"part-note\">参数知识、上下文与工具结果，是三种不同的信息来源。</p><div class=\"part-navigation\">原理 · 计算 · 图示 · 代码 · 验证</div></section>",
+    "31": "<section class=\"part-page theme-violet\"><div class=\"part-kicker\">PART 03 / 第 32—44 章</div><div class=\"part-numeral\">03</div><div class=\"part-overline\">让系统完成任务</div><div class=\"part-title\">AI Agent 开发实战</div><p>从消息接口和工具循环开始，逐步加入证据、状态、恢复、评估与部署。知识库、数据分析和工单三个项目分别展示信息获取、确定性计算与受控写入。</p><div class=\"part-rule\"></div><p class=\"part-note\">每一个动作都应有结果，每一个完成判断都应有依据。</p><div class=\"part-navigation\">原理 · 计算 · 图示 · 代码 · 验证</div></section>"
+  }
+}

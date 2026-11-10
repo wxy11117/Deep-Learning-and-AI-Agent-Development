@@ -1,0 +1,38 @@
+{
+  "baseline": "final_revision_log.json + validation_reference.json",
+  "verification_mode": "SHA-256 subsequences after reversing explicit final-edition corrections",
+  "prose_review": "Final editorial corrections and additions are recorded; no claim of unchanged prose.",
+  "reference_rows_corrected": 21,
+  "display_math": {
+    "before": 179,
+    "after": 181,
+    "retained_or_corrected": true,
+    "unchanged": false,
+    "audited_against_final_revision_log": true
+  },
+  "inline_math": {
+    "before": 690,
+    "after": 723,
+    "retained_or_corrected": true,
+    "unchanged": true,
+    "audited_against_final_revision_log": true
+  },
+  "code_blocks": {
+    "before": 40,
+    "after": 51,
+    "retained_or_corrected": true,
+    "unchanged": false,
+    "audited_against_final_revision_log": true
+  },
+  "table_rows": {
+    "before": 245,
+    "after": 274,
+    "retained_or_corrected": true,
+    "prior_reference_rows_corrected": 21,
+    "experiment_status_row_updated": 1
+  },
+  "font_missing_characters": {
+    "NotoSerifSC-Regular.ttf": "",
+    "BookSans-700.ttf": ""
+  }
+}

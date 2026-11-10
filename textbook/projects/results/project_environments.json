@@ -1,0 +1,9 @@
+{
+  "retrieval": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.5.1+cpu",
+    "numpy": "1.26.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "completed_at": "2026-11-10T23:39:16+0800"
+  }
+}

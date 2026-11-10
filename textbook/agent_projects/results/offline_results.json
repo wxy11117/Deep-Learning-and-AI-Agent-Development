@@ -1,0 +1,116 @@
+{
+  "mode": "offline_replay",
+  "python": "3.12.14",
+  "projects": {
+    "knowledge": {
+      "status": "completed",
+      "turns": 3,
+      "calls": 2
+    },
+    "analysis": {
+      "status": "completed",
+      "turns": 4,
+      "calls": 3,
+      "tables": {
+        "quality": {
+          "dataset": "orders",
+          "raw_rows": 13,
+          "accepted_rows": 10,
+          "issues": [
+            {
+              "line": 5,
+              "reason": "exact_duplicate"
+            },
+            {
+              "line": 8,
+              "reason": "invalid_date_or_money"
+            },
+            {
+              "line": 9,
+              "reason": "invalid_date_or_money"
+            }
+          ],
+          "columns": [
+            "order_id",
+            "date",
+            "region",
+            "revenue",
+            "cost"
+          ],
+          "source": "author-created simulated orders",
+          "policy": "remove exact duplicate; exclude invalid; keep refunds"
+        },
+        "region": {
+          "dataset": "orders",
+          "group_by": "region",
+          "rows": [
+            {
+              "group": "华东",
+              "revenue": "530.00",
+              "cost": "330.00",
+              "profit": "200.00",
+              "orders": 4,
+              "margin": 0.37735849056603776
+            },
+            {
+              "group": "华北",
+              "revenue": "400.00",
+              "cost": "240.00",
+              "profit": "160.00",
+              "orders": 2,
+              "margin": 0.4
+            },
+            {
+              "group": "华南",
+              "revenue": "540.00",
+              "cost": "343.00",
+              "profit": "197.00",
+              "orders": 4,
+              "margin": 0.3648148148148148
+            }
+          ],
+          "excluded_rows": 3
+        },
+        "month": {
+          "dataset": "orders",
+          "group_by": "month",
+          "rows": [
+            {
+              "group": "2026-01",
+              "revenue": "750.00",
+              "cost": "478.00",
+              "profit": "272.00",
+              "orders": 5,
+              "margin": 0.3626666666666667
+            },
+            {
+              "group": "2026-02",
+              "revenue": "720.00",
+              "cost": "435.00",
+              "profit": "285.00",
+              "orders": 5,
+              "margin": 0.3958333333333333
+            }
+          ],
+          "excluded_rows": 3
+        }
+      }
+    },
+    "workflow": {
+      "checkpoint_restored": true,
+      "first": {
+        "ticket_id": "T001",
+        "version": 2,
+        "status": "resolved",
+        "replayed": false
+      },
+      "replay": {
+        "ticket_id": "T001",
+        "version": 2,
+        "status": "resolved",
+        "replayed": true
+      },
+      "events": 1
+    }
+  }
+}

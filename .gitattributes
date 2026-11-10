@@ -1,0 +1,11 @@
+# Preserve the exact bytes recorded in the publication SHA-256 manifests.
+* -text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.npz binary
+*.pt binary
+*.zip binary

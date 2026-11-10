@@ -1,0 +1,128 @@
+{
+  "status": "completed",
+  "text": "{\"answer\": \"教学 R2 的本机日志保留 30 天。\", \"abstain\": false, \"citations\": [{\"id\": \"K01\", \"version\": \"2.0\", \"quote\": \"教学设备 R2 的日志在本机保存 30 天\"}]}",
+  "turns": 3,
+  "calls": 2,
+  "history": [
+    {
+      "role": "user",
+      "text": "R2 本机日志保留多久？"
+    },
+    {
+      "role": "assistant",
+      "text": "",
+      "calls": [
+        {
+          "id": "k1",
+          "name": "search_manual",
+          "arguments": {
+            "query": "日志保存多久",
+            "version": "2.0",
+            "top_k": 3
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "role": "tool",
+      "results": [
+        {
+          "id": "k1",
+          "ok": true,
+          "value": [
+            {
+              "id": "K01",
+              "version": "2.0",
+              "title": "日志保存",
+              "score": 0.358057
+            },
+            {
+              "id": "K04",
+              "version": "2.0",
+              "title": "导出操作",
+              "score": 0.149071
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "",
+      "calls": [
+        {
+          "id": "k2",
+          "name": "read_manual",
+          "arguments": {
+            "doc_id": "K01",
+            "version": "2.0"
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "role": "tool",
+      "results": [
+        {
+          "id": "k2",
+          "ok": true,
+          "value": {
+            "id": "K01",
+            "version": "2.0",
+            "title": "日志保存",
+            "text": "教学设备 R2 的日志在本机保存 30 天；导出文件的保留期由用户自行设置。"
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "{\"answer\": \"教学 R2 的本机日志保留 30 天。\", \"abstain\": false, \"citations\": [{\"id\": \"K01\", \"version\": \"2.0\", \"quote\": \"教学设备 R2 的日志在本机保存 30 天\"}]}",
+      "calls": [],
+      "native": null
+    }
+  ],
+  "trace": [
+    {
+      "event": "model",
+      "turn": 0,
+      "usage": {},
+      "mode": "offline_replay",
+      "elapsed_ms": 0.004
+    },
+    {
+      "event": "tool",
+      "turn": 0,
+      "name": "search_manual",
+      "call_id": "k1",
+      "ok": true,
+      "elapsed_ms": 0.966,
+      "result_sha256": "8ed6568371a0af20b31fb55182389c7c750b4477ff9144d04643943d00bf1e45"
+    },
+    {
+      "event": "model",
+      "turn": 1,
+      "usage": {},
+      "mode": "offline_replay",
+      "elapsed_ms": 0.003
+    },
+    {
+      "event": "tool",
+      "turn": 1,
+      "name": "read_manual",
+      "call_id": "k2",
+      "ok": true,
+      "elapsed_ms": 0.014,
+      "result_sha256": "82e916eff8140b3d7d1a9b2480f7648569aa908a830e694ed7d4f86423df185f"
+    },
+    {
+      "event": "model",
+      "turn": 2,
+      "usage": {},
+      "mode": "offline_replay",
+      "elapsed_ms": 0.001
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "width": 1280,
+    "scroll": 1280,
+    "titleFont": "BookTitleSerif, SimSun, BookSongFallback, serif",
+    "latinFont": "Georgia, \"Times New Roman\", serif",
+    "authorFont": "AuthorScript, cursive",
+    "authorFontPx": "51.264px",
+    "authors": [
+      "Violet",
+      "Star",
+      "Sapphire"
+    ],
+    "clipped": [],
+    "order": [
+      "cover",
+      "author-page",
+      "copyright"
+    ],
+    "applicationCount": 7,
+    "figureCount": 68,
+    "brokenImages": 0
+  },
+  {
+    "width": 390,
+    "scroll": 390,
+    "titleFont": "BookTitleSerif, SimSun, BookSongFallback, serif",
+    "latinFont": "Georgia, \"Times New Roman\", serif",
+    "authorFont": "AuthorScript, cursive",
+    "authorFontPx": "20.826px",
+    "authors": [
+      "Violet",
+      "Star",
+      "Sapphire"
+    ],
+    "clipped": [],
+    "order": [
+      "cover",
+      "author-page",
+      "copyright"
+    ],
+    "applicationCount": 7,
+    "figureCount": 68,
+    "brokenImages": 0
+  }
+]

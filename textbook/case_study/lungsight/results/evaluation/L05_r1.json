@@ -1,0 +1,337 @@
+{
+  "case_id": "L05",
+  "phase": "evaluation",
+  "repeat": 1,
+  "category": "source",
+  "question": "基础 DICOM 导入最多等距抽取多少层进入模型？value 填整数。",
+  "expected": {
+    "status": "answered",
+    "value": 32,
+    "source_ids": [
+      "LS03"
+    ],
+    "task_id": null
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:22:49+0800",
+  "elapsed_seconds": 2.346,
+  "usage": {
+    "input_tokens": 3623,
+    "output_tokens": 270
+  },
+  "estimated_usd_peak_cache_miss": 0.0014109,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:47+0800",
+      "request_bytes": 2989,
+      "status": "received",
+      "response_id": "67a2252c-ea27-4d37-a8e3-dce24f51c9cc",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 854,
+        "completion_tokens": 67,
+        "total_tokens": 921,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 214
+      },
+      "elapsed_ms": 840.315,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:48+0800",
+      "request_bytes": 4071,
+      "status": "received",
+      "response_id": "3729cfd6-d81b-4bee-b9e0-519948b67df1",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 76,
+        "total_tokens": 1303,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 331
+      },
+      "elapsed_ms": 652.162,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:48+0800",
+      "request_bytes": 5017,
+      "status": "received",
+      "response_id": "a6ca8e88-173a-43df-9bc5-333cb356b10d",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1542,
+        "completion_tokens": 127,
+        "total_tokens": 1669,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 262
+      },
+      "elapsed_ms": 851.563,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"answered\",\"answer\":\"基础 DICOM 导入仅支持单帧 CT 对象，按空间位置排序并转换固定肺窗后，最多等距抽取 32 层进入模型（来源 LS03）。\",\"value\":32,\"citations\":[{\"id\":\"LS03\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"基础 DICOM 导入仅支持单帧 CT 对象：本机按空间位置排序、转换固定肺窗，最多等距抽取 32 层进入模型。\"}]}",
+    "turns": 3,
+    "calls": 2,
+    "history": [
+      {
+        "role": "user",
+        "text": "基础 DICOM 导入最多等距抽取多少层进入模型？value 填整数。"
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_mNdgW5XfdfcO2l61Npbo8571",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "DICOM 导入 等距抽取 层数",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_mNdgW5XfdfcO2l61Npbo8571",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"DICOM 导入 等距抽取 层数\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_mNdgW5XfdfcO2l61Npbo8571",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS03",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "DICOM 单帧导入 抽取层数",
+                  "score": 0.578352
+                },
+                {
+                  "id": "LS01",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地模型架构 五折 ResNet18 权重版本",
+                  "score": 0.07698
+                },
+                {
+                  "id": "LS05",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "自动 RAG 评测使用模拟模型",
+                  "score": 0.057591
+                },
+                {
+                  "id": "LS07",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地引文如何验证",
+                  "score": 0.056077
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_E2au92mpGARMllTuMijs5077",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS03",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_E2au92mpGARMllTuMijs5077",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS03\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_E2au92mpGARMllTuMijs5077",
+            "ok": true,
+            "value": {
+              "id": "LS03",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "DICOM 单帧导入 抽取层数",
+              "text": "- 基础 DICOM 导入仅支持单帧 CT 对象：本机按空间位置排序、转换固定肺窗，最多等距抽取 32 层进入模型。",
+              "path": "README.md",
+              "lines": [
+                66,
+                66
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L66-L66",
+              "excerpt_sha256": "aa19f89e18adb370ef41280d05036d4055dc92e87415777560ccdbc0439d668b"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"answered\",\"answer\":\"基础 DICOM 导入仅支持单帧 CT 对象，按空间位置排序并转换固定肺窗后，最多等距抽取 32 层进入模型（来源 LS03）。\",\"value\":32,\"citations\":[{\"id\":\"LS03\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"基础 DICOM 导入仅支持单帧 CT 对象：本机按空间位置排序、转换固定肺窗，最多等距抽取 32 层进入模型。\"}]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"answered\",\"answer\":\"基础 DICOM 导入仅支持单帧 CT 对象，按空间位置排序并转换固定肺窗后，最多等距抽取 32 层进入模型（来源 LS03）。\",\"value\":32,\"citations\":[{\"id\":\"LS03\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"基础 DICOM 导入仅支持单帧 CT 对象：本机按空间位置排序、转换固定肺窗，最多等距抽取 32 层进入模型。\"}]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 854,
+          "completion_tokens": 67,
+          "total_tokens": 921,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 214
+        },
+        "mode": "live_api",
+        "elapsed_ms": 840.455
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_00_mNdgW5XfdfcO2l61Npbo8571",
+        "ok": true,
+        "elapsed_ms": 1.254,
+        "result_sha256": "d1160e8f21859a21c6b6db60b6cf13c74b4e20abe69c6fcb5207432de3f7938a"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1227,
+          "completion_tokens": 76,
+          "total_tokens": 1303,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 331
+        },
+        "mode": "live_api",
+        "elapsed_ms": 652.392
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_00_E2au92mpGARMllTuMijs5077",
+        "ok": true,
+        "elapsed_ms": 0.034,
+        "result_sha256": "334818bc3bde965246864f8b88ba1852f44d69b8a3a26b61089449909de7365b"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {
+          "prompt_tokens": 1542,
+          "completion_tokens": 127,
+          "total_tokens": 1669,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280
+          },
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 262
+        },
+        "mode": "live_api",
+        "elapsed_ms": 851.768
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "answered",
+      "answer": "基础 DICOM 导入仅支持单帧 CT 对象，按空间位置排序并转换固定肺窗后，最多等距抽取 32 层进入模型（来源 LS03）。",
+      "value": 32,
+      "citations": [
+        {
+          "id": "LS03",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "基础 DICOM 导入仅支持单帧 CT 对象：本机按空间位置排序、转换固定肺窗，最多等距抽取 32 层进入模型。"
+        }
+      ]
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

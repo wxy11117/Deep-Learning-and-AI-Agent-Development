@@ -1,0 +1,170 @@
+{
+  "mode": "offline_replay",
+  "reading": {
+    "window_index": 24,
+    "measurement_cm": 51.94724682466203,
+    "estimate_cm": 81.41736602783203,
+    "difference_cm": 29.47011920317,
+    "rule_threshold_cm": 10.0,
+    "source_sha256": "83663217bf049a339c88a6a8d931b602cc73edda7bb44ad2990f9a12b5c830f4",
+    "data_kind": "simulated trajectories; saved trained-CNN predictions"
+  },
+  "manual": {
+    "id": "S01",
+    "version": "2.0",
+    "title": "S1 估计差异复核",
+    "text": "教学装置 S1 在测量与估计差异超过 10 cm 时进入复核队列。先检查原始轨迹和缺失标记，再检查安装与采样状态；确认原因后再决定处理动作。该阈值为教学配置。"
+  },
+  "knowledge_trace": {
+    "status": "completed",
+    "text": "{\"answer\": \"先检查原始轨迹和缺失标记，再检查安装与采样状态。\", \"abstain\": false, \"citations\": [{\"id\": \"S01\", \"version\": \"2.0\", \"quote\": \"先检查原始轨迹和缺失标记，再检查安装与采样状态\"}]}",
+    "turns": 3,
+    "calls": 2,
+    "history": [
+      {
+        "role": "user",
+        "text": "教学任务估计差异超过配置阈值，请查询复核步骤。"
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "s1",
+            "name": "search_manual",
+            "arguments": {
+              "query": "估计差异复核",
+              "version": "2.0",
+              "top_k": 1
+            }
+          }
+        ],
+        "native": null
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "s1",
+            "ok": true,
+            "value": [
+              {
+                "id": "S01",
+                "version": "2.0",
+                "title": "S1 估计差异复核",
+                "score": 0.424264
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "s2",
+            "name": "read_manual",
+            "arguments": {
+              "doc_id": "S01",
+              "version": "2.0"
+            }
+          }
+        ],
+        "native": null
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "s2",
+            "ok": true,
+            "value": {
+              "id": "S01",
+              "version": "2.0",
+              "title": "S1 估计差异复核",
+              "text": "教学装置 S1 在测量与估计差异超过 10 cm 时进入复核队列。先检查原始轨迹和缺失标记，再检查安装与采样状态；确认原因后再决定处理动作。该阈值为教学配置。"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"answer\": \"先检查原始轨迹和缺失标记，再检查安装与采样状态。\", \"abstain\": false, \"citations\": [{\"id\": \"S01\", \"version\": \"2.0\", \"quote\": \"先检查原始轨迹和缺失标记，再检查安装与采样状态\"}]}",
+        "calls": [],
+        "native": null
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {},
+        "mode": "offline_replay",
+        "elapsed_ms": 0.004
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_manual",
+        "call_id": "s1",
+        "ok": true,
+        "elapsed_ms": 0.978,
+        "result_sha256": "063233e223585b12b6b08c09b8d5cb05d4259d469a9806a0e382d4c43d5aa4c7"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {},
+        "mode": "offline_replay",
+        "elapsed_ms": 0.003
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_manual",
+        "call_id": "s2",
+        "ok": true,
+        "elapsed_ms": 0.016,
+        "result_sha256": "f3bf136841e95ea9ba288063e86541f152c53f193925f0377afbd6f1e926fd51"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {},
+        "mode": "offline_replay",
+        "elapsed_ms": 0.001
+      }
+    ]
+  },
+  "checkpoint_restored": true,
+  "state": {
+    "phase": "awaiting_approval",
+    "sensor_reading": {
+      "window_index": 24,
+      "measurement_cm": 51.94724682466203,
+      "estimate_cm": 81.41736602783203,
+      "difference_cm": 29.47011920317,
+      "rule_threshold_cm": 10.0,
+      "source_sha256": "83663217bf049a339c88a6a8d931b602cc73edda7bb44ad2990f9a12b5c830f4",
+      "data_kind": "simulated trajectories; saved trained-CNN predictions"
+    },
+    "proposal": {
+      "ticket_id": "T001",
+      "expected_version": 1,
+      "target_status": "resolved",
+      "digest": "284d4bd8fa5bb4384fc0091d65b62c9945e76e076c662588de4dc41c22bf9531",
+      "requires_approval": true
+    },
+    "manual_evidence": [
+      {
+        "id": "S01",
+        "version": "2.0",
+        "quote": "先检查原始轨迹和缺失标记，再检查安装与采样状态"
+      }
+    ]
+  },
+  "ticket_still_open": true,
+  "business_write_events": 0,
+  "meaning": "Draft and waiting state saved. Approval and status commit are exercised separately in chapter 42."
+}

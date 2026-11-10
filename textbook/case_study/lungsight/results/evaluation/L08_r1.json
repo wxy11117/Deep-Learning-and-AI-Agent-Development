@@ -1,0 +1,337 @@
+{
+  "case_id": "L08",
+  "phase": "evaluation",
+  "repeat": 1,
+  "category": "source",
+  "question": "仓库 run_rag_evaluation 创建了哪个模型提供者类？value 填类名。",
+  "expected": {
+    "status": "answered",
+    "value": "MockLLMProvider",
+    "source_ids": [
+      "LS05"
+    ],
+    "task_id": null
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:23:01+0800",
+  "elapsed_seconds": 2.977,
+  "usage": {
+    "input_tokens": 3632,
+    "output_tokens": 230
+  },
+  "estimated_usd_peak_cache_miss": 0.0013656,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:58+0800",
+      "request_bytes": 2990,
+      "status": "received",
+      "response_id": "c2f54335-35f8-4982-addb-f3c489d55c23",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 855,
+        "completion_tokens": 65,
+        "total_tokens": 920,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 215
+      },
+      "elapsed_ms": 1211.506,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:59+0800",
+      "request_bytes": 4074,
+      "status": "received",
+      "response_id": "8f5248c3-f618-4e3c-bad6-b4e5590194bc",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1215,
+        "completion_tokens": 76,
+        "total_tokens": 1291,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 319
+      },
+      "elapsed_ms": 805.455,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:23:00+0800",
+      "request_bytes": 5122,
+      "status": "received",
+      "response_id": "84bfdba2-fbfb-462e-bf1e-fdb080f68fc1",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1562,
+        "completion_tokens": 89,
+        "total_tokens": 1651,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 282
+      },
+      "elapsed_ms": 957.457,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"answered\",\"answer\":\"run_rag_evaluation 在 backend/rag_evaluation.py 中创建了 MockLLMProvider 实例作为模型提供者。\",\"value\":\"MockLLMProvider\",\"citations\":[{\"id\":\"LS05\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"provider = MockLLMProvider()\"}]}",
+    "turns": 3,
+    "calls": 2,
+    "history": [
+      {
+        "role": "user",
+        "text": "仓库 run_rag_evaluation 创建了哪个模型提供者类？value 填类名。"
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_UyZ7ZWe7jLogCRKlxXzp4073",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "run_rag_evaluation 模型提供者类",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_UyZ7ZWe7jLogCRKlxXzp4073",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"run_rag_evaluation 模型提供者类\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_UyZ7ZWe7jLogCRKlxXzp4073",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS05",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "自动 RAG 评测使用模拟模型",
+                  "score": 0.322392
+                },
+                {
+                  "id": "LS07",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地引文如何验证",
+                  "score": 0.22278
+                },
+                {
+                  "id": "LS08",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "旧问答历史与报告保留规则",
+                  "score": 0.158688
+                },
+                {
+                  "id": "LS04",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "未关联与关联任务的问答模式",
+                  "score": 0.074005
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_mOclmTCtcjbCKyxoYTsd9745",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS05",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_mOclmTCtcjbCKyxoYTsd9745",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS05\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_mOclmTCtcjbCKyxoYTsd9745",
+            "ok": true,
+            "value": {
+              "id": "LS05",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "自动 RAG 评测使用模拟模型",
+              "text": "def run_rag_evaluation(database_path: Path, dataset_path: Path, *, user_id: str | None) -> dict:\n    dataset = json.loads(dataset_path.read_text(encoding=\"utf-8\"))\n    provider = MockLLMProvider()",
+              "path": "backend/rag_evaluation.py",
+              "lines": [
+                52,
+                54
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/backend/rag_evaluation.py#L52-L54",
+              "excerpt_sha256": "3984337fc9719e7a187b954bb11eee99bcf3df399af08f7fd6ae7b5dfef8ce8e"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"answered\",\"answer\":\"run_rag_evaluation 在 backend/rag_evaluation.py 中创建了 MockLLMProvider 实例作为模型提供者。\",\"value\":\"MockLLMProvider\",\"citations\":[{\"id\":\"LS05\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"provider = MockLLMProvider()\"}]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"answered\",\"answer\":\"run_rag_evaluation 在 backend/rag_evaluation.py 中创建了 MockLLMProvider 实例作为模型提供者。\",\"value\":\"MockLLMProvider\",\"citations\":[{\"id\":\"LS05\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"provider = MockLLMProvider()\"}]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 855,
+          "completion_tokens": 65,
+          "total_tokens": 920,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 215
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1211.678
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_00_UyZ7ZWe7jLogCRKlxXzp4073",
+        "ok": true,
+        "elapsed_ms": 2.058,
+        "result_sha256": "65574dcf29f899af0362d6490a344788c2ad475e3a96d7a8650f8332a42e35d3"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1215,
+          "completion_tokens": 76,
+          "total_tokens": 1291,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 319
+        },
+        "mode": "live_api",
+        "elapsed_ms": 805.732
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_00_mOclmTCtcjbCKyxoYTsd9745",
+        "ok": true,
+        "elapsed_ms": 0.047,
+        "result_sha256": "9810c06abb7af2ecd4871b7b399c40dcd58671b81211b87c9cc3e512e8bc4b1c"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {
+          "prompt_tokens": 1562,
+          "completion_tokens": 89,
+          "total_tokens": 1651,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280
+          },
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 282
+        },
+        "mode": "live_api",
+        "elapsed_ms": 957.633
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "answered",
+      "answer": "run_rag_evaluation 在 backend/rag_evaluation.py 中创建了 MockLLMProvider 实例作为模型提供者。",
+      "value": "MockLLMProvider",
+      "citations": [
+        {
+          "id": "LS05",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "provider = MockLLMProvider()"
+        }
+      ]
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

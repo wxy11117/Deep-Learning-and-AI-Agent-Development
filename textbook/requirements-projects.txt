@@ -1,0 +1,5 @@
+# Versions used in the CPU teaching experiments.
+numpy==1.26.4
+scipy==1.14.1
+scikit-learn==1.5.2
+torch==2.5.1

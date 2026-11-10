@@ -1,0 +1,2931 @@
+{
+  "edition": "2026 年 11 月修订版",
+  "repository_url": "https://github.com/wxy11117/Deep-Learning-and-AI-Agent-Development",
+  "reader_url": "https://wxy11117.github.io/Deep-Learning-and-AI-Agent-Development/",
+  "archive_download": "https://github.com/wxy11117/Deep-Learning-and-AI-Agent-Development/releases/download/v2026.11/Deep-Learning-and-AI-Agent-Development-materials-v2026.11.zip",
+  "archive_sha256": "5dad68bc3a084d8c571a295c79426746f3c65619821ed10d6b101cdc8993007c",
+  "files": [
+    {
+      "package_path": "add_beginner_material.py",
+      "repository_path": "textbook/add_beginner_material.py",
+      "bytes": 47676,
+      "sha256": "30425bd4e79f7c4e32ae4a905e01818b057e05e3016551170cdf2360b206d866"
+    },
+    {
+      "package_path": "agent_projects/analysis_tools.py",
+      "repository_path": "textbook/agent_projects/analysis_tools.py",
+      "bytes": 4527,
+      "sha256": "f2fec22c3bc5019bba58f8a5c89c6ff4f6974341e6d128135feec370148a9381"
+    },
+    {
+      "package_path": "agent_projects/core.py",
+      "repository_path": "textbook/agent_projects/core.py",
+      "bytes": 5589,
+      "sha256": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417"
+    },
+    {
+      "package_path": "agent_projects/data/orders.csv",
+      "repository_path": "textbook/agent_projects/data/orders.csv",
+      "bytes": 500,
+      "sha256": "0121a9f76923649dab2fa5a0ddbe852ee44374b51c84538035bddba68cf2a8f3"
+    },
+    {
+      "package_path": "agent_projects/deepseek_provider.py",
+      "repository_path": "textbook/agent_projects/deepseek_provider.py",
+      "bytes": 4674,
+      "sha256": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+    },
+    {
+      "package_path": "agent_projects/knowledge.py",
+      "repository_path": "textbook/agent_projects/knowledge.py",
+      "bytes": 3825,
+      "sha256": "c4d3c6d8ce549b236be92a6f64f3075a9efe99c4a74fc3bcad02662b686923fb"
+    },
+    {
+      "package_path": "agent_projects/live_provider.py",
+      "repository_path": "textbook/agent_projects/live_provider.py",
+      "bytes": 2735,
+      "sha256": "ac6d77ccf35cc7048afd3d588a3c7ad11850af2d35cab2bd480e4767ce3f7306"
+    },
+    {
+      "package_path": "agent_projects/mcp_server.py",
+      "repository_path": "textbook/agent_projects/mcp_server.py",
+      "bytes": 3270,
+      "sha256": "57ff6e16898249c1e270399449ed007d674746e49dc9cae274f0ecbc534209af"
+    },
+    {
+      "package_path": "agent_projects/plot_report.py",
+      "repository_path": "textbook/agent_projects/plot_report.py",
+      "bytes": 1511,
+      "sha256": "754d5d07c4d69d7162fe4ec895d1fd6782a60a05de432642a1b921284097e304"
+    },
+    {
+      "package_path": "agent_projects/README.md",
+      "repository_path": "textbook/agent_projects/README.md",
+      "bytes": 5083,
+      "sha256": "9394bb0f8f04007f8ae222aa97e24046c9fb5faf9a70dc0434d8a69eba9da83e"
+    },
+    {
+      "package_path": "agent_projects/results/analysis_trace.json",
+      "repository_path": "textbook/agent_projects/results/analysis_trace.json",
+      "bytes": 5553,
+      "sha256": "0d3e91f7ed174dfe811cf98433196976bb0757aa4fc912d9c6f036e8db918065"
+    },
+    {
+      "package_path": "agent_projects/results/knowledge_trace.json",
+      "repository_path": "textbook/agent_projects/results/knowledge_trace.json",
+      "bytes": 3127,
+      "sha256": "2b8adcb5e8aeaa3efeeb94077e24332de624f764b9e5787db69e0f9f24e8600d"
+    },
+    {
+      "package_path": "agent_projects/results/mcp_verification.json",
+      "repository_path": "textbook/agent_projects/results/mcp_verification.json",
+      "bytes": 6180,
+      "sha256": "0c76064633b7ac2936311529b500e58ce9c0b023cb881bac753852d3350497ff"
+    },
+    {
+      "package_path": "agent_projects/results/offline_results.json",
+      "repository_path": "textbook/agent_projects/results/offline_results.json",
+      "bytes": 2927,
+      "sha256": "b152a7b82bbf81fc0300282334012d7501e3489415782ee7caf3af47fce11a05"
+    },
+    {
+      "package_path": "agent_projects/results/orders_chart.pdf",
+      "repository_path": "textbook/agent_projects/results/orders_chart.pdf",
+      "bytes": 14269,
+      "sha256": "f82ac755576d4f51c41af7edd2283ee683189a8cbc60cf90715bb54d2109bc57"
+    },
+    {
+      "package_path": "agent_projects/results/orders_chart.png",
+      "repository_path": "textbook/agent_projects/results/orders_chart.png",
+      "bytes": 69678,
+      "sha256": "7380263664ed97a7beaedd28bb2e4943f6d5d4ac640dff4b6deb881deab69b12"
+    },
+    {
+      "package_path": "agent_projects/results/orders_chart.svg",
+      "repository_path": "textbook/agent_projects/results/orders_chart.svg",
+      "bytes": 58843,
+      "sha256": "71f5d422b88a096128a70171425d78c516e8445d6f61c20614a43755276136ab"
+    },
+    {
+      "package_path": "agent_projects/results/orders_report.md",
+      "repository_path": "textbook/agent_projects/results/orders_report.md",
+      "bytes": 512,
+      "sha256": "cd514ce1d81c90add349d3f3aaa211326663c93e9d4ba765c2fda1a8d2ce669e"
+    },
+    {
+      "package_path": "agent_projects/results/sensor_bridge.json",
+      "repository_path": "textbook/agent_projects/results/sensor_bridge.json",
+      "bytes": 5313,
+      "sha256": "6727c10f352798c1c8a90327be8a4e85ba4ea2d8c7d6414f25a8db8d6adc4056"
+    },
+    {
+      "package_path": "agent_projects/results/verification.json",
+      "repository_path": "textbook/agent_projects/results/verification.json",
+      "bytes": 569,
+      "sha256": "7134fffc8b67c4129decec4261d32a57f53e2622a68d9f01fd1feeb4e6000199"
+    },
+    {
+      "package_path": "agent_projects/results/workflow_trace.json",
+      "repository_path": "textbook/agent_projects/results/workflow_trace.json",
+      "bytes": 2583,
+      "sha256": "3303d82a9af94f5972f5cddd37bdf06bbfacc68d705a08fbe06af79645f0e6cb"
+    },
+    {
+      "package_path": "agent_projects/run_projects.py",
+      "repository_path": "textbook/agent_projects/run_projects.py",
+      "bytes": 6548,
+      "sha256": "046a9777e5e5dbd2b5a44881c5a06247c629e760a36a436b043a716e44c1a8b3"
+    },
+    {
+      "package_path": "agent_projects/sensor_bridge.py",
+      "repository_path": "textbook/agent_projects/sensor_bridge.py",
+      "bytes": 3333,
+      "sha256": "d3a8b8a8196701ebfb11098faf1d20f3f3a06017225c1ce3e656a92a3057c08d"
+    },
+    {
+      "package_path": "agent_projects/test_mcp.py",
+      "repository_path": "textbook/agent_projects/test_mcp.py",
+      "bytes": 2625,
+      "sha256": "d20e20a966791c2717653956e12390a83fcf3e4aa65f8d4ae2904087455d9bc2"
+    },
+    {
+      "package_path": "agent_projects/test_projects.py",
+      "repository_path": "textbook/agent_projects/test_projects.py",
+      "bytes": 7485,
+      "sha256": "ac3adb3987d0cc0e946cffd9fa8e72370baa939c7ac012f598a15f5532e8d2dc"
+    },
+    {
+      "package_path": "agent_projects/workflow.py",
+      "repository_path": "textbook/agent_projects/workflow.py",
+      "bytes": 4687,
+      "sha256": "ccb73e3d4fcd185dab22c9a0fd99c06eb5e1ea3449d0f12b47dff9023131c371"
+    },
+    {
+      "package_path": "assemble_revised.py",
+      "repository_path": "textbook/assemble_revised.py",
+      "bytes": 4987,
+      "sha256": "5fdfd90157c27bc160831d5f83653e44ff49ba7a47a8a273c5d169304fada245"
+    },
+    {
+      "package_path": "author_page.json",
+      "repository_path": "textbook/author_page.json",
+      "bytes": 631,
+      "sha256": "bd725200a199dd335c55d711c10bb14ef4793f17d65eda1186b880508627e684"
+    },
+    {
+      "package_path": "author_page_check.json",
+      "repository_path": "textbook/author_page_check.json",
+      "bytes": 627,
+      "sha256": "d68d86f582c0e6cc3ab693973718dbe97e99b28800808fc0e478a0138eff77a5"
+    },
+    {
+      "package_path": "author_revision_check.json",
+      "repository_path": "textbook/author_revision_check.json",
+      "bytes": 540,
+      "sha256": "d1e0b01a41f3466507bf0fc1210f323fa0755b92bcfc9b0f99e910325f7b1f50"
+    },
+    {
+      "package_path": "author_screen_check.json",
+      "repository_path": "textbook/author_screen_check.json",
+      "bytes": 970,
+      "sha256": "ed4a99df8b4cece59e4191f926a0bc40d7efea07ae509440012d40cfdeb17c78"
+    },
+    {
+      "package_path": "beginner_check.json",
+      "repository_path": "textbook/beginner_check.json",
+      "bytes": 2885,
+      "sha256": "fcc01013721af7f4ebe283517b3aa3caf6c538496c7200ae4ad76af6b5fb5b1e"
+    },
+    {
+      "package_path": "beginner_layout_check.json",
+      "repository_path": "textbook/beginner_layout_check.json",
+      "bytes": 12901,
+      "sha256": "b7f7d20b69af9d8930e0e7218bd07b8e59f13f2b4aa72f0320e41491aa713636"
+    },
+    {
+      "package_path": "book.css",
+      "repository_path": "textbook/book.css",
+      "bytes": 21740,
+      "sha256": "f92ba4c8ae55d4bd45df1357b850110e8e6cad837428cf1de4101ffebd773937"
+    },
+    {
+      "package_path": "book_structure.json",
+      "repository_path": "textbook/book_structure.json",
+      "bytes": 4699,
+      "sha256": "d9b46d3662d22291ab5a6e4ec1942226e086a80684221842aaa3466abca0d3eb"
+    },
+    {
+      "package_path": "build_book.mjs",
+      "repository_path": "textbook/build_book.mjs",
+      "bytes": 17034,
+      "sha256": "4da9aef56cff5a7624cb0fadffde26242988897508e623dc1957b75c0811da04"
+    },
+    {
+      "package_path": "build_publication.py",
+      "repository_path": "textbook/build_publication.py",
+      "bytes": 6081,
+      "sha256": "302fc2d733360e1d6db47ab943f5c3e5e4099d1e72ac5732e4e71ff5edacc1e7"
+    },
+    {
+      "package_path": "case_study/lungsight/case_tools.py",
+      "repository_path": "textbook/case_study/lungsight/case_tools.py",
+      "bytes": 5973,
+      "sha256": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504"
+    },
+    {
+      "package_path": "case_study/lungsight/documents.json",
+      "repository_path": "textbook/case_study/lungsight/documents.json",
+      "bytes": 7091,
+      "sha256": "08898713b16f007ace2f8fd8eef440d43447252f425bd181e78dc412a9ad3e97"
+    },
+    {
+      "package_path": "case_study/lungsight/evaluation_cases.json",
+      "repository_path": "textbook/case_study/lungsight/evaluation_cases.json",
+      "bytes": 8043,
+      "sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443"
+    },
+    {
+      "package_path": "case_study/lungsight/execution_sources/3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280.py",
+      "repository_path": "textbook/case_study/lungsight/execution_sources/3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280.py",
+      "bytes": 8371,
+      "sha256": "89847dc3662b514d37f73f72ed9748b8df16492a86aa5f4d4966016c1c573ee1"
+    },
+    {
+      "package_path": "case_study/lungsight/execution_sources/3e581f515b204b33544863200d8b22298e457d5d391eebf754243963c5b8cdeb.py",
+      "repository_path": "textbook/case_study/lungsight/execution_sources/3e581f515b204b33544863200d8b22298e457d5d391eebf754243963c5b8cdeb.py",
+      "bytes": 8384,
+      "sha256": "93471836d34fb5351bab7360390f4b615d84c20593923e67eff8aa6d523b22f6"
+    },
+    {
+      "package_path": "case_study/lungsight/execution_sources/a18b9d48bafda9c2f499e73b8ba9b44e6d873e152f72f4280bf773f8bd634a70.py",
+      "repository_path": "textbook/case_study/lungsight/execution_sources/a18b9d48bafda9c2f499e73b8ba9b44e6d873e152f72f4280bf773f8bd634a70.py",
+      "bytes": 8319,
+      "sha256": "aeff754b95e2dccc72f521dfedb07451728206c73fcfab387f9ba9b25c8713d8"
+    },
+    {
+      "package_path": "case_study/lungsight/execution_sources/bbceba361092cc78a2412749fde47d737e3814d6723033e4e510522721c9ed03.py",
+      "repository_path": "textbook/case_study/lungsight/execution_sources/bbceba361092cc78a2412749fde47d737e3814d6723033e4e510522721c9ed03.py",
+      "bytes": 8552,
+      "sha256": "bbceba361092cc78a2412749fde47d737e3814d6723033e4e510522721c9ed03"
+    },
+    {
+      "package_path": "case_study/lungsight/integrated_case.json",
+      "repository_path": "textbook/case_study/lungsight/integrated_case.json",
+      "bytes": 848,
+      "sha256": "a4a4749fabdfd32ae087f76c948081c38ec6b3eb82f7af964629f4fa57ef6d9b"
+    },
+    {
+      "package_path": "case_study/lungsight/prepare_case.py",
+      "repository_path": "textbook/case_study/lungsight/prepare_case.py",
+      "bytes": 7082,
+      "sha256": "bde038b73811d7e31322d98d6d8ee7d2850a96ce45101fead22e9163acbaa029"
+    },
+    {
+      "package_path": "case_study/lungsight/README.md",
+      "repository_path": "textbook/case_study/lungsight/README.md",
+      "bytes": 4948,
+      "sha256": "548ebb6c127adcfca0829e1bedefc34284de62df73778135e252f6ef132352f6"
+    },
+    {
+      "package_path": "case_study/lungsight/results/development/DEV01_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/development/DEV01_r1.json",
+      "bytes": 14535,
+      "sha256": "28659dd0d47a2680a7bbd42efa499c8f01f656d7cfb98ed27af7e2c290b67802"
+    },
+    {
+      "package_path": "case_study/lungsight/results/development/DEV02_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/development/DEV02_r1.json",
+      "bytes": 8778,
+      "sha256": "07d8556e3e6af69ec73866de21f61388c207130380cd8ed7122e55852dbf67ef"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L01_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L01_r1.json",
+      "bytes": 12215,
+      "sha256": "de2c850e4b3335bc69b5174e83dc4d945eeab6781c489aeb6d85fce7cd1fe16f"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L02_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L02_r1.json",
+      "bytes": 21621,
+      "sha256": "f48d546bfdb6fa2957051a4ea7ad3b0fe7e5f2c1bb4cd5523a169ce871b466d3"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L03_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L03_r1.json",
+      "bytes": 11799,
+      "sha256": "5411ac51b976e620b532b478bb15619af761a7936a1671875f595350570f88ba"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L04_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L04_r1.json",
+      "bytes": 14323,
+      "sha256": "66b065c872c52adaf6a7cf973441c09a2e7e0aa1312bdb45b5024660e1eb5c59"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L05_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L05_r1.json",
+      "bytes": 11933,
+      "sha256": "65273f611214a9af1c52896d264bc0333fc281f11240df357c03c7a4299771ad"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L06_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L06_r1.json",
+      "bytes": 16580,
+      "sha256": "0616553d2e077386ccdf71b3481fb86aba6946973bae920cb7d4d5e1a0e0755e"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L07_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L07_r1.json",
+      "bytes": 12413,
+      "sha256": "14265c4db8052f5102b56bee5767e123732b9ec87f041bfb93a88e65eeac48d3"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L08_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L08_r1.json",
+      "bytes": 11503,
+      "sha256": "eb6897c21e31fc9df7505df8b6ccf48a4c4914b4a0f948e14fd2d2cf9b51515c"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L09_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L09_r1.json",
+      "bytes": 18368,
+      "sha256": "2a1672957bb060412205e6ba45f94f3fdaea90160153342798e9377a4ed277e4"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L10_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L10_r1.json",
+      "bytes": 12110,
+      "sha256": "bc99691d3cb95f22e183c1e55d1008700118c6778e3f927ed30e67eb82217d7f"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L11_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L11_r1.json",
+      "bytes": 15044,
+      "sha256": "5d3be70b60c3e3a84cae8d1a85d94eb5d77eafc69a05b6caa75a94a93be8cf48"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L12_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L12_r1.json",
+      "bytes": 17619,
+      "sha256": "ce33159d991896ca225af30760b58fc2bc2b2b45102c4c7b44f8d6ef8934dbd0"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L13_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L13_r1.json",
+      "bytes": 8587,
+      "sha256": "814623d3fb655c1285a685a2779d8f69b5db833066936ba924c48ebbaec8e667"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L14_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L14_r1.json",
+      "bytes": 8648,
+      "sha256": "0ae93942f6920393b0ad80786abee1efd08659324821b778da581a0774fd18c9"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L15_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L15_r1.json",
+      "bytes": 8717,
+      "sha256": "f44179bb72ebed589fada97102e6b8f23bee647e8ab405d9cb8ac7c0561cac84"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L16_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L16_r1.json",
+      "bytes": 8574,
+      "sha256": "cba1cbbcbd842b98ea0463ea1e9826c145bfc1cdd426e461a495216ff4c73d1c"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L17_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L17_r1.json",
+      "bytes": 8429,
+      "sha256": "2b3a1f6957755035fa94feee68dd27422344600953dc18aebe9731d804295c55"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L18_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L18_r1.json",
+      "bytes": 6610,
+      "sha256": "48a010d6b647ea1fab53bfa3b4701a68ee04ca640004a66c1171b12019efd016"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L19_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L19_r1.json",
+      "bytes": 16732,
+      "sha256": "da7240886281451e78894b9fcf7130a64a036b78da08dd0a8aa60bfa24b2fbed"
+    },
+    {
+      "package_path": "case_study/lungsight/results/evaluation/L20_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/evaluation/L20_r1.json",
+      "bytes": 16215,
+      "sha256": "118fea3b85fc919d2aad2595d19933ed5972de6a4f392549d1b51226f455d702"
+    },
+    {
+      "package_path": "case_study/lungsight/results/fault_after/FAULT01_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/fault_after/FAULT01_r1.json",
+      "bytes": 14671,
+      "sha256": "9e8228308e9b470b33b0d8d412c368bcfaea393520bdc2275260293d4ad6f393"
+    },
+    {
+      "package_path": "case_study/lungsight/results/fault_before/FAULT01_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/fault_before/FAULT01_r1.json",
+      "bytes": 4031,
+      "sha256": "04c24b3001894b3bd9e6cd89529aa33a3fe9727dc0bae5bda84d4ff9b6c55589"
+    },
+    {
+      "package_path": "case_study/lungsight/results/integrated/REPORT01_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/integrated/REPORT01_r1.json",
+      "bytes": 22170,
+      "sha256": "6bbd46bfb8cfd219b8fb1d5fe3e5c630aba3522433fcb6c23395e2eb8dde4da7"
+    },
+    {
+      "package_path": "case_study/lungsight/results/integrated_report.md",
+      "repository_path": "textbook/case_study/lungsight/results/integrated_report.md",
+      "bytes": 1814,
+      "sha256": "bab100ccfee4231accd1a24393e33f5c82e210b4a73bb3df81b76cf569807ba6"
+    },
+    {
+      "package_path": "case_study/lungsight/results/integrated_report_revised.md",
+      "repository_path": "textbook/case_study/lungsight/results/integrated_report_revised.md",
+      "bytes": 2100,
+      "sha256": "5c08d8f38a1de51b26676078ac51ef8871ba58506c7b07ac885c71f699c01eec"
+    },
+    {
+      "package_path": "case_study/lungsight/results/integrated_revised/REPORT02_r1.json",
+      "repository_path": "textbook/case_study/lungsight/results/integrated_revised/REPORT02_r1.json",
+      "bytes": 24073,
+      "sha256": "aedeae6e4a741a17fd72ce3c0f0f59bee640bb8b6c5ac0441346d343e84af276"
+    },
+    {
+      "package_path": "case_study/lungsight/results/repeat/L06_r2.json",
+      "repository_path": "textbook/case_study/lungsight/results/repeat/L06_r2.json",
+      "bytes": 16160,
+      "sha256": "981dfbc7107d618a050fcd3a55303c517793775aeadaf99fd65e30db9e5ca92e"
+    },
+    {
+      "package_path": "case_study/lungsight/results/repeat/L06_r3.json",
+      "repository_path": "textbook/case_study/lungsight/results/repeat/L06_r3.json",
+      "bytes": 16084,
+      "sha256": "264497577aeeb839e563162b17bea51cbfba28e13c13cc7b3f868e83b32f7e41"
+    },
+    {
+      "package_path": "case_study/lungsight/results/repeat/L14_r2.json",
+      "repository_path": "textbook/case_study/lungsight/results/repeat/L14_r2.json",
+      "bytes": 8916,
+      "sha256": "ddc3e5962a52a6248ec2affc1f8fe2697eed282316a3fd616ad3fb420379a4a3"
+    },
+    {
+      "package_path": "case_study/lungsight/results/repeat/L14_r3.json",
+      "repository_path": "textbook/case_study/lungsight/results/repeat/L14_r3.json",
+      "bytes": 8920,
+      "sha256": "1031d1f2b46e0d2750b7ad4f4502fbe5a757ee50d71ffcb8dd7670d73b5f7293"
+    },
+    {
+      "package_path": "case_study/lungsight/results/repeat/L19_r2.json",
+      "repository_path": "textbook/case_study/lungsight/results/repeat/L19_r2.json",
+      "bytes": 16438,
+      "sha256": "b29e8e9427cfe04bef153cc0ef52952a4309f6cf4f52286d43b843e0b591f7e5"
+    },
+    {
+      "package_path": "case_study/lungsight/results/repeat/L19_r3.json",
+      "repository_path": "textbook/case_study/lungsight/results/repeat/L19_r3.json",
+      "bytes": 16088,
+      "sha256": "61d0fac7144e65b6faae44f5f0198451f81979b651477ba0dec70fe3e724956f"
+    },
+    {
+      "package_path": "case_study/lungsight/results/semantic_review.json",
+      "repository_path": "textbook/case_study/lungsight/results/semantic_review.json",
+      "bytes": 4919,
+      "sha256": "f40a9e30995af26524e0aea22df92cd8b25fc1cae1197ae959f68b95a8c7e398"
+    },
+    {
+      "package_path": "case_study/lungsight/results/summary.json",
+      "repository_path": "textbook/case_study/lungsight/results/summary.json",
+      "bytes": 4856,
+      "sha256": "6cc35aa125e8b7105258cc0804ecc313a806c3d66820ef395b3b77dc0d109de6"
+    },
+    {
+      "package_path": "case_study/lungsight/run_experiment.py",
+      "repository_path": "textbook/case_study/lungsight/run_experiment.py",
+      "bytes": 8552,
+      "sha256": "bbceba361092cc78a2412749fde47d737e3814d6723033e4e510522721c9ed03"
+    },
+    {
+      "package_path": "case_study/lungsight/run_integrated.py",
+      "repository_path": "textbook/case_study/lungsight/run_integrated.py",
+      "bytes": 1511,
+      "sha256": "7ee52987c45195c6c3b4d647e565d99af21d8cd530b49dcf3549dd7983a30cee"
+    },
+    {
+      "package_path": "case_study/lungsight/run_revised_report.py",
+      "repository_path": "textbook/case_study/lungsight/run_revised_report.py",
+      "bytes": 1643,
+      "sha256": "153f3ed07c994fb946960e37ee11d5ed9c31b902b76fff0a759c33e68dfca58d"
+    },
+    {
+      "package_path": "case_study/lungsight/source_manifest.json",
+      "repository_path": "textbook/case_study/lungsight/source_manifest.json",
+      "bytes": 975,
+      "sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6"
+    },
+    {
+      "package_path": "case_study/lungsight/sources/backend/agent_service.py",
+      "repository_path": "textbook/case_study/lungsight/sources/backend/agent_service.py",
+      "bytes": 43066,
+      "sha256": "dd1277fbd65fcce8f505eca5aeb8d80ed1c2813cd935abbe094594a287e00cc2"
+    },
+    {
+      "package_path": "case_study/lungsight/sources/backend/rag_evaluation.py",
+      "repository_path": "textbook/case_study/lungsight/sources/backend/rag_evaluation.py",
+      "bytes": 7216,
+      "sha256": "9aedab6572d5e4d0cdf00b97a129b45b3466bdad578caed17f79a7f0bbfcb1a3"
+    },
+    {
+      "package_path": "case_study/lungsight/sources/documentation/medical-answer-modes.md",
+      "repository_path": "textbook/case_study/lungsight/sources/documentation/medical-answer-modes.md",
+      "bytes": 4372,
+      "sha256": "1a85e16a2f53677ec35461ee6419eb7e2d92bf6cb570b2d33dea5167ae7b281b"
+    },
+    {
+      "package_path": "case_study/lungsight/sources/README.md",
+      "repository_path": "textbook/case_study/lungsight/sources/README.md",
+      "bytes": 5911,
+      "sha256": "a1b546028562cf438d8f3715b5cbed9fd70ca21d50a6125387e265e641716f2d"
+    },
+    {
+      "package_path": "case_study/lungsight/teaching_tasks.json",
+      "repository_path": "textbook/case_study/lungsight/teaching_tasks.json",
+      "bytes": 1370,
+      "sha256": "96dc52d1cc9c62fcda24f5c55e160bad2961043ff99f7acda7aeb1de86a547b0"
+    },
+    {
+      "package_path": "chapter_pages.json",
+      "repository_path": "textbook/chapter_pages.json",
+      "bytes": 594,
+      "sha256": "2afc313215a895e052c5181c5399e46d36fe3f4407700c2eb78039553a6696a6"
+    },
+    {
+      "package_path": "check_beginner_screen.mjs",
+      "repository_path": "textbook/check_beginner_screen.mjs",
+      "bytes": 2593,
+      "sha256": "d0392b2ca7e15a8b662ebb55c75a3f8f79fc5610dd3dcd50d1b35d16d54c0b49"
+    },
+    {
+      "package_path": "check_revised.py",
+      "repository_path": "textbook/check_revised.py",
+      "bytes": 5718,
+      "sha256": "a012538100dec2e004113bdbff82fbe4770f8db0e4990c23eec592a14657ca0c"
+    },
+    {
+      "package_path": "complete_final_case.py",
+      "repository_path": "textbook/complete_final_case.py",
+      "bytes": 20304,
+      "sha256": "edd396219d4c4b9ea98a7d1f99ac7319f7ece489b2f07b843f0dd9883183aa1c"
+    },
+    {
+      "package_path": "configure_deepseek.ps1",
+      "repository_path": "textbook/configure_deepseek.ps1",
+      "bytes": 2749,
+      "sha256": "543822a31040828486c7368e733b66f9bee70cd17125144dda349797f018f7cb"
+    },
+    {
+      "package_path": "content_preservation_check.json",
+      "repository_path": "textbook/content_preservation_check.json",
+      "bytes": 1119,
+      "sha256": "fb8d43de932ffed7ceced36f741d5648de7b34a093e00d7d0ca8dbb14330be0a"
+    },
+    {
+      "package_path": "create_cover_art.py",
+      "repository_path": "textbook/create_cover_art.py",
+      "bytes": 1531,
+      "sha256": "4692b9ae8c1bf8a85bda2caf4deb4a4154b16b95dc87571583696ca4baa049c5"
+    },
+    {
+      "package_path": "create_frontispiece.py",
+      "repository_path": "textbook/create_frontispiece.py",
+      "bytes": 6172,
+      "sha256": "9d77a852e242b36e714b2b580fc0725a38143479357180aadfcd9f9f1329387a"
+    },
+    {
+      "package_path": "derivation_lab.py",
+      "repository_path": "textbook/derivation_lab.py",
+      "bytes": 1937,
+      "sha256": "80cef241882e8b3f06a5a5cbda5a1f5e448b6283794f11f417de3c5e035a1667"
+    },
+    {
+      "package_path": "experiment/history.csv",
+      "repository_path": "textbook/experiment/history.csv",
+      "bytes": 37859,
+      "sha256": "8ed15fbd387d7a60d4b1c5bcb62d2f470aabacfb71b5ef59cbfc0f238a56bc04"
+    },
+    {
+      "package_path": "experiment/numpy_mlp.npz",
+      "repository_path": "textbook/experiment/numpy_mlp.npz",
+      "bytes": 22460,
+      "sha256": "bfc46c85d212cadb47162fe13e4e937061576a1d1c556e51f54959dee7a12594"
+    },
+    {
+      "package_path": "experiment/result.json",
+      "repository_path": "textbook/experiment/result.json",
+      "bytes": 295,
+      "sha256": "bd83349fcff137a8864da68d8fa8df9846b0df41dc8e7cbf329ace8c44ce7028"
+    },
+    {
+      "package_path": "figures/agent_structures.md",
+      "repository_path": "textbook/figures/agent_structures.md",
+      "bytes": 8477,
+      "sha256": "6d37bb73dd907e7bc199433075533fcf4d7fe2607f7accded9985f3fb615d0de"
+    },
+    {
+      "package_path": "figures/author_learning_action.pdf",
+      "repository_path": "textbook/figures/author_learning_action.pdf",
+      "bytes": 56184,
+      "sha256": "14387275d6e3f4eae9f0a1fb5d4c4d1b311f843296776e1ab74ca4231c295ecc"
+    },
+    {
+      "package_path": "figures/author_learning_action.png",
+      "repository_path": "textbook/figures/author_learning_action.png",
+      "bytes": 376264,
+      "sha256": "37c2858d9c94ee2bb844cba9a26deb810e5bd8c68adf486077264a9e096a35cd"
+    },
+    {
+      "package_path": "figures/author_learning_action.svg",
+      "repository_path": "textbook/figures/author_learning_action.svg",
+      "bytes": 165368,
+      "sha256": "13fffb094474bb22044c2d7e416f5ff096a5aecbf37e1b6a61481174a8e41d74"
+    },
+    {
+      "package_path": "figures/beginner_01_learning.pdf",
+      "repository_path": "textbook/figures/beginner_01_learning.pdf",
+      "bytes": 18418,
+      "sha256": "91c7f27bbd03d8ca036a724d588f4b53c0b2f9675a091f2740857550e869ec92"
+    },
+    {
+      "package_path": "figures/beginner_01_learning.png",
+      "repository_path": "textbook/figures/beginner_01_learning.png",
+      "bytes": 127957,
+      "sha256": "96242567217922d9ef25d1052eca869ebf9f60620e4e42c531bb7389678f091d"
+    },
+    {
+      "package_path": "figures/beginner_01_learning.svg",
+      "repository_path": "textbook/figures/beginner_01_learning.svg",
+      "bytes": 50020,
+      "sha256": "d896fb35b041bca8482901ff197fb83f6108a3bee75a7f308a7f68bdfdc0d2f9"
+    },
+    {
+      "package_path": "figures/beginner_02_tensor.pdf",
+      "repository_path": "textbook/figures/beginner_02_tensor.pdf",
+      "bytes": 17183,
+      "sha256": "454094e68767426f8e780e3a8bb93aa599f2c9319cc7399dbfe377939e7c21b1"
+    },
+    {
+      "package_path": "figures/beginner_02_tensor.png",
+      "repository_path": "textbook/figures/beginner_02_tensor.png",
+      "bytes": 146769,
+      "sha256": "8797faf64daf79e6e3ad65ef6fd4ab39ba7241a7c036c8699a178d4355ec1422"
+    },
+    {
+      "package_path": "figures/beginner_02_tensor.svg",
+      "repository_path": "textbook/figures/beginner_02_tensor.svg",
+      "bytes": 47231,
+      "sha256": "fe5e842d21ce057f9e34ca74cd122fbd309846b47ebfec961935857955b469c9"
+    },
+    {
+      "package_path": "figures/beginner_03_convolution.pdf",
+      "repository_path": "textbook/figures/beginner_03_convolution.pdf",
+      "bytes": 19957,
+      "sha256": "c3cd506ad20a57ebdc619d199f918d74e22b895243dc836e9e014befbc7bd073"
+    },
+    {
+      "package_path": "figures/beginner_03_convolution.png",
+      "repository_path": "textbook/figures/beginner_03_convolution.png",
+      "bytes": 120244,
+      "sha256": "86541065560253d4424defdaffba4aba4dd4181e95568d9a9b9c271d8e7753dd"
+    },
+    {
+      "package_path": "figures/beginner_03_convolution.svg",
+      "repository_path": "textbook/figures/beginner_03_convolution.svg",
+      "bytes": 69203,
+      "sha256": "6a1ea51c24a5a79789a297f7e4742512ec2fb33e687046b61083cacdce896716"
+    },
+    {
+      "package_path": "figures/beginner_04_attention.pdf",
+      "repository_path": "textbook/figures/beginner_04_attention.pdf",
+      "bytes": 17152,
+      "sha256": "d2e9da4538569403995140b2fe57e45967460835755c9cb5839140e18e4e41ad"
+    },
+    {
+      "package_path": "figures/beginner_04_attention.png",
+      "repository_path": "textbook/figures/beginner_04_attention.png",
+      "bytes": 125196,
+      "sha256": "9a786e57aedfd16027c3d34101a576a3b45c29fcaa9d5b2e20a0e3c8ff12f96c"
+    },
+    {
+      "package_path": "figures/beginner_04_attention.svg",
+      "repository_path": "textbook/figures/beginner_04_attention.svg",
+      "bytes": 44012,
+      "sha256": "8e7b92c8ba2abdd46a92d6fe8fa26ef329ec9c5ca166d51f0c7043b24dcaa238"
+    },
+    {
+      "package_path": "figures/beginner_05_rag.pdf",
+      "repository_path": "textbook/figures/beginner_05_rag.pdf",
+      "bytes": 24557,
+      "sha256": "4a53a5c7111032e4a6c36443a9e28b8eadcf78218731a254af1caac7ebfa8861"
+    },
+    {
+      "package_path": "figures/beginner_05_rag.png",
+      "repository_path": "textbook/figures/beginner_05_rag.png",
+      "bytes": 156064,
+      "sha256": "5c3626a4364589a3428b175e1c4a2b5c7d3e9d2f930a5e2a1641ef1daeb7291b"
+    },
+    {
+      "package_path": "figures/beginner_05_rag.svg",
+      "repository_path": "textbook/figures/beginner_05_rag.svg",
+      "bytes": 86914,
+      "sha256": "dfe6261320879c508409d47d5a2c9e6b056d0b601f7af4e71c63478bb52ebc00"
+    },
+    {
+      "package_path": "figures/beginner_06_agent.pdf",
+      "repository_path": "textbook/figures/beginner_06_agent.pdf",
+      "bytes": 19176,
+      "sha256": "02df194a20dcee1b4529bd35e94cf6448c44bf7e26933a6b2189195a69dfd214"
+    },
+    {
+      "package_path": "figures/beginner_06_agent.png",
+      "repository_path": "textbook/figures/beginner_06_agent.png",
+      "bytes": 177656,
+      "sha256": "656cf05188808b6df510becb91a24be1e45db2b7c7d7a711dc53eae0c9c6fad5"
+    },
+    {
+      "package_path": "figures/beginner_06_agent.svg",
+      "repository_path": "textbook/figures/beginner_06_agent.svg",
+      "bytes": 85524,
+      "sha256": "7f4c462e13040555126aa7230fe78ea8cd603ffb49dd38ecb31f4be7b98c9897"
+    },
+    {
+      "package_path": "figures/cover_signal_weave.svg",
+      "repository_path": "textbook/figures/cover_signal_weave.svg",
+      "bytes": 8361,
+      "sha256": "8c233323b561fef90d953c8a7e690cfc380bed2de8d923465efab69e52a6a5af"
+    },
+    {
+      "package_path": "figures/diagram_agent_deployment.png",
+      "repository_path": "textbook/figures/diagram_agent_deployment.png",
+      "bytes": 34358,
+      "sha256": "cfdb3b146767f4b51f40024e133f3d59a5b9b3a3ae5aa631bdf8939a9f861acb"
+    },
+    {
+      "package_path": "figures/diagram_agent_deployment.svg",
+      "repository_path": "textbook/figures/diagram_agent_deployment.svg",
+      "bytes": 13538,
+      "sha256": "a9d4cd611e3e6b10a539c735da42ac8e1e62758cfffde4a4eba88cbf4a09980c"
+    },
+    {
+      "package_path": "figures/diagram_agent_loop.png",
+      "repository_path": "textbook/figures/diagram_agent_loop.png",
+      "bytes": 58580,
+      "sha256": "c50091493fb941b03a432a98669b1d19ac65b6343f5c3424a52c0571d7ebcc70"
+    },
+    {
+      "package_path": "figures/diagram_agent_loop.svg",
+      "repository_path": "textbook/figures/diagram_agent_loop.svg",
+      "bytes": 14023,
+      "sha256": "38bb1828c88a83878cb18a8d779ca67fb8c9c7f94544835a156c237f6355b1a8"
+    },
+    {
+      "package_path": "figures/diagram_analysis_agent.png",
+      "repository_path": "textbook/figures/diagram_analysis_agent.png",
+      "bytes": 47306,
+      "sha256": "7fed7dd697004f664fe3ec2827d31ce185440814d2ba6750085943dd8fa718e4"
+    },
+    {
+      "package_path": "figures/diagram_analysis_agent.svg",
+      "repository_path": "textbook/figures/diagram_analysis_agent.svg",
+      "bytes": 14205,
+      "sha256": "4cdc7ae82cdd327f81398ef3e304d313fa3965641e9122f94e20aa44d55fe3ad"
+    },
+    {
+      "package_path": "figures/diagram_branch.png",
+      "repository_path": "textbook/figures/diagram_branch.png",
+      "bytes": 26726,
+      "sha256": "35b101140ab750b9af97e82c9b8796205b13440b70311a2a266c72c356511b56"
+    },
+    {
+      "package_path": "figures/diagram_branch.svg",
+      "repository_path": "textbook/figures/diagram_branch.svg",
+      "bytes": 12998,
+      "sha256": "25783befc5b20ec941fd7592f6edaa419da38ed33cc2ff4a24cfb611fc14e46b"
+    },
+    {
+      "package_path": "figures/diagram_diffusion.png",
+      "repository_path": "textbook/figures/diagram_diffusion.png",
+      "bytes": 51722,
+      "sha256": "811d9b4cbebee554fbd92eb6b7bd1aafd65910007660ff3e3cb7e4a39af12843"
+    },
+    {
+      "package_path": "figures/diagram_diffusion.svg",
+      "repository_path": "textbook/figures/diagram_diffusion.svg",
+      "bytes": 13583,
+      "sha256": "09e4d6f6c82f22d70173d348be2ae97dfd598683308453a462b5d62a89d2f1e5"
+    },
+    {
+      "package_path": "figures/diagram_eval_loop.png",
+      "repository_path": "textbook/figures/diagram_eval_loop.png",
+      "bytes": 35002,
+      "sha256": "e063f56d826c867d6729f5c691c6a5e4bfe2e72c4b3ea752a4fb0b17d8646b2a"
+    },
+    {
+      "package_path": "figures/diagram_eval_loop.svg",
+      "repository_path": "textbook/figures/diagram_eval_loop.svg",
+      "bytes": 11544,
+      "sha256": "3593e43ff2d7f752cca64d1244b10bfe07aad71830f8a7dae349620b97325760"
+    },
+    {
+      "package_path": "figures/diagram_evidence_pipeline.png",
+      "repository_path": "textbook/figures/diagram_evidence_pipeline.png",
+      "bytes": 27309,
+      "sha256": "27c9037be93073e998b85dcf53637bba27c758b5757d332e8fddfaf2d8e5ecd0"
+    },
+    {
+      "package_path": "figures/diagram_evidence_pipeline.svg",
+      "repository_path": "textbook/figures/diagram_evidence_pipeline.svg",
+      "bytes": 12323,
+      "sha256": "d275aa70b8f90cef46dd0b8175734f80e5f247ab0ded263d1c2853e715e6de8b"
+    },
+    {
+      "package_path": "figures/diagram_knowledge_agent.png",
+      "repository_path": "textbook/figures/diagram_knowledge_agent.png",
+      "bytes": 39443,
+      "sha256": "eff42abdf77451060103535eb9e79db08b77cf4f1044dc9f4723234d9cd69d2c"
+    },
+    {
+      "package_path": "figures/diagram_knowledge_agent.svg",
+      "repository_path": "textbook/figures/diagram_knowledge_agent.svg",
+      "bytes": 13953,
+      "sha256": "c5d9cf100b8c684691962396c73d32abc9eb0b4ed83f8abec99c052a2b021312"
+    },
+    {
+      "package_path": "figures/diagram_lungsight_trace.pdf",
+      "repository_path": "textbook/figures/diagram_lungsight_trace.pdf",
+      "bytes": 32286,
+      "sha256": "2766820da82fc606abd5d36d919565f7e7c94ca20e4f93d55961c6bd88f07317"
+    },
+    {
+      "package_path": "figures/diagram_lungsight_trace.png",
+      "repository_path": "textbook/figures/diagram_lungsight_trace.png",
+      "bytes": 229594,
+      "sha256": "137e8d0d1874d8334598642c741fab9e16e150b45858d067617dd373f62133ac"
+    },
+    {
+      "package_path": "figures/diagram_lungsight_trace.svg",
+      "repository_path": "textbook/figures/diagram_lungsight_trace.svg",
+      "bytes": 129310,
+      "sha256": "b7800d5a59b019df2b1dd46e2262a4d921ec544a36d969882fff01cf2fbea22b"
+    },
+    {
+      "package_path": "figures/diagram_map.png",
+      "repository_path": "textbook/figures/diagram_map.png",
+      "bytes": 76718,
+      "sha256": "e56040fdd31d3b7526fb25053f5831f15f2218d726506ae7590a3a1187ebd92b"
+    },
+    {
+      "package_path": "figures/diagram_map.svg",
+      "repository_path": "textbook/figures/diagram_map.svg",
+      "bytes": 13119,
+      "sha256": "2f2b13d7485903e5c427109e662bc848e7b6fa0ae50f7be806bb7150addd539f"
+    },
+    {
+      "package_path": "figures/diagram_mcp_architecture.png",
+      "repository_path": "textbook/figures/diagram_mcp_architecture.png",
+      "bytes": 27753,
+      "sha256": "1230006b7485a39a72e840d93ee69f41ac44722732c1e7d9ca8d3b73b03abd8b"
+    },
+    {
+      "package_path": "figures/diagram_mcp_architecture.svg",
+      "repository_path": "textbook/figures/diagram_mcp_architecture.svg",
+      "bytes": 13573,
+      "sha256": "2a8a4800bc815163d29fc6317ca0f7250ffca93fe1625b1125b0c363f3e8747f"
+    },
+    {
+      "package_path": "figures/diagram_multi_agent.png",
+      "repository_path": "textbook/figures/diagram_multi_agent.png",
+      "bytes": 37228,
+      "sha256": "84bdb2b5b4a5d01816c470a73906c64060f848f6f54312ac0da2f73cd116c8d1"
+    },
+    {
+      "package_path": "figures/diagram_multi_agent.svg",
+      "repository_path": "textbook/figures/diagram_multi_agent.svg",
+      "bytes": 14964,
+      "sha256": "79ba8923a185e260d6bab429c2d754430ef703c1c2144efed53e4df3793b78b6"
+    },
+    {
+      "package_path": "figures/diagram_rag.png",
+      "repository_path": "textbook/figures/diagram_rag.png",
+      "bytes": 46646,
+      "sha256": "e2a51d0b3393bc2a36ed1d55c7bee42070d80d52a1fc0de5ef16e5e0d8872f11"
+    },
+    {
+      "package_path": "figures/diagram_rag.svg",
+      "repository_path": "textbook/figures/diagram_rag.svg",
+      "bytes": 13845,
+      "sha256": "2b7d4e0d77c40124f522e218b095755805cdfad9dbba0625b306179867f25cd3"
+    },
+    {
+      "package_path": "figures/diagram_sensor_bridge.pdf",
+      "repository_path": "textbook/figures/diagram_sensor_bridge.pdf",
+      "bytes": 33080,
+      "sha256": "c826e42be18b1056a6855480cd68a019160ee67d782f8a41759dc34c0f80a255"
+    },
+    {
+      "package_path": "figures/diagram_sensor_bridge.png",
+      "repository_path": "textbook/figures/diagram_sensor_bridge.png",
+      "bytes": 255975,
+      "sha256": "61cc707dcf98136115d3c6da57b17610114db2faf9d8126bcb132ec773e15e11"
+    },
+    {
+      "package_path": "figures/diagram_sensor_bridge.svg",
+      "repository_path": "textbook/figures/diagram_sensor_bridge.svg",
+      "bytes": 134234,
+      "sha256": "ffcc4771a56b9429f160adfd3b6ef33b9efb9c65b28b71c794480cfe024564c2"
+    },
+    {
+      "package_path": "figures/diagram_split.png",
+      "repository_path": "textbook/figures/diagram_split.png",
+      "bytes": 57333,
+      "sha256": "5796db244210671eb2f8809543f113d91a98c18022bf897b9fd1968fbee014ac"
+    },
+    {
+      "package_path": "figures/diagram_split.svg",
+      "repository_path": "textbook/figures/diagram_split.svg",
+      "bytes": 15335,
+      "sha256": "266e5ab5a221e8a41179372134fee910762098b436e08e38d5bf1b38dec63c90"
+    },
+    {
+      "package_path": "figures/diagram_tool_sequence.png",
+      "repository_path": "textbook/figures/diagram_tool_sequence.png",
+      "bytes": 75925,
+      "sha256": "6e35efe919d682f47d41e6280adf5426837be7096bfe2391b769ce25550be382"
+    },
+    {
+      "package_path": "figures/diagram_tool_sequence.svg",
+      "repository_path": "textbook/figures/diagram_tool_sequence.svg",
+      "bytes": 24955,
+      "sha256": "4d329e7d7d0f28ac3e3483cf123d198b3cab1ba917e07c53f4ad78cde2548ea3"
+    },
+    {
+      "package_path": "figures/diagram_train.png",
+      "repository_path": "textbook/figures/diagram_train.png",
+      "bytes": 42221,
+      "sha256": "387de6c830f83328b8d71d8bdb13d22343e37a07f0511c05505350629de8c507"
+    },
+    {
+      "package_path": "figures/diagram_train.svg",
+      "repository_path": "textbook/figures/diagram_train.svg",
+      "bytes": 14007,
+      "sha256": "cbb97dd0d5b7d9a3216df58d43f9d42d6fb492dc7e01854a1cd8808f27ae765b"
+    },
+    {
+      "package_path": "figures/diagram_transformer.png",
+      "repository_path": "textbook/figures/diagram_transformer.png",
+      "bytes": 28227,
+      "sha256": "45575620de069a9441e6b3cf334f05cb2258554acfad724f2a9c3bfe7c38b43e"
+    },
+    {
+      "package_path": "figures/diagram_transformer.svg",
+      "repository_path": "textbook/figures/diagram_transformer.svg",
+      "bytes": 11991,
+      "sha256": "5fe3e378e2f81ed109d936cc1d904092ef33c7987fe1eb850aeefa0153295648"
+    },
+    {
+      "package_path": "figures/diagram_unet.png",
+      "repository_path": "textbook/figures/diagram_unet.png",
+      "bytes": 38342,
+      "sha256": "a0b1653ad37018505b0d59fd6253e6cef12a55b2180cd55477b093f5201eb4e9"
+    },
+    {
+      "package_path": "figures/diagram_unet.svg",
+      "repository_path": "textbook/figures/diagram_unet.svg",
+      "bytes": 11104,
+      "sha256": "e441a6cd679a4363066255d2e3c8c3410dc266ead5f568641764ff94e0a55a38"
+    },
+    {
+      "package_path": "figures/diagram_workflow_state.png",
+      "repository_path": "textbook/figures/diagram_workflow_state.png",
+      "bytes": 65358,
+      "sha256": "720e0339164813b724213a115e9df95e8ba5029a9d03fbdf7801df8fe9eb3f19"
+    },
+    {
+      "package_path": "figures/diagram_workflow_state.svg",
+      "repository_path": "textbook/figures/diagram_workflow_state.svg",
+      "bytes": 11834,
+      "sha256": "5c9b44faeef0e23610daef981ad0c40a16d944dda4a2b32359e6ac482e4bbb16"
+    },
+    {
+      "package_path": "figures/diagram_workorder_transaction.png",
+      "repository_path": "textbook/figures/diagram_workorder_transaction.png",
+      "bytes": 42248,
+      "sha256": "ec8dd8ce1c03b23badea58e4f7694858ec6ccad78bec06de9db523cc1043d6cc"
+    },
+    {
+      "package_path": "figures/diagram_workorder_transaction.svg",
+      "repository_path": "textbook/figures/diagram_workorder_transaction.svg",
+      "bytes": 14311,
+      "sha256": "6f534156e7ad24b3e42642e82a5a4f39c5a4a009e696dedcebae38e5bd6a1cb6"
+    },
+    {
+      "package_path": "figures/fig_01_activations.pdf",
+      "repository_path": "textbook/figures/fig_01_activations.pdf",
+      "bytes": 16245,
+      "sha256": "ddd563de749c0cb7fc9945592e99e40721110914ecd693e504f3d2dc257c4095"
+    },
+    {
+      "package_path": "figures/fig_01_activations.png",
+      "repository_path": "textbook/figures/fig_01_activations.png",
+      "bytes": 154367,
+      "sha256": "1003986bc5cf6484fd0788604cfdd5da5d1a4cbb965ee6b291ae0c17cc90440f"
+    },
+    {
+      "package_path": "figures/fig_02_gradient.pdf",
+      "repository_path": "textbook/figures/fig_02_gradient.pdf",
+      "bytes": 18330,
+      "sha256": "953a38833081f8e1cd28248bdc47d3d613a279dc597e7c9ef7c879e6d84c1a0e"
+    },
+    {
+      "package_path": "figures/fig_02_gradient.png",
+      "repository_path": "textbook/figures/fig_02_gradient.png",
+      "bytes": 206311,
+      "sha256": "d8ac640fa4646f53ce6ffb5a891ffde934be08de043a0427be9fda19045cbb15"
+    },
+    {
+      "package_path": "figures/fig_03_capacity.pdf",
+      "repository_path": "textbook/figures/fig_03_capacity.pdf",
+      "bytes": 19709,
+      "sha256": "f71dc67399437c629b2227da3fb58cc85441d8a13b660d9b8f7d237d8a84b654"
+    },
+    {
+      "package_path": "figures/fig_03_capacity.png",
+      "repository_path": "textbook/figures/fig_03_capacity.png",
+      "bytes": 219412,
+      "sha256": "677d7a8ad2e37a5b6e6bf114b8d2e33f7357e6a4a47a60e5c2673df6ad3c5de5"
+    },
+    {
+      "package_path": "figures/fig_04_convolution.pdf",
+      "repository_path": "textbook/figures/fig_04_convolution.pdf",
+      "bytes": 14207,
+      "sha256": "97a0cbeaf3b18737a993edf53285937779a601fbd5a36055d63670a8dd9164dc"
+    },
+    {
+      "package_path": "figures/fig_04_convolution.png",
+      "repository_path": "textbook/figures/fig_04_convolution.png",
+      "bytes": 130387,
+      "sha256": "a3fc21bc594311525ea77bc7e8d0e91259af5a63dea0b00802cb0b904f346349"
+    },
+    {
+      "package_path": "figures/fig_05_attention.pdf",
+      "repository_path": "textbook/figures/fig_05_attention.pdf",
+      "bytes": 16173,
+      "sha256": "5d8a14777fca19c17646007c9c4cf5917c8aac0988ba8b25329cb542809de73a"
+    },
+    {
+      "package_path": "figures/fig_05_attention.png",
+      "repository_path": "textbook/figures/fig_05_attention.png",
+      "bytes": 166829,
+      "sha256": "f6d7eaeeae465c48b1ca0d747ed5ad125acc25ae47de0de0fd6f01a2d88032a9"
+    },
+    {
+      "package_path": "figures/fig_06_diffusion.pdf",
+      "repository_path": "textbook/figures/fig_06_diffusion.pdf",
+      "bytes": 26823,
+      "sha256": "5ab73b3c2c3a0e71edb1a1fbdcae4bb78221dad5c55285bdb568a90130e5599e"
+    },
+    {
+      "package_path": "figures/fig_06_diffusion.png",
+      "repository_path": "textbook/figures/fig_06_diffusion.png",
+      "bytes": 65393,
+      "sha256": "6a47452880f1241f8e81b1e35783c704cb8bf87bcf0bc528738b6eabfacbe570"
+    },
+    {
+      "package_path": "figures/fig_07_experiment.pdf",
+      "repository_path": "textbook/figures/fig_07_experiment.pdf",
+      "bytes": 83468,
+      "sha256": "806cbd4fac0726b3721db9551bdb06e564446da402b71ce930d735d626ec1d0f"
+    },
+    {
+      "package_path": "figures/fig_07_experiment.png",
+      "repository_path": "textbook/figures/fig_07_experiment.png",
+      "bytes": 248366,
+      "sha256": "15952ae14a61001329c8c97924607fe21f2c39be8d535c9e4d8b72c36173f10f"
+    },
+    {
+      "package_path": "figures/fig_08_geometry.pdf",
+      "repository_path": "textbook/figures/fig_08_geometry.pdf",
+      "bytes": 19312,
+      "sha256": "482f0cf24ea4ee63b7f1367bc324f89c5db70126ae13f7e419c9e7ca3ee81614"
+    },
+    {
+      "package_path": "figures/fig_08_geometry.png",
+      "repository_path": "textbook/figures/fig_08_geometry.png",
+      "bytes": 127521,
+      "sha256": "6e3a810aeb995215fee711e0efabaed430fed449641011caebab15d20e014ed9"
+    },
+    {
+      "package_path": "figures/fig_09_relu_spline.pdf",
+      "repository_path": "textbook/figures/fig_09_relu_spline.pdf",
+      "bytes": 16253,
+      "sha256": "4616e37ae9296501951e2219b984d85d6b00c18ad218ace5cc9e5f2e1babefe2"
+    },
+    {
+      "package_path": "figures/fig_09_relu_spline.png",
+      "repository_path": "textbook/figures/fig_09_relu_spline.png",
+      "bytes": 142996,
+      "sha256": "b625a8f1aa824298af172a821e0eafd2def03f2e2075f63f8b7484fc3be477b6"
+    },
+    {
+      "package_path": "figures/fig_10_bce_gradient.pdf",
+      "repository_path": "textbook/figures/fig_10_bce_gradient.pdf",
+      "bytes": 20963,
+      "sha256": "0cc3d5a3a55684e260dd06e5cc72bb1bc1efb571d497d252ab407c26e02a640d"
+    },
+    {
+      "package_path": "figures/fig_10_bce_gradient.png",
+      "repository_path": "textbook/figures/fig_10_bce_gradient.png",
+      "bytes": 179772,
+      "sha256": "dbe7b526f29922a5cdb7d1a3afd87f76b8f01fc2eb76ab201f4d77d346b369eb"
+    },
+    {
+      "package_path": "figures/fig_11_curvature.pdf",
+      "repository_path": "textbook/figures/fig_11_curvature.pdf",
+      "bytes": 32742,
+      "sha256": "fe6f6c3d3b4a3ca3140c7e0b092e5dffdc1ab409bfae0d21b017d6f47b8be796"
+    },
+    {
+      "package_path": "figures/fig_11_curvature.png",
+      "repository_path": "textbook/figures/fig_11_curvature.png",
+      "bytes": 308131,
+      "sha256": "8831febb8b4e727abe73f7e13dbb78cf066a398e2a1785255ee83285cc985864"
+    },
+    {
+      "package_path": "figures/fig_12_normalization.pdf",
+      "repository_path": "textbook/figures/fig_12_normalization.pdf",
+      "bytes": 14072,
+      "sha256": "1a419f2c35a912b497eebc829e3fe77a268de29250cde0990347ec34b46b28f7"
+    },
+    {
+      "package_path": "figures/fig_12_normalization.png",
+      "repository_path": "textbook/figures/fig_12_normalization.png",
+      "bytes": 107402,
+      "sha256": "5a8c12ab75a8dbab9f6459be9f9547cd2fb907771e8279010e9005b12714506b"
+    },
+    {
+      "package_path": "figures/fig_13_receptive_field.pdf",
+      "repository_path": "textbook/figures/fig_13_receptive_field.pdf",
+      "bytes": 9127,
+      "sha256": "719bc78b65b2cdac4effb9c8542dcabff1e00624aab66f6327f021030a6f65c7"
+    },
+    {
+      "package_path": "figures/fig_13_receptive_field.png",
+      "repository_path": "textbook/figures/fig_13_receptive_field.png",
+      "bytes": 37621,
+      "sha256": "04a295475edef402737687765d842ca7976520a91962e2f679038dc0d2d92e5c"
+    },
+    {
+      "package_path": "figures/fig_14_attention_values.pdf",
+      "repository_path": "textbook/figures/fig_14_attention_values.pdf",
+      "bytes": 19574,
+      "sha256": "985631ada69aca3f5ec7db29213a312c7402db36d884c50f00a73cc8b34bf746"
+    },
+    {
+      "package_path": "figures/fig_14_attention_values.png",
+      "repository_path": "textbook/figures/fig_14_attention_values.png",
+      "bytes": 111186,
+      "sha256": "96a55c5a6fc8fd65d74855b5e10555eb69c607f408156650d729a3cf1526a5f8"
+    },
+    {
+      "package_path": "figures/fig_15_rotary.pdf",
+      "repository_path": "textbook/figures/fig_15_rotary.pdf",
+      "bytes": 17131,
+      "sha256": "708b9c91791a349ab1fbb3f18f966a8924dcdf4f7a0db69003194c837df9f8e9"
+    },
+    {
+      "package_path": "figures/fig_15_rotary.png",
+      "repository_path": "textbook/figures/fig_15_rotary.png",
+      "bytes": 199795,
+      "sha256": "1f7d3f40154bd4f1a41b663c93dbdf1c515b33d6fdf7bb878ede96e939c80d27"
+    },
+    {
+      "package_path": "figures/fig_16_reparameterization.pdf",
+      "repository_path": "textbook/figures/fig_16_reparameterization.pdf",
+      "bytes": 23090,
+      "sha256": "cce78298bf92cf323d98940ed305479882e0f1cee56c63cb286837c9bb9e60aa"
+    },
+    {
+      "package_path": "figures/fig_16_reparameterization.png",
+      "repository_path": "textbook/figures/fig_16_reparameterization.png",
+      "bytes": 194021,
+      "sha256": "89ff7c04005ef8026a194a892bb7b89e254963e0b34dcef102d90c66291a8f5c"
+    },
+    {
+      "package_path": "figures/fig_17_diffusion_snr.pdf",
+      "repository_path": "textbook/figures/fig_17_diffusion_snr.pdf",
+      "bytes": 17344,
+      "sha256": "832d93a17d4641fe43b144dc445324b5dfd1b30c987ab22e9c41b4907a779eb4"
+    },
+    {
+      "package_path": "figures/fig_17_diffusion_snr.png",
+      "repository_path": "textbook/figures/fig_17_diffusion_snr.png",
+      "bytes": 189570,
+      "sha256": "1a961ca362d172edb00459b787d95d8b350a3c1c3580b9821b8d8741d152f6ac"
+    },
+    {
+      "package_path": "figures/fig_18_threshold_metrics.pdf",
+      "repository_path": "textbook/figures/fig_18_threshold_metrics.pdf",
+      "bytes": 16051,
+      "sha256": "2eebb593b9e655bc4f195d48e0e99552deada463ecd14e00792f9643666b371b"
+    },
+    {
+      "package_path": "figures/fig_18_threshold_metrics.png",
+      "repository_path": "textbook/figures/fig_18_threshold_metrics.png",
+      "bytes": 127940,
+      "sha256": "1bc39c3d97910e862de015edb7299d3855be76cd516184a031e25bc2d29db21c"
+    },
+    {
+      "package_path": "figures/fig_19_calibration.pdf",
+      "repository_path": "textbook/figures/fig_19_calibration.pdf",
+      "bytes": 23454,
+      "sha256": "e5cb4acb038851907a1da63500ce55618ab56aa6b4df35ed7e0cd87c3cc0692a"
+    },
+    {
+      "package_path": "figures/fig_19_calibration.png",
+      "repository_path": "textbook/figures/fig_19_calibration.png",
+      "bytes": 194478,
+      "sha256": "402395a194e97bb5cd8a322c84c89ed8cc9457e3bf69abf5bade404dcf707d22"
+    },
+    {
+      "package_path": "figures/fig_20_ridge.pdf",
+      "repository_path": "textbook/figures/fig_20_ridge.pdf",
+      "bytes": 23823,
+      "sha256": "5e6a481c4b94c7bbff1c1a16e29ac806c68eb811f89d0da00bd9be1189afb653"
+    },
+    {
+      "package_path": "figures/fig_20_ridge.png",
+      "repository_path": "textbook/figures/fig_20_ridge.png",
+      "bytes": 269146,
+      "sha256": "128e7c6cf085ea2f36fc09e33bf8d55b3d9455b73cc66e56f4853a7b624f0029"
+    },
+    {
+      "package_path": "figures/fig_21_bike_timeline.pdf",
+      "repository_path": "textbook/figures/fig_21_bike_timeline.pdf",
+      "bytes": 22700,
+      "sha256": "da382597ab4e368ca561572a5566134aa133fbd9464ca8c6ea740b2a03a20ef4"
+    },
+    {
+      "package_path": "figures/fig_21_bike_timeline.png",
+      "repository_path": "textbook/figures/fig_21_bike_timeline.png",
+      "bytes": 302090,
+      "sha256": "3bfeb1d92658fa16e4f21c66929f7b8a652a2133d87a9781276ccbd208679ecf"
+    },
+    {
+      "package_path": "figures/fig_22_bike_predictions.pdf",
+      "repository_path": "textbook/figures/fig_22_bike_predictions.pdf",
+      "bytes": 25976,
+      "sha256": "c4d2fa3b85744bd790252666ac864aea2e8c27d7e426f126d5eae6314b929ef2"
+    },
+    {
+      "package_path": "figures/fig_22_bike_predictions.png",
+      "repository_path": "textbook/figures/fig_22_bike_predictions.png",
+      "bytes": 368063,
+      "sha256": "d056af8795cb7f9d9b4ee892663fc2873785e85c60386e675820d45dc3b50afe"
+    },
+    {
+      "package_path": "figures/fig_23_digits_gallery.pdf",
+      "repository_path": "textbook/figures/fig_23_digits_gallery.pdf",
+      "bytes": 13708,
+      "sha256": "f0accd4720843d72ca1dbf7c0e552b837fce73d8ca95ce65835c79a08c13aa2e"
+    },
+    {
+      "package_path": "figures/fig_23_digits_gallery.png",
+      "repository_path": "textbook/figures/fig_23_digits_gallery.png",
+      "bytes": 37051,
+      "sha256": "78274b4ed94b9510ed13842a0c9f9fc9ae7636a85205becccccca271a456d93f"
+    },
+    {
+      "package_path": "figures/fig_24_digits_confusion.pdf",
+      "repository_path": "textbook/figures/fig_24_digits_confusion.pdf",
+      "bytes": 15022,
+      "sha256": "4a6dfefcda3731526790a08af59984b5e5248f62b09c230e8b0dbe1111e9d829"
+    },
+    {
+      "package_path": "figures/fig_24_digits_confusion.png",
+      "repository_path": "textbook/figures/fig_24_digits_confusion.png",
+      "bytes": 98264,
+      "sha256": "c60b7700fa31508b1e9f1227461a17276d5298f2cb208359728d9434ce5045d5"
+    },
+    {
+      "package_path": "figures/fig_25_digits_learning.pdf",
+      "repository_path": "textbook/figures/fig_25_digits_learning.pdf",
+      "bytes": 22329,
+      "sha256": "d6922eb16c1d5691eab476a4942310c488ebb2761297dec669d0acde4e7598c0"
+    },
+    {
+      "package_path": "figures/fig_25_digits_learning.png",
+      "repository_path": "textbook/figures/fig_25_digits_learning.png",
+      "bytes": 175046,
+      "sha256": "2a839c798cfb3c9471b0701324accafa0194c18b404c59c4797ad9eb1671a88b"
+    },
+    {
+      "package_path": "figures/fig_26_sensor_trace.pdf",
+      "repository_path": "textbook/figures/fig_26_sensor_trace.pdf",
+      "bytes": 27748,
+      "sha256": "b3d3be02f3002943359b269ae6bddc7065ba5754a0bc20f91ce22701f398b88e"
+    },
+    {
+      "package_path": "figures/fig_26_sensor_trace.png",
+      "repository_path": "textbook/figures/fig_26_sensor_trace.png",
+      "bytes": 271330,
+      "sha256": "cf3233b7e390636cfd7b2426b4952450d879341c8969888c0775268582ba1053"
+    },
+    {
+      "package_path": "figures/fig_27_segmentation_examples.pdf",
+      "repository_path": "textbook/figures/fig_27_segmentation_examples.pdf",
+      "bytes": 26411,
+      "sha256": "49b01caa716dd3ed803c0b406d4eeebdc3ebc97189861e7ba1f18e0b0d876b96"
+    },
+    {
+      "package_path": "figures/fig_27_segmentation_examples.png",
+      "repository_path": "textbook/figures/fig_27_segmentation_examples.png",
+      "bytes": 80346,
+      "sha256": "8fb06d2ad6ac451b567e1b7679deb9044fd7d422d72b40a0d3e9e4526900c014"
+    },
+    {
+      "package_path": "figures/fig_28_retrieval_scores.pdf",
+      "repository_path": "textbook/figures/fig_28_retrieval_scores.pdf",
+      "bytes": 23222,
+      "sha256": "47e9be4e0db8070d319745cd3123d8737dc5b6d30ab8d9af33386042b77d1f6b"
+    },
+    {
+      "package_path": "figures/fig_28_retrieval_scores.png",
+      "repository_path": "textbook/figures/fig_28_retrieval_scores.png",
+      "bytes": 162245,
+      "sha256": "418a4236fb8138196dc667b05e643b5455b0d44a1a2f53ac6d41a4fbb9649858"
+    },
+    {
+      "package_path": "figures/fig_29_gradient_check.pdf",
+      "repository_path": "textbook/figures/fig_29_gradient_check.pdf",
+      "bytes": 14552,
+      "sha256": "ceaeb054d4850467338d33164a4d2910f7513ab76572c0e9eb5bc98350255621"
+    },
+    {
+      "package_path": "figures/fig_29_gradient_check.png",
+      "repository_path": "textbook/figures/fig_29_gradient_check.png",
+      "bytes": 145261,
+      "sha256": "d0278f3d385c487f4326f2ca7e87a1daf639b2964ed8b26298c44b01f6f4017a"
+    },
+    {
+      "package_path": "figures/fig_30_transformer_lab.pdf",
+      "repository_path": "textbook/figures/fig_30_transformer_lab.pdf",
+      "bytes": 17326,
+      "sha256": "3a661eb90e86276b777af9a16dbcd95241d60e0d1e422227f8a1459284d3caea"
+    },
+    {
+      "package_path": "figures/fig_30_transformer_lab.png",
+      "repository_path": "textbook/figures/fig_30_transformer_lab.png",
+      "bytes": 137633,
+      "sha256": "2d34abbf17b439165ab78ce036730f4fae2f4fb1b66574e7e49e9f210bfea79d"
+    },
+    {
+      "package_path": "figures/fig_31_detection_nms.pdf",
+      "repository_path": "textbook/figures/fig_31_detection_nms.pdf",
+      "bytes": 12973,
+      "sha256": "5e3d9ac2e7186ab66221f9b4579cb4966d172a350c77e7011365035f325abfd1"
+    },
+    {
+      "package_path": "figures/fig_31_detection_nms.png",
+      "repository_path": "textbook/figures/fig_31_detection_nms.png",
+      "bytes": 99395,
+      "sha256": "83e240bc26aec347403591ba38f8475d3da8784d146395f0d5d3c237f0dddcb4"
+    },
+    {
+      "package_path": "figures/fig_32_quantization.pdf",
+      "repository_path": "textbook/figures/fig_32_quantization.pdf",
+      "bytes": 15507,
+      "sha256": "8603e92ba32bfcda490eab21e4622dc07e7d6ae1b7f02d32c851e006af5b1dd4"
+    },
+    {
+      "package_path": "figures/fig_32_quantization.png",
+      "repository_path": "textbook/figures/fig_32_quantization.png",
+      "bytes": 186717,
+      "sha256": "4838cdb87e24b98fd699b6393e78106de3feec2506f90a88888cf332bb1b8d16"
+    },
+    {
+      "package_path": "figures/fig_33_graph_aggregation.pdf",
+      "repository_path": "textbook/figures/fig_33_graph_aggregation.pdf",
+      "bytes": 16110,
+      "sha256": "ac3e5a427d3f81b6c267d2454fa664eda99ff1818076600fe7487e7c6ddd6aed"
+    },
+    {
+      "package_path": "figures/fig_33_graph_aggregation.png",
+      "repository_path": "textbook/figures/fig_33_graph_aggregation.png",
+      "bytes": 144624,
+      "sha256": "62e2d6e45ba87fde30ec5e4efba44060f9409ed3fbfcb4e5fd5e76394fd7f917"
+    },
+    {
+      "package_path": "figures/fig_34_contrastive_temperature.pdf",
+      "repository_path": "textbook/figures/fig_34_contrastive_temperature.pdf",
+      "bytes": 25350,
+      "sha256": "081df6e3c4d32ca5c6e987ecf0f87fd1748b4baf65bb628a3d8fa2060c2e71f7"
+    },
+    {
+      "package_path": "figures/fig_34_contrastive_temperature.png",
+      "repository_path": "textbook/figures/fig_34_contrastive_temperature.png",
+      "bytes": 112890,
+      "sha256": "832eb6f6b320ad4ef73db39800f33ae2a2c51e512191c6210b758dc10f96600c"
+    },
+    {
+      "package_path": "figures/fig_35_reliability.pdf",
+      "repository_path": "textbook/figures/fig_35_reliability.pdf",
+      "bytes": 18244,
+      "sha256": "60830ec58ed32588ac79a7f57ddf08e91950ed31aaf7693ac5d8061d9cb7fee9"
+    },
+    {
+      "package_path": "figures/fig_35_reliability.png",
+      "repository_path": "textbook/figures/fig_35_reliability.png",
+      "bytes": 240672,
+      "sha256": "bacaa2c85f87059e80061309e12575aa3e50a0701fd3f109232b01a1ba4bb878"
+    },
+    {
+      "package_path": "figures/fig_36_context_budget.pdf",
+      "repository_path": "textbook/figures/fig_36_context_budget.pdf",
+      "bytes": 29725,
+      "sha256": "b02394aa44e679afffc4bfd0c56cc057b6b8d4bfb8f50606d149da3507389326"
+    },
+    {
+      "package_path": "figures/fig_36_context_budget.png",
+      "repository_path": "textbook/figures/fig_36_context_budget.png",
+      "bytes": 118027,
+      "sha256": "54749f41a7a99cda40a46fd34c49a06174902c3a21cd40c63aad66cca21f8afb"
+    },
+    {
+      "package_path": "figures/fig_37_eval_uncertainty.pdf",
+      "repository_path": "textbook/figures/fig_37_eval_uncertainty.pdf",
+      "bytes": 16113,
+      "sha256": "898248352d52e50cd89563f8ff454968252e56c579987a3dae8a8dd1597774f6"
+    },
+    {
+      "package_path": "figures/fig_37_eval_uncertainty.png",
+      "repository_path": "textbook/figures/fig_37_eval_uncertainty.png",
+      "bytes": 89719,
+      "sha256": "3e381297deea52ed8db34f14a2461fd4e8063f2a1f806f34c14edffdec684446"
+    },
+    {
+      "package_path": "figures/fig_38_latency_budget.pdf",
+      "repository_path": "textbook/figures/fig_38_latency_budget.pdf",
+      "bytes": 15055,
+      "sha256": "9669b920ed828ce3f0ff2d159d5fe56291ebf64155d24c87d930dcccc38dbbfc"
+    },
+    {
+      "package_path": "figures/fig_38_latency_budget.png",
+      "repository_path": "textbook/figures/fig_38_latency_budget.png",
+      "bytes": 78475,
+      "sha256": "4005fa9d94e681364be00ff2f7fc0dd1355a4613922782ad3c92bfac1cac68f1"
+    },
+    {
+      "package_path": "figures/fig_39_orders.pdf",
+      "repository_path": "textbook/figures/fig_39_orders.pdf",
+      "bytes": 13962,
+      "sha256": "b03207b353d277b28e5be071cbca4814a92c86b8ae97c74a445f640005bc263a"
+    },
+    {
+      "package_path": "figures/fig_39_orders.png",
+      "repository_path": "textbook/figures/fig_39_orders.png",
+      "bytes": 119967,
+      "sha256": "b75dd2ba6f5dfd76f6eae0ea9c79c0a14397cb5dc094617bca7b975b24cf5b91"
+    },
+    {
+      "package_path": "figures/fig_40_coordination.pdf",
+      "repository_path": "textbook/figures/fig_40_coordination.pdf",
+      "bytes": 15706,
+      "sha256": "6f62303d88f268d8fd50da3cabd21ac4b51ae1e0e97a61c4ff844dc19b048440"
+    },
+    {
+      "package_path": "figures/fig_40_coordination.png",
+      "repository_path": "textbook/figures/fig_40_coordination.png",
+      "bytes": 151845,
+      "sha256": "8e3bee9a064a9a205fefac53e263f11786355fda3c18168827a8aee97d6730c8"
+    },
+    {
+      "package_path": "figures/fig_41_lungsight_runs.pdf",
+      "repository_path": "textbook/figures/fig_41_lungsight_runs.pdf",
+      "bytes": 19497,
+      "sha256": "01d31633b44ec31c942afb75aafa93d1871c3fc99d0bfa6d26f515dd6703c023"
+    },
+    {
+      "package_path": "figures/fig_41_lungsight_runs.png",
+      "repository_path": "textbook/figures/fig_41_lungsight_runs.png",
+      "bytes": 109944,
+      "sha256": "fefa272e41189db8ef40ebdea9746c8ff255d0ef0c369e359599b9d4509a0066"
+    },
+    {
+      "package_path": "figures/fig_41_lungsight_runs.svg",
+      "repository_path": "textbook/figures/fig_41_lungsight_runs.svg",
+      "bytes": 54247,
+      "sha256": "dc906b39cdd3aaf424f3fd34b6e3143f2a5115ceaf4f560e1bbbc542701115ae"
+    },
+    {
+      "package_path": "figures/gen_beginner_figures.py",
+      "repository_path": "textbook/figures/gen_beginner_figures.py",
+      "bytes": 7139,
+      "sha256": "61c9664dc35f50966cf8afffde1d498be397b60787f66faec99ca5e4be0b6c0d"
+    },
+    {
+      "package_path": "figures/gen_fig_agents.py",
+      "repository_path": "textbook/figures/gen_fig_agents.py",
+      "bytes": 5386,
+      "sha256": "559e767244980e22900faed33d0df6fbc50b23f81193d55684961a11da10bccf"
+    },
+    {
+      "package_path": "figures/gen_fig_expanded.py",
+      "repository_path": "textbook/figures/gen_fig_expanded.py",
+      "bytes": 21196,
+      "sha256": "e016f3d83783428a29d079a25585096e06c36e616b7ab546bb462f6c4ccc1841"
+    },
+    {
+      "package_path": "figures/gen_fig_textbook.py",
+      "repository_path": "textbook/figures/gen_fig_textbook.py",
+      "bytes": 7498,
+      "sha256": "9132db3f5d7bbc3c906926719ca82fa44e8943ac46c79dd143c1577708eb4d25"
+    },
+    {
+      "package_path": "figures/gen_final_case_figures.py",
+      "repository_path": "textbook/figures/gen_final_case_figures.py",
+      "bytes": 4651,
+      "sha256": "6ce7e62dbcfde71d81b5bd93c7187c1c03b570ca55c1cae6ce5e436549089d51"
+    },
+    {
+      "package_path": "figures/render_structures.mjs",
+      "repository_path": "textbook/figures/render_structures.mjs",
+      "bytes": 2277,
+      "sha256": "962bcfe0eb1843e706d94a7b93e4078cfcc377329de81559d087b064e8b223f5"
+    },
+    {
+      "package_path": "figures/structures.md",
+      "repository_path": "textbook/figures/structures.md",
+      "bytes": 6620,
+      "sha256": "3ecdd15b49294d15ef2a65b7dadb5d67cf7311daae7c7edeed799f47d9f6f662"
+    },
+    {
+      "package_path": "final_content_check.json",
+      "repository_path": "textbook/final_content_check.json",
+      "bytes": 2080,
+      "sha256": "4696ecf3a128f80d1c660b348b95e372bb4c154502b484fc08b12e90923c8ec7"
+    },
+    {
+      "package_path": "final_project_checks.json",
+      "repository_path": "textbook/final_project_checks.json",
+      "bytes": 2420,
+      "sha256": "45bc9db54c78ff9fa689a98a5ead26a0fe46eeee9b8a051ef03d1f9b29a28686"
+    },
+    {
+      "package_path": "final_revision_config.json",
+      "repository_path": "textbook/final_revision_config.json",
+      "bytes": 569,
+      "sha256": "02cfeb6079e0abdb441d5e9e3716d5c22f4227793741e12c5bb68b029184393a"
+    },
+    {
+      "package_path": "final_revision_log.json",
+      "repository_path": "textbook/final_revision_log.json",
+      "bytes": 97477,
+      "sha256": "8d20b0801fc463cecaacc022938aa3a2397daa6cd6756e82705f568d1f1d9872"
+    },
+    {
+      "package_path": "final_visual_review.json",
+      "repository_path": "textbook/final_visual_review.json",
+      "bytes": 1107,
+      "sha256": "440eadcda8151a1c04fe197b9a1044a83a715cb048daa622d9c9766dd71c20e6"
+    },
+    {
+      "package_path": "finalize_final.py",
+      "repository_path": "textbook/finalize_final.py",
+      "bytes": 23661,
+      "sha256": "91c57f4dc6d252ae397d289141cdf182e9e689c92244ef01675b45ccde401bd8"
+    },
+    {
+      "package_path": "finalize_revised.py",
+      "repository_path": "textbook/finalize_revised.py",
+      "bytes": 203,
+      "sha256": "b192b419bef84b6b87088b28a090beaa208291f54d8820d0422b260521e0ac6c"
+    },
+    {
+      "package_path": "finish_layout.py",
+      "repository_path": "textbook/finish_layout.py",
+      "bytes": 6364,
+      "sha256": "b723fa9769def74006aead654f067130e0c64c68beefb145a44df2d12abc45cc"
+    },
+    {
+      "package_path": "layout_annotations.json",
+      "repository_path": "textbook/layout_annotations.json",
+      "bytes": 699,
+      "sha256": "f7cc168ecf68a5e005e31db80b3375587705b3a6a7c944409b94c718e8b5b34e"
+    },
+    {
+      "package_path": "layout_check.json",
+      "repository_path": "textbook/layout_check.json",
+      "bytes": 688,
+      "sha256": "b443cc81d9a2a753d8577de3fda153e4b3115ff6277929d09347fe0bdc4eb9b3"
+    },
+    {
+      "package_path": "LICENSE-CODE.txt",
+      "repository_path": "textbook/LICENSE-CODE.txt",
+      "bytes": 1079,
+      "sha256": "549492038c819ddbf23c05db94d6cc7db02eae80bc01ad83b6efe578313876ca"
+    },
+    {
+      "package_path": "LICENSE.md",
+      "repository_path": "textbook/LICENSE.md",
+      "bytes": 2094,
+      "sha256": "d60a09f4822a9c8a427aa3e6db35fb13cf029d84edb53f9aa90a5b12a5946e9e"
+    },
+    {
+      "package_path": "numpy_mlp_demo.py",
+      "repository_path": "textbook/numpy_mlp_demo.py",
+      "bytes": 3774,
+      "sha256": "21776c1db4619bdf5b06809ce152d0f437eb69f6c17c5f240e24e6371d8b57d3"
+    },
+    {
+      "package_path": "package.json",
+      "repository_path": "textbook/package.json",
+      "bytes": 274,
+      "sha256": "62eeb34355fd88c13039def5565a3f3441616a851eb4f13d293d21e5cc48225c"
+    },
+    {
+      "package_path": "page_locations.json",
+      "repository_path": "textbook/page_locations.json",
+      "bytes": 36615,
+      "sha256": "878fba878ec1ef10ac6269c375747f0dce4e5d3510fb82d4521bf535f49bdd86"
+    },
+    {
+      "package_path": "pdf_check.json",
+      "repository_path": "textbook/pdf_check.json",
+      "bytes": 48335,
+      "sha256": "798d76cb3106c0edcb077a6cad643b6e10b42e3b1f582f46d62f1053923ba8ed"
+    },
+    {
+      "package_path": "polish_final_build.py",
+      "repository_path": "textbook/polish_final_build.py",
+      "bytes": 7937,
+      "sha256": "bb6e1d0961e3d8dfb36491e1747f804b8d1383d041f0875aa1cf0d4332b29788"
+    },
+    {
+      "package_path": "prepare_author_fonts.py",
+      "repository_path": "textbook/prepare_author_fonts.py",
+      "bytes": 1001,
+      "sha256": "1e70dc2b2ad25bdc622ed9dfc1e2355d430433dccbce1b30c68bac606fd4f801"
+    },
+    {
+      "package_path": "prepare_fonts.py",
+      "repository_path": "textbook/prepare_fonts.py",
+      "bytes": 1477,
+      "sha256": "480ae5f74ef975cfcfdc565445ea06344307bc40472db8d984418dba9416996b"
+    },
+    {
+      "package_path": "prepare_style_fonts.py",
+      "repository_path": "textbook/prepare_style_fonts.py",
+      "bytes": 1471,
+      "sha256": "7e596789a9c999d53d1fc1c25f94a0cefff8a0efe66aeec6c9162d884bc72fd5"
+    },
+    {
+      "package_path": "projects/data/bike_sharing.zip",
+      "repository_path": "textbook/projects/data/bike_sharing.zip",
+      "bytes": 279992,
+      "sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401"
+    },
+    {
+      "package_path": "projects/data/fictional_manual.txt",
+      "repository_path": "textbook/projects/data/fictional_manual.txt",
+      "bytes": 1154,
+      "sha256": "5becb05ad92efe73c10adc71683e1e794587a7b9355a58e6ac04464be53131cb"
+    },
+    {
+      "package_path": "projects/mini_transformer_lab.py",
+      "repository_path": "textbook/projects/mini_transformer_lab.py",
+      "bytes": 4110,
+      "sha256": "56ddf59cf8b8424da25a4de514e1f01105cd2d4722854728c13547caf8e997bb"
+    },
+    {
+      "package_path": "projects/README.md",
+      "repository_path": "textbook/projects/README.md",
+      "bytes": 1960,
+      "sha256": "b349d2bc4ff1c09a9c5514e9ccf04eb7d529b4713ba9da800342b6e93f07d688"
+    },
+    {
+      "package_path": "projects/results/bike.npz",
+      "repository_path": "textbook/projects/results/bike.npz",
+      "bytes": 20336,
+      "sha256": "abe1227bbcfb431d44df0142757384bd349cf421c72d02c3b97279a5d7cfc82f"
+    },
+    {
+      "package_path": "projects/results/bike.pt",
+      "repository_path": "textbook/projects/results/bike.pt",
+      "bytes": 6856,
+      "sha256": "03b10b9c4ca9f9b7934fcc2f84000fce59c8b30bf0fa2368fef5b8ff36378987"
+    },
+    {
+      "package_path": "projects/results/derivation_lab.json",
+      "repository_path": "textbook/projects/results/derivation_lab.json",
+      "bytes": 1231,
+      "sha256": "44c12b6b732f8c8a87b12c494901c4d08a4b1a4918a98f74ecbb8deed941a25e"
+    },
+    {
+      "package_path": "projects/results/digits.npz",
+      "repository_path": "textbook/projects/results/digits.npz",
+      "bytes": 122184,
+      "sha256": "60840df23b8d81048530cd04d735caa9831489540e27e67bae7ee6ddd4e8890c"
+    },
+    {
+      "package_path": "projects/results/digits.pt",
+      "repository_path": "textbook/projects/results/digits.pt",
+      "bytes": 17672,
+      "sha256": "e2c39e325c69e8d950de8129794b56ab7a7038a29216f1af844272d70dd21a3a"
+    },
+    {
+      "package_path": "projects/results/environment.json",
+      "repository_path": "textbook/projects/results/environment.json",
+      "bytes": 132,
+      "sha256": "2820937556bfc5882fa8de859c4e6347c009079451fd6f2df557131d758eee2b"
+    },
+    {
+      "package_path": "projects/results/metrics.json",
+      "repository_path": "textbook/projects/results/metrics.json",
+      "bytes": 4478,
+      "sha256": "6d5e2d3d6ca770ed8aa013d0c74412ba70d106fa76949216ef1c930d8ef81d62"
+    },
+    {
+      "package_path": "projects/results/mini_transformer.json",
+      "repository_path": "textbook/projects/results/mini_transformer.json",
+      "bytes": 476,
+      "sha256": "9e0e3d6478048c027d637a0a6f9bf4094346d1f4693b0fb16bb56a81d576c3c4"
+    },
+    {
+      "package_path": "projects/results/mini_transformer.npz",
+      "repository_path": "textbook/projects/results/mini_transformer.npz",
+      "bytes": 2340,
+      "sha256": "325bd92d13334e9f73737a0a584ae4c4d5c0520013630327dd3bfee77db5d337"
+    },
+    {
+      "package_path": "projects/results/project_environments.json",
+      "repository_path": "textbook/projects/results/project_environments.json",
+      "bytes": 256,
+      "sha256": "3cd94a5d9ed15b44f936034c3f7a37dc8deba07644eaeb6523ac07538b6811a3"
+    },
+    {
+      "package_path": "projects/results/pytorch_mlp_log.txt",
+      "repository_path": "textbook/projects/results/pytorch_mlp_log.txt",
+      "bytes": 409,
+      "sha256": "25945dda187a9e8a7334456f352afbfcda99f19079822092638a2a1eb13f7fc5"
+    },
+    {
+      "package_path": "projects/results/retrieval.npz",
+      "repository_path": "textbook/projects/results/retrieval.npz",
+      "bytes": 3690,
+      "sha256": "bd08f5a147cbb3c13b2551ba7d8308cc667379957a36e77aab1b97ee46f03316"
+    },
+    {
+      "package_path": "projects/results/retrieval_index.joblib",
+      "repository_path": "textbook/projects/results/retrieval_index.joblib",
+      "bytes": 24511,
+      "sha256": "451c629e492ecb316955d64c305b193faec752024b481ac7e8a37ecd3832b80b"
+    },
+    {
+      "package_path": "projects/results/segmentation.npz",
+      "repository_path": "textbook/projects/results/segmentation.npz",
+      "bytes": 1435822,
+      "sha256": "db5e3d9082ba96ae7aebb55cbb2c2a78e2a3ac5fef5f55905e5034034ed6b4e0"
+    },
+    {
+      "package_path": "projects/results/segmentation.pt",
+      "repository_path": "textbook/projects/results/segmentation.pt",
+      "bytes": 17848,
+      "sha256": "2de25557de3b2007be7257e7ec794fe1663757ea92ed149ff70755c088c4b4b5"
+    },
+    {
+      "package_path": "projects/results/sensor.npz",
+      "repository_path": "textbook/projects/results/sensor.npz",
+      "bytes": 255036,
+      "sha256": "83663217bf049a339c88a6a8d931b602cc73edda7bb44ad2990f9a12b5c830f4"
+    },
+    {
+      "package_path": "projects/results/sensor.pt",
+      "repository_path": "textbook/projects/results/sensor.pt",
+      "bytes": 6856,
+      "sha256": "c276c02bdf674a63fa9cc98c254a9385891cb01d8cb9875e36b1bfeaa767b39e"
+    },
+    {
+      "package_path": "projects/results/verification.json",
+      "repository_path": "textbook/projects/results/verification.json",
+      "bytes": 3218,
+      "sha256": "a38ee19a51ff343a990d0d49d2ab0b5e06a07bbb224ca281ed18512d9eb6ede6"
+    },
+    {
+      "package_path": "projects/run_projects.py",
+      "repository_path": "textbook/projects/run_projects.py",
+      "bytes": 15256,
+      "sha256": "e213dcadfb36c31555f4245f3c6530c99a4de9b9d3ec80edf6b39afff76d104d"
+    },
+    {
+      "package_path": "projects/verify_results.py",
+      "repository_path": "textbook/projects/verify_results.py",
+      "bytes": 5631,
+      "sha256": "16a9afdd9e2d2c00791f85c699c51dc9006414383ed0eb0694d8d71359453cf5"
+    },
+    {
+      "package_path": "publication/bib_validation.json",
+      "repository_path": "textbook/publication/bib_validation.json",
+      "bytes": 2681,
+      "sha256": "bbb3e100b8e1b904bc54006d7eee9b50a82fad4c318931111485bea364c918e1"
+    },
+    {
+      "package_path": "publication/code_license_scope.json",
+      "repository_path": "textbook/publication/code_license_scope.json",
+      "bytes": 9154,
+      "sha256": "e07bfe7bf9af152362aba9dc7b86d4d6fcb77837b3dbea56cb789843e7b0f66e"
+    },
+    {
+      "package_path": "publication/licenses/DejaVu-LICENSE.txt",
+      "repository_path": "textbook/publication/licenses/DejaVu-LICENSE.txt",
+      "bytes": 4816,
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    {
+      "package_path": "publication/publication_check.json",
+      "repository_path": "textbook/publication/publication_check.json",
+      "bytes": 1479,
+      "sha256": "309e091317fb18c998e6fda886126f6f0d4fa2cd25543d0202a95890f82174d2"
+    },
+    {
+      "package_path": "publication/reference_audit.json",
+      "repository_path": "textbook/publication/reference_audit.json",
+      "bytes": 8351,
+      "sha256": "468084ae9c93ac70d0385ce0cfe20ac76a19c68faa2e722692c8ccecff76f70d"
+    },
+    {
+      "package_path": "publication/references.bib",
+      "repository_path": "textbook/publication/references.bib",
+      "bytes": 32791,
+      "sha256": "56527e691cb90cdf467105f6649a7485df730869b9431eed79787381342571b3"
+    },
+    {
+      "package_path": "publication/references.json",
+      "repository_path": "textbook/publication/references.json",
+      "bytes": 73627,
+      "sha256": "addd074cf6e235db901025c20045858f269c084180cf92be7ee44367e16e1e34"
+    },
+    {
+      "package_path": "publication/repository.json",
+      "repository_path": "textbook/publication/repository.json",
+      "bytes": 739,
+      "sha256": "92c2bcb3596184fc1d5b2cfcd8bcbd0c7872902cd7f330a2499e09defd83739f"
+    },
+    {
+      "package_path": "publication/rights_decision.json",
+      "repository_path": "textbook/publication/rights_decision.json",
+      "bytes": 630,
+      "sha256": "fa7505e591d36ea4a3cc482d315d1d7f5d73c8315a38529a1f4015c74a400ce5"
+    },
+    {
+      "package_path": "pytorch_mlp.pt",
+      "repository_path": "textbook/pytorch_mlp.pt",
+      "bytes": 3248,
+      "sha256": "d5b61112d76440deafbd23f53965cac7645dde9f50521571afa9a4212f3239f4"
+    },
+    {
+      "package_path": "pytorch_mlp_demo.py",
+      "repository_path": "textbook/pytorch_mlp_demo.py",
+      "bytes": 2724,
+      "sha256": "61aaa8a4933b17fce1e5b600f260e1434190f512b166dc20cc55c4ff5378e780"
+    },
+    {
+      "package_path": "requirements-book.txt",
+      "repository_path": "textbook/requirements-book.txt",
+      "bytes": 139,
+      "sha256": "d56a6ff2d22c9685fe1c7b07be12a49b89826a32659bdb1ba79f6c6e901f883a"
+    },
+    {
+      "package_path": "requirements-projects.txt",
+      "repository_path": "textbook/requirements-projects.txt",
+      "bytes": 110,
+      "sha256": "1521bbbc2c103f3c69c4e7554246748dd1ae5decdbde1ba964f96c2b16bc8f34"
+    },
+    {
+      "package_path": "revise_final.py",
+      "repository_path": "textbook/revise_final.py",
+      "bytes": 16881,
+      "sha256": "8b5b301100dd79347b9df2727408e52c69396d493eb6efabfa9a6acdbc654f69"
+    },
+    {
+      "package_path": "source_check.json",
+      "repository_path": "textbook/source_check.json",
+      "bytes": 252,
+      "sha256": "d240337deb7c26cb8fdd976cb1eb8271d951f510a3c5e4a16dc5fdc6071e4e9b"
+    },
+    {
+      "package_path": "THIRD_PARTY_NOTICES.md",
+      "repository_path": "textbook/THIRD_PARTY_NOTICES.md",
+      "bytes": 3555,
+      "sha256": "f3c230a31da13c92a3875f5ecea10f1cea2849b5e853ce6eee1167210d4c031f"
+    },
+    {
+      "package_path": "toc_entries.json",
+      "repository_path": "textbook/toc_entries.json",
+      "bytes": 66187,
+      "sha256": "b190eca3c3c98e568c45e555b97852fceda49eeea95dab36ab33a0b5bd9fd89e"
+    },
+    {
+      "package_path": "update_project_cli.py",
+      "repository_path": "textbook/update_project_cli.py",
+      "bytes": 1887,
+      "sha256": "5ba20269e47fd66f828d1e3c4a198489a560e4292f97c7dcc364a77dadaee080"
+    },
+    {
+      "package_path": "validation_reference.json",
+      "repository_path": "textbook/validation_reference.json",
+      "bytes": 103702,
+      "sha256": "c7a9924d9b5e5216b644a3f129eb23e14c1dee7a6ae4f9ecbe89b6ca8fec35e9"
+    },
+    {
+      "package_path": "vendor/fonts/BookSans-700.ttf",
+      "repository_path": "textbook/vendor/fonts/BookSans-700.ttf",
+      "bytes": 391632,
+      "sha256": "e129334130e74489589860ba565f3f3f74c8f3ff02ccfb371268f72ce899cf56"
+    },
+    {
+      "package_path": "vendor/fonts/BookSans-900.ttf",
+      "repository_path": "textbook/vendor/fonts/BookSans-900.ttf",
+      "bytes": 33444,
+      "sha256": "24a060f6a6c795423a59b5ba827152712266628481998bae360fb66abbf6478e"
+    },
+    {
+      "package_path": "vendor/fonts/BookTitleSerif-600.ttf",
+      "repository_path": "textbook/vendor/fonts/BookTitleSerif-600.ttf",
+      "bytes": 28916,
+      "sha256": "ffaf4e72d75434ee8d076f1ecd872783efc6e7044c8442a8db0afcf1c0cb207f"
+    },
+    {
+      "package_path": "vendor/fonts/GreatVibes-OFL.txt",
+      "repository_path": "textbook/vendor/fonts/GreatVibes-OFL.txt",
+      "bytes": 4399,
+      "sha256": "61093a21f5e63dedf54222b3c09997e54c0fe43e3851d21386e02ddcbc246d49"
+    },
+    {
+      "package_path": "vendor/fonts/GreatVibes-Regular.ttf",
+      "repository_path": "textbook/vendor/fonts/GreatVibes-Regular.ttf",
+      "bytes": 457588,
+      "sha256": "8d509802186f1b51572531ecf313e8098f9a5bfdfaca93f0c9b34467f9982d15"
+    },
+    {
+      "package_path": "vendor/fonts/LICENSE.txt",
+      "repository_path": "textbook/vendor/fonts/LICENSE.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "package_path": "vendor/fonts/NotoSerifSC-Regular.ttf",
+      "repository_path": "textbook/vendor/fonts/NotoSerifSC-Regular.ttf",
+      "bytes": 534064,
+      "sha256": "073d55435b917b9c3b8abbb189122784cabbd5ef78a27562fbdb97734979e71d"
+    },
+    {
+      "package_path": "vendor/fonts/README.md",
+      "repository_path": "textbook/vendor/fonts/README.md",
+      "bytes": 2817,
+      "sha256": "3e34953363ee54234ed1ed717468451813dd4d658354d7c9b660ea2d35ecb28c"
+    },
+    {
+      "package_path": "vendor/katex/LICENSE",
+      "repository_path": "textbook/vendor/katex/LICENSE",
+      "bytes": 1107,
+      "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/auto-render.js",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/auto-render.js",
+      "bytes": 10508,
+      "sha256": "1f5492e68752a1b1fbcd500840ca1d0191c26131fdc36381b493a02c6b8d4bcf"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/auto-render.min.js",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/auto-render.min.js",
+      "bytes": 3467,
+      "sha256": "bb53eb953394531aae36fdd537065c4244eb8542901a3ce914601d932675b8ac"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/auto-render.mjs",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/auto-render.mjs",
+      "bytes": 6840,
+      "sha256": "42d3240990d45436d6dd4dfb36e7792448cdc2b602c47ac424fd09b1e93dbdfe"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/copy-tex.js",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/copy-tex.js",
+      "bytes": 4507,
+      "sha256": "2a0cbb0816ea3fa4558b2c810f833fd9c2e293708898c4a1e590617c9ab204eb"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/copy-tex.min.js",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/copy-tex.min.js",
+      "bytes": 1673,
+      "sha256": "07770af90943a1de1a1010794bc78c6a7346d46d48fb63e35cc76ba76b827604"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/copy-tex.mjs",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/copy-tex.mjs",
+      "bytes": 3640,
+      "sha256": "d037b7c4cdc73420285a580e5b8f9cb441ad67e661fd1ad31dd45aadcf047bf5"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/mathtex-script-type.js",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/mathtex-script-type.js",
+      "bytes": 4207,
+      "sha256": "642910d0c2189220f4d83f579d8c611ef0c2d74c430c5c5f5d0aca861c5c6b12"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/mathtex-script-type.min.js",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/mathtex-script-type.min.js",
+      "bytes": 1290,
+      "sha256": "0799b28b8bc80621fc86d9cee45cfd1ca499f77d3d6d71b0ee307158fc3b50b9"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/mathtex-script-type.mjs",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/mathtex-script-type.mjs",
+      "bytes": 751,
+      "sha256": "57f519b2230307c74d08020f52c859c969f5527eb40d24bb8ab3e2167808d5c6"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/mhchem.js",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/mhchem.js",
+      "bytes": 78705,
+      "sha256": "adae02881ece750ce430aa5b250c54e23e0e3d1854c7ff348dfb5eb34daf687a"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/mhchem.min.js",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/mhchem.min.js",
+      "bytes": 33712,
+      "sha256": "9f87e5e9c384a160472d0045035a8641f6013358eddb3ece708634a50f946a40"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/mhchem.mjs",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/mhchem.mjs",
+      "bytes": 75577,
+      "sha256": "c5d4b68a7921c218ffdcf4d7c17900d783af7b48430513810cb14e791a54abb4"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/render-a11y-string.js",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/render-a11y-string.js",
+      "bytes": 23938,
+      "sha256": "a5fa0dd91b33d24ce6b6ab2d4132825842aa286c14b040f668dcd92717497387"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/render-a11y-string.min.js",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/render-a11y-string.min.js",
+      "bytes": 8454,
+      "sha256": "79020f6ca629c07bddf2271c6d057e8e55e8e251428a493de839c894f713160d"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/contrib/render-a11y-string.mjs",
+      "repository_path": "textbook/vendor/katex/package/dist/contrib/render-a11y-string.mjs",
+      "bytes": 20283,
+      "sha256": "5df820dd9376bd23ef424e5cfc45505d57ae646fb0c5533758e7ad51e048893b"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_AMS-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_AMS-Regular.ttf",
+      "bytes": 63632,
+      "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_AMS-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_AMS-Regular.woff",
+      "bytes": 33516,
+      "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_AMS-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_AMS-Regular.woff2",
+      "bytes": 28076,
+      "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Bold.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Bold.ttf",
+      "bytes": 12368,
+      "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Bold.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Bold.woff",
+      "bytes": 7716,
+      "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Bold.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Bold.woff2",
+      "bytes": 6912,
+      "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Regular.ttf",
+      "bytes": 12344,
+      "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Regular.woff",
+      "bytes": 7656,
+      "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Caligraphic-Regular.woff2",
+      "bytes": 6908,
+      "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Fraktur-Bold.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Fraktur-Bold.ttf",
+      "bytes": 19584,
+      "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Fraktur-Bold.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Fraktur-Bold.woff",
+      "bytes": 13296,
+      "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Fraktur-Bold.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Fraktur-Bold.woff2",
+      "bytes": 11348,
+      "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Fraktur-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Fraktur-Regular.ttf",
+      "bytes": 19572,
+      "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Fraktur-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Fraktur-Regular.woff",
+      "bytes": 13208,
+      "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Fraktur-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Fraktur-Regular.woff2",
+      "bytes": 11316,
+      "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-Bold.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-Bold.ttf",
+      "bytes": 51336,
+      "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-Bold.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-Bold.woff",
+      "bytes": 29912,
+      "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-Bold.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-Bold.woff2",
+      "bytes": 25324,
+      "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-BoldItalic.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-BoldItalic.ttf",
+      "bytes": 32968,
+      "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-BoldItalic.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-BoldItalic.woff",
+      "bytes": 19412,
+      "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-BoldItalic.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-BoldItalic.woff2",
+      "bytes": 16780,
+      "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-Italic.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-Italic.ttf",
+      "bytes": 33580,
+      "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-Italic.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-Italic.woff",
+      "bytes": 19676,
+      "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-Italic.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-Italic.woff2",
+      "bytes": 16988,
+      "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-Regular.ttf",
+      "bytes": 53580,
+      "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-Regular.woff",
+      "bytes": 30772,
+      "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Main-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Main-Regular.woff2",
+      "bytes": 26272,
+      "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Math-BoldItalic.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Math-BoldItalic.ttf",
+      "bytes": 31196,
+      "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Math-BoldItalic.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Math-BoldItalic.woff",
+      "bytes": 18668,
+      "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Math-BoldItalic.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Math-BoldItalic.woff2",
+      "bytes": 16400,
+      "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Math-Italic.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Math-Italic.ttf",
+      "bytes": 31308,
+      "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Math-Italic.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Math-Italic.woff",
+      "bytes": 18748,
+      "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Math-Italic.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Math-Italic.woff2",
+      "bytes": 16440,
+      "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_SansSerif-Bold.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_SansSerif-Bold.ttf",
+      "bytes": 24504,
+      "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_SansSerif-Bold.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_SansSerif-Bold.woff",
+      "bytes": 14408,
+      "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_SansSerif-Bold.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_SansSerif-Bold.woff2",
+      "bytes": 12216,
+      "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_SansSerif-Italic.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_SansSerif-Italic.ttf",
+      "bytes": 22364,
+      "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_SansSerif-Italic.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_SansSerif-Italic.woff",
+      "bytes": 14112,
+      "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_SansSerif-Italic.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_SansSerif-Italic.woff2",
+      "bytes": 12028,
+      "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_SansSerif-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_SansSerif-Regular.ttf",
+      "bytes": 19436,
+      "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_SansSerif-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_SansSerif-Regular.woff",
+      "bytes": 12316,
+      "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_SansSerif-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_SansSerif-Regular.woff2",
+      "bytes": 10344,
+      "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Script-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Script-Regular.ttf",
+      "bytes": 16648,
+      "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Script-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Script-Regular.woff",
+      "bytes": 10588,
+      "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Script-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Script-Regular.woff2",
+      "bytes": 9644,
+      "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size1-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size1-Regular.ttf",
+      "bytes": 12228,
+      "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size1-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size1-Regular.woff",
+      "bytes": 6496,
+      "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size1-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size1-Regular.woff2",
+      "bytes": 5468,
+      "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size2-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size2-Regular.ttf",
+      "bytes": 11508,
+      "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size2-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size2-Regular.woff",
+      "bytes": 6188,
+      "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size2-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size2-Regular.woff2",
+      "bytes": 5208,
+      "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size3-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size3-Regular.ttf",
+      "bytes": 7588,
+      "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size3-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size3-Regular.woff",
+      "bytes": 4420,
+      "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size3-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size3-Regular.woff2",
+      "bytes": 3624,
+      "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size4-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size4-Regular.ttf",
+      "bytes": 10364,
+      "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size4-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size4-Regular.woff",
+      "bytes": 5980,
+      "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Size4-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Size4-Regular.woff2",
+      "bytes": 4928,
+      "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Typewriter-Regular.ttf",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Typewriter-Regular.ttf",
+      "bytes": 27556,
+      "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Typewriter-Regular.woff",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Typewriter-Regular.woff",
+      "bytes": 16028,
+      "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/fonts/KaTeX_Typewriter-Regular.woff2",
+      "repository_path": "textbook/vendor/katex/package/dist/fonts/KaTeX_Typewriter-Regular.woff2",
+      "bytes": 13568,
+      "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/katex.css",
+      "repository_path": "textbook/vendor/katex/package/dist/katex.css",
+      "bytes": 31329,
+      "sha256": "009f1e58806819e90d02e90ffecafa988a3ee4b54418f8cab70f4f2cbf8ce2d8"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/katex.js",
+      "repository_path": "textbook/vendor/katex/package/dist/katex.js",
+      "bytes": 622663,
+      "sha256": "8f1f4fb1080439c012bb8fddf424fa253e9144ab4cdd7dc0eae0e92cd04a5e33"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/katex.min.css",
+      "repository_path": "textbook/vendor/katex/package/dist/katex.min.css",
+      "bytes": 23352,
+      "sha256": "19095127357ed6d29fe0a63a6b000c913a89f7f1963b765dd3715e97c9852e75"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/katex.min.js",
+      "repository_path": "textbook/vendor/katex/package/dist/katex.min.js",
+      "bytes": 276701,
+      "sha256": "e8d885505949f3a5f4abdd5dd0d53696bd1371ad26ffbf4f310dcd77c8cdae89"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/katex.mjs",
+      "repository_path": "textbook/vendor/katex/package/dist/katex.mjs",
+      "bytes": 610145,
+      "sha256": "7af1aa5e484a4ae881e181ff97ddffdce2deabef42596d2679658b9fe4cd4615"
+    },
+    {
+      "package_path": "vendor/katex/package/dist/README.md",
+      "repository_path": "textbook/vendor/katex/package/dist/README.md",
+      "bytes": 7268,
+      "sha256": "f5a45fbe02ce38e1548193dd1d34135ed4ede89ebd1617d1dba2ae3e5e300df9"
+    },
+    {
+      "package_path": "vendor/mermaid/LICENSE",
+      "repository_path": "textbook/vendor/mermaid/LICENSE",
+      "bytes": 1089,
+      "sha256": "ec9fb67dcb25eccc416ed56e1aab819222c805a2a4bfe4cb19e7556bf2ffde80"
+    },
+    {
+      "package_path": "vendor/mermaid/mermaid.min.js",
+      "repository_path": "textbook/vendor/mermaid/mermaid.min.js",
+      "bytes": 3336760,
+      "sha256": "5a8ec91820bd55afef049068489369910e5d6ce70c8103952f27e29d3e76e8bc"
+    },
+    {
+      "package_path": "verify_beginner_layout.py",
+      "repository_path": "textbook/verify_beginner_layout.py",
+      "bytes": 4495,
+      "sha256": "e22430248fc66ea29c2b7e0748a7d7ebb30965a9e269fe8d79ec7e5a005c740d"
+    },
+    {
+      "package_path": "verify_beginner_material.py",
+      "repository_path": "textbook/verify_beginner_material.py",
+      "bytes": 6630,
+      "sha256": "cbe560a51fe5ecae095a2ee6efb1a9a949e5c9e310844ef125cecbbcd029ce7d"
+    },
+    {
+      "package_path": "verify_final_book_content.py",
+      "repository_path": "textbook/verify_final_book_content.py",
+      "bytes": 4947,
+      "sha256": "ea3b7c672487deb14ebd551c7384058d137e060e585523d2bd729fd5361bcdc0"
+    },
+    {
+      "package_path": "verify_final_projects.py",
+      "repository_path": "textbook/verify_final_projects.py",
+      "bytes": 5401,
+      "sha256": "2076b99cdc01cdd87d67c88ead34dd2562e66aaf2a344bf5861f0ec463db8c79"
+    },
+    {
+      "package_path": "verify_publication.py",
+      "repository_path": "textbook/verify_publication.py",
+      "bytes": 9044,
+      "sha256": "012f64cca5418ef73959a2b9d16c40c75f7f029a70b3247c34fcf4a5f94f5f58"
+    },
+    {
+      "package_path": "交付清单.json",
+      "repository_path": "textbook/交付清单.json",
+      "bytes": 1812,
+      "sha256": "01b7f33478c5359b662eec345d8def0febeebe25713d95f616586f59ccb0d987"
+    },
+    {
+      "package_path": "作者与版本信息.md",
+      "repository_path": "textbook/作者与版本信息.md",
+      "bytes": 716,
+      "sha256": "d2f4544e7523fe57c09494df3bab542c6dcee99d8ae11866ad81fc62156df1cf"
+    },
+    {
+      "package_path": "作者扉页预览.png",
+      "repository_path": "docs/assets/authors.png",
+      "bytes": 161248,
+      "sha256": "99bc74fc55ea76e4bc866bfa4bdce39eec230543d5d2c9d440a75e8db75a1ac9"
+    },
+    {
+      "package_path": "修订说明.md",
+      "repository_path": "textbook/修订说明.md",
+      "bytes": 2158,
+      "sha256": "f7e85077d9636a0d04f62ee8ae1c19d5185db9998fca56eb84c058dad7acc7b8"
+    },
+    {
+      "package_path": "参考文献.md",
+      "repository_path": "textbook/参考文献.md",
+      "bytes": 37972,
+      "sha256": "2df1c3a0009c82c516454a19b88ae01d0fc694669eec7fbc09d0fdd2c5db365d"
+    },
+    {
+      "package_path": "宋体正文预览.png",
+      "repository_path": "docs/assets/body.png",
+      "bytes": 223839,
+      "sha256": "d3746d21b43ba7771de8053227ca70044ca96d899814b8446ba31f24c182814e"
+    },
+    {
+      "package_path": "封面预览.png",
+      "repository_path": "docs/assets/cover.png",
+      "bytes": 173262,
+      "sha256": "ac58d15fc07280001b509747549b99d9ff312c3a09f016cc46b55e6da2c75427"
+    },
+    {
+      "package_path": "排版与编辑说明.md",
+      "repository_path": "textbook/排版与编辑说明.md",
+      "bytes": 3755,
+      "sha256": "b525b4efe67f2c9b268abcb186f43c3f47f583df0bac46a96199578b645e6798"
+    },
+    {
+      "package_path": "教材排版预览.png",
+      "repository_path": "docs/assets/layout.png",
+      "bytes": 1333283,
+      "sha256": "d6a844baa892c553d58f33e48285106f88edb1a637cacb51bde274bbe1b6d548"
+    },
+    {
+      "package_path": "数据与引用说明.md",
+      "repository_path": "textbook/数据与引用说明.md",
+      "bytes": 9866,
+      "sha256": "b60f29d2e925de419d4c5460c502f7fc2b89f1d42a284a15099e6133491a8991"
+    },
+    {
+      "package_path": "新版章节/01.md",
+      "repository_path": "textbook/新版章节/01.md",
+      "bytes": 12782,
+      "sha256": "7c63f470a52d4abf6e294d263254e05c00294f1df4a7f6e398bf27adf393f6ba"
+    },
+    {
+      "package_path": "新版章节/02.md",
+      "repository_path": "textbook/新版章节/02.md",
+      "bytes": 11003,
+      "sha256": "6c3387dcc8ef3a88e1948d7733176431cb74c0587fd812044c31df7112c72f8b"
+    },
+    {
+      "package_path": "新版章节/03.md",
+      "repository_path": "textbook/新版章节/03.md",
+      "bytes": 11094,
+      "sha256": "494f3321bd44920079e6c86000aa2d8d0c7485bbd117d1ed3d5a9b327dbbb71e"
+    },
+    {
+      "package_path": "新版章节/04.md",
+      "repository_path": "textbook/新版章节/04.md",
+      "bytes": 10585,
+      "sha256": "9ab2a744bd57e7c3f23c1373356a9715d178041d8ed41e908e590e59fc986914"
+    },
+    {
+      "package_path": "新版章节/05.md",
+      "repository_path": "textbook/新版章节/05.md",
+      "bytes": 8809,
+      "sha256": "852b72aa31845fbbf41d3c1960c86ee6260a92a513957f3cf49c79d0b9c2cade"
+    },
+    {
+      "package_path": "新版章节/06.md",
+      "repository_path": "textbook/新版章节/06.md",
+      "bytes": 11115,
+      "sha256": "7127e24958c8e6be716f73b4f18155621f1b2a426ab735ec5874591bfff26c9f"
+    },
+    {
+      "package_path": "新版章节/07.md",
+      "repository_path": "textbook/新版章节/07.md",
+      "bytes": 10249,
+      "sha256": "7d1de740c450b56b3a7e0862042378466fbe54807ce027e9f38a8a7d2407b13c"
+    },
+    {
+      "package_path": "新版章节/08.md",
+      "repository_path": "textbook/新版章节/08.md",
+      "bytes": 9138,
+      "sha256": "998f7a0ac9990e16fa0f9d5350bc71bd748e8892f64b34cfa1ff9cc9dd3a5462"
+    },
+    {
+      "package_path": "新版章节/09.md",
+      "repository_path": "textbook/新版章节/09.md",
+      "bytes": 10528,
+      "sha256": "054dc7b96ead861d4419c9715a71f75ddc3a9fc183b7666d23de79d4c70b80ef"
+    },
+    {
+      "package_path": "新版章节/10.md",
+      "repository_path": "textbook/新版章节/10.md",
+      "bytes": 9260,
+      "sha256": "4b84ed966dcec082633ef9b85c7f592f5d38fda1436031b573431af722cf116c"
+    },
+    {
+      "package_path": "新版章节/11.md",
+      "repository_path": "textbook/新版章节/11.md",
+      "bytes": 8481,
+      "sha256": "d87eb1cafe2110a11329a15fe4c5e0a0de52c29404d105e189cba3817fdc9643"
+    },
+    {
+      "package_path": "新版章节/12.md",
+      "repository_path": "textbook/新版章节/12.md",
+      "bytes": 9737,
+      "sha256": "b26dbba1d9b04286de0f4fbd4c59c863273b818a2a617ee01c1730aa6c02cc27"
+    },
+    {
+      "package_path": "新版章节/13.md",
+      "repository_path": "textbook/新版章节/13.md",
+      "bytes": 9846,
+      "sha256": "350656d7a6ae9c80d25bf195346e40db3ef86f4e93b5b486ee5fc3e3ea692ad8"
+    },
+    {
+      "package_path": "新版章节/14.md",
+      "repository_path": "textbook/新版章节/14.md",
+      "bytes": 7978,
+      "sha256": "be56fa288ab891e3f5b1c1ed6d8fd28be13b8aee49f63cdafa625e3903047045"
+    },
+    {
+      "package_path": "新版章节/15.md",
+      "repository_path": "textbook/新版章节/15.md",
+      "bytes": 6828,
+      "sha256": "d67ab730b6ada0135d56a391521d3d9707c80427dc3d46e59f721cfb384a75c5"
+    },
+    {
+      "package_path": "新版章节/16.md",
+      "repository_path": "textbook/新版章节/16.md",
+      "bytes": 13767,
+      "sha256": "997d95e20305e6418b368539eed50517197843ac0f2241309572137b3d52f323"
+    },
+    {
+      "package_path": "新版章节/17.md",
+      "repository_path": "textbook/新版章节/17.md",
+      "bytes": 12097,
+      "sha256": "e244b307de109691470f61d315bfcfea51a2f3406ff761ff2942855df613709b"
+    },
+    {
+      "package_path": "新版章节/18.md",
+      "repository_path": "textbook/新版章节/18.md",
+      "bytes": 10833,
+      "sha256": "a0bcc424ce19eed1ddbb338c9630699776b7f5ce29332e3d4493f30a99e7a3a9"
+    },
+    {
+      "package_path": "新版章节/19.md",
+      "repository_path": "textbook/新版章节/19.md",
+      "bytes": 12099,
+      "sha256": "9b1ad2e1c190606ecc2c09c1c98e58a70632fd937b4c3d77a523d72175465a89"
+    },
+    {
+      "package_path": "新版章节/20.md",
+      "repository_path": "textbook/新版章节/20.md",
+      "bytes": 10977,
+      "sha256": "f92ba91b185cd441c891bf67a2fce937c1a1510813b3f70982760d368702fc78"
+    },
+    {
+      "package_path": "新版章节/21.md",
+      "repository_path": "textbook/新版章节/21.md",
+      "bytes": 9927,
+      "sha256": "f27990266b117baf522215b8909f49b316b3e106dec7308f4710fdb2f8abacf4"
+    },
+    {
+      "package_path": "新版章节/22.md",
+      "repository_path": "textbook/新版章节/22.md",
+      "bytes": 14226,
+      "sha256": "e509f26a1010beb0962a3f666a252e14f03a389c87f70e11e7518f803f1dea65"
+    },
+    {
+      "package_path": "新版章节/23.md",
+      "repository_path": "textbook/新版章节/23.md",
+      "bytes": 13622,
+      "sha256": "9529cb9b8698c0eeabfa0b277b991839599ae8ad36a6686fc07e3fdebbba0f21"
+    },
+    {
+      "package_path": "新版章节/24.md",
+      "repository_path": "textbook/新版章节/24.md",
+      "bytes": 11388,
+      "sha256": "49b58ae3246b545f309154fbada0c8bf71ba94ea010000b5f3deb366683c8ff3"
+    },
+    {
+      "package_path": "新版章节/25.md",
+      "repository_path": "textbook/新版章节/25.md",
+      "bytes": 11430,
+      "sha256": "900e60239fa584baffd29b0ff7b4cbc48b099652292c37accab200fbc8967338"
+    },
+    {
+      "package_path": "新版章节/26.md",
+      "repository_path": "textbook/新版章节/26.md",
+      "bytes": 10105,
+      "sha256": "5d83f234e543c5da0ab923a4183d6da2a7de7f722d34bc9c7128e0fb16109ad2"
+    },
+    {
+      "package_path": "新版章节/27.md",
+      "repository_path": "textbook/新版章节/27.md",
+      "bytes": 11599,
+      "sha256": "b018048678e8a844147945ca0bd7200218fcb9d6774e1941cd84a293cca6dea1"
+    },
+    {
+      "package_path": "新版章节/28.md",
+      "repository_path": "textbook/新版章节/28.md",
+      "bytes": 9426,
+      "sha256": "39e4ae4b2fd2fb24b825aed7204b9c5d1673d5b105762f15847d97a6908c94c5"
+    },
+    {
+      "package_path": "新版章节/29.md",
+      "repository_path": "textbook/新版章节/29.md",
+      "bytes": 10350,
+      "sha256": "6b8a39016e2449e344b4557db39513d541fcd1d24e992e1a035eef64270d51a4"
+    },
+    {
+      "package_path": "新版章节/30.md",
+      "repository_path": "textbook/新版章节/30.md",
+      "bytes": 9616,
+      "sha256": "182f225262a38c6eb5e298c49bf1978db4368830ecd3457ddb2656e66fd35fef"
+    },
+    {
+      "package_path": "新版章节/31.md",
+      "repository_path": "textbook/新版章节/31.md",
+      "bytes": 13832,
+      "sha256": "03bedc322af7e1cddec78118e2b9c9352faa34831b1061d458031b194d09288c"
+    },
+    {
+      "package_path": "新版章节/32.md",
+      "repository_path": "textbook/新版章节/32.md",
+      "bytes": 11175,
+      "sha256": "54fbaed33a94eece6386f12117f2f2a327af7f6ed14fa4d5f2d218c5c8095622"
+    },
+    {
+      "package_path": "新版章节/33.md",
+      "repository_path": "textbook/新版章节/33.md",
+      "bytes": 10637,
+      "sha256": "e2df4811873d2609fbb0819b1bb3a0a5b2f70abedbafd4414882f39b0705820d"
+    },
+    {
+      "package_path": "新版章节/34.md",
+      "repository_path": "textbook/新版章节/34.md",
+      "bytes": 13087,
+      "sha256": "a4960b9a2474e63c44c681ed5858ee88c1b49ffb23bea6b798eaf55e981a4335"
+    },
+    {
+      "package_path": "新版章节/35.md",
+      "repository_path": "textbook/新版章节/35.md",
+      "bytes": 10060,
+      "sha256": "33c72bbc543a3d37e711ff851b088a26109bb2a5e90a49e09e19f5f119f209f9"
+    },
+    {
+      "package_path": "新版章节/36.md",
+      "repository_path": "textbook/新版章节/36.md",
+      "bytes": 8774,
+      "sha256": "c8a5c571155f766411ccc01cf80738eda159ca6df678e4554644119bf87f6c49"
+    },
+    {
+      "package_path": "新版章节/37.md",
+      "repository_path": "textbook/新版章节/37.md",
+      "bytes": 10973,
+      "sha256": "326110441548929933f2986a8eb9702a3e3ac2718628e666dedc34a151a0e14a"
+    },
+    {
+      "package_path": "新版章节/38.md",
+      "repository_path": "textbook/新版章节/38.md",
+      "bytes": 16124,
+      "sha256": "da7ff7a58b3db48ccb092ab1ed19e356690256dec8c81e7604f63cd62430dcd4"
+    },
+    {
+      "package_path": "新版章节/39.md",
+      "repository_path": "textbook/新版章节/39.md",
+      "bytes": 8422,
+      "sha256": "38373c9f41da877b05c657c29f17dfa7def824119f2dd33ac1c49b0950fed1a4"
+    },
+    {
+      "package_path": "新版章节/40.md",
+      "repository_path": "textbook/新版章节/40.md",
+      "bytes": 19416,
+      "sha256": "ca8a49a37d9a30bed786002d862c0db767898ed057dd2e6549bab8143f665813"
+    },
+    {
+      "package_path": "新版章节/41.md",
+      "repository_path": "textbook/新版章节/41.md",
+      "bytes": 9238,
+      "sha256": "e2109a54471d5295da051a9fe61fcf36c4b25fc6b942afbd1413bfa7e11041b3"
+    },
+    {
+      "package_path": "新版章节/42.md",
+      "repository_path": "textbook/新版章节/42.md",
+      "bytes": 11383,
+      "sha256": "f0ead4283c07bfe02e480dc32691d0994b970e801aa686d2bfd95f49dfd1848e"
+    },
+    {
+      "package_path": "新版章节/43.md",
+      "repository_path": "textbook/新版章节/43.md",
+      "bytes": 6878,
+      "sha256": "8445de830ca188fae0235561f7aaf93f72008d0968eb1cbba07021a3d3462fdd"
+    },
+    {
+      "package_path": "新版章节/44.md",
+      "repository_path": "textbook/新版章节/44.md",
+      "bytes": 23000,
+      "sha256": "2d88be3eaa3676ad87807bc3617972c93f9d5d48895a276f267b6bfee65a10dc"
+    },
+    {
+      "package_path": "新版章节/章节映射.json",
+      "repository_path": "textbook/新版章节/章节映射.json",
+      "bytes": 2161,
+      "sha256": "cde97ac74d43963a2b2d38fefc8f302678fe92bd763245c322f90f5fb281bae1"
+    },
+    {
+      "package_path": "深度学习与AI_Agent开发.md",
+      "repository_path": "textbook/深度学习与AI_Agent开发.md",
+      "bytes": 538201,
+      "sha256": "deb2037a55c83a2691594354e380f826f14ecd291bd6ac95414a88a298e1c92a"
+    },
+    {
+      "package_path": "深度学习与AI_Agent开发_精排版.pdf",
+      "repository_path": "docs/book.pdf",
+      "bytes": 11147707,
+      "sha256": "26143783c5a2975434d8bc5567038b8eba3b8334fcbb9424b8bbbebb21c94ecf"
+    },
+    {
+      "package_path": "深度学习与AI_Agent开发_阅读版.html",
+      "repository_path": "docs/index.html",
+      "bytes": 15619759,
+      "sha256": "f7bb88205edfd39693dbdf295bae3c798683c56685ad0e34f2c6200ab7943276"
+    },
+    {
+      "package_path": "版本清理记录.json",
+      "repository_path": "textbook/版本清理记录.json",
+      "bytes": 3911,
+      "sha256": "9edcc147bb5ebb2523248f81f082ec594bb23dcd677a9959d5a092a83e17be42"
+    },
+    {
+      "package_path": "版权页.md",
+      "repository_path": "textbook/版权页.md",
+      "bytes": 1725,
+      "sha256": "e41028df153129de5bafd8aa25dd2733ce1946f16cee734a07650299d1e74674"
+    },
+    {
+      "package_path": "示例验证记录.md",
+      "repository_path": "textbook/示例验证记录.md",
+      "bytes": 5206,
+      "sha256": "a4d2cd82e3337509657ede3055ee18ef74c402b0199898d771cd426d5eba3c5e"
+    },
+    {
+      "package_path": "语气修订记录.json",
+      "repository_path": "textbook/语气修订记录.json",
+      "bytes": 95769,
+      "sha256": "36d2de37d5ebe9434107626be1ae0ea7521c2bf57d5b0baa393cc1dde606803d"
+    },
+    {
+      "package_path": "近年AI应用案例来源.md",
+      "repository_path": "textbook/近年AI应用案例来源.md",
+      "bytes": 5256,
+      "sha256": "172cad80f7acf19d6dd1b31087a4bf4f194ba67a828de2497c960dd434a3a88e"
+    },
+    {
+      "package_path": "阅读指南.md",
+      "repository_path": "textbook/阅读指南.md",
+      "bytes": 5830,
+      "sha256": "4c1e8fa3daabb0f2c390b0cf647df7954758fbd3f84fbe9cc8bc51b81a14bc42"
+    },
+    {
+      "package_path": "零基础增补预览.png",
+      "repository_path": "docs/assets/examples.png",
+      "bytes": 848010,
+      "sha256": "8982e51b58b10458f0b3cd7a328460a7a3c500345edee4c85fd6b6db44a3b8e7"
+    },
+    {
+      "package_path": "零基础补充记录.json",
+      "repository_path": "textbook/零基础补充记录.json",
+      "bytes": 56623,
+      "sha256": "6be60c12e3545f87861af25bbdf40bad135a0dfa23f551498a48e81b7d542062"
+    }
+  ]
+}

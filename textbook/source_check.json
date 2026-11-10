@@ -1,0 +1,15 @@
+{
+  "chapters": 44,
+  "source_chars": 213002,
+  "cjk_chars": 123656,
+  "prose_paragraphs": 1618,
+  "paragraph_cjk_percentiles": {
+    "0": 0,
+    "0.1": 17,
+    "0.25": 51,
+    "0.5": 68,
+    "0.75": 89,
+    "0.9": 107,
+    "1": 201
+  }
+}

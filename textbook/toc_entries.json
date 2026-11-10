@@ -1,0 +1,2830 @@
+[
+  {
+    "id": "copyright",
+    "type": "front",
+    "title": "版权与作者信息"
+  },
+  {
+    "id": "reading-guide",
+    "type": "front",
+    "title": "阅读说明"
+  },
+  {
+    "id": "overview",
+    "type": "front",
+    "title": "简明总目录"
+  },
+  {
+    "id": "part-01",
+    "type": "part",
+    "theme": "blue",
+    "title": "第 1 篇　深度学习原理与项目"
+  },
+  {
+    "id": "chapter-01",
+    "type": "chapter",
+    "theme": "blue",
+    "title": "第 1 章　深度学习的整体地图"
+  },
+  {
+    "id": "section-01-01",
+    "type": "section",
+    "theme": "blue",
+    "title": "1.1　人工智能、机器学习与深度学习"
+  },
+  {
+    "id": "section-01-02",
+    "type": "section",
+    "theme": "blue",
+    "title": "1.2　三个需要分开的维度"
+  },
+  {
+    "id": "section-01-03",
+    "type": "section",
+    "theme": "blue",
+    "title": "1.3　一个统一的数学描述"
+  },
+  {
+    "id": "section-01-04",
+    "type": "section",
+    "theme": "blue",
+    "title": "1.4　训练、推理与泛化"
+  },
+  {
+    "id": "section-01-05",
+    "type": "section",
+    "theme": "blue",
+    "title": "1.5　从业务问题到学习问题：先决定“什么时候知道什么”"
+  },
+  {
+    "id": "section-01-06",
+    "type": "section",
+    "theme": "blue",
+    "title": "1.6　学习究竟改变了什么：函数族与参数搜索"
+  },
+  {
+    "id": "section-01-07",
+    "type": "section",
+    "theme": "blue",
+    "title": "1.7　特征学习、表示空间与捷径"
+  },
+  {
+    "id": "section-01-08",
+    "type": "section",
+    "theme": "blue",
+    "title": "1.8　为什么预测不等于因果，为什么演示不等于系统"
+  },
+  {
+    "id": "chapter-02",
+    "type": "chapter",
+    "theme": "blue",
+    "title": "第 2 章　机器学习基线：与深度学习放在同一张地图上"
+  },
+  {
+    "id": "section-02-01",
+    "type": "section",
+    "theme": "blue",
+    "title": "2.1　为什么学完神经网络还要回看传统方法"
+  },
+  {
+    "id": "section-02-02",
+    "type": "section",
+    "theme": "blue",
+    "title": "2.2　线性回归不是只能拟合直线"
+  },
+  {
+    "id": "section-02-03",
+    "type": "section",
+    "theme": "blue",
+    "title": "2.3　决策树怎样选择一个问题"
+  },
+  {
+    "id": "section-02-04",
+    "type": "section",
+    "theme": "blue",
+    "title": "2.4　随机森林为什么要让树“不那么一样”"
+  },
+  {
+    "id": "section-02-05",
+    "type": "section",
+    "theme": "blue",
+    "title": "2.5　梯度提升怎样逐步修正前一轮"
+  },
+  {
+    "id": "section-02-06",
+    "type": "section",
+    "theme": "blue",
+    "title": "2.6　支持向量机：间隔与核函数"
+  },
+  {
+    "id": "section-02-07",
+    "type": "section",
+    "theme": "blue",
+    "title": "2.7　最近邻：为什么“距离”就是模型假设"
+  },
+  {
+    "id": "section-02-08",
+    "type": "section",
+    "theme": "blue",
+    "title": "2.8　PCA 与聚类分别学到了什么"
+  },
+  {
+    "id": "section-02-09",
+    "type": "section",
+    "theme": "blue",
+    "title": "2.9　如何选择第一批实验"
+  },
+  {
+    "id": "chapter-03",
+    "type": "chapter",
+    "theme": "blue",
+    "title": "第 3 章　张量、矩阵与形状"
+  },
+  {
+    "id": "section-03-01",
+    "type": "section",
+    "theme": "blue",
+    "title": "3.1　张量首先是带有形状的数值数组"
+  },
+  {
+    "id": "section-03-02",
+    "type": "section",
+    "theme": "blue",
+    "title": "3.2　线性层的形状"
+  },
+  {
+    "id": "section-03-03",
+    "type": "section",
+    "theme": "blue",
+    "title": "3.3　点积、矩阵乘法与逐元素乘法"
+  },
+  {
+    "id": "section-03-04",
+    "type": "section",
+    "theme": "blue",
+    "title": "3.4　广播是便利，也可能隐藏错误"
+  },
+  {
+    "id": "section-03-05",
+    "type": "section",
+    "theme": "blue",
+    "title": "3.5　特征缩放为什么重要"
+  },
+  {
+    "id": "section-03-06",
+    "type": "section",
+    "theme": "blue",
+    "title": "3.6　用具体数字理解一次批量线性变换"
+  },
+  {
+    "id": "section-03-07",
+    "type": "section",
+    "theme": "blue",
+    "title": "3.7　距离、内积与标准化：不同几何意味着不同相似"
+  },
+  {
+    "id": "section-03-08",
+    "type": "section",
+    "theme": "blue",
+    "title": "3.8　低秩、SVD 与压缩的直觉"
+  },
+  {
+    "id": "section-03-09",
+    "type": "section",
+    "theme": "blue",
+    "title": "3.9　数据类型、存储与计算顺序"
+  },
+  {
+    "id": "chapter-04",
+    "type": "chapter",
+    "theme": "blue",
+    "title": "第 4 章　导数、概率与学习目标"
+  },
+  {
+    "id": "section-04-01",
+    "type": "section",
+    "theme": "blue",
+    "title": "4.1　导数回答“改变一点，会影响多少”"
+  },
+  {
+    "id": "section-04-02",
+    "type": "section",
+    "theme": "blue",
+    "title": "4.2　链式法则是反向传播的基础"
+  },
+  {
+    "id": "section-04-03",
+    "type": "section",
+    "theme": "blue",
+    "title": "4.3　概率不是模型的绝对确定性"
+  },
+  {
+    "id": "section-04-04",
+    "type": "section",
+    "theme": "blue",
+    "title": "4.4　极大似然与损失函数"
+  },
+  {
+    "id": "section-04-05",
+    "type": "section",
+    "theme": "blue",
+    "title": "4.5　训练风险与真正关心的风险"
+  },
+  {
+    "id": "section-04-06",
+    "type": "section",
+    "theme": "blue",
+    "title": "4.6　梯度下降为什么有用：一阶近似与曲率"
+  },
+  {
+    "id": "section-04-07",
+    "type": "section",
+    "theme": "blue",
+    "title": "4.7　从高斯假设完整推到均方误差"
+  },
+  {
+    "id": "section-04-08",
+    "type": "section",
+    "theme": "blue",
+    "title": "4.8　熵、交叉熵与 KL：三者分别衡量什么"
+  },
+  {
+    "id": "section-04-09",
+    "type": "section",
+    "theme": "blue",
+    "title": "4.9　概率估计与决策阈值应分开"
+  },
+  {
+    "id": "chapter-05",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 5 章　从线性模型到神经网络"
+  },
+  {
+    "id": "section-05-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "5.1　一个神经元做什么"
+  },
+  {
+    "id": "section-05-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "5.2　为什么需要非线性"
+  },
+  {
+    "id": "section-05-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "5.3　常用激活函数"
+  },
+  {
+    "id": "section-05-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "5.4　多层感知机 MLP"
+  },
+  {
+    "id": "section-05-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "5.5　深度、宽度与表达能力"
+  },
+  {
+    "id": "section-05-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "5.6　一个能够精确表示 XOR 的小网络"
+  },
+  {
+    "id": "section-05-07",
+    "type": "section",
+    "theme": "teal",
+    "title": "5.7　ReLU 网络怎样画出折线"
+  },
+  {
+    "id": "section-05-08",
+    "type": "section",
+    "theme": "teal",
+    "title": "5.8　隐藏维度、参数预算与瓶颈"
+  },
+  {
+    "id": "section-05-09",
+    "type": "section",
+    "theme": "teal",
+    "title": "5.9　激活、输出与概率：不要把中间数值误解成结论"
+  },
+  {
+    "id": "chapter-06",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 6 章　前向传播与反向传播"
+  },
+  {
+    "id": "section-06-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "6.1　训练的一次更新"
+  },
+  {
+    "id": "section-06-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "6.2　完整手算例子"
+  },
+  {
+    "id": "section-06-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "6.3　两层网络的矩阵反向传播"
+  },
+  {
+    "id": "section-06-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "6.4　梯度检查"
+  },
+  {
+    "id": "section-06-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "6.5　为什么要清除梯度"
+  },
+  {
+    "id": "section-06-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "6.6　一条有分支的计算图：为什么梯度需要相加"
+  },
+  {
+    "id": "section-06-07",
+    "type": "section",
+    "theme": "teal",
+    "title": "6.7　一个两层网络的完整数值反向传播"
+  },
+  {
+    "id": "section-06-08",
+    "type": "section",
+    "theme": "teal",
+    "title": "6.8　自动微分、符号求导与数值差分"
+  },
+  {
+    "id": "section-06-09",
+    "type": "section",
+    "theme": "teal",
+    "title": "6.9　梯度累积的平均规则与一个容易漏掉的尾批次"
+  },
+  {
+    "id": "section-06-10",
+    "type": "section",
+    "theme": "teal",
+    "title": "6.10　反向传播为什么不必存下一整张雅可比矩阵"
+  },
+  {
+    "id": "chapter-07",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 7 章　推导实验室：把一个网络完整算到底"
+  },
+  {
+    "id": "section-07-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "7.1　为什么要做一次不跳步的计算"
+  },
+  {
+    "id": "section-07-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "7.2　前向传播：从形状开始核对"
+  },
+  {
+    "id": "section-07-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "7.3　输出层梯度：为什么要除以样本数"
+  },
+  {
+    "id": "section-07-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "7.4　隐藏层梯度：把 ReLU 的门放回去"
+  },
+  {
+    "id": "section-07-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "7.5　实现与数值差分为什么要互相核对"
+  },
+  {
+    "id": "section-07-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "7.6　差分步长为什么既不能太大也不能太小"
+  },
+  {
+    "id": "section-07-07",
+    "type": "section",
+    "theme": "teal",
+    "title": "7.7　正则项的导数与权重衰减"
+  },
+  {
+    "id": "section-07-08",
+    "type": "section",
+    "theme": "teal",
+    "title": "7.8　Softmax 的雅可比怎样解释类别耦合"
+  },
+  {
+    "id": "section-07-09",
+    "type": "section",
+    "theme": "teal",
+    "title": "7.9　从推导迁移到真实代码的核对顺序"
+  },
+  {
+    "id": "chapter-08",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 8 章　输出层与损失函数"
+  },
+  {
+    "id": "section-08-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "8.1　回归：MSE、MAE 与 Huber"
+  },
+  {
+    "id": "section-08-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "8.2　二分类：一个 logit 与 Sigmoid"
+  },
+  {
+    "id": "section-08-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "8.3　多分类：Softmax 与交叉熵"
+  },
+  {
+    "id": "section-08-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "8.4　多分类与多标签的区别"
+  },
+  {
+    "id": "section-08-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "8.5　损失与评价指标"
+  },
+  {
+    "id": "section-08-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "8.6　二元交叉熵的梯度为什么特别简洁"
+  },
+  {
+    "id": "section-08-07",
+    "type": "section",
+    "theme": "teal",
+    "title": "8.7　Softmax 与交叉熵怎样组合"
+  },
+  {
+    "id": "section-08-08",
+    "type": "section",
+    "theme": "teal",
+    "title": "8.8　类别不平衡：权重、采样与 Focal Loss 的区别"
+  },
+  {
+    "id": "section-08-09",
+    "type": "section",
+    "theme": "teal",
+    "title": "8.9　分位数损失与不对称预测"
+  },
+  {
+    "id": "chapter-09",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 9 章　优化器与训练动力学"
+  },
+  {
+    "id": "section-09-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.1　Batch、Step 与 Epoch"
+  },
+  {
+    "id": "section-09-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.2　SGD 与小批量噪声"
+  },
+  {
+    "id": "section-09-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.3　Momentum：平滑方向"
+  },
+  {
+    "id": "section-09-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.4　Adam 与 AdamW"
+  },
+  {
+    "id": "section-09-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.5　学习率调度"
+  },
+  {
+    "id": "section-09-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.6　梯度裁剪"
+  },
+  {
+    "id": "section-09-07",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.7　一次 Adam 更新的手算"
+  },
+  {
+    "id": "section-09-08",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.8　学习率与 batch 为什么经常一起讨论"
+  },
+  {
+    "id": "section-09-09",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.9　学习率调度是控制过程，不是装饰参数"
+  },
+  {
+    "id": "section-09-10",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.10　怎样阅读训练曲线，而不只看最后一个数"
+  },
+  {
+    "id": "section-09-11",
+    "type": "section",
+    "theme": "teal",
+    "title": "9.11　梯度为零，为什么不一定是最小值"
+  },
+  {
+    "id": "chapter-10",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 10 章　初始化、归一化与残差连接"
+  },
+  {
+    "id": "section-10-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "10.1　梯度为什么会消失或爆炸"
+  },
+  {
+    "id": "section-10-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "10.2　初始化与对称性"
+  },
+  {
+    "id": "section-10-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "10.3　Batch Normalization"
+  },
+  {
+    "id": "section-10-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "10.4　Layer Normalization"
+  },
+  {
+    "id": "section-10-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "10.5　残差连接"
+  },
+  {
+    "id": "section-10-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "10.6　初始化尺度怎样从方差传播推出来"
+  },
+  {
+    "id": "section-10-07",
+    "type": "section",
+    "theme": "teal",
+    "title": "10.7　手算 BatchNorm：批次里其他样本为什么会影响你"
+  },
+  {
+    "id": "section-10-08",
+    "type": "section",
+    "theme": "teal",
+    "title": "10.8　LayerNorm 与 RMSNorm：保留和删除了哪些尺度信息"
+  },
+  {
+    "id": "section-10-09",
+    "type": "section",
+    "theme": "teal",
+    "title": "10.9　残差连接的梯度与投影"
+  },
+  {
+    "id": "chapter-11",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 11 章　泛化、正则化与数据增强"
+  },
+  {
+    "id": "section-11-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "11.1　欠拟合与过拟合"
+  },
+  {
+    "id": "section-11-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "11.2　L2 与权重衰减"
+  },
+  {
+    "id": "section-11-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "11.3　Dropout"
+  },
+  {
+    "id": "section-11-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "11.4　数据增强"
+  },
+  {
+    "id": "section-11-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "11.5　早停与模型选择"
+  },
+  {
+    "id": "section-11-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "11.6　迁移学习"
+  },
+  {
+    "id": "section-11-07",
+    "type": "section",
+    "theme": "teal",
+    "title": "11.7　偏差、方差与不可约噪声"
+  },
+  {
+    "id": "section-11-08",
+    "type": "section",
+    "theme": "teal",
+    "title": "11.8　数据增强为什么等价于告诉模型什么该保持不变"
+  },
+  {
+    "id": "section-11-09",
+    "type": "section",
+    "theme": "teal",
+    "title": "11.9　早停本身也是一次模型选择"
+  },
+  {
+    "id": "section-11-10",
+    "type": "section",
+    "theme": "teal",
+    "title": "11.10　正则化为何可能伤害，以及怎样决定保留哪些方法"
+  },
+  {
+    "id": "chapter-12",
+    "type": "chapter",
+    "theme": "orange",
+    "title": "第 12 章　数据集、泄漏与实验设计"
+  },
+  {
+    "id": "section-12-01",
+    "type": "section",
+    "theme": "orange",
+    "title": "12.1　先定义独立样本单位"
+  },
+  {
+    "id": "section-12-02",
+    "type": "section",
+    "theme": "orange",
+    "title": "12.2　数据泄漏的几种来源"
+  },
+  {
+    "id": "section-12-03",
+    "type": "section",
+    "theme": "orange",
+    "title": "12.3　建立基线"
+  },
+  {
+    "id": "section-12-04",
+    "type": "section",
+    "theme": "orange",
+    "title": "12.4　公平比较与消融"
+  },
+  {
+    "id": "section-12-05",
+    "type": "section",
+    "theme": "orange",
+    "title": "12.5　可复现记录"
+  },
+  {
+    "id": "section-12-06",
+    "type": "section",
+    "theme": "orange",
+    "title": "12.6　切分数据的正确顺序"
+  },
+  {
+    "id": "section-12-07",
+    "type": "section",
+    "theme": "orange",
+    "title": "12.7　时间序列中，“过去窗口重叠”不总是同一种泄漏"
+  },
+  {
+    "id": "section-12-08",
+    "type": "section",
+    "theme": "orange",
+    "title": "12.8　对照实验、随机种子与统计解释"
+  },
+  {
+    "id": "section-12-09",
+    "type": "section",
+    "theme": "orange",
+    "title": "12.9　数据说明书与结果复核"
+  },
+  {
+    "id": "section-12-10",
+    "type": "section",
+    "theme": "orange",
+    "title": "12.10　交叉验证里还藏着哪一层模型选择"
+  },
+  {
+    "id": "chapter-13",
+    "type": "chapter",
+    "theme": "violet",
+    "title": "第 13 章　卷积神经网络与视觉任务"
+  },
+  {
+    "id": "section-13-01",
+    "type": "section",
+    "theme": "violet",
+    "title": "13.1　为什么图像需要结构假设"
+  },
+  {
+    "id": "section-13-02",
+    "type": "section",
+    "theme": "violet",
+    "title": "13.2　卷积的计算与输出尺寸"
+  },
+  {
+    "id": "section-13-03",
+    "type": "section",
+    "theme": "violet",
+    "title": "13.3　感受野与下采样"
+  },
+  {
+    "id": "section-13-04",
+    "type": "section",
+    "theme": "violet",
+    "title": "13.4　从分类到检测与分割"
+  },
+  {
+    "id": "section-13-05",
+    "type": "section",
+    "theme": "violet",
+    "title": "13.5　CNN 与 ViT"
+  },
+  {
+    "id": "section-13-06",
+    "type": "section",
+    "theme": "violet",
+    "title": "13.6　手算一个卷积窗口与它的梯度"
+  },
+  {
+    "id": "section-13-07",
+    "type": "section",
+    "theme": "violet",
+    "title": "13.7　感受野可以逐层计算"
+  },
+  {
+    "id": "section-13-08",
+    "type": "section",
+    "theme": "violet",
+    "title": "13.8　1×1、分组与深度可分离卷积"
+  },
+  {
+    "id": "section-13-09",
+    "type": "section",
+    "theme": "violet",
+    "title": "13.9　分割中的上采样、跳连与边界"
+  },
+  {
+    "id": "chapter-14",
+    "type": "chapter",
+    "theme": "blue",
+    "title": "第 14 章　视觉进阶：目标检测、匹配与错误分析"
+  },
+  {
+    "id": "section-14-01",
+    "type": "section",
+    "theme": "blue",
+    "title": "14.1　为什么检测比分类多了一个集合问题"
+  },
+  {
+    "id": "section-14-02",
+    "type": "section",
+    "theme": "blue",
+    "title": "14.2　框坐标和 IoU 应先手算一次"
+  },
+  {
+    "id": "section-14-03",
+    "type": "section",
+    "theme": "blue",
+    "title": "14.3　两阶段、密集预测与集合预测"
+  },
+  {
+    "id": "section-14-04",
+    "type": "section",
+    "theme": "blue",
+    "title": "14.4　为什么一个检测器往往有多个损失"
+  },
+  {
+    "id": "section-14-05",
+    "type": "section",
+    "theme": "blue",
+    "title": "14.5　非极大值抑制怎样移除重复框"
+  },
+  {
+    "id": "section-14-06",
+    "type": "section",
+    "theme": "blue",
+    "title": "14.6　多尺度特征为什么有用"
+  },
+  {
+    "id": "section-14-07",
+    "type": "section",
+    "theme": "blue",
+    "title": "14.7　AP 需要类别、排序与匹配共同决定"
+  },
+  {
+    "id": "section-14-08",
+    "type": "section",
+    "theme": "blue",
+    "title": "14.8　怎样分析检测器到底错在哪里"
+  },
+  {
+    "id": "chapter-15",
+    "type": "chapter",
+    "theme": "violet",
+    "title": "第 15 章　循环网络与序列建模"
+  },
+  {
+    "id": "section-15-01",
+    "type": "section",
+    "theme": "violet",
+    "title": "15.1　顺序包含信息"
+  },
+  {
+    "id": "section-15-02",
+    "type": "section",
+    "theme": "violet",
+    "title": "15.2　时间反向传播"
+  },
+  {
+    "id": "section-15-03",
+    "type": "section",
+    "theme": "violet",
+    "title": "15.3　LSTM 与 GRU 的门控"
+  },
+  {
+    "id": "section-15-04",
+    "type": "section",
+    "theme": "violet",
+    "title": "15.4　序列任务中的数据问题"
+  },
+  {
+    "id": "section-15-05",
+    "type": "section",
+    "theme": "violet",
+    "title": "15.5　RNN 是一组共享参数的状态更新"
+  },
+  {
+    "id": "section-15-06",
+    "type": "section",
+    "theme": "violet",
+    "title": "15.6　门控为什么有助于保留信息"
+  },
+  {
+    "id": "section-15-07",
+    "type": "section",
+    "theme": "violet",
+    "title": "15.7　Teacher forcing 与自由运行"
+  },
+  {
+    "id": "section-15-08",
+    "type": "section",
+    "theme": "violet",
+    "title": "15.8　采样率、窗口长度与物理时间"
+  },
+  {
+    "id": "chapter-16",
+    "type": "chapter",
+    "theme": "violet",
+    "title": "第 16 章　注意力与 Transformer"
+  },
+  {
+    "id": "section-16-01",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.1　注意力解决什么问题"
+  },
+  {
+    "id": "section-16-02",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.2　缩放点积注意力"
+  },
+  {
+    "id": "section-16-03",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.3　一个可手算的注意力例子"
+  },
+  {
+    "id": "section-16-04",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.4　多头、位置与前馈网络"
+  },
+  {
+    "id": "section-16-05",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.5　一个常见的 Pre-LN 块"
+  },
+  {
+    "id": "section-16-06",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.6　计算成本与缓存"
+  },
+  {
+    "id": "section-16-07",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.7　从三个 token 手算 Q、K、V 和输出"
+  },
+  {
+    "id": "section-16-08",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.8　Q 和 K 为什么不直接相同，V 又为何单独存在"
+  },
+  {
+    "id": "section-16-09",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.9　位置表示怎样进入注意力"
+  },
+  {
+    "id": "section-16-10",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.10　一次生成到底计算了什么"
+  },
+  {
+    "id": "section-16-11",
+    "type": "section",
+    "theme": "violet",
+    "title": "16.11　不保存整张注意力矩阵，怎样仍得到同一个加权和"
+  },
+  {
+    "id": "chapter-17",
+    "type": "chapter",
+    "theme": "violet",
+    "title": "第 17 章　表示学习、预训练与多模态"
+  },
+  {
+    "id": "section-17-01",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.1　Embedding 是什么"
+  },
+  {
+    "id": "section-17-02",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.2　自监督目标"
+  },
+  {
+    "id": "section-17-03",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.3　对比学习"
+  },
+  {
+    "id": "section-17-04",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.4　预训练与下游适配"
+  },
+  {
+    "id": "section-17-05",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.5　多模态学习"
+  },
+  {
+    "id": "section-17-06",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.6　Embedding 表的训练与未见对象"
+  },
+  {
+    "id": "section-17-07",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.7　对比目标为什么会坍塌，负样本怎样起作用"
+  },
+  {
+    "id": "section-17-08",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.8　迁移学习的四种实验与负迁移"
+  },
+  {
+    "id": "section-17-09",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.9　多模态对齐与融合不是同一个步骤"
+  },
+  {
+    "id": "section-17-10",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.10　对比损失的数值实验：温度究竟改变了什么"
+  },
+  {
+    "id": "section-17-11",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.11　掩码重建为什么能够产生表示"
+  },
+  {
+    "id": "section-17-12",
+    "type": "section",
+    "theme": "violet",
+    "title": "17.12　CLIP 式零样本分类怎样落到一次计算"
+  },
+  {
+    "id": "chapter-18",
+    "type": "chapter",
+    "theme": "berry",
+    "title": "第 18 章　生成模型：AE、VAE、GAN、扩散与自回归"
+  },
+  {
+    "id": "section-18-01",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.1　从判断标签到描述数据分布"
+  },
+  {
+    "id": "section-18-02",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.2　自编码器 AE"
+  },
+  {
+    "id": "section-18-03",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.3　变分自编码器 VAE"
+  },
+  {
+    "id": "section-18-04",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.4　生成对抗网络 GAN"
+  },
+  {
+    "id": "section-18-05",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.5　扩散模型"
+  },
+  {
+    "id": "section-18-06",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.6　自回归生成"
+  },
+  {
+    "id": "section-18-07",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.7　各类方法的比较"
+  },
+  {
+    "id": "section-18-08",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.8　VAE 的 KL 项为什么出现"
+  },
+  {
+    "id": "section-18-09",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.9　重参数化为什么能够传播梯度"
+  },
+  {
+    "id": "section-18-10",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.10　GAN 的训练为什么不像普通单目标最小化"
+  },
+  {
+    "id": "section-18-11",
+    "type": "section",
+    "theme": "berry",
+    "title": "18.11　扩散训练与扩散采样是两个不同过程"
+  },
+  {
+    "id": "chapter-19",
+    "type": "chapter",
+    "theme": "violet",
+    "title": "第 19 章　图神经网络与深度强化学习"
+  },
+  {
+    "id": "section-19-01",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.1　图数据的特点"
+  },
+  {
+    "id": "section-19-02",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.2　强化学习的基本对象"
+  },
+  {
+    "id": "section-19-03",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.3　价值、策略与 Actor-Critic"
+  },
+  {
+    "id": "section-19-04",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.4　为什么奖励设计困难"
+  },
+  {
+    "id": "section-19-05",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.5　图聚合为什么要关注节点顺序"
+  },
+  {
+    "id": "section-19-06",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.6　图归一化与过平滑"
+  },
+  {
+    "id": "section-19-07",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.7　Bellman 思想：长期价值怎样拆成一步与未来"
+  },
+  {
+    "id": "section-19-08",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.8　探索、奖励与仿真到现实"
+  },
+  {
+    "id": "section-19-09",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.9　三个节点的图卷积：把邻居聚合算出来"
+  },
+  {
+    "id": "section-19-10",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.10　策略梯度怎样直接提高期望奖励"
+  },
+  {
+    "id": "section-19-11",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.11　Actor–Critic 与 PPO 分别解决什么困难"
+  },
+  {
+    "id": "section-19-12",
+    "type": "section",
+    "theme": "violet",
+    "title": "19.12　强化学习项目该怎样设计第一轮验证"
+  },
+  {
+    "id": "chapter-20",
+    "type": "chapter",
+    "theme": "orange",
+    "title": "第 20 章　评价指标、可信度与错误分析"
+  },
+  {
+    "id": "section-20-01",
+    "type": "section",
+    "theme": "orange",
+    "title": "20.1　二分类混淆矩阵"
+  },
+  {
+    "id": "section-20-02",
+    "type": "section",
+    "theme": "orange",
+    "title": "20.2　Accuracy 为什么可能误导"
+  },
+  {
+    "id": "section-20-03",
+    "type": "section",
+    "theme": "orange",
+    "title": "20.3　回归、分割与生成评价"
+  },
+  {
+    "id": "section-20-04",
+    "type": "section",
+    "theme": "orange",
+    "title": "20.4　校准、不确定性与分布变化"
+  },
+  {
+    "id": "section-20-05",
+    "type": "section",
+    "theme": "orange",
+    "title": "20.5　解释与错误分析"
+  },
+  {
+    "id": "section-20-06",
+    "type": "section",
+    "theme": "orange",
+    "title": "20.6　用一张混淆矩阵完整计算指标"
+  },
+  {
+    "id": "section-20-07",
+    "type": "section",
+    "theme": "orange",
+    "title": "20.7　校准曲线与 Brier 分数"
+  },
+  {
+    "id": "section-20-08",
+    "type": "section",
+    "theme": "orange",
+    "title": "20.8　置信区间与相关样本"
+  },
+  {
+    "id": "section-20-09",
+    "type": "section",
+    "theme": "orange",
+    "title": "20.9　分布外测试与错误切片"
+  },
+  {
+    "id": "section-20-10",
+    "type": "section",
+    "theme": "orange",
+    "title": "20.10　两种不确定性怎样出现在预测中"
+  },
+  {
+    "id": "chapter-21",
+    "type": "chapter",
+    "theme": "orange",
+    "title": "第 21 章　完整训练代码与工程实践"
+  },
+  {
+    "id": "section-21-01",
+    "type": "section",
+    "theme": "orange",
+    "title": "21.1　本书的两个实验"
+  },
+  {
+    "id": "section-21-02",
+    "type": "section",
+    "theme": "orange",
+    "title": "21.2　框架训练循环"
+  },
+  {
+    "id": "section-21-03",
+    "type": "section",
+    "theme": "orange",
+    "title": "21.3　保存什么"
+  },
+  {
+    "id": "section-21-04",
+    "type": "section",
+    "theme": "orange",
+    "title": "21.4　显存与计算"
+  },
+  {
+    "id": "section-21-05",
+    "type": "section",
+    "theme": "orange",
+    "title": "21.5　压缩与部署"
+  },
+  {
+    "id": "section-21-06",
+    "type": "section",
+    "theme": "orange",
+    "title": "21.6　排错顺序"
+  },
+  {
+    "id": "section-21-07",
+    "type": "section",
+    "theme": "orange",
+    "title": "21.7　Dataset、DataLoader 与训练职责"
+  },
+  {
+    "id": "section-21-08",
+    "type": "section",
+    "theme": "orange",
+    "title": "21.8　参数没有更新时，按证据逐层排查"
+  },
+  {
+    "id": "section-21-09",
+    "type": "section",
+    "theme": "orange",
+    "title": "21.9　从 checkpoint 到可复现推理"
+  },
+  {
+    "id": "section-21-10",
+    "type": "section",
+    "theme": "orange",
+    "title": "21.10　实际性能：延迟、吞吐量与内存"
+  },
+  {
+    "id": "chapter-22",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 22 章　项目一：共享单车需求预测"
+  },
+  {
+    "id": "section-22-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "22.1　把“预测需求”写成一个可以检验的任务"
+  },
+  {
+    "id": "section-22-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "22.2　特征的含义比网络层数更重要"
+  },
+  {
+    "id": "section-22-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "22.3　按时间划分，并把标准化关在训练集内"
+  },
+  {
+    "id": "section-22-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "22.4　三类基线分别回答什么问题"
+  },
+  {
+    "id": "section-22-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "22.5　MLP 的每一步到底在计算什么"
+  },
+  {
+    "id": "section-22-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "22.6　结果：更复杂的模型没有自动赢"
+  },
+  {
+    "id": "section-22-07",
+    "type": "section",
+    "theme": "teal",
+    "title": "22.7　残差怎样帮助我们提出下一轮实验"
+  },
+  {
+    "id": "section-22-08",
+    "type": "section",
+    "theme": "teal",
+    "title": "22.8　从离线脚本走向一个每天运行的服务"
+  },
+  {
+    "id": "section-22-09",
+    "type": "section",
+    "theme": "teal",
+    "title": "22.9　动手任务与参考思路"
+  },
+  {
+    "id": "chapter-23",
+    "type": "chapter",
+    "theme": "blue",
+    "title": "第 23 章　项目二：从像素到手写数字分类"
+  },
+  {
+    "id": "section-23-01",
+    "type": "section",
+    "theme": "blue",
+    "title": "23.1　一张图片怎样成为一个样本"
+  },
+  {
+    "id": "section-23-02",
+    "type": "section",
+    "theme": "blue",
+    "title": "23.2　划分协议决定你能宣称什么"
+  },
+  {
+    "id": "section-23-03",
+    "type": "section",
+    "theme": "blue",
+    "title": "23.3　先让线性模型看见全部像素"
+  },
+  {
+    "id": "section-23-04",
+    "type": "section",
+    "theme": "blue",
+    "title": "23.4　CNN 的形状账本"
+  },
+  {
+    "id": "section-23-05",
+    "type": "section",
+    "theme": "blue",
+    "title": "23.5　训练循环中的三条信息流"
+  },
+  {
+    "id": "section-23-06",
+    "type": "section",
+    "theme": "blue",
+    "title": "23.6　实际结果与错误图"
+  },
+  {
+    "id": "section-23-07",
+    "type": "section",
+    "theme": "blue",
+    "title": "23.7　为什么训练损失下降，准确率可能停住"
+  },
+  {
+    "id": "section-23-08",
+    "type": "section",
+    "theme": "blue",
+    "title": "23.8　改成真实拍照数字识别时，哪里会变化"
+  },
+  {
+    "id": "section-23-09",
+    "type": "section",
+    "theme": "blue",
+    "title": "23.9　练习：把一个分数还原成一次实验"
+  },
+  {
+    "id": "section-23-10",
+    "type": "section",
+    "theme": "blue",
+    "title": "23.10　可视化特征图，就解释了模型吗"
+  },
+  {
+    "id": "chapter-24",
+    "type": "chapter",
+    "theme": "orange",
+    "title": "第 24 章　项目三：传感器时序去噪与在线估计"
+  },
+  {
+    "id": "section-24-01",
+    "type": "section",
+    "theme": "orange",
+    "title": "24.1　先区分测量、估计与预测"
+  },
+  {
+    "id": "section-24-02",
+    "type": "section",
+    "theme": "orange",
+    "title": "24.2　构造一个包含噪声、尖峰与缺失的世界"
+  },
+  {
+    "id": "section-24-03",
+    "type": "section",
+    "theme": "orange",
+    "title": "24.3　为什么必须按整段轨迹划分"
+  },
+  {
+    "id": "section-24-04",
+    "type": "section",
+    "theme": "orange",
+    "title": "24.4　为什么中值滤波是一个必须比较的对手"
+  },
+  {
+    "id": "section-24-05",
+    "type": "section",
+    "theme": "orange",
+    "title": "24.5　一维卷积怎样利用时间邻域"
+  },
+  {
+    "id": "section-24-06",
+    "type": "section",
+    "theme": "orange",
+    "title": "24.6　结果：MAE 与 RMSE 给出了不同侧面"
+  },
+  {
+    "id": "section-24-07",
+    "type": "section",
+    "theme": "orange",
+    "title": "24.7　当运动突然改变，平滑器可能做错什么"
+  },
+  {
+    "id": "section-24-08",
+    "type": "section",
+    "theme": "orange",
+    "title": "24.8　采样频率为什么是模型的一部分"
+  },
+  {
+    "id": "section-24-09",
+    "type": "section",
+    "theme": "orange",
+    "title": "24.9　从模拟转向真实采集的实验方案"
+  },
+  {
+    "id": "chapter-25",
+    "type": "chapter",
+    "theme": "violet",
+    "title": "第 25 章　项目四：像素级缺陷分割"
+  },
+  {
+    "id": "section-25-01",
+    "type": "section",
+    "theme": "violet",
+    "title": "25.1　分类回答“有没有”，分割回答“在哪里”"
+  },
+  {
+    "id": "section-25-02",
+    "type": "section",
+    "theme": "violet",
+    "title": "25.2　为什么全预测背景也可能“准确率很高”"
+  },
+  {
+    "id": "section-25-03",
+    "type": "section",
+    "theme": "violet",
+    "title": "25.3　阈值法为什么值得先做"
+  },
+  {
+    "id": "section-25-04",
+    "type": "section",
+    "theme": "violet",
+    "title": "25.4　一个可以逐层理解的 Tiny U-Net"
+  },
+  {
+    "id": "section-25-05",
+    "type": "section",
+    "theme": "violet",
+    "title": "25.5　为什么使用带正类权重的 BCE"
+  },
+  {
+    "id": "section-25-06",
+    "type": "section",
+    "theme": "violet",
+    "title": "25.6　结果与可视化的对应关系"
+  },
+  {
+    "id": "section-25-07",
+    "type": "section",
+    "theme": "violet",
+    "title": "25.7　为什么掩膜缩放不能照搬图片缩放"
+  },
+  {
+    "id": "section-25-08",
+    "type": "section",
+    "theme": "violet",
+    "title": "25.8　分割错误怎样转化为项目改进"
+  },
+  {
+    "id": "section-25-09",
+    "type": "section",
+    "theme": "violet",
+    "title": "25.9　真实生产数据中的标注与验收"
+  },
+  {
+    "id": "chapter-26",
+    "type": "chapter",
+    "theme": "orange",
+    "title": "第 26 章　工程实验室：复现、诊断与独立完成项目"
+  },
+  {
+    "id": "section-26-01",
+    "type": "section",
+    "theme": "orange",
+    "title": "26.1　一次训练的最小完整记录"
+  },
+  {
+    "id": "section-26-02",
+    "type": "section",
+    "theme": "orange",
+    "title": "26.2　为什么训练函数要深拷贝最佳参数"
+  },
+  {
+    "id": "section-26-03",
+    "type": "section",
+    "theme": "orange",
+    "title": "26.3　epoch、step 与样本数的账本"
+  },
+  {
+    "id": "section-26-04",
+    "type": "section",
+    "theme": "orange",
+    "title": "26.4　可复现随机性应该控制到哪一层"
+  },
+  {
+    "id": "section-26-05",
+    "type": "section",
+    "theme": "orange",
+    "title": "26.5　按现象选择排查路径"
+  },
+  {
+    "id": "section-26-06",
+    "type": "section",
+    "theme": "orange",
+    "title": "26.6　模型文件必须配套哪些东西"
+  },
+  {
+    "id": "section-26-07",
+    "type": "section",
+    "theme": "orange",
+    "title": "26.7　把实验报告写成可以被反驳的陈述"
+  },
+  {
+    "id": "section-26-08",
+    "type": "section",
+    "theme": "orange",
+    "title": "26.8　一个独立项目的完成标准"
+  },
+  {
+    "id": "section-26-09",
+    "type": "section",
+    "theme": "orange",
+    "title": "26.9　自学时如何检查自己是否真正理解"
+  },
+  {
+    "id": "chapter-27",
+    "type": "chapter",
+    "theme": "berry",
+    "title": "第 27 章　高效训练与部署：内存、量化、蒸馏和并行"
+  },
+  {
+    "id": "section-27-01",
+    "type": "section",
+    "theme": "berry",
+    "title": "27.1　参数量不是内存账单的全部"
+  },
+  {
+    "id": "section-27-02",
+    "type": "section",
+    "theme": "berry",
+    "title": "27.2　混合精度为什么能快，又为什么会出问题"
+  },
+  {
+    "id": "section-27-03",
+    "type": "section",
+    "theme": "berry",
+    "title": "27.3　激活重计算是在用什么换什么"
+  },
+  {
+    "id": "section-27-04",
+    "type": "section",
+    "theme": "berry",
+    "title": "27.4　量化怎样近似一个实数"
+  },
+  {
+    "id": "section-27-05",
+    "type": "section",
+    "theme": "berry",
+    "title": "27.5　训练后量化与量化感知训练"
+  },
+  {
+    "id": "section-27-06",
+    "type": "section",
+    "theme": "berry",
+    "title": "27.6　知识蒸馏为什么使用软目标"
+  },
+  {
+    "id": "section-27-07",
+    "type": "section",
+    "theme": "berry",
+    "title": "27.7　剪枝的稀疏与硬件的快不是一回事"
+  },
+  {
+    "id": "section-27-08",
+    "type": "section",
+    "theme": "berry",
+    "title": "27.8　多设备训练为什么要同步梯度"
+  },
+  {
+    "id": "section-27-09",
+    "type": "section",
+    "theme": "berry",
+    "title": "27.9　部署验收应比较完整路径"
+  },
+  {
+    "id": "section-27-10",
+    "type": "section",
+    "theme": "berry",
+    "title": "27.10　推理时怎样把 BatchNorm 合并进线性层"
+  },
+  {
+    "id": "chapter-28",
+    "type": "chapter",
+    "theme": "orange",
+    "title": "第 28 章　练习、答案与进一步学习"
+  },
+  {
+    "id": "section-28-01",
+    "type": "section",
+    "theme": "orange",
+    "title": "28.1　概念与计算练习"
+  },
+  {
+    "id": "section-28-02",
+    "type": "section",
+    "theme": "orange",
+    "title": "28.2　参考答案"
+  },
+  {
+    "id": "section-28-03",
+    "type": "section",
+    "theme": "orange",
+    "title": "28.3　四项逐步推进的拓展练习"
+  },
+  {
+    "id": "section-28-04",
+    "type": "section",
+    "theme": "orange",
+    "title": "28.4　阅读论文的方法"
+  },
+  {
+    "id": "section-28-05",
+    "type": "section",
+    "theme": "orange",
+    "title": "28.5　进一步学习的主线"
+  },
+  {
+    "id": "section-28-06",
+    "type": "section",
+    "theme": "orange",
+    "title": "28.6　掌握程度检查表"
+  },
+  {
+    "id": "section-28-07",
+    "type": "section",
+    "theme": "orange",
+    "title": "28.7　综合练习一：发现一个“完美”的错误实验"
+  },
+  {
+    "id": "section-28-08",
+    "type": "section",
+    "theme": "orange",
+    "title": "28.8　综合练习二：从形状推断网络计算"
+  },
+  {
+    "id": "section-28-09",
+    "type": "section",
+    "theme": "orange",
+    "title": "28.9　综合练习三：同一个测试集上的两种改进"
+  },
+  {
+    "id": "section-28-10",
+    "type": "section",
+    "theme": "orange",
+    "title": "28.10　综合练习四：给一个检索问答系统制定验收方案"
+  },
+  {
+    "id": "part-02",
+    "type": "part",
+    "theme": "berry",
+    "title": "第 2 篇　大语言模型与检索"
+  },
+  {
+    "id": "chapter-29",
+    "type": "chapter",
+    "theme": "berry",
+    "title": "第 29 章　大语言模型的训练与使用"
+  },
+  {
+    "id": "section-29-01",
+    "type": "section",
+    "theme": "berry",
+    "title": "29.1　Tokenization"
+  },
+  {
+    "id": "section-29-02",
+    "type": "section",
+    "theme": "berry",
+    "title": "29.2　语言模型的预训练"
+  },
+  {
+    "id": "section-29-03",
+    "type": "section",
+    "theme": "berry",
+    "title": "29.3　指令微调与偏好学习"
+  },
+  {
+    "id": "section-29-04",
+    "type": "section",
+    "theme": "berry",
+    "title": "29.4　LoRA 与参数高效微调"
+  },
+  {
+    "id": "section-29-05",
+    "type": "section",
+    "theme": "berry",
+    "title": "29.5　提示、检索与微调"
+  },
+  {
+    "id": "section-29-06",
+    "type": "section",
+    "theme": "berry",
+    "title": "29.6　解码与温度"
+  },
+  {
+    "id": "section-29-07",
+    "type": "section",
+    "theme": "berry",
+    "title": "29.7　下一 token 预测怎样变成一个训练批次"
+  },
+  {
+    "id": "section-29-08",
+    "type": "section",
+    "theme": "berry",
+    "title": "29.8　参数知识、上下文信息与工具结果"
+  },
+  {
+    "id": "section-29-09",
+    "type": "section",
+    "theme": "berry",
+    "title": "29.9　LoRA 的低秩更新到底在哪一步节省训练"
+  },
+  {
+    "id": "section-29-10",
+    "type": "section",
+    "theme": "berry",
+    "title": "29.10　幻觉、评测污染与实际验收"
+  },
+  {
+    "id": "chapter-30",
+    "type": "chapter",
+    "theme": "violet",
+    "title": "第 30 章　代码实验室：从零拼出一个迷你 Transformer"
+  },
+  {
+    "id": "section-30-01",
+    "type": "section",
+    "theme": "violet",
+    "title": "30.1　实验的目标与边界"
+  },
+  {
+    "id": "section-30-02",
+    "type": "section",
+    "theme": "violet",
+    "title": "30.2　从整数编号到带位置的信息"
+  },
+  {
+    "id": "section-30-03",
+    "type": "section",
+    "theme": "violet",
+    "title": "30.3　一次线性层如何同时得到 Q、K、V"
+  },
+  {
+    "id": "section-30-04",
+    "type": "section",
+    "theme": "violet",
+    "title": "30.4　分数矩阵的最后两维代表什么"
+  },
+  {
+    "id": "section-30-05",
+    "type": "section",
+    "theme": "violet",
+    "title": "30.5　因果掩膜为什么必须在 Softmax 前加入"
+  },
+  {
+    "id": "section-30-06",
+    "type": "section",
+    "theme": "violet",
+    "title": "30.6　残差块为什么这样连接"
+  },
+  {
+    "id": "section-30-07",
+    "type": "section",
+    "theme": "violet",
+    "title": "30.7　下一 token 训练的标签怎样对齐"
+  },
+  {
+    "id": "section-30-08",
+    "type": "section",
+    "theme": "violet",
+    "title": "30.8　实际检查结果：拟合、因果掩膜与重载"
+  },
+  {
+    "id": "section-30-09",
+    "type": "section",
+    "theme": "violet",
+    "title": "30.9　怎样把这个实验扩展成真正的语言模型"
+  },
+  {
+    "id": "chapter-31",
+    "type": "chapter",
+    "theme": "berry",
+    "title": "第 31 章　项目五：文档检索与 RAG 的证据链"
+  },
+  {
+    "id": "section-31-01",
+    "type": "section",
+    "theme": "berry",
+    "title": "31.1　为什么先把“找对资料”独立做出来"
+  },
+  {
+    "id": "section-31-02",
+    "type": "section",
+    "theme": "berry",
+    "title": "31.2　字符 TF-IDF 如何把文本变成向量"
+  },
+  {
+    "id": "section-31-03",
+    "type": "section",
+    "theme": "berry",
+    "title": "31.3　一段能够运行的检索核心"
+  },
+  {
+    "id": "section-31-04",
+    "type": "section",
+    "theme": "berry",
+    "title": "31.4　Recall@k 与 MRR 分别衡量什么"
+  },
+  {
+    "id": "section-31-05",
+    "type": "section",
+    "theme": "berry",
+    "title": "31.5　一次检索失败比满分表格更有解释力"
+  },
+  {
+    "id": "section-31-06",
+    "type": "section",
+    "theme": "berry",
+    "title": "31.6　文档切块：块太小和太大分别损失什么"
+  },
+  {
+    "id": "section-31-07",
+    "type": "section",
+    "theme": "berry",
+    "title": "31.7　连接生成模型时，哪些行为应事先规定"
+  },
+  {
+    "id": "section-31-08",
+    "type": "section",
+    "theme": "berry",
+    "title": "31.8　一个分层验收表"
+  },
+  {
+    "id": "section-31-09",
+    "type": "section",
+    "theme": "berry",
+    "title": "31.9　将小实验变成真正的项目计划"
+  },
+  {
+    "id": "part-03",
+    "type": "part",
+    "theme": "teal",
+    "title": "第 3 篇　AI Agent 开发实战"
+  },
+  {
+    "id": "chapter-32",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 32 章　从会回答到会做事：理解 Agent 的边界"
+  },
+  {
+    "id": "section-32-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "32.1　一个足够实用的定义"
+  },
+  {
+    "id": "section-32-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "32.2　聊天、RAG、工作流与 Agent 怎样区分"
+  },
+  {
+    "id": "section-32-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "32.3　沿着一个需求，逐步决定是否需要 Agent"
+  },
+  {
+    "id": "section-32-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "32.4　把自然语言需求写成任务契约"
+  },
+  {
+    "id": "section-32-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "32.5　自主性越高，为什么越需要外部反馈"
+  },
+  {
+    "id": "section-32-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "32.6　本篇怎样学习，怎样判断自己学会了"
+  },
+  {
+    "id": "chapter-33",
+    "type": "chapter",
+    "theme": "blue",
+    "title": "第 33 章　大模型应用的接口：消息、结构与上下文"
+  },
+  {
+    "id": "section-33-01",
+    "type": "section",
+    "theme": "blue",
+    "title": "33.1　消息既有内容，也有来源"
+  },
+  {
+    "id": "section-33-02",
+    "type": "section",
+    "theme": "blue",
+    "title": "33.2　一次请求里到底有什么"
+  },
+  {
+    "id": "section-33-03",
+    "type": "section",
+    "theme": "blue",
+    "title": "33.3　结构化输出解决哪一层问题"
+  },
+  {
+    "id": "section-33-04",
+    "type": "section",
+    "theme": "blue",
+    "title": "33.4　提示词应说明任务，不替代数据模型"
+  },
+  {
+    "id": "section-33-05",
+    "type": "section",
+    "theme": "blue",
+    "title": "33.5　上下文预算为什么会改变系统行为"
+  },
+  {
+    "id": "section-33-06",
+    "type": "section",
+    "theme": "blue",
+    "title": "33.6　流式响应与并发：体验改善之后还有状态问题"
+  },
+  {
+    "id": "section-33-07",
+    "type": "section",
+    "theme": "blue",
+    "title": "33.7　如何让接口故障可以诊断"
+  },
+  {
+    "id": "section-33-08",
+    "type": "section",
+    "theme": "blue",
+    "title": "33.8　小实验：同一条回复，四种处理方式"
+  },
+  {
+    "id": "chapter-34",
+    "type": "chapter",
+    "theme": "violet",
+    "title": "第 34 章　手写工具调用循环：看清 Agent 如何执行"
+  },
+  {
+    "id": "section-34-01",
+    "type": "section",
+    "theme": "violet",
+    "title": "34.1　工具首先是一份契约"
+  },
+  {
+    "id": "section-34-02",
+    "type": "section",
+    "theme": "violet",
+    "title": "34.2　模型生成调用，程序执行调用"
+  },
+  {
+    "id": "section-34-03",
+    "type": "section",
+    "theme": "violet",
+    "title": "34.3　最小循环的骨架"
+  },
+  {
+    "id": "section-34-04",
+    "type": "section",
+    "theme": "violet",
+    "title": "34.4　一条真实运行的离线轨迹"
+  },
+  {
+    "id": "section-34-05",
+    "type": "section",
+    "theme": "violet",
+    "title": "34.5　错误应回到哪里"
+  },
+  {
+    "id": "section-34-06",
+    "type": "section",
+    "theme": "violet",
+    "title": "34.6　为什么不能把整个工具结果都塞回去"
+  },
+  {
+    "id": "section-34-07",
+    "type": "section",
+    "theme": "violet",
+    "title": "34.7　“思考—行动—观察”应该怎样呈现给读者"
+  },
+  {
+    "id": "section-34-08",
+    "type": "section",
+    "theme": "violet",
+    "title": "34.8　从最小循环走向可维护的实现"
+  },
+  {
+    "id": "section-34-09",
+    "type": "section",
+    "theme": "violet",
+    "title": "34.9　从内部事件转换为真实接口消息"
+  },
+  {
+    "id": "section-34-10",
+    "type": "section",
+    "theme": "violet",
+    "title": "34.10　为什么最后还要检查任务证据"
+  },
+  {
+    "id": "chapter-35",
+    "type": "chapter",
+    "theme": "berry",
+    "title": "第 35 章　检索、上下文与记忆：让信息有来源"
+  },
+  {
+    "id": "section-35-01",
+    "type": "section",
+    "theme": "berry",
+    "title": "35.1　从第 31 章检索基线继续往前走"
+  },
+  {
+    "id": "section-35-02",
+    "type": "section",
+    "theme": "berry",
+    "title": "35.2　切块切开的不只是文字"
+  },
+  {
+    "id": "section-35-03",
+    "type": "section",
+    "theme": "berry",
+    "title": "35.3　多次检索何时有意义"
+  },
+  {
+    "id": "section-35-04",
+    "type": "section",
+    "theme": "berry",
+    "title": "35.4　引用、支持与忠实性是三个问题"
+  },
+  {
+    "id": "section-35-05",
+    "type": "section",
+    "theme": "berry",
+    "title": "35.5　四种信息容器，各自解决什么"
+  },
+  {
+    "id": "section-35-06",
+    "type": "section",
+    "theme": "berry",
+    "title": "35.6　记忆压缩的损失怎样发现"
+  },
+  {
+    "id": "section-35-07",
+    "type": "section",
+    "theme": "berry",
+    "title": "35.7　设计一个小型对照实验"
+  },
+  {
+    "id": "section-35-08",
+    "type": "section",
+    "theme": "berry",
+    "title": "35.8　手算一次混合检索的排序融合"
+  },
+  {
+    "id": "chapter-36",
+    "type": "chapter",
+    "theme": "orange",
+    "title": "第 36 章　工作流与持久化：让任务能够中断、恢复和核对"
+  },
+  {
+    "id": "section-36-01",
+    "type": "section",
+    "theme": "orange",
+    "title": "36.1　用状态解释“现在进行到哪里”"
+  },
+  {
+    "id": "section-36-02",
+    "type": "section",
+    "theme": "orange",
+    "title": "36.2　计划不是执行记录"
+  },
+  {
+    "id": "section-36-03",
+    "type": "section",
+    "theme": "orange",
+    "title": "36.3　最容易漏掉的故障窗口"
+  },
+  {
+    "id": "section-36-04",
+    "type": "section",
+    "theme": "orange",
+    "title": "36.4　幂等性到底保证什么"
+  },
+  {
+    "id": "section-36-05",
+    "type": "section",
+    "theme": "orange",
+    "title": "36.5　审批要绑定到具体提案"
+  },
+  {
+    "id": "section-36-06",
+    "type": "section",
+    "theme": "orange",
+    "title": "36.6　乐观并发控制：为什么还要检查版本"
+  },
+  {
+    "id": "section-36-07",
+    "type": "section",
+    "theme": "orange",
+    "title": "36.7　用框架管理图执行时，仍要理解恢复语义"
+  },
+  {
+    "id": "section-36-08",
+    "type": "section",
+    "theme": "orange",
+    "title": "36.8　一次恢复演练"
+  },
+  {
+    "id": "chapter-37",
+    "type": "chapter",
+    "theme": "blue",
+    "title": "第 37 章　MCP 与工具接入：协议、实现和权限"
+  },
+  {
+    "id": "section-37-01",
+    "type": "section",
+    "theme": "blue",
+    "title": "37.1　MCP 在系统里处于哪一层"
+  },
+  {
+    "id": "section-37-02",
+    "type": "section",
+    "theme": "blue",
+    "title": "37.2　先固定协议版本，再讨论消息"
+  },
+  {
+    "id": "section-37-03",
+    "type": "section",
+    "theme": "blue",
+    "title": "37.3　工具、资源与提示模板为什么分开"
+  },
+  {
+    "id": "section-37-04",
+    "type": "section",
+    "theme": "blue",
+    "title": "37.4　本地进程与远程连接的差别"
+  },
+  {
+    "id": "section-37-05",
+    "type": "section",
+    "theme": "blue",
+    "title": "37.5　把本书工具迁移为服务：先保留业务核心"
+  },
+  {
+    "id": "section-37-06",
+    "type": "section",
+    "theme": "blue",
+    "title": "37.6　一份有用的接入验收记录"
+  },
+  {
+    "id": "section-37-07",
+    "type": "section",
+    "theme": "blue",
+    "title": "37.7　代码实验：真正启动一个本地协议进程"
+  },
+  {
+    "id": "section-37-08",
+    "type": "section",
+    "theme": "blue",
+    "title": "37.8　初始化为什么不能省略"
+  },
+  {
+    "id": "section-37-09",
+    "type": "section",
+    "theme": "blue",
+    "title": "37.9　在消息层与工具层分别观察失败"
+  },
+  {
+    "id": "chapter-38",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 38 章　评价 Agent：任务完成率之外，还要看什么"
+  },
+  {
+    "id": "section-38-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.1　先把成功写成可判断的条件"
+  },
+  {
+    "id": "section-38-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.2　三层测试，分别回答三个问题"
+  },
+  {
+    "id": "section-38-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.3　测试集怎样避免只考已经教过的题"
+  },
+  {
+    "id": "section-38-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.4　多次运行与不确定性"
+  },
+  {
+    "id": "section-38-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.5　怎样设计检查器"
+  },
+  {
+    "id": "section-38-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.6　消融实验：改进究竟来自哪里"
+  },
+  {
+    "id": "section-38-07",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.7　轨迹让错误可定位"
+  },
+  {
+    "id": "section-38-08",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.8　把验收写成别人能复核的报告"
+  },
+  {
+    "id": "section-38-09",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.9　算例：80% 的成功率有多确定"
+  },
+  {
+    "id": "section-38-10",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.10　一次真实模型实验：先冻结问题，再保存过程"
+  },
+  {
+    "id": "section-38-11",
+    "type": "section",
+    "theme": "teal",
+    "title": "38.11　调用次数、耗时与费用怎样一起报告"
+  },
+  {
+    "id": "chapter-39",
+    "type": "chapter",
+    "theme": "orange",
+    "title": "第 39 章　部署与运行：成本、延迟、权限和可观测性"
+  },
+  {
+    "id": "section-39-01",
+    "type": "section",
+    "theme": "orange",
+    "title": "39.1　从一次调用到一项后台任务"
+  },
+  {
+    "id": "section-39-02",
+    "type": "section",
+    "theme": "orange",
+    "title": "39.2　先计算一笔账"
+  },
+  {
+    "id": "section-39-03",
+    "type": "section",
+    "theme": "orange",
+    "title": "39.3　延迟与吞吐量不是同一个指标"
+  },
+  {
+    "id": "section-39-04",
+    "type": "section",
+    "theme": "orange",
+    "title": "39.4　权限放在执行层"
+  },
+  {
+    "id": "section-39-05",
+    "type": "section",
+    "theme": "orange",
+    "title": "39.5　版本、日志与回滚"
+  },
+  {
+    "id": "section-39-06",
+    "type": "section",
+    "theme": "orange",
+    "title": "39.6　重试、取消与限流"
+  },
+  {
+    "id": "section-39-07",
+    "type": "section",
+    "theme": "orange",
+    "title": "39.7　一份可以执行的部署演练"
+  },
+  {
+    "id": "chapter-40",
+    "type": "chapter",
+    "theme": "berry",
+    "title": "第 40 章　项目六：带证据与版本意识的知识库 Agent"
+  },
+  {
+    "id": "section-40-01",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.1　需求与数据边界"
+  },
+  {
+    "id": "section-40-02",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.2　为什么这里先用可解释的词面检索"
+  },
+  {
+    "id": "section-40-03",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.3　工具返回如何引导下一步"
+  },
+  {
+    "id": "section-40-04",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.4　运行项目，先看轨迹再看答案"
+  },
+  {
+    "id": "section-40-05",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.5　引用验收器怎样工作"
+  },
+  {
+    "id": "section-40-06",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.6　三个故障注入，说明三个不同问题"
+  },
+  {
+    "id": "section-40-07",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.7　切换到真实模型时，哪些东西改变"
+  },
+  {
+    "id": "section-40-08",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.8　如何扩展为有用的知识库"
+  },
+  {
+    "id": "section-40-09",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.9　项目复盘"
+  },
+  {
+    "id": "section-40-10",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.10　接到真实项目上：LungSight 的资料助手"
+  },
+  {
+    "id": "section-40-11",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.11　五折结果怎样变成一个可解释的摘要"
+  },
+  {
+    "id": "section-40-12",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.12　沿着一次实际轨迹读懂工具循环"
+  },
+  {
+    "id": "section-40-13",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.13　两次失败对照：运行错误与来源表达"
+  },
+  {
+    "id": "section-40-14",
+    "type": "section",
+    "theme": "berry",
+    "title": "40.14　自己运行一次：文件、命令与核对顺序"
+  },
+  {
+    "id": "chapter-41",
+    "type": "chapter",
+    "theme": "blue",
+    "title": "第 41 章　项目七：数据分析与报告 Agent"
+  },
+  {
+    "id": "section-41-01",
+    "type": "section",
+    "theme": "blue",
+    "title": "41.1　原始表故意没有整理好"
+  },
+  {
+    "id": "section-41-02",
+    "type": "section",
+    "theme": "blue",
+    "title": "41.2　为什么让模型选分析，让程序算数字"
+  },
+  {
+    "id": "section-41-03",
+    "type": "section",
+    "theme": "blue",
+    "title": "41.3　从一行记录到汇总表"
+  },
+  {
+    "id": "section-41-04",
+    "type": "section",
+    "theme": "blue",
+    "title": "41.4　利润率为什么不能随便平均"
+  },
+  {
+    "id": "section-41-05",
+    "type": "section",
+    "theme": "blue",
+    "title": "41.5　月度变化可以说到哪一步"
+  },
+  {
+    "id": "section-41-06",
+    "type": "section",
+    "theme": "blue",
+    "title": "41.6　报告怎样避免数字与图不一致"
+  },
+  {
+    "id": "section-41-07",
+    "type": "section",
+    "theme": "blue",
+    "title": "41.7　检查执行轨迹与失败场景"
+  },
+  {
+    "id": "section-41-08",
+    "type": "section",
+    "theme": "blue",
+    "title": "41.8　从固定工具扩展到探索分析"
+  },
+  {
+    "id": "chapter-42",
+    "type": "chapter",
+    "theme": "orange",
+    "title": "第 42 章　项目八：可审批、可恢复的工单 Agent"
+  },
+  {
+    "id": "section-42-01",
+    "type": "section",
+    "theme": "orange",
+    "title": "42.1　将“处理工单”拆成三个阶段"
+  },
+  {
+    "id": "section-42-02",
+    "type": "section",
+    "theme": "orange",
+    "title": "42.2　模型看见哪些工具"
+  },
+  {
+    "id": "section-42-03",
+    "type": "section",
+    "theme": "orange",
+    "title": "42.3　保存等待状态，再真正关闭连接"
+  },
+  {
+    "id": "section-42-04",
+    "type": "section",
+    "theme": "orange",
+    "title": "42.4　审批怎样绑定到这一个动作"
+  },
+  {
+    "id": "section-42-05",
+    "type": "section",
+    "theme": "orange",
+    "title": "42.5　核心事务逐步解释"
+  },
+  {
+    "id": "section-42-06",
+    "type": "section",
+    "theme": "orange",
+    "title": "42.6　实际运行结果与含义"
+  },
+  {
+    "id": "section-42-07",
+    "type": "section",
+    "theme": "orange",
+    "title": "42.7　五种失败，五种不同处理"
+  },
+  {
+    "id": "section-42-08",
+    "type": "section",
+    "theme": "orange",
+    "title": "42.8　若以后接入真实工单系统"
+  },
+  {
+    "id": "section-42-09",
+    "type": "section",
+    "theme": "orange",
+    "title": "42.9　把深度学习接到工单：一次完整的教学接力"
+  },
+  {
+    "id": "chapter-43",
+    "type": "chapter",
+    "theme": "violet",
+    "title": "第 43 章　多 Agent 与综合设计：什么时候值得拆分"
+  },
+  {
+    "id": "section-43-01",
+    "type": "section",
+    "theme": "violet",
+    "title": "43.1　先辨认真正的分工需求"
+  },
+  {
+    "id": "section-43-02",
+    "type": "section",
+    "theme": "violet",
+    "title": "43.2　三种组织方式"
+  },
+  {
+    "id": "section-43-03",
+    "type": "section",
+    "theme": "violet",
+    "title": "43.3　交接对象应该包含什么"
+  },
+  {
+    "id": "section-43-04",
+    "type": "section",
+    "theme": "violet",
+    "title": "43.4　协调成本为什么可能吞掉收益"
+  },
+  {
+    "id": "section-43-05",
+    "type": "section",
+    "theme": "violet",
+    "title": "43.5　怎样公平比较单 Agent 与多 Agent"
+  },
+  {
+    "id": "section-43-06",
+    "type": "section",
+    "theme": "violet",
+    "title": "43.6　毕业项目：把前三个项目连成一个系统"
+  },
+  {
+    "id": "chapter-44",
+    "type": "chapter",
+    "theme": "teal",
+    "title": "第 44 章　综合练习、Agent 设计题与术语回查"
+  },
+  {
+    "id": "section-44-01",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.1　先把符号对应到实际对象"
+  },
+  {
+    "id": "section-44-02",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.2　术语按问题回查"
+  },
+  {
+    "id": "section-44-03",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.3　综合题一：输出形状正确，结果为何仍然错误"
+  },
+  {
+    "id": "section-44-04",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.4　综合题二：尾批为什么改变平均数"
+  },
+  {
+    "id": "section-44-05",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.5　综合题三：注意力内存怎样估算"
+  },
+  {
+    "id": "section-44-06",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.6　综合题四：分割指标怎样核对"
+  },
+  {
+    "id": "section-44-07",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.7　综合题五：预测未来七天时发生了什么泄漏"
+  },
+  {
+    "id": "section-44-08",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.8　综合题六：量化误差上界有什么前提"
+  },
+  {
+    "id": "section-44-09",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.9　综合题七：同样准确率，哪个概率更可信"
+  },
+  {
+    "id": "section-44-10",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.10　项目答辩：用证据回答八个问题"
+  },
+  {
+    "id": "section-44-11",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.11　Agent 题一：有引用就一定有证据吗"
+  },
+  {
+    "id": "section-44-12",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.12　Agent 题二：五个角色投票就更可靠吗"
+  },
+  {
+    "id": "section-44-13",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.13　Agent 题三：超时之后是否应该立刻重试"
+  },
+  {
+    "id": "section-44-14",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.14　Agent 题四：数据清洗的一个反例"
+  },
+  {
+    "id": "section-44-15",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.15　Agent 题五：一次批准到底批准了什么"
+  },
+  {
+    "id": "section-44-16",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.16　Agent 题六：离线测试通过意味着什么"
+  },
+  {
+    "id": "section-44-17",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.17　Agent 术语回查"
+  },
+  {
+    "id": "section-44-18",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.18　延伸阅读：先带着一个问题读论文"
+  },
+  {
+    "id": "section-44-19",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.19　延伸阅读：语言模型、检索与知识来源"
+  },
+  {
+    "id": "section-44-20",
+    "type": "section",
+    "theme": "teal",
+    "title": "44.20　Agent 工程资料与版本核对"
+  },
+  {
+    "id": "bibliography",
+    "type": "back",
+    "title": "参考文献与资料"
+  }
+]

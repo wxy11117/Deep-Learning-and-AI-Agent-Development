@@ -1,0 +1,32 @@
+{
+  "chapters": 44,
+  "bodyFont": "\"Times New Roman\", SimSun, \"Songti SC\", BookSongFallback, serif",
+  "songtiAvailable": true,
+  "headingFont": "BookSans, SimHei, sans-serif",
+  "coverFont": "BookDisplay, BookSans, sans-serif",
+  "figures": 68,
+  "math": 904,
+  "katexErrors": 0,
+  "overflows": 0,
+  "mathCount": 904,
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "printCheck": {
+    "overflows": [],
+    "oversizedFigures": []
+  },
+  "fittedEquations": [],
+  "semanticCounts": {
+    "examples": 29,
+    "worked": 5,
+    "notes": 5,
+    "counterexamples": 2,
+    "answers": 6,
+    "beginnerExamples": 5,
+    "applications": 7
+  },
+  "tocEntries": 472,
+  "references": 76
+}

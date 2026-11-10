@@ -1,0 +1,15 @@
+{
+  "repository": "wxy11117/LungSight",
+  "commit": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+  "captured_at": "2026-11-10",
+  "source_files_sha256": {
+    "sources/README.md": "a1b546028562cf438d8f3715b5cbed9fd70ca21d50a6125387e265e641716f2d",
+    "sources/backend/agent_service.py": "dd1277fbd65fcce8f505eca5aeb8d80ed1c2813cd935abbe094594a287e00cc2",
+    "sources/backend/rag_evaluation.py": "9aedab6572d5e4d0cdf00b97a129b45b3466bdad578caed17f79a7f0bbfcb1a3",
+    "sources/documentation/medical-answer-modes.md": "1a85e16a2f53677ec35461ee6419eb7e2d92bf6cb570b2d33dea5167ae7b281b"
+  },
+  "fixtures": "Constructed class A/B/C/D probabilities, not patient data or measured model predictions.",
+  "documents_sha256": "08898713b16f007ace2f8fd8eef440d43447252f425bd181e78dc412a9ad3e97",
+  "evaluation_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "task_sha256": "96dc52d1cc9c62fcda24f5c55e160bad2961043ff99f7acda7aeb1de86a547b0"
+}

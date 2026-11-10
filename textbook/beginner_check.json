@@ -1,0 +1,145 @@
+{
+  "passed": true,
+  "teaching_insertions": 92,
+  "recent_application_cases": 7,
+  "figures": 6,
+  "chapters_touched": 44,
+  "reference_rows_corrected": 21,
+  "numeric_checks": 26,
+  "python_snippets_checked": 1,
+  "json_snippets_checked": 1,
+  "source_preservation": true,
+  "font_missing_characters": {
+    "NotoSerifSC-Regular.ttf": "",
+    "BookSans-700.ttf": ""
+  },
+  "defensive_phrase_matches": [],
+  "calculations": {
+    "apple_initial_prediction": {
+      "value": 6,
+      "expected": 6
+    },
+    "apple_updated_prediction": {
+      "value": 6.8,
+      "expected": 6.8
+    },
+    "apple_initial_half_square_loss": {
+      "value": 2.0,
+      "expected": 2
+    },
+    "apple_updated_half_square_loss": {
+      "value": 0.7200000000000002,
+      "expected": 0.72
+    },
+    "apple_loss_after_small_change": {
+      "value": 1.6199999999999997,
+      "expected": 1.62
+    },
+    "apple_gradient_step": {
+      "value": 3.4,
+      "expected": 3.4
+    },
+    "courier_linear_model": {
+      "value": 14,
+      "expected": 14
+    },
+    "nearest_neighbor_rent": {
+      "value": 2000.0,
+      "expected": 2000
+    },
+    "likelihood_half": {
+      "value": 0.125,
+      "expected": 0.125
+    },
+    "likelihood_point_eight": {
+      "value": 0.12800000000000003,
+      "expected": 0.128
+    },
+    "mae": {
+      "value": 2.0,
+      "expected": 2
+    },
+    "mse": {
+      "value": 6.0,
+      "expected": 6
+    },
+    "negative_log_high": {
+      "value": 0.223,
+      "expected": 0.223
+    },
+    "negative_log_low": {
+      "value": 1.609,
+      "expected": 1.609
+    },
+    "iou": {
+      "value": 0.5,
+      "expected": 0.5
+    },
+    "attention_weights": {
+      "value": 1.0,
+      "expected": 1
+    },
+    "attention_weighted_sum": {
+      "value": 6.6,
+      "expected": 6.6
+    },
+    "precision": {
+      "value": 0.75,
+      "expected": 0.75
+    },
+    "recall": {
+      "value": 0.6,
+      "expected": 0.6
+    },
+    "sensor_mean": {
+      "value": 55.8,
+      "expected": 55.8
+    },
+    "sensor_median": {
+      "value": 50,
+      "expected": 50
+    },
+    "overall_profit_margin": {
+      "value": 0.11,
+      "expected": 0.11
+    },
+    "mean_of_profit_margins": {
+      "value": 0.15000000000000002,
+      "expected": 0.15
+    },
+    "daily_input_tokens": {
+      "value": 600000,
+      "expected": 600000
+    },
+    "daily_output_tokens": {
+      "value": 120000,
+      "expected": 120000
+    },
+    "convolution": {
+      "value": [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ]
+    }
+  }
+}

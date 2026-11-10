@@ -1,0 +1,118 @@
+{
+  "status": "completed",
+  "text": "变更提案已就绪，等待应用的人审步骤。",
+  "turns": 3,
+  "calls": 2,
+  "history": [
+    {
+      "role": "user",
+      "text": "为 T001 准备解决工单的状态变更提案。"
+    },
+    {
+      "role": "assistant",
+      "text": "",
+      "calls": [
+        {
+          "id": "w1",
+          "name": "get_ticket",
+          "arguments": {
+            "ticket_id": "T001"
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "role": "tool",
+      "results": [
+        {
+          "id": "w1",
+          "ok": true,
+          "value": {
+            "id": "T001",
+            "version": 1,
+            "status": "open"
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "",
+      "calls": [
+        {
+          "id": "w2",
+          "name": "propose_status",
+          "arguments": {
+            "ticket_id": "T001",
+            "target_status": "resolved"
+          }
+        }
+      ],
+      "native": null
+    },
+    {
+      "role": "tool",
+      "results": [
+        {
+          "id": "w2",
+          "ok": true,
+          "value": {
+            "ticket_id": "T001",
+            "expected_version": 1,
+            "target_status": "resolved",
+            "digest": "284d4bd8fa5bb4384fc0091d65b62c9945e76e076c662588de4dc41c22bf9531",
+            "requires_approval": true
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "变更提案已就绪，等待应用的人审步骤。",
+      "calls": [],
+      "native": null
+    }
+  ],
+  "trace": [
+    {
+      "event": "model",
+      "turn": 0,
+      "usage": {},
+      "mode": "offline_replay",
+      "elapsed_ms": 0.007
+    },
+    {
+      "event": "tool",
+      "turn": 0,
+      "name": "get_ticket",
+      "call_id": "w1",
+      "ok": true,
+      "elapsed_ms": 0.361,
+      "result_sha256": "e08a23c614fd997591b720ac2810964426092caedfe650963d44ca3bbe448796"
+    },
+    {
+      "event": "model",
+      "turn": 1,
+      "usage": {},
+      "mode": "offline_replay",
+      "elapsed_ms": 0.005
+    },
+    {
+      "event": "tool",
+      "turn": 1,
+      "name": "propose_status",
+      "call_id": "w2",
+      "ok": true,
+      "elapsed_ms": 0.289,
+      "result_sha256": "99fbb6340b3472f30b6b1ebbeee58a9bacc846b5499e7b82b2fc6a449043bde4"
+    },
+    {
+      "event": "model",
+      "turn": 2,
+      "usage": {},
+      "mode": "offline_replay",
+      "elapsed_ms": 0.003
+    }
+  ]
+}

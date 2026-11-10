@@ -1,0 +1,246 @@
+{
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Violet, Star, Sapphire",
+  "license_file": "LICENSE-CODE.txt",
+  "scope_description": "本版资料包中为教材编写的原创程序与样式文件；以本清单逐项列出的路径和 SHA-256 为准。",
+  "exclusions": [
+    "教材正文、成品图表、封面和作者扉页",
+    "数据、模型权重与实验输出",
+    "vendor/ 与其他第三方内容",
+    "case_study/lungsight/sources/ 与 documents.json 中的上游摘录"
+  ],
+  "files": [
+    {
+      "path": "add_beginner_material.py",
+      "sha256": "30425bd4e79f7c4e32ae4a905e01818b057e05e3016551170cdf2360b206d866"
+    },
+    {
+      "path": "agent_projects/analysis_tools.py",
+      "sha256": "f2fec22c3bc5019bba58f8a5c89c6ff4f6974341e6d128135feec370148a9381"
+    },
+    {
+      "path": "agent_projects/core.py",
+      "sha256": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417"
+    },
+    {
+      "path": "agent_projects/deepseek_provider.py",
+      "sha256": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+    },
+    {
+      "path": "agent_projects/knowledge.py",
+      "sha256": "c4d3c6d8ce549b236be92a6f64f3075a9efe99c4a74fc3bcad02662b686923fb"
+    },
+    {
+      "path": "agent_projects/live_provider.py",
+      "sha256": "ac6d77ccf35cc7048afd3d588a3c7ad11850af2d35cab2bd480e4767ce3f7306"
+    },
+    {
+      "path": "agent_projects/mcp_server.py",
+      "sha256": "57ff6e16898249c1e270399449ed007d674746e49dc9cae274f0ecbc534209af"
+    },
+    {
+      "path": "agent_projects/plot_report.py",
+      "sha256": "754d5d07c4d69d7162fe4ec895d1fd6782a60a05de432642a1b921284097e304"
+    },
+    {
+      "path": "agent_projects/run_projects.py",
+      "sha256": "046a9777e5e5dbd2b5a44881c5a06247c629e760a36a436b043a716e44c1a8b3"
+    },
+    {
+      "path": "agent_projects/sensor_bridge.py",
+      "sha256": "d3a8b8a8196701ebfb11098faf1d20f3f3a06017225c1ce3e656a92a3057c08d"
+    },
+    {
+      "path": "agent_projects/test_mcp.py",
+      "sha256": "d20e20a966791c2717653956e12390a83fcf3e4aa65f8d4ae2904087455d9bc2"
+    },
+    {
+      "path": "agent_projects/test_projects.py",
+      "sha256": "ac3adb3987d0cc0e946cffd9fa8e72370baa939c7ac012f598a15f5532e8d2dc"
+    },
+    {
+      "path": "agent_projects/workflow.py",
+      "sha256": "ccb73e3d4fcd185dab22c9a0fd99c06eb5e1ea3449d0f12b47dff9023131c371"
+    },
+    {
+      "path": "assemble_revised.py",
+      "sha256": "5fdfd90157c27bc160831d5f83653e44ff49ba7a47a8a273c5d169304fada245"
+    },
+    {
+      "path": "book.css",
+      "sha256": "f92ba4c8ae55d4bd45df1357b850110e8e6cad837428cf1de4101ffebd773937"
+    },
+    {
+      "path": "build_book.mjs",
+      "sha256": "4da9aef56cff5a7624cb0fadffde26242988897508e623dc1957b75c0811da04"
+    },
+    {
+      "path": "build_publication.py",
+      "sha256": "302fc2d733360e1d6db47ab943f5c3e5e4099d1e72ac5732e4e71ff5edacc1e7"
+    },
+    {
+      "path": "case_study/lungsight/case_tools.py",
+      "sha256": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504"
+    },
+    {
+      "path": "case_study/lungsight/execution_sources/3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280.py",
+      "sha256": "89847dc3662b514d37f73f72ed9748b8df16492a86aa5f4d4966016c1c573ee1"
+    },
+    {
+      "path": "case_study/lungsight/execution_sources/3e581f515b204b33544863200d8b22298e457d5d391eebf754243963c5b8cdeb.py",
+      "sha256": "93471836d34fb5351bab7360390f4b615d84c20593923e67eff8aa6d523b22f6"
+    },
+    {
+      "path": "case_study/lungsight/execution_sources/a18b9d48bafda9c2f499e73b8ba9b44e6d873e152f72f4280bf773f8bd634a70.py",
+      "sha256": "aeff754b95e2dccc72f521dfedb07451728206c73fcfab387f9ba9b25c8713d8"
+    },
+    {
+      "path": "case_study/lungsight/execution_sources/bbceba361092cc78a2412749fde47d737e3814d6723033e4e510522721c9ed03.py",
+      "sha256": "bbceba361092cc78a2412749fde47d737e3814d6723033e4e510522721c9ed03"
+    },
+    {
+      "path": "case_study/lungsight/prepare_case.py",
+      "sha256": "bde038b73811d7e31322d98d6d8ee7d2850a96ce45101fead22e9163acbaa029"
+    },
+    {
+      "path": "case_study/lungsight/run_experiment.py",
+      "sha256": "bbceba361092cc78a2412749fde47d737e3814d6723033e4e510522721c9ed03"
+    },
+    {
+      "path": "case_study/lungsight/run_integrated.py",
+      "sha256": "7ee52987c45195c6c3b4d647e565d99af21d8cd530b49dcf3549dd7983a30cee"
+    },
+    {
+      "path": "case_study/lungsight/run_revised_report.py",
+      "sha256": "153f3ed07c994fb946960e37ee11d5ed9c31b902b76fff0a759c33e68dfca58d"
+    },
+    {
+      "path": "check_beginner_screen.mjs",
+      "sha256": "d0392b2ca7e15a8b662ebb55c75a3f8f79fc5610dd3dcd50d1b35d16d54c0b49"
+    },
+    {
+      "path": "check_revised.py",
+      "sha256": "a012538100dec2e004113bdbff82fbe4770f8db0e4990c23eec592a14657ca0c"
+    },
+    {
+      "path": "complete_final_case.py",
+      "sha256": "edd396219d4c4b9ea98a7d1f99ac7319f7ece489b2f07b843f0dd9883183aa1c"
+    },
+    {
+      "path": "configure_deepseek.ps1",
+      "sha256": "543822a31040828486c7368e733b66f9bee70cd17125144dda349797f018f7cb"
+    },
+    {
+      "path": "create_cover_art.py",
+      "sha256": "4692b9ae8c1bf8a85bda2caf4deb4a4154b16b95dc87571583696ca4baa049c5"
+    },
+    {
+      "path": "create_frontispiece.py",
+      "sha256": "9d77a852e242b36e714b2b580fc0725a38143479357180aadfcd9f9f1329387a"
+    },
+    {
+      "path": "derivation_lab.py",
+      "sha256": "80cef241882e8b3f06a5a5cbda5a1f5e448b6283794f11f417de3c5e035a1667"
+    },
+    {
+      "path": "figures/gen_beginner_figures.py",
+      "sha256": "61c9664dc35f50966cf8afffde1d498be397b60787f66faec99ca5e4be0b6c0d"
+    },
+    {
+      "path": "figures/gen_fig_agents.py",
+      "sha256": "559e767244980e22900faed33d0df6fbc50b23f81193d55684961a11da10bccf"
+    },
+    {
+      "path": "figures/gen_fig_expanded.py",
+      "sha256": "e016f3d83783428a29d079a25585096e06c36e616b7ab546bb462f6c4ccc1841"
+    },
+    {
+      "path": "figures/gen_fig_textbook.py",
+      "sha256": "9132db3f5d7bbc3c906926719ca82fa44e8943ac46c79dd143c1577708eb4d25"
+    },
+    {
+      "path": "figures/gen_final_case_figures.py",
+      "sha256": "6ce7e62dbcfde71d81b5bd93c7187c1c03b570ca55c1cae6ce5e436549089d51"
+    },
+    {
+      "path": "figures/render_structures.mjs",
+      "sha256": "962bcfe0eb1843e706d94a7b93e4078cfcc377329de81559d087b064e8b223f5"
+    },
+    {
+      "path": "finalize_final.py",
+      "sha256": "91c57f4dc6d252ae397d289141cdf182e9e689c92244ef01675b45ccde401bd8"
+    },
+    {
+      "path": "finalize_revised.py",
+      "sha256": "b192b419bef84b6b87088b28a090beaa208291f54d8820d0422b260521e0ac6c"
+    },
+    {
+      "path": "finish_layout.py",
+      "sha256": "b723fa9769def74006aead654f067130e0c64c68beefb145a44df2d12abc45cc"
+    },
+    {
+      "path": "numpy_mlp_demo.py",
+      "sha256": "21776c1db4619bdf5b06809ce152d0f437eb69f6c17c5f240e24e6371d8b57d3"
+    },
+    {
+      "path": "polish_final_build.py",
+      "sha256": "bb6e1d0961e3d8dfb36491e1747f804b8d1383d041f0875aa1cf0d4332b29788"
+    },
+    {
+      "path": "prepare_author_fonts.py",
+      "sha256": "1e70dc2b2ad25bdc622ed9dfc1e2355d430433dccbce1b30c68bac606fd4f801"
+    },
+    {
+      "path": "prepare_fonts.py",
+      "sha256": "480ae5f74ef975cfcfdc565445ea06344307bc40472db8d984418dba9416996b"
+    },
+    {
+      "path": "prepare_style_fonts.py",
+      "sha256": "7e596789a9c999d53d1fc1c25f94a0cefff8a0efe66aeec6c9162d884bc72fd5"
+    },
+    {
+      "path": "projects/mini_transformer_lab.py",
+      "sha256": "56ddf59cf8b8424da25a4de514e1f01105cd2d4722854728c13547caf8e997bb"
+    },
+    {
+      "path": "projects/run_projects.py",
+      "sha256": "e213dcadfb36c31555f4245f3c6530c99a4de9b9d3ec80edf6b39afff76d104d"
+    },
+    {
+      "path": "projects/verify_results.py",
+      "sha256": "16a9afdd9e2d2c00791f85c699c51dc9006414383ed0eb0694d8d71359453cf5"
+    },
+    {
+      "path": "pytorch_mlp_demo.py",
+      "sha256": "61aaa8a4933b17fce1e5b600f260e1434190f512b166dc20cc55c4ff5378e780"
+    },
+    {
+      "path": "revise_final.py",
+      "sha256": "8b5b301100dd79347b9df2727408e52c69396d493eb6efabfa9a6acdbc654f69"
+    },
+    {
+      "path": "update_project_cli.py",
+      "sha256": "5ba20269e47fd66f828d1e3c4a198489a560e4292f97c7dcc364a77dadaee080"
+    },
+    {
+      "path": "verify_beginner_layout.py",
+      "sha256": "e22430248fc66ea29c2b7e0748a7d7ebb30965a9e269fe8d79ec7e5a005c740d"
+    },
+    {
+      "path": "verify_beginner_material.py",
+      "sha256": "cbe560a51fe5ecae095a2ee6efb1a9a949e5c9e310844ef125cecbbcd029ce7d"
+    },
+    {
+      "path": "verify_final_book_content.py",
+      "sha256": "ea3b7c672487deb14ebd551c7384058d137e060e585523d2bd729fd5361bcdc0"
+    },
+    {
+      "path": "verify_final_projects.py",
+      "sha256": "2076b99cdc01cdd87d67c88ead34dd2562e66aaf2a344bf5861f0ec463db8c79"
+    },
+    {
+      "path": "verify_publication.py",
+      "sha256": "012f64cca5418ef73959a2b9d16c40c75f7f029a70b3247c34fcf4a5f94f5f58"
+    }
+  ]
+}

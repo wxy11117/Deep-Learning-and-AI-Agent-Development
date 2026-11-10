@@ -1,0 +1,262 @@
+{
+  "protocol": "2025-11-25",
+  "mode": "actual local stdio subprocess; no model call",
+  "checks": {
+    "preinit_rejected": true,
+    "protocol_negotiated": true,
+    "discovery_two_readonly_tools": true,
+    "version_filtered_search": true,
+    "read_exact_evidence": true,
+    "invalid_version_and_range_are_tool_errors": true,
+    "unknown_method_is_protocol_error": true,
+    "ping_and_no_notification_response": true
+  },
+  "passed": 8,
+  "requests": [
+    {
+      "jsonrpc": "2.0",
+      "id": 0,
+      "method": "tools/list"
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "initialize",
+      "params": {
+        "protocolVersion": "2025-11-25",
+        "capabilities": {},
+        "clientInfo": {
+          "name": "textbook-test",
+          "version": "1.0"
+        }
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "method": "notifications/initialized"
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "method": "tools/list"
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "method": "tools/call",
+      "params": {
+        "name": "search_manual",
+        "arguments": {
+          "query": "日志保存",
+          "version": "2.0",
+          "top_k": 2
+        }
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "method": "tools/call",
+      "params": {
+        "name": "read_manual",
+        "arguments": {
+          "doc_id": "K01",
+          "version": "2.0"
+        }
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 5,
+      "method": "tools/call",
+      "params": {
+        "name": "read_manual",
+        "arguments": {
+          "doc_id": "K01",
+          "version": "1.0"
+        }
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 6,
+      "method": "tools/call",
+      "params": {
+        "name": "search_manual",
+        "arguments": {
+          "query": "日志",
+          "version": "2.0",
+          "top_k": 99
+        }
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 7,
+      "method": "erase_everything",
+      "params": {}
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 8,
+      "method": "ping"
+    }
+  ],
+  "responses": [
+    {
+      "jsonrpc": "2.0",
+      "id": 0,
+      "error": {
+        "code": -32002,
+        "message": "Initialization required"
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": {
+        "protocolVersion": "2025-11-25",
+        "capabilities": {
+          "tools": {
+            "listChanged": false
+          }
+        },
+        "serverInfo": {
+          "name": "textbook-readonly-manual",
+          "version": "1.0.0"
+        }
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "tools": [
+          {
+            "name": "search_manual",
+            "description": "检索虚构教学手册，必须指定设备文档版本；返回编号和排序分数，不返回最终答案。",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "query": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                "version": {
+                  "type": "string",
+                  "enum": [
+                    "1.0",
+                    "2.0"
+                  ]
+                },
+                "top_k": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 3
+                }
+              },
+              "required": [
+                "query",
+                "version",
+                "top_k"
+              ],
+              "additionalProperties": false
+            }
+          },
+          {
+            "name": "read_manual",
+            "description": "按编号与版本读取手册原文；引用之前必须读取。",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "doc_id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                "version": {
+                  "type": "string",
+                  "enum": [
+                    "1.0",
+                    "2.0"
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "version"
+              ],
+              "additionalProperties": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"id\": \"K01\", \"version\": \"2.0\", \"title\": \"日志保存\", \"score\": 0.46225}, {\"id\": \"K04\", \"version\": \"2.0\", \"title\": \"导出操作\", \"score\": 0.19245}]"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"id\": \"K01\", \"version\": \"2.0\", \"title\": \"日志保存\", \"text\": \"教学设备 R2 的日志在本机保存 30 天；导出文件的保留期由用户自行设置。\"}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 5,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "document not found for this version"
+          }
+        ],
+        "isError": true
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 6,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "$.top_k: range"
+          }
+        ],
+        "isError": true
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 7,
+      "error": {
+        "code": -32601,
+        "message": "Method not found"
+      }
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 8,
+      "result": {}
+    }
+  ]
+}

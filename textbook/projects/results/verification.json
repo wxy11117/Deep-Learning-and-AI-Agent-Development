@@ -1,0 +1,137 @@
+{
+  "passed": 26,
+  "checks": [
+    {
+      "check": "bike mae",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "bike rmse",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "bike reload and preprocessing",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 0.001
+    },
+    {
+      "check": "digits reload logits",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "digits accuracy",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "digits macro F1",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "sensor reload",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 0.0001
+    },
+    {
+      "check": "sensor raw mae",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "sensor raw rmse",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "sensor median mae",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "sensor median rmse",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "sensor pred mae",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "sensor pred rmse",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "segmentation reload probabilities",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "segmentation tiny_unet IoU",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "segmentation tiny_unet Dice",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "segmentation intensity_baseline IoU",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "segmentation intensity_baseline Dice",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "retrieval index reload",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "retrieval recall@1",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "retrieval recall@3",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "retrieval recall@5",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "numpy demo reload loss",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "numpy demo reload accuracy",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "pytorch demo reload loss",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "pytorch demo reload accuracy",
+      "maximum_absolute_error": 0.0,
+      "tolerance": 1e-05
+    }
+  ],
+  "digit_split_disjoint": true,
+  "digit_confusion_total": 360
+}

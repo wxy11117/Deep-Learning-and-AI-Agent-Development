@@ -1,0 +1,25 @@
+# Local configuration and credentials
+_local/
+.env
+.env.*
+!.env.example
+*.credential.xml
+*.pem
+*.key
+# Dependencies and temporary build files
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+_build_deps/
+_ml_deps/
+_review_revised/
+my_results/
+.DS_Store
+Thumbs.db
+# Rebuilt book outputs; released copies live in docs/ and Releases
+/textbook/深度学习与AI_Agent开发_精排版.pdf
+/textbook/深度学习与AI_Agent开发_阅读版.html
+/textbook/深度学习与AI_Agent开发_完整资料.zip
+/textbook/*预览.png

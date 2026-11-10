@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-10",
+  "authors": [
+    "Violet",
+    "Star",
+    "Sapphire"
+  ],
+  "signature_size_pt": 28,
+  "pages": 251,
+  "unchanged_whole_pages": 250,
+  "author_page_outside_signature_unchanged": true,
+  "comparison": "RGB pixel hashes at 72 DPI; page 2 masks signature rectangle only",
+  "signature_rectangle_pt": [
+    65,
+    610,
+    540,
+    690
+  ],
+  "manuscript_unchanged": true,
+  "page_locations_unchanged": true,
+  "pdf_sha256": "2d00db3344bbb52342d81873f58c31f4a2484cf405942fc2db6afb3382e0826c"
+}

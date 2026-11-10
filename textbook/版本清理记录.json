@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-10",
+  "status": "recycled",
+  "retained_edition_pages": 251,
+  "recycle_container": "已回收旧版教材_20261110_237fcdfa",
+  "previous_edition_folders": 5,
+  "items": [
+    {
+      "name": "历史版本_44页",
+      "directory": true,
+      "files": 7,
+      "bytes": 5856169
+    },
+    {
+      "name": "历史版本_151页",
+      "directory": true,
+      "files": 13,
+      "bytes": 42585523
+    },
+    {
+      "name": "历史版本_220页",
+      "directory": true,
+      "files": 83,
+      "bytes": 95102966
+    },
+    {
+      "name": "历史版本_234页",
+      "directory": true,
+      "files": 52,
+      "bytes": 100231666
+    },
+    {
+      "name": "历史版本_235页",
+      "directory": true,
+      "files": 101,
+      "bytes": 46998500
+    },
+    {
+      "name": "扩展内容",
+      "directory": true,
+      "files": 32,
+      "bytes": 217041
+    },
+    {
+      "name": "validation_baseline",
+      "directory": true,
+      "files": 45,
+      "bytes": 416955
+    },
+    {
+      "name": "_review",
+      "directory": true,
+      "files": 31,
+      "bytes": 9581470
+    },
+    {
+      "name": "_review_revised",
+      "directory": true,
+      "files": 193,
+      "bytes": 52661023
+    },
+    {
+      "name": "深度学习教材_完整资料.zip",
+      "directory": false,
+      "files": 1,
+      "bytes": 23793090
+    },
+    {
+      "name": "深度学习系统教材_精排版.pdf",
+      "directory": false,
+      "files": 1,
+      "bytes": 7983011
+    },
+    {
+      "name": "深度学习系统教材_阅读版.html",
+      "directory": false,
+      "files": 1,
+      "bytes": 10463171
+    },
+    {
+      "name": "深度学习系统教材.md",
+      "directory": false,
+      "files": 1,
+      "bytes": 292904
+    },
+    {
+      "name": "assemble_book.py",
+      "directory": false,
+      "files": 1,
+      "bytes": 7505
+    },
+    {
+      "name": "check_book.py",
+      "directory": false,
+      "files": 1,
+      "bytes": 2780
+    },
+    {
+      "name": "finalize_delivery.py",
+      "directory": false,
+      "files": 1,
+      "bytes": 12778
+    },
+    {
+      "name": "prepare_revised.py",
+      "directory": false,
+      "files": 1,
+      "bytes": 3170
+    },
+    {
+      "name": "upgrade_layout.py",
+      "directory": false,
+      "files": 1,
+      "bytes": 9357
+    },
+    {
+      "name": "revise_prose.py",
+      "directory": false,
+      "files": 1,
+      "bytes": 18067
+    },
+    {
+      "name": "polish_tone.py",
+      "directory": false,
+      "files": 1,
+      "bytes": 28395
+    },
+    {
+      "name": "polish_tone_followup.py",
+      "directory": false,
+      "files": 1,
+      "bytes": 16849
+    },
+    {
+      "name": "tone_candidates.json",
+      "directory": false,
+      "files": 1,
+      "bytes": 43310
+    },
+    {
+      "name": "_refresh_beginner_delivery.py",
+      "directory": false,
+      "files": 1,
+      "bytes": 3752
+    },
+    {
+      "name": "深度学习与AI_Agent开发_完整资料.zip",
+      "directory": false,
+      "files": 1,
+      "bytes": 33930871
+    }
+  ],
+  "total_files": 572,
+  "total_bytes": 430260323,
+  "note": "The old package contained a previous-manuscript validation copy; a fresh current-version package will replace it. Current PDF, HTML, manuscript, chapters, figures and projects are preserved.",
+  "recycle_bin_verified": true,
+  "protected_files_verified": 341,
+  "main_files_sha256": {
+    "深度学习与AI_Agent开发.md": "16f28f4afcd4186239b670a55e5c8861880b0656f236b36e796d5c09dd345b19",
+    "深度学习与AI_Agent开发_精排版.pdf": "269c08f6adb21696e684b9947c869e2cc26e879cf505fb07cad05f06f19f968b",
+    "深度学习与AI_Agent开发_阅读版.html": "bc104449366218ba99c3eb10c7173a6cbb929343f6fd428d3e5b652add9f9064"
+  }
+}

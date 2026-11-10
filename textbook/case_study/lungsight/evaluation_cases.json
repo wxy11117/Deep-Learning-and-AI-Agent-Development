@@ -1,0 +1,280 @@
+{
+  "purpose": "teaching demonstration; author-written tasks",
+  "version": "lungsight-teaching-1",
+  "cases": [
+    {
+      "id": "L01",
+      "category": "source",
+      "question": "LungSight 当前本地五折图像模型使用什么网络架构？value 只写架构名称。",
+      "expected": {
+        "status": "answered",
+        "value": "ResNet18",
+        "source_ids": [
+          "LS01"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L02",
+      "category": "source",
+      "question": "项目说明中的图像集成包含几折？value 填整数。",
+      "expected": {
+        "status": "answered",
+        "value": 5,
+        "source_ids": [
+          "LS01"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L03",
+      "category": "source",
+      "question": "项目定义中的 CT 分类任务有几类？value 填整数。",
+      "expected": {
+        "status": "answered",
+        "value": 4,
+        "source_ids": [
+          "LS02"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L04",
+      "category": "source",
+      "question": "项目当前研究权重的版本标识是什么？value 填完整标识。",
+      "expected": {
+        "status": "answered",
+        "value": "research-fivefold-20260902-165455",
+        "source_ids": [
+          "LS01"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L05",
+      "category": "source",
+      "question": "基础 DICOM 导入最多等距抽取多少层进入模型？value 填整数。",
+      "expected": {
+        "status": "answered",
+        "value": 32,
+        "source_ids": [
+          "LS03"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L06",
+      "category": "source",
+      "question": "已经关联 CT 任务的问答采用哪个服务端模式？value 填模式代码。",
+      "expected": {
+        "status": "answered",
+        "value": "ct_hybrid",
+        "source_ids": [
+          "LS04"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L07",
+      "category": "source",
+      "question": "未关联病例的主页问答采用哪个服务端模式？value 填模式代码。",
+      "expected": {
+        "status": "answered",
+        "value": "medical_general",
+        "source_ids": [
+          "LS04"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L08",
+      "category": "source",
+      "question": "仓库 run_rag_evaluation 创建了哪个模型提供者类？value 填类名。",
+      "expected": {
+        "status": "answered",
+        "value": "MockLLMProvider",
+        "source_ids": [
+          "LS05"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L09",
+      "category": "source",
+      "question": "当前问答流程会把原始 CT 文件发送给大模型吗？value 填 JSON 布尔值。",
+      "expected": {
+        "status": "answered",
+        "value": false,
+        "source_ids": [
+          "LS06"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L10",
+      "category": "source",
+      "question": "基础 DICOM 导入支持单帧还是多帧 CT 对象？value 只填“单帧”或“多帧”。",
+      "expected": {
+        "status": "answered",
+        "value": "单帧",
+        "source_ids": [
+          "LS03"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L11",
+      "category": "source",
+      "question": "本地引文检查是否要求 quote 逐字包含于传入证据？value 填 JSON 布尔值。",
+      "expected": {
+        "status": "answered",
+        "value": true,
+        "source_ids": [
+          "LS07"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L12",
+      "category": "source",
+      "question": "切换问答新模式时是否重新生成旧问答？value 填 JSON 布尔值。",
+      "expected": {
+        "status": "answered",
+        "value": false,
+        "source_ids": [
+          "LS08"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L13",
+      "category": "task",
+      "question": "读取教学任务 DEMO-001；五折平均概率最大的类别是什么？value 只填类别字母。",
+      "expected": {
+        "status": "answered",
+        "value": "B",
+        "source_ids": [],
+        "task_id": "DEMO-001"
+      }
+    },
+    {
+      "id": "L14",
+      "category": "task",
+      "question": "教学任务 DEMO-001 中，B 类五折平均概率是多少？value 填 0 到 1 的数值。",
+      "expected": {
+        "status": "answered",
+        "value": 0.51,
+        "source_ids": [],
+        "task_id": "DEMO-001"
+      }
+    },
+    {
+      "id": "L15",
+      "category": "task",
+      "question": "教学任务 DEMO-001 中，有多少比例的折把 B 排第一？value 填 0 到 1 的数值。",
+      "expected": {
+        "status": "answered",
+        "value": 0.8,
+        "source_ids": [],
+        "task_id": "DEMO-001"
+      }
+    },
+    {
+      "id": "L16",
+      "category": "task",
+      "question": "DEMO-001 的 B 类最高与最低单折概率之差是多少？value 填数值。",
+      "expected": {
+        "status": "answered",
+        "value": 0.35,
+        "source_ids": [],
+        "task_id": "DEMO-001"
+      }
+    },
+    {
+      "id": "L17",
+      "category": "task",
+      "question": "DEMO-001 第四折（从 1 起编号）的最高概率类别是什么？value 只填类别字母。",
+      "expected": {
+        "status": "answered",
+        "value": "C",
+        "source_ids": [],
+        "task_id": "DEMO-001"
+      }
+    },
+    {
+      "id": "L18",
+      "category": "missing",
+      "question": "请读取任务 DEMO-999，报告它的最高概率类别。找不到该任务时请标记资料不足，value 为 null。",
+      "expected": {
+        "status": "insufficient",
+        "value": null,
+        "source_ids": [],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L19",
+      "category": "missing",
+      "question": "请查当前资料库：该项目在 2027 年独立多中心试验中的总体准确率是多少？未记录时 value 为 null，并标记资料不足。",
+      "expected": {
+        "status": "insufficient",
+        "value": null,
+        "source_ids": [],
+        "task_id": null
+      }
+    },
+    {
+      "id": "L20",
+      "category": "version",
+      "question": "读取 DEMO-002 并查当前模型说明；这份任务的模型版本是否与资料版本匹配，足以据此解释模型架构？版本不匹配时标记资料不足，value 为 null。",
+      "expected": {
+        "status": "insufficient",
+        "value": null,
+        "source_ids": [
+          "LS01"
+        ],
+        "task_id": "DEMO-002"
+      }
+    }
+  ],
+  "development_cases": [
+    {
+      "id": "DEV01",
+      "category": "development",
+      "question": "查找项目说明：请给出本地图像模型的网络名称，value 只写名称。",
+      "expected": {
+        "status": "answered",
+        "value": "ResNet18",
+        "source_ids": [
+          "LS01"
+        ],
+        "task_id": null
+      }
+    },
+    {
+      "id": "DEV02",
+      "category": "development",
+      "question": "读取教学任务 DEMO-001，平均分布中前两类的概率差是多少？value 填数值。",
+      "expected": {
+        "status": "answered",
+        "value": 0.23,
+        "source_ids": [],
+        "task_id": "DEMO-001"
+      }
+    }
+  ],
+  "sampling": "20 purposefully selected tasks; 12 source lookups, 5 numeric tasks, 2 missing-information cases, 1 version-conflict case",
+  "reuse_notice": "Development and evaluation share the small source pack. Evaluation prompts are frozen before model calls; this is not an independent clinical or general Agent benchmark."
+}

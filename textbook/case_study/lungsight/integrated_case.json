@@ -1,0 +1,17 @@
+{
+  "id": "REPORT01",
+  "category": "integrated",
+  "question": "请为教学任务 DEMO-001 生成一段约 100—200 字的科研结果说明草稿。先读取任务，再检索并读取相应模型说明，核对模型版本；解释最高平均概率类别、平均概率和五折分歧，并说明当前复核状态。最终 JSON 的 value 为对象，恰有 architecture、top_class、mean_probability、fold_agreement、review_status 五个字段；分别填网络名称、类别字母、数值、数值、状态代码。正文放 answer，来源放 citations。",
+  "expected": {
+    "status": "answered",
+    "value": {
+      "architecture": "ResNet18",
+      "top_class": "B",
+      "mean_probability": 0.51,
+      "fold_agreement": 0.8,
+      "review_status": "pending"
+    },
+    "source_ids": ["LS01"],
+    "task_id": "DEMO-001"
+  }
+}

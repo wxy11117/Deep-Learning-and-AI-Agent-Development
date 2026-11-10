@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "pages": 274,
+  "review_date": "2026-11-11",
+  "pdf_sha256": "26143783c5a2975434d8bc5567038b8eba3b8334fcbb9424b8bbbebb21c94ecf",
+  "reviewer": "Visual inspection of rendered PDF pages",
+  "coverage": "Previous full-book visual review retained. The new copyright page was inspected at readable resolution; all other 273 pages are pixel-identical to the approved edition.",
+  "representative_physical_pages": [
+    3
+  ],
+  "checks": {
+    "font_hierarchy": true,
+    "author_size_and_order_preserved": true,
+    "toc_page_numbers_and_navigation": true,
+    "reference_entries_and_links_readable": true,
+    "hanging_reference_numbers_and_url_wrapping": true,
+    "copyright_requested_rows_removed": true,
+    "no_short_tail_pages": true,
+    "cover_and_author_page_pixel_preservation": true,
+    "repository_link_and_rights_statement_readable": true
+  },
+  "render_comparison": {
+    "pages": 274,
+    "previous_pages": 274,
+    "changed_physical_pages": [
+      3
+    ],
+    "only_copyright_changed": true
+  },
+  "remaining_observed_layout_issues": []
+}

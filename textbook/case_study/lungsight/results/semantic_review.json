@@ -1,0 +1,119 @@
+{
+  "reviewer": "Codex editorial review",
+  "review_type": "source and numerical wording review, not clinical review",
+  "reviewed_evaluation_answers": [
+    {
+      "run": "results/evaluation/L01_r1.json",
+      "sha256": "de2c850e4b3335bc69b5174e83dc4d945eeab6781c489aeb6d85fce7cd1fe16f",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L02_r1.json",
+      "sha256": "f48d546bfdb6fa2957051a4ea7ad3b0fe7e5f2c1bb4cd5523a169ce871b466d3",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L03_r1.json",
+      "sha256": "5411ac51b976e620b532b478bb15619af761a7936a1671875f595350570f88ba",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L04_r1.json",
+      "sha256": "66b065c872c52adaf6a7cf973441c09a2e7e0aa1312bdb45b5024660e1eb5c59",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L05_r1.json",
+      "sha256": "65273f611214a9af1c52896d264bc0333fc281f11240df357c03c7a4299771ad",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L06_r1.json",
+      "sha256": "0616553d2e077386ccdf71b3481fb86aba6946973bae920cb7d4d5e1a0e0755e",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L07_r1.json",
+      "sha256": "14265c4db8052f5102b56bee5767e123732b9ec87f041bfb93a88e65eeac48d3",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L08_r1.json",
+      "sha256": "eb6897c21e31fc9df7505df8b6ccf48a4c4914b4a0f948e14fd2d2cf9b51515c",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L09_r1.json",
+      "sha256": "2a1672957bb060412205e6ba45f94f3fdaea90160153342798e9377a4ed277e4",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L10_r1.json",
+      "sha256": "bc99691d3cb95f22e183c1e55d1008700118c6778e3f927ed30e67eb82217d7f",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L11_r1.json",
+      "sha256": "5d3be70b60c3e3a84cae8d1a85d94eb5d77eafc69a05b6caa75a94a93be8cf48",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L12_r1.json",
+      "sha256": "ce33159d991896ca225af30760b58fc2bc2b2b45102c4c7b44f8d6ef8934dbd0",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L13_r1.json",
+      "sha256": "814623d3fb655c1285a685a2779d8f69b5db833066936ba924c48ebbaec8e667",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L14_r1.json",
+      "sha256": "0ae93942f6920393b0ad80786abee1efd08659324821b778da581a0774fd18c9",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L15_r1.json",
+      "sha256": "f44179bb72ebed589fada97102e6b8f23bee647e8ab405d9cb8ac7c0561cac84",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L16_r1.json",
+      "sha256": "cba1cbbcbd842b98ea0463ea1e9826c145bfc1cdd426e461a495216ff4c73d1c",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L17_r1.json",
+      "sha256": "2b3a1f6957755035fa94feee68dd27422344600953dc18aebe9731d804295c55",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L18_r1.json",
+      "sha256": "48a010d6b647ea1fab53bfa3b4701a68ee04ca640004a66c1171b12019efd016",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L19_r1.json",
+      "sha256": "da7240886281451e78894b9fcf7130a64a036b78da08dd0a8aa60bfa24b2fbed",
+      "requested_fact_and_answer_consistent": true
+    },
+    {
+      "run": "results/evaluation/L20_r1.json",
+      "sha256": "118fea3b85fc919d2aad2595d19933ed5972de6a4f392549d1b51226f455d702",
+      "requested_fact_and_answer_consistent": true
+    }
+  ],
+  "finding": {
+    "run": "results/integrated/REPORT01_r1.json",
+    "sha256": "6bbd46bfb8cfd219b8fb1d5fe3e5c630aba3522433fcb6c23395e2eb8dde4da7",
+    "issue": "Opening phrase described author-constructed probabilities as actual local ResNet18 inference.",
+    "numeric_and_quote_checks_passed": true
+  },
+  "revision": {
+    "run": "results/integrated_revised/REPORT02_r1.json",
+    "sha256": "aedeae6e4a741a17fd72ce3c0f0f59bee640bb8b6c5ac0441346d343e84af276",
+    "change": "Explicitly separate constructed probabilities, public architecture reference and simulated pending state.",
+    "source_wording_corrected": true
+  },
+  "scope": "Editorial reading of saved answers; the original automatic scores and model outputs remain unchanged."
+}

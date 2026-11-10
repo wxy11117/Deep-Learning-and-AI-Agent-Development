@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "train_n": 1000,
+  "valid_n": 400,
+  "test_n": 800,
+  "max_gradient_absolute_error": 1.6832923943610467e-11,
+  "best_epoch": 300,
+  "test_loss": 0.08643898006530482,
+  "test_accuracy": 0.985,
+  "note": "Synthetic circles; model selection uses validation loss only."
+}

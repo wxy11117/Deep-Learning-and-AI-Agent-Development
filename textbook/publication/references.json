@@ -1,0 +1,2330 @@
+{
+  "title": "参考文献与资料",
+  "style": "顺序编号；作者、题名、文献类型、出处、发表年、卷期页码或文章号、DOI / URL；在线资料附访问日期。",
+  "accessed": "2026-11-11",
+  "entries": [
+    {
+      "number": 1,
+      "key": "Ref001",
+      "source_url": "https://scikit-learn.org/stable/modules/tree.html",
+      "url": "https://scikit-learn.org/stable/modules/tree.html",
+      "chapters": [
+        2
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://scikit-learn.org/stable/modules/tree.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "scikit-learn developers"
+      ],
+      "title": "Decision Trees",
+      "container": "scikit-learn 1.9.1 documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "scikit-learn developers"
+      ]
+    },
+    {
+      "number": 2,
+      "key": "Ref002",
+      "source_url": "https://scikit-learn.org/stable/modules/ensemble.html",
+      "url": "https://scikit-learn.org/stable/modules/ensemble.html",
+      "chapters": [
+        2
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://scikit-learn.org/stable/modules/ensemble.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "scikit-learn developers"
+      ],
+      "title": "Ensembles: Gradient boosting, random forests, bagging, voting, stacking",
+      "container": "scikit-learn 1.9.1 documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "scikit-learn developers"
+      ]
+    },
+    {
+      "number": 3,
+      "key": "Ref003",
+      "source_url": "https://scikit-learn.org/stable/modules/svm.html",
+      "url": "https://scikit-learn.org/stable/modules/svm.html",
+      "chapters": [
+        2
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://scikit-learn.org/stable/modules/svm.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "scikit-learn developers"
+      ],
+      "title": "Support Vector Machines",
+      "container": "scikit-learn 1.9.1 documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "scikit-learn developers"
+      ]
+    },
+    {
+      "number": 4,
+      "key": "Ref004",
+      "source_url": "https://scikit-learn.org/stable/modules/decomposition.html",
+      "url": "https://scikit-learn.org/stable/modules/decomposition.html",
+      "chapters": [
+        2
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://scikit-learn.org/stable/modules/decomposition.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "scikit-learn developers"
+      ],
+      "title": "Decomposing signals in components (matrix factorization problems)",
+      "container": "scikit-learn 1.9.1 documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "scikit-learn developers"
+      ]
+    },
+    {
+      "number": 5,
+      "key": "Ref005",
+      "source_url": "https://arxiv.org/abs/1711.05101",
+      "url": "https://openreview.net/forum?id=Bkg6RiCqY7",
+      "chapters": [
+        7,
+        9,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1711.05101",
+        "https://openreview.net/forum?id=Bkg6RiCqY7"
+      ],
+      "notes": [
+        "会议电子论文未提供统一卷页，不虚构卷号或页码；原 arXiv 入口另存。"
+      ],
+      "title": "Decoupled Weight Decay Regularization",
+      "authors": [
+        "Loshchilov, Ilya",
+        "Hutter, Frank"
+      ],
+      "year": "2019",
+      "container": "International Conference on Learning Representations",
+      "arxiv": "1711.05101",
+      "archive_doi": "10.48550/arXiv.1711.05101",
+      "preprint_year": "2017"
+    },
+    {
+      "number": 6,
+      "key": "Ref006",
+      "source_url": "https://docs.pytorch.org/docs/2.15/generated/torch.nn.CrossEntropyLoss.html",
+      "url": "https://docs.pytorch.org/docs/2.15/generated/torch.nn.CrossEntropyLoss.html",
+      "chapters": [
+        8
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://docs.pytorch.org/docs/2.15/generated/torch.nn.CrossEntropyLoss.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "PyTorch contributors"
+      ],
+      "title": "CrossEntropyLoss",
+      "container": "PyTorch 2.15 documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "PyTorch contributors"
+      ]
+    },
+    {
+      "number": 7,
+      "key": "Ref007",
+      "source_url": "https://arxiv.org/abs/1708.02002",
+      "url": "https://doi.org/10.1109/iccv.2017.324",
+      "chapters": [
+        8
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1708.02002",
+        "https://api.crossref.org/works/10.1109/ICCV.2017.324"
+      ],
+      "notes": [],
+      "title": "Focal Loss for Dense Object Detection",
+      "authors": [
+        "Lin, Tsung-Yi",
+        "Goyal, Priya",
+        "Girshick, Ross",
+        "He, Kaiming",
+        "Dollar, Piotr"
+      ],
+      "year": "2017",
+      "container": "2017 IEEE International Conference on Computer Vision (ICCV)",
+      "arxiv": "1708.02002",
+      "archive_doi": "10.48550/arXiv.1708.02002",
+      "preprint_year": "2017",
+      "doi": "10.1109/iccv.2017.324",
+      "pages": "2999-3007"
+    },
+    {
+      "number": 8,
+      "key": "Ref008",
+      "source_url": "https://arxiv.org/abs/1412.6980",
+      "url": "https://arxiv.org/abs/1412.6980",
+      "chapters": [
+        9,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1412.6980"
+      ],
+      "notes": [
+        "会议电子论文未提供统一卷页，不虚构卷号或页码；原 arXiv 入口另存。"
+      ],
+      "title": "Adam: A Method for Stochastic Optimization",
+      "authors": [
+        "Kingma, Diederik P.",
+        "Ba, Jimmy"
+      ],
+      "year": "2015",
+      "container": "International Conference on Learning Representations",
+      "arxiv": "1412.6980",
+      "archive_doi": "10.48550/arXiv.1412.6980",
+      "preprint_year": "2014"
+    },
+    {
+      "number": 9,
+      "key": "Ref009",
+      "source_url": "https://arxiv.org/abs/1502.03167",
+      "url": "https://proceedings.mlr.press/v37/ioffe15.html",
+      "chapters": [
+        10
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1502.03167",
+        "https://proceedings.mlr.press/v37/ioffe15.html"
+      ],
+      "notes": [],
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "authors": [
+        "Ioffe, Sergey",
+        "Szegedy, Christian"
+      ],
+      "year": "2015",
+      "container": "International Conference on Machine Learning",
+      "arxiv": "1502.03167",
+      "archive_doi": "10.48550/arXiv.1502.03167",
+      "preprint_year": "2015",
+      "pages": "448-456",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "37"
+    },
+    {
+      "number": 10,
+      "key": "Ref010",
+      "source_url": "https://arxiv.org/abs/1607.06450",
+      "url": "https://arxiv.org/abs/1607.06450",
+      "chapters": [
+        10
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "preprint",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1607.06450"
+      ],
+      "notes": [
+        "按所引预印本记录著录，未将仓储 DOI 写作期刊出版 DOI。"
+      ],
+      "title": "Layer Normalization",
+      "authors": [
+        "Ba, Jimmy Lei",
+        "Kiros, Jamie Ryan",
+        "Hinton, Geoffrey E."
+      ],
+      "year": "2016",
+      "container": "arXiv",
+      "arxiv": "1607.06450",
+      "archive_doi": "10.48550/arXiv.1607.06450",
+      "preprint_year": "2016",
+      "doi": "10.48550/arXiv.1607.06450"
+    },
+    {
+      "number": 11,
+      "key": "Ref011",
+      "source_url": "https://arxiv.org/abs/1512.03385",
+      "url": "https://doi.org/10.1109/cvpr.2016.90",
+      "chapters": [
+        10,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1512.03385",
+        "https://api.crossref.org/works?query.title=Deep+Residual+Learning+for+Image+Recognition&rows=3"
+      ],
+      "notes": [],
+      "title": "Deep Residual Learning for Image Recognition",
+      "authors": [
+        "He, Kaiming",
+        "Zhang, Xiangyu",
+        "Ren, Shaoqing",
+        "Sun, Jian"
+      ],
+      "year": "2016",
+      "container": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "arxiv": "1512.03385",
+      "archive_doi": "10.48550/arXiv.1512.03385",
+      "preprint_year": "2015",
+      "doi": "10.1109/cvpr.2016.90",
+      "pages": "770-778"
+    },
+    {
+      "number": 12,
+      "key": "Ref012",
+      "source_url": "https://arxiv.org/abs/1910.07467",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/1e8a19426224ca89e83cef47f1e7f53b-Abstract.html",
+      "chapters": [
+        10
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1910.07467",
+        "https://proceedings.neurips.cc/paper_files/paper/2019/hash/1e8a19426224ca89e83cef47f1e7f53b-Abstract.html"
+      ],
+      "notes": [
+        "已核对官方 proceedings 页面及 BibTeX；其 pages 字段为空，采用卷号和论文链接定位。"
+      ],
+      "title": "Root Mean Square Layer Normalization",
+      "authors": [
+        "Zhang, Biao",
+        "Sennrich, Rico"
+      ],
+      "year": "2019",
+      "container": "Advances in Neural Information Processing Systems",
+      "arxiv": "1910.07467",
+      "archive_doi": "10.48550/arXiv.1910.07467",
+      "preprint_year": "2019",
+      "volume": "32"
+    },
+    {
+      "number": 13,
+      "key": "Ref013",
+      "source_url": "https://docs.pytorch.org/docs/2.15/notes/randomness.html",
+      "url": "https://docs.pytorch.org/docs/2.15/notes/randomness.html",
+      "chapters": [
+        12
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://docs.pytorch.org/docs/2.15/notes/randomness.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "PyTorch contributors"
+      ],
+      "title": "Reproducibility",
+      "container": "PyTorch 2.15 documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "PyTorch contributors"
+      ]
+    },
+    {
+      "number": 14,
+      "key": "Ref014",
+      "source_url": "https://arxiv.org/abs/1505.04597",
+      "url": "https://doi.org/10.1007/978-3-319-24574-4_28",
+      "chapters": [
+        13,
+        25,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1505.04597",
+        "https://api.crossref.org/works?query.title=U-Net%3A+Convolutional+Networks+for+Biomedical+Image+Segmentation&rows=3"
+      ],
+      "notes": [],
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "authors": [
+        "Ronneberger, Olaf",
+        "Fischer, Philipp",
+        "Brox, Thomas"
+      ],
+      "year": "2015",
+      "container": "Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015",
+      "arxiv": "1505.04597",
+      "archive_doi": "10.48550/arXiv.1505.04597",
+      "preprint_year": "2015",
+      "doi": "10.1007/978-3-319-24574-4_28",
+      "pages": "234-241"
+    },
+    {
+      "number": 15,
+      "key": "Ref015",
+      "source_url": "https://arxiv.org/abs/2010.11929",
+      "url": "https://openreview.net/forum?id=YicbFdNTTy",
+      "chapters": [
+        13
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2010.11929",
+        "https://openreview.net/forum?id=YicbFdNTTy"
+      ],
+      "notes": [
+        "会议电子论文未提供统一卷页，不虚构卷号或页码；原 arXiv 入口另存。"
+      ],
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "authors": [
+        "Dosovitskiy, Alexey",
+        "Beyer, Lucas",
+        "Kolesnikov, Alexander",
+        "Weissenborn, Dirk",
+        "Zhai, Xiaohua",
+        "Unterthiner, Thomas",
+        "Dehghani, Mostafa",
+        "Minderer, Matthias",
+        "Heigold, Georg",
+        "Gelly, Sylvain",
+        "Uszkoreit, Jakob",
+        "Houlsby, Neil"
+      ],
+      "year": "2021",
+      "container": "International Conference on Learning Representations",
+      "arxiv": "2010.11929",
+      "archive_doi": "10.48550/arXiv.2010.11929",
+      "preprint_year": "2020"
+    },
+    {
+      "number": 16,
+      "key": "Ref016",
+      "source_url": "https://arxiv.org/abs/1506.01497",
+      "url": "https://papers.nips.cc/paper_files/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html",
+      "chapters": [
+        14
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1506.01497",
+        "https://papers.nips.cc/paper_files/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html"
+      ],
+      "notes": [
+        "已核对官方 proceedings 页面及 BibTeX；其 pages 字段为空，采用卷号和论文链接定位。"
+      ],
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "authors": [
+        "Ren, Shaoqing",
+        "He, Kaiming",
+        "Girshick, Ross",
+        "Sun, Jian"
+      ],
+      "year": "2015",
+      "container": "Advances in Neural Information Processing Systems",
+      "arxiv": "1506.01497",
+      "archive_doi": "10.48550/arXiv.1506.01497",
+      "preprint_year": "2015",
+      "volume": "28"
+    },
+    {
+      "number": 17,
+      "key": "Ref017",
+      "source_url": "https://arxiv.org/abs/2005.12872",
+      "url": "https://doi.org/10.1007/978-3-030-58452-8_13",
+      "chapters": [
+        14
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2005.12872",
+        "https://api.crossref.org/works/10.1007/978-3-030-58452-8_13"
+      ],
+      "notes": [],
+      "title": "End-to-End Object Detection with Transformers",
+      "authors": [
+        "Carion, Nicolas",
+        "Massa, Francisco",
+        "Synnaeve, Gabriel",
+        "Usunier, Nicolas",
+        "Kirillov, Alexander",
+        "Zagoruyko, Sergey"
+      ],
+      "year": "2020",
+      "container": "Computer Vision – ECCV 2020",
+      "arxiv": "2005.12872",
+      "archive_doi": "10.48550/arXiv.2005.12872",
+      "preprint_year": "2020",
+      "doi": "10.1007/978-3-030-58452-8_13",
+      "pages": "213-229"
+    },
+    {
+      "number": 18,
+      "key": "Ref018",
+      "source_url": "https://arxiv.org/abs/1612.03144",
+      "url": "https://doi.org/10.1109/cvpr.2017.106",
+      "chapters": [
+        14
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1612.03144",
+        "https://api.crossref.org/works/10.1109/CVPR.2017.106"
+      ],
+      "notes": [],
+      "title": "Feature Pyramid Networks for Object Detection",
+      "authors": [
+        "Lin, Tsung-Yi",
+        "Dollar, Piotr",
+        "Girshick, Ross",
+        "He, Kaiming",
+        "Hariharan, Bharath",
+        "Belongie, Serge"
+      ],
+      "year": "2017",
+      "container": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "arxiv": "1612.03144",
+      "archive_doi": "10.48550/arXiv.1612.03144",
+      "preprint_year": "2016",
+      "doi": "10.1109/cvpr.2017.106",
+      "pages": "936-944"
+    },
+    {
+      "number": 19,
+      "key": "Ref019",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "url": "https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+      "chapters": [
+        16,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1706.03762",
+        "https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html"
+      ],
+      "notes": [
+        "已核对官方 proceedings 页面及 BibTeX；其 pages 字段为空，采用卷号和论文链接定位。"
+      ],
+      "title": "Attention is All you Need",
+      "authors": [
+        "Vaswani, Ashish",
+        "Shazeer, Noam",
+        "Parmar, Niki",
+        "Uszkoreit, Jakob",
+        "Jones, Llion",
+        "Gomez, Aidan N.",
+        "Kaiser, Łukasz",
+        "Polosukhin, Illia"
+      ],
+      "year": "2017",
+      "container": "Advances in Neural Information Processing Systems",
+      "arxiv": "1706.03762",
+      "archive_doi": "10.48550/arXiv.1706.03762",
+      "preprint_year": "2017",
+      "volume": "30"
+    },
+    {
+      "number": 20,
+      "key": "Ref020",
+      "source_url": "https://arxiv.org/abs/2205.14135",
+      "url": "https://doi.org/10.52202/068431-1189",
+      "chapters": [
+        16,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2205.14135",
+        "https://api.crossref.org/works?query.title=FlashAttention%3A+Fast+and+Memory-Efficient+Exact+Attention+with+IO-Awareness&rows=3"
+      ],
+      "notes": [],
+      "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+      "authors": [
+        "Dao, Tri",
+        "Fu, Dan",
+        "Ermon, Stefano",
+        "Rudra, Atri",
+        "Ré, Christopher"
+      ],
+      "year": "2022",
+      "container": "Advances in Neural Information Processing Systems",
+      "arxiv": "2205.14135",
+      "archive_doi": "10.48550/arXiv.2205.14135",
+      "preprint_year": "2022",
+      "doi": "10.52202/068431-1189",
+      "pages": "16344-16359",
+      "volume": "35"
+    },
+    {
+      "number": 21,
+      "key": "Ref021",
+      "source_url": "https://arxiv.org/abs/2104.09864",
+      "url": "https://doi.org/10.1016/j.neucom.2023.127063",
+      "chapters": [
+        16
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "article",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2104.09864",
+        "https://api.crossref.org/works?query.title=RoFormer%3A+Enhanced+Transformer+with+Rotary+Position+Embedding&rows=3"
+      ],
+      "notes": [],
+      "title": "RoFormer: Enhanced transformer with Rotary Position Embedding",
+      "authors": [
+        "Su, Jianlin",
+        "Ahmed, Murtadha",
+        "Lu, Yu",
+        "Pan, Shengfeng",
+        "Bo, Wen",
+        "Liu, Yunfeng"
+      ],
+      "year": "2024",
+      "container": "Neurocomputing",
+      "arxiv": "2104.09864",
+      "archive_doi": "10.48550/arXiv.2104.09864",
+      "preprint_year": "2021",
+      "doi": "10.1016/j.neucom.2023.127063",
+      "volume": "568",
+      "pages": "127063"
+    },
+    {
+      "number": 22,
+      "key": "Ref022",
+      "source_url": "https://arxiv.org/abs/2002.05709",
+      "url": "https://proceedings.mlr.press/v119/chen20j.html",
+      "chapters": [
+        17
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2002.05709",
+        "https://proceedings.mlr.press/v119/chen20j.html"
+      ],
+      "notes": [],
+      "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+      "authors": [
+        "Chen, Ting",
+        "Kornblith, Simon",
+        "Norouzi, Mohammad",
+        "Hinton, Geoffrey"
+      ],
+      "year": "2020",
+      "container": "International Conference on Machine Learning",
+      "arxiv": "2002.05709",
+      "archive_doi": "10.48550/arXiv.2002.05709",
+      "preprint_year": "2020",
+      "pages": "1597-1607",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "119"
+    },
+    {
+      "number": 23,
+      "key": "Ref023",
+      "source_url": "https://arxiv.org/abs/2103.00020",
+      "url": "https://proceedings.mlr.press/v139/radford21a.html",
+      "chapters": [
+        17,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2103.00020",
+        "https://proceedings.mlr.press/v139/radford21a.html"
+      ],
+      "notes": [],
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "authors": [
+        "Radford, Alec",
+        "Kim, Jong Wook",
+        "Hallacy, Chris",
+        "Ramesh, Aditya",
+        "Goh, Gabriel",
+        "Agarwal, Sandhini",
+        "Sastry, Girish",
+        "Askell, Amanda",
+        "Mishkin, Pamela",
+        "Clark, Jack",
+        "Krueger, Gretchen",
+        "Sutskever, Ilya"
+      ],
+      "year": "2021",
+      "container": "International Conference on Machine Learning",
+      "arxiv": "2103.00020",
+      "archive_doi": "10.48550/arXiv.2103.00020",
+      "preprint_year": "2021",
+      "pages": "8748-8763",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "139"
+    },
+    {
+      "number": 24,
+      "key": "Ref024",
+      "source_url": "https://arxiv.org/abs/2111.06377",
+      "url": "https://doi.org/10.1109/cvpr52688.2022.01553",
+      "chapters": [
+        17
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2111.06377",
+        "https://api.crossref.org/works/10.1109/CVPR52688.2022.01553"
+      ],
+      "notes": [],
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "authors": [
+        "He, Kaiming",
+        "Chen, Xinlei",
+        "Xie, Saining",
+        "Li, Yanghao",
+        "Dollar, Piotr",
+        "Girshick, Ross"
+      ],
+      "year": "2022",
+      "container": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "arxiv": "2111.06377",
+      "archive_doi": "10.48550/arXiv.2111.06377",
+      "preprint_year": "2021",
+      "doi": "10.1109/cvpr52688.2022.01553",
+      "pages": "15979-15988"
+    },
+    {
+      "number": 25,
+      "key": "Ref025",
+      "source_url": "https://arxiv.org/abs/1312.6114",
+      "url": "https://arxiv.org/abs/1312.6114",
+      "chapters": [
+        18
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1312.6114"
+      ],
+      "notes": [
+        "会议电子论文未提供统一卷页，不虚构卷号或页码；原 arXiv 入口另存。"
+      ],
+      "title": "Auto-Encoding Variational Bayes",
+      "authors": [
+        "Kingma, Diederik P",
+        "Welling, Max"
+      ],
+      "year": "2014",
+      "container": "International Conference on Learning Representations",
+      "arxiv": "1312.6114",
+      "archive_doi": "10.48550/arXiv.1312.6114",
+      "preprint_year": "2013"
+    },
+    {
+      "number": 26,
+      "key": "Ref026",
+      "source_url": "https://arxiv.org/abs/1406.2661",
+      "url": "https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
+      "chapters": [
+        18
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1406.2661",
+        "https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html"
+      ],
+      "notes": [
+        "已核对官方 proceedings 页面及 BibTeX；其 pages 字段为空，采用卷号和论文链接定位。"
+      ],
+      "title": "Generative Adversarial Nets",
+      "authors": [
+        "Goodfellow, Ian J.",
+        "Pouget-Abadie, Jean",
+        "Mirza, Mehdi",
+        "Xu, Bing",
+        "Warde-Farley, David",
+        "Ozair, Sherjil",
+        "Courville, Aaron",
+        "Bengio, Yoshua"
+      ],
+      "year": "2014",
+      "container": "Advances in Neural Information Processing Systems",
+      "arxiv": "1406.2661",
+      "archive_doi": "10.48550/arXiv.1406.2661",
+      "preprint_year": "2014",
+      "volume": "27"
+    },
+    {
+      "number": 27,
+      "key": "Ref027",
+      "source_url": "https://arxiv.org/abs/2006.11239",
+      "url": "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+      "chapters": [
+        18,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2006.11239",
+        "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html"
+      ],
+      "notes": [],
+      "title": "Denoising Diffusion Probabilistic Models",
+      "authors": [
+        "Ho, Jonathan",
+        "Jain, Ajay",
+        "Abbeel, Pieter"
+      ],
+      "year": "2020",
+      "container": "Advances in Neural Information Processing Systems",
+      "arxiv": "2006.11239",
+      "archive_doi": "10.48550/arXiv.2006.11239",
+      "preprint_year": "2020",
+      "volume": "33",
+      "pages": "6840-6851"
+    },
+    {
+      "number": 28,
+      "key": "Ref028",
+      "source_url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "url": "https://doi.org/10.1038/s41586-024-07487-w",
+      "chapters": [
+        18
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "article",
+      "metadata_sources": [
+        "https://www.nature.com/articles/s41586-024-07487-w",
+        "https://api.crossref.org/works?query.title=Accurate+structure+prediction+of+biomolecular+interactions+with+AlphaFold+3&rows=3"
+      ],
+      "notes": [],
+      "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "authors": [
+        "Abramson, Josh",
+        "Adler, Jonas",
+        "Dunger, Jack",
+        "Evans, Richard",
+        "Green, Tim",
+        "Pritzel, Alexander",
+        "Ronneberger, Olaf",
+        "Willmore, Lindsay",
+        "Ballard, Andrew J.",
+        "Bambrick, Joshua",
+        "Bodenstein, Sebastian W.",
+        "Evans, David A.",
+        "Hung, Chia-Chun",
+        "O’Neill, Michael",
+        "Reiman, David",
+        "Tunyasuvunakool, Kathryn",
+        "Wu, Zachary",
+        "Žemgulytė, Akvilė",
+        "Arvaniti, Eirini",
+        "Beattie, Charles",
+        "Bertolli, Ottavia",
+        "Bridgland, Alex",
+        "Cherepanov, Alexey",
+        "Congreve, Miles",
+        "Cowen-Rivers, Alexander I.",
+        "Cowie, Andrew",
+        "Figurnov, Michael",
+        "Fuchs, Fabian B.",
+        "Gladman, Hannah",
+        "Jain, Rishub",
+        "Khan, Yousuf A.",
+        "Low, Caroline M. R.",
+        "Perlin, Kuba",
+        "Potapenko, Anna",
+        "Savy, Pascal",
+        "Singh, Sukhdeep",
+        "Stecula, Adrian",
+        "Thillaisundaram, Ashok",
+        "Tong, Catherine",
+        "Yakneen, Sergei",
+        "Zhong, Ellen D.",
+        "Zielinski, Michal",
+        "Žídek, Augustin",
+        "Bapst, Victor",
+        "Kohli, Pushmeet",
+        "Jaderberg, Max",
+        "Hassabis, Demis",
+        "Jumper, John M."
+      ],
+      "year": "2024",
+      "container": "Nature",
+      "doi": "10.1038/s41586-024-07487-w",
+      "volume": "630",
+      "issue": "8016",
+      "pages": "493-500"
+    },
+    {
+      "number": 29,
+      "key": "Ref029",
+      "source_url": "https://arxiv.org/abs/1609.02907",
+      "url": "https://openreview.net/forum?id=SJU4ayYgl",
+      "chapters": [
+        19
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1609.02907",
+        "https://openreview.net/forum?id=SJU4ayYgl"
+      ],
+      "notes": [
+        "会议电子论文未提供统一卷页，不虚构卷号或页码；原 arXiv 入口另存。"
+      ],
+      "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+      "authors": [
+        "Kipf, Thomas N.",
+        "Welling, Max"
+      ],
+      "year": "2017",
+      "container": "International Conference on Learning Representations",
+      "arxiv": "1609.02907",
+      "archive_doi": "10.48550/arXiv.1609.02907",
+      "preprint_year": "2016"
+    },
+    {
+      "number": 30,
+      "key": "Ref030",
+      "source_url": "https://arxiv.org/abs/1312.5602",
+      "url": "https://arxiv.org/abs/1312.5602",
+      "chapters": [
+        19
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "preprint",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1312.5602"
+      ],
+      "notes": [
+        "按所引预印本记录著录，未将仓储 DOI 写作期刊出版 DOI。"
+      ],
+      "title": "Playing Atari with Deep Reinforcement Learning",
+      "authors": [
+        "Mnih, Volodymyr",
+        "Kavukcuoglu, Koray",
+        "Silver, David",
+        "Graves, Alex",
+        "Antonoglou, Ioannis",
+        "Wierstra, Daan",
+        "Riedmiller, Martin"
+      ],
+      "year": "2013",
+      "container": "arXiv",
+      "arxiv": "1312.5602",
+      "archive_doi": "10.48550/arXiv.1312.5602",
+      "preprint_year": "2013",
+      "doi": "10.48550/arXiv.1312.5602"
+    },
+    {
+      "number": 31,
+      "key": "Ref031",
+      "source_url": "https://arxiv.org/abs/1707.06347",
+      "url": "https://arxiv.org/abs/1707.06347",
+      "chapters": [
+        19
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "preprint",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1707.06347"
+      ],
+      "notes": [
+        "按所引预印本记录著录，未将仓储 DOI 写作期刊出版 DOI。"
+      ],
+      "title": "Proximal Policy Optimization Algorithms",
+      "authors": [
+        "Schulman, John",
+        "Wolski, Filip",
+        "Dhariwal, Prafulla",
+        "Radford, Alec",
+        "Klimov, Oleg"
+      ],
+      "year": "2017",
+      "container": "arXiv",
+      "arxiv": "1707.06347",
+      "archive_doi": "10.48550/arXiv.1707.06347",
+      "preprint_year": "2017",
+      "doi": "10.48550/arXiv.1707.06347"
+    },
+    {
+      "number": 32,
+      "key": "Ref032",
+      "source_url": "https://deepmind.google/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/",
+      "url": "https://deepmind.google/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/",
+      "chapters": [
+        20
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://deepmind.google/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/"
+      ],
+      "notes": [],
+      "authors": [
+        "Price, Ilan",
+        "Willson, Matthew"
+      ],
+      "title": "GenCast predicts weather and the risks of extreme conditions with state-of-the-art accuracy",
+      "container": "Google DeepMind",
+      "date": "2024-12-04",
+      "year": "2024",
+      "corporate_authors": []
+    },
+    {
+      "number": 33,
+      "key": "Ref033",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html",
+      "chapters": [
+        21
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "PyTorch contributors"
+      ],
+      "title": "Quickstart",
+      "container": "PyTorch Tutorials 2.15",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "PyTorch contributors"
+      ]
+    },
+    {
+      "number": 34,
+      "key": "Ref034",
+      "source_url": "https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset",
+      "url": "https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset",
+      "chapters": [
+        22
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "dataset",
+      "metadata_sources": [
+        "https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset"
+      ],
+      "notes": [],
+      "authors": [
+        "Fanaee-T, Hadi"
+      ],
+      "title": "Bike Sharing",
+      "container": "UCI Machine Learning Repository",
+      "date": "2013",
+      "year": "2013",
+      "corporate_authors": [],
+      "doi": "10.24432/C5W894"
+    },
+    {
+      "number": 35,
+      "key": "Ref035",
+      "source_url": "https://scikit-learn.org/stable/auto_examples/applications/plot_time_series_lagged_features.html",
+      "url": "https://scikit-learn.org/stable/auto_examples/applications/plot_time_series_lagged_features.html",
+      "chapters": [
+        22
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://scikit-learn.org/stable/auto_examples/applications/plot_time_series_lagged_features.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "scikit-learn developers"
+      ],
+      "title": "Lagged features for time series forecasting",
+      "container": "scikit-learn 1.9.1 documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "scikit-learn developers"
+      ]
+    },
+    {
+      "number": 36,
+      "key": "Ref036",
+      "source_url": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+      "chapters": [
+        23
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "scikit-learn developers"
+      ],
+      "title": "load_digits",
+      "container": "scikit-learn 1.9.1 documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "scikit-learn developers"
+      ]
+    },
+    {
+      "number": 37,
+      "key": "Ref037",
+      "source_url": "https://about.fb.com/news/2024/07/our-new-ai-model-can-segment-video/",
+      "url": "https://about.fb.com/news/2024/07/our-new-ai-model-can-segment-video/",
+      "chapters": [
+        25
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://about.fb.com/news/2024/07/our-new-ai-model-can-segment-video/"
+      ],
+      "notes": [],
+      "authors": [
+        "Meta"
+      ],
+      "title": "Our New AI Model Can Segment Anything - Even Video",
+      "container": "Meta Newsroom",
+      "date": "2024-07-29",
+      "year": "2024",
+      "corporate_authors": [
+        "Meta"
+      ]
+    },
+    {
+      "number": 38,
+      "key": "Ref038",
+      "source_url": "https://docs.pytorch.org/docs/stable/amp.html",
+      "url": "https://docs.pytorch.org/docs/stable/amp.html",
+      "chapters": [
+        27
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://docs.pytorch.org/docs/stable/amp.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "PyTorch contributors"
+      ],
+      "title": "Automatic Mixed Precision package - torch.amp",
+      "container": "PyTorch documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "PyTorch contributors"
+      ]
+    },
+    {
+      "number": 39,
+      "key": "Ref039",
+      "source_url": "https://arxiv.org/abs/1712.05877",
+      "url": "https://doi.org/10.1109/cvpr.2018.00286",
+      "chapters": [
+        27
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1712.05877",
+        "https://api.crossref.org/works?query.title=Quantization+and+Training+of+Neural+Networks+for+Efficient+Integer-Arithmetic-Only+Inference&rows=3"
+      ],
+      "notes": [],
+      "title": "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference",
+      "authors": [
+        "Jacob, Benoit",
+        "Kligys, Skirmantas",
+        "Chen, Bo",
+        "Zhu, Menglong",
+        "Tang, Matthew",
+        "Howard, Andrew",
+        "Adam, Hartwig",
+        "Kalenichenko, Dmitry"
+      ],
+      "year": "2018",
+      "container": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "arxiv": "1712.05877",
+      "archive_doi": "10.48550/arXiv.1712.05877",
+      "preprint_year": "2017",
+      "doi": "10.1109/cvpr.2018.00286",
+      "pages": "2704-2713"
+    },
+    {
+      "number": 40,
+      "key": "Ref040",
+      "source_url": "https://arxiv.org/abs/1503.02531",
+      "url": "https://arxiv.org/abs/1503.02531",
+      "chapters": [
+        27,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "preprint",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1503.02531"
+      ],
+      "notes": [
+        "按所引预印本记录著录，未将仓储 DOI 写作期刊出版 DOI。"
+      ],
+      "title": "Distilling the Knowledge in a Neural Network",
+      "authors": [
+        "Hinton, Geoffrey",
+        "Vinyals, Oriol",
+        "Dean, Jeff"
+      ],
+      "year": "2015",
+      "container": "arXiv",
+      "arxiv": "1503.02531",
+      "archive_doi": "10.48550/arXiv.1503.02531",
+      "preprint_year": "2015",
+      "doi": "10.48550/arXiv.1503.02531"
+    },
+    {
+      "number": 41,
+      "key": "Ref041",
+      "source_url": "https://docs.pytorch.org/docs/stable/notes/ddp.html",
+      "url": "https://docs.pytorch.org/docs/stable/notes/ddp.html",
+      "chapters": [
+        27
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://docs.pytorch.org/docs/stable/notes/ddp.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "PyTorch contributors"
+      ],
+      "title": "Distributed Data Parallel",
+      "container": "PyTorch documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "PyTorch contributors"
+      ]
+    },
+    {
+      "number": 42,
+      "key": "Ref042",
+      "source_url": "https://zh.d2l.ai/",
+      "url": "https://zh.d2l.ai/",
+      "chapters": [
+        28
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://zh.d2l.ai/"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "D2L 项目作者与贡献者"
+      ],
+      "title": "动手学深度学习：在线中文版",
+      "container": "D2L，2.0.0 版",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "D2L 项目作者与贡献者"
+      ]
+    },
+    {
+      "number": 43,
+      "key": "Ref043",
+      "source_url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+      "chapters": [
+        28
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://docs.pytorch.org/tutorials/beginner/basics/intro.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "PyTorch contributors"
+      ],
+      "title": "Learn the Basics",
+      "container": "PyTorch Tutorials 2.15",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "PyTorch contributors"
+      ]
+    },
+    {
+      "number": 44,
+      "key": "Ref044",
+      "source_url": "https://arxiv.org/abs/1810.04805",
+      "url": "https://aclanthology.org/N19-1423/",
+      "chapters": [
+        29,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1810.04805",
+        "https://aclanthology.org/N19-1423/"
+      ],
+      "notes": [],
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "authors": [
+        "Devlin, Jacob",
+        "Chang, Ming-Wei",
+        "Lee, Kenton",
+        "Toutanova, Kristina"
+      ],
+      "year": "2019",
+      "container": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+      "arxiv": "1810.04805",
+      "archive_doi": "10.48550/arXiv.1810.04805",
+      "preprint_year": "2018",
+      "doi": "10.18653/v1/N19-1423",
+      "pages": "4171-4186"
+    },
+    {
+      "number": 45,
+      "key": "Ref045",
+      "source_url": "https://arxiv.org/abs/2305.18290",
+      "url": "https://doi.org/10.52202/075280-2338",
+      "chapters": [
+        29
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2305.18290",
+        "https://api.crossref.org/works?query.title=Direct+Preference+Optimization%3A+Your+Language+Model+is+Secretly+a+Reward+Model&rows=3"
+      ],
+      "notes": [],
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "authors": [
+        "Rafailov, Rafael",
+        "Sharma, Archit",
+        "Mitchell, Eric",
+        "Manning, Christopher D",
+        "Ermon, Stefano",
+        "Finn, Chelsea"
+      ],
+      "year": "2023",
+      "container": "Advances in Neural Information Processing Systems",
+      "arxiv": "2305.18290",
+      "archive_doi": "10.48550/arXiv.2305.18290",
+      "preprint_year": "2023",
+      "doi": "10.52202/075280-2338",
+      "pages": "53728-53741",
+      "volume": "36"
+    },
+    {
+      "number": 46,
+      "key": "Ref046",
+      "source_url": "https://arxiv.org/abs/2106.09685",
+      "url": "https://openreview.net/forum?id=nZeVKeeFYf9",
+      "chapters": [
+        29,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2106.09685",
+        "https://openreview.net/forum?id=nZeVKeeFYf9"
+      ],
+      "notes": [
+        "会议电子论文未提供统一卷页，不虚构卷号或页码；原 arXiv 入口另存。"
+      ],
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "authors": [
+        "Hu, Edward J.",
+        "Shen, Yelong",
+        "Wallis, Phillip",
+        "Allen-Zhu, Zeyuan",
+        "Li, Yuanzhi",
+        "Wang, Shean",
+        "Wang, Lu",
+        "Chen, Weizhu"
+      ],
+      "year": "2022",
+      "container": "International Conference on Learning Representations",
+      "arxiv": "2106.09685",
+      "archive_doi": "10.48550/arXiv.2106.09685",
+      "preprint_year": "2021"
+    },
+    {
+      "number": 47,
+      "key": "Ref047",
+      "source_url": "https://arxiv.org/abs/2005.11401",
+      "url": "https://papers.nips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+      "chapters": [
+        29,
+        31,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2005.11401",
+        "https://papers.nips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html"
+      ],
+      "notes": [],
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "authors": [
+        "Lewis, Patrick",
+        "Perez, Ethan",
+        "Piktus, Aleksandra",
+        "Petroni, Fabio",
+        "Karpukhin, Vladimir",
+        "Goyal, Naman",
+        "Küttler, Heinrich",
+        "Lewis, Mike",
+        "Yih, Wen-tau",
+        "Rocktäschel, Tim",
+        "Riedel, Sebastian",
+        "Kiela, Douwe"
+      ],
+      "year": "2020",
+      "container": "Advances in Neural Information Processing Systems",
+      "arxiv": "2005.11401",
+      "archive_doi": "10.48550/arXiv.2005.11401",
+      "preprint_year": "2020",
+      "volume": "33",
+      "pages": "9459-9474"
+    },
+    {
+      "number": 48,
+      "key": "Ref048",
+      "source_url": "https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html",
+      "chapters": [
+        31
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "scikit-learn developers"
+      ],
+      "title": "TfidfVectorizer",
+      "container": "scikit-learn 1.9.1 documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "scikit-learn developers"
+      ]
+    },
+    {
+      "number": 49,
+      "key": "Ref049",
+      "source_url": "https://blog.google/innovation-and-ai/products/notebooklm-audio-overviews/",
+      "url": "https://blog.google/innovation-and-ai/products/notebooklm-audio-overviews/",
+      "chapters": [
+        31
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://blog.google/innovation-and-ai/products/notebooklm-audio-overviews/"
+      ],
+      "notes": [],
+      "authors": [
+        "Google"
+      ],
+      "title": "NotebookLM now lets you listen to a conversation about your sources",
+      "container": "The Keyword",
+      "date": "2024-09-11",
+      "year": "2024",
+      "corporate_authors": [
+        "Google"
+      ]
+    },
+    {
+      "number": 50,
+      "key": "Ref050",
+      "source_url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+      "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+      "chapters": [
+        32
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/"
+      ],
+      "notes": [],
+      "authors": [
+        "Parada, Carolina"
+      ],
+      "title": "Introducing Gemini Robotics and Gemini Robotics-ER, AI models designed for robots to understand, act and react",
+      "container": "Google DeepMind",
+      "date": "2025-03-12",
+      "year": "2025",
+      "corporate_authors": []
+    },
+    {
+      "number": 51,
+      "key": "Ref051",
+      "source_url": "https://www.anthropic.com/research/building-effective-agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "chapters": [
+        32,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://www.anthropic.com/research/building-effective-agents"
+      ],
+      "notes": [],
+      "authors": [
+        "Anthropic"
+      ],
+      "title": "Building effective AI agents",
+      "container": "Anthropic Engineering",
+      "date": "2024-12-19",
+      "year": "2024",
+      "corporate_authors": [
+        "Anthropic"
+      ]
+    },
+    {
+      "number": 52,
+      "key": "Ref052",
+      "source_url": "https://platform.claude.com/docs/en/api/messages",
+      "url": "https://platform.claude.com/docs/en/api/messages",
+      "chapters": [
+        33,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://platform.claude.com/docs/en/api/messages"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "Anthropic"
+      ],
+      "title": "Messages",
+      "container": "Claude API Reference",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "Anthropic"
+      ]
+    },
+    {
+      "number": 53,
+      "key": "Ref053",
+      "source_url": "https://json-schema.org/understanding-json-schema/reference/type",
+      "url": "https://json-schema.org/understanding-json-schema/reference/type",
+      "chapters": [
+        33
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://json-schema.org/understanding-json-schema/reference/type"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "JSON Schema project"
+      ],
+      "title": "Type-specific keywords",
+      "container": "Understanding JSON Schema",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "JSON Schema project"
+      ]
+    },
+    {
+      "number": 54,
+      "key": "Ref054",
+      "source_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools",
+      "chapters": [
+        34
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "Anthropic"
+      ],
+      "title": "Define tools",
+      "container": "Claude Platform Docs",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "Anthropic"
+      ]
+    },
+    {
+      "number": 55,
+      "key": "Ref055",
+      "source_url": "https://papers.nips.cc/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html",
+      "url": "https://doi.org/10.52202/079017-1601",
+      "chapters": [
+        34
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://papers.nips.cc/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html",
+        "https://api.crossref.org/works?query.title=SWE-agent%3A+Agent-Computer+Interfaces+Enable+Automated+Software+Engineering&rows=3"
+      ],
+      "notes": [],
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "authors": [
+        "Yang, John",
+        "Jimenez, Carlos",
+        "Wettig, Alexander",
+        "Lieret, Kilian",
+        "Yao, Shunyu",
+        "Narasimhan, Karthik",
+        "Press, Ofir"
+      ],
+      "year": "2024",
+      "container": "Advances in Neural Information Processing Systems",
+      "doi": "10.52202/079017-1601",
+      "volume": "37",
+      "pages": "50528-50652"
+    },
+    {
+      "number": 56,
+      "key": "Ref056",
+      "source_url": "https://arxiv.org/abs/2210.03629",
+      "url": "https://openreview.net/forum?id=WE_vluYUL-X",
+      "chapters": [
+        34,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2210.03629",
+        "https://openreview.net/forum?id=WE_vluYUL-X"
+      ],
+      "notes": [
+        "会议电子论文未提供统一卷页，不虚构卷号或页码；原 arXiv 入口另存。"
+      ],
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "authors": [
+        "Yao, Shunyu",
+        "Zhao, Jeffrey",
+        "Yu, Dian",
+        "Du, Nan",
+        "Shafran, Izhak",
+        "Narasimhan, Karthik",
+        "Cao, Yuan"
+      ],
+      "year": "2023",
+      "container": "International Conference on Learning Representations",
+      "arxiv": "2210.03629",
+      "archive_doi": "10.48550/arXiv.2210.03629",
+      "preprint_year": "2022"
+    },
+    {
+      "number": 57,
+      "key": "Ref057",
+      "source_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls",
+      "chapters": [
+        34,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "Anthropic"
+      ],
+      "title": "Handle tool calls",
+      "container": "Claude Platform Docs",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "Anthropic"
+      ]
+    },
+    {
+      "number": 58,
+      "key": "Ref058",
+      "source_url": "https://platform.claude.com/docs/en/api/versioning",
+      "url": "https://platform.claude.com/docs/en/api/versioning",
+      "chapters": [
+        34
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://platform.claude.com/docs/en/api/versioning"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "Anthropic"
+      ],
+      "title": "Versions",
+      "container": "Claude API Reference",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "Anthropic"
+      ]
+    },
+    {
+      "number": 59,
+      "key": "Ref059",
+      "source_url": "https://arxiv.org/abs/2004.04906",
+      "url": "https://aclanthology.org/2020.emnlp-main.550/",
+      "chapters": [
+        35,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2004.04906",
+        "https://aclanthology.org/2020.emnlp-main.550/"
+      ],
+      "notes": [],
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "authors": [
+        "Karpukhin, Vladimir",
+        "Oguz, Barlas",
+        "Min, Sewon",
+        "Lewis, Patrick",
+        "Wu, Ledell",
+        "Edunov, Sergey",
+        "Chen, Danqi",
+        "Yih, Wen-tau"
+      ],
+      "year": "2020",
+      "container": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "arxiv": "2004.04906",
+      "archive_doi": "10.48550/arXiv.2004.04906",
+      "preprint_year": "2020",
+      "doi": "10.18653/v1/2020.emnlp-main.550",
+      "pages": "6769-6781"
+    },
+    {
+      "number": 60,
+      "key": "Ref060",
+      "source_url": "https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf",
+      "url": "https://doi.org/10.1145/1571941.1572114",
+      "chapters": [
+        35,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "inproceedings",
+      "metadata_sources": [
+        "https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf",
+        "https://api.crossref.org/works/10.1145/1571941.1572114"
+      ],
+      "notes": [],
+      "title": "Reciprocal rank fusion outperforms condorcet and individual rank learning methods",
+      "authors": [
+        "Cormack, Gordon V.",
+        "Clarke, Charles L A",
+        "Buettcher, Stefan"
+      ],
+      "year": "2009",
+      "container": "Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval",
+      "doi": "10.1145/1571941.1572114",
+      "pages": "758-759"
+    },
+    {
+      "number": 61,
+      "key": "Ref061",
+      "source_url": "https://www.sqlite.org/lang_transaction.html",
+      "url": "https://www.sqlite.org/lang_transaction.html",
+      "chapters": [
+        36,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://www.sqlite.org/lang_transaction.html"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "SQLite authors"
+      ],
+      "title": "Transaction",
+      "container": "SQLite documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "SQLite authors"
+      ]
+    },
+    {
+      "number": 62,
+      "key": "Ref062",
+      "source_url": "https://docs.langchain.com/oss/python/langgraph/durable-execution",
+      "url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+      "chapters": [
+        36
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://docs.langchain.com/oss/python/langgraph/durable-execution"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "LangChain"
+      ],
+      "title": "Persistence",
+      "container": "LangGraph documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "LangChain"
+      ]
+    },
+    {
+      "number": 63,
+      "key": "Ref063",
+      "source_url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+      "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+      "chapters": [
+        36
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://docs.langchain.com/oss/python/langgraph/interrupts"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "LangChain"
+      ],
+      "title": "Interrupts",
+      "container": "LangGraph documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "LangChain"
+      ]
+    },
+    {
+      "number": 64,
+      "key": "Ref064",
+      "source_url": "https://modelcontextprotocol.io/docs/learn/architecture",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
+      "chapters": [
+        37
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://modelcontextprotocol.io/docs/learn/architecture"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "Model Context Protocol contributors"
+      ],
+      "title": "Architecture overview",
+      "container": "Model Context Protocol documentation",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "Model Context Protocol contributors"
+      ]
+    },
+    {
+      "number": 65,
+      "key": "Ref065",
+      "source_url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+      "chapters": [
+        37,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://modelcontextprotocol.io/specification/2025-11-25/server/tools"
+      ],
+      "notes": [],
+      "authors": [
+        "Model Context Protocol contributors"
+      ],
+      "title": "Tools",
+      "container": "Model Context Protocol specification，2025-11-25 版",
+      "date": "2025-11-25",
+      "year": "2025",
+      "corporate_authors": [
+        "Model Context Protocol contributors"
+      ]
+    },
+    {
+      "number": 66,
+      "key": "Ref066",
+      "source_url": "https://github.com/modelcontextprotocol/python-sdk",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "chapters": [
+        37
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "software",
+      "metadata_sources": [
+        "https://github.com/modelcontextprotocol/python-sdk"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "Model Context Protocol contributors"
+      ],
+      "title": "MCP Python SDK",
+      "container": "GitHub: modelcontextprotocol/python-sdk",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "Model Context Protocol contributors"
+      ]
+    },
+    {
+      "number": 67,
+      "key": "Ref067",
+      "source_url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+      "chapters": [
+        37,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle"
+      ],
+      "notes": [],
+      "authors": [
+        "Model Context Protocol contributors"
+      ],
+      "title": "Lifecycle",
+      "container": "Model Context Protocol specification，2025-11-25 版",
+      "date": "2025-11-25",
+      "year": "2025",
+      "corporate_authors": [
+        "Model Context Protocol contributors"
+      ]
+    },
+    {
+      "number": 68,
+      "key": "Ref068",
+      "source_url": "https://www.anthropic.com/research/demystifying-evals-for-ai-agents",
+      "url": "https://www.anthropic.com/research/demystifying-evals-for-ai-agents",
+      "chapters": [
+        38,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://www.anthropic.com/research/demystifying-evals-for-ai-agents"
+      ],
+      "notes": [],
+      "authors": [
+        "Anthropic"
+      ],
+      "title": "Demystifying evals for AI agents",
+      "container": "Anthropic Engineering",
+      "date": "2026-01-09",
+      "year": "2026",
+      "corporate_authors": [
+        "Anthropic"
+      ]
+    },
+    {
+      "number": 69,
+      "key": "Ref069",
+      "source_url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "chapters": [
+        38
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+      ],
+      "notes": [],
+      "authors": [
+        "AlphaEvolve team"
+      ],
+      "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+      "container": "Google DeepMind",
+      "date": "2025-05-14",
+      "year": "2025",
+      "corporate_authors": [
+        "AlphaEvolve team"
+      ]
+    },
+    {
+      "number": 70,
+      "key": "Ref070",
+      "source_url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+      "chapters": [
+        38,
+        44
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "NIST",
+        "SEMATECH"
+      ],
+      "title": "Confidence intervals",
+      "container": "NIST/SEMATECH e-Handbook of Statistical Methods，7.2.4.1",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "NIST",
+        "SEMATECH"
+      ]
+    },
+    {
+      "number": 71,
+      "key": "Ref071",
+      "source_url": "https://api-docs.deepseek.com/guides/tool_calls/",
+      "url": "https://api-docs.deepseek.com/guides/tool_calls/",
+      "chapters": [
+        38
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://api-docs.deepseek.com/guides/tool_calls/"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "DeepSeek"
+      ],
+      "title": "Tool Calls",
+      "container": "DeepSeek API Docs",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "DeepSeek"
+      ]
+    },
+    {
+      "number": 72,
+      "key": "Ref072",
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "chapters": [
+        38
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://api-docs.deepseek.com/quick_start/pricing/"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "DeepSeek"
+      ],
+      "title": "Models & Pricing",
+      "container": "DeepSeek API Docs",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "DeepSeek"
+      ]
+    },
+    {
+      "number": 73,
+      "key": "Ref073",
+      "source_url": "https://people.cs.umass.edu/~emery/classes/cmpsci691st/readings/OS/Littles-Law-50-Years-Later.pdf",
+      "url": "https://doi.org/10.1287/opre.1110.0940",
+      "chapters": [
+        39
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "article",
+      "metadata_sources": [
+        "https://people.cs.umass.edu/~emery/classes/cmpsci691st/readings/OS/Littles-Law-50-Years-Later.pdf",
+        "https://api.crossref.org/works/10.1287/opre.1110.0940"
+      ],
+      "notes": [],
+      "title": "OR FORUM—Little's Law as Viewed on Its 50th Anniversary",
+      "authors": [
+        "Little, John D. C."
+      ],
+      "year": "2011",
+      "container": "Operations Research",
+      "doi": "10.1287/opre.1110.0940",
+      "volume": "59",
+      "issue": "3",
+      "pages": "536-549"
+    },
+    {
+      "number": 74,
+      "key": "Ref074",
+      "source_url": "https://github.com/wxy11117/LungSight/tree/80932e2d34eefbfd3031e0a04370986562cf40ac",
+      "url": "https://github.com/wxy11117/LungSight/tree/80932e2d34eefbfd3031e0a04370986562cf40ac",
+      "chapters": [
+        40
+      ],
+      "location": "",
+      "accessed": "2026-11-11",
+      "kind": "software",
+      "metadata_sources": [
+        "https://github.com/wxy11117/LungSight/tree/80932e2d34eefbfd3031e0a04370986562cf40ac"
+      ],
+      "notes": [
+        "引用页面未明确标示独立发布日期，记录访问日期，不以访问年冒充发表年。"
+      ],
+      "authors": [
+        "wxy11117"
+      ],
+      "title": "LungSight",
+      "container": "GitHub，固定提交 80932e2d34eefbfd3031e0a04370986562cf40ac",
+      "date": "",
+      "year": "",
+      "corporate_authors": [
+        "wxy11117"
+      ]
+    },
+    {
+      "number": 75,
+      "key": "Ref075",
+      "source_url": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+      "url": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+      "chapters": [],
+      "location": "数据来源",
+      "accessed": "2026-11-11",
+      "kind": "dataset",
+      "metadata_sources": [
+        "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits"
+      ],
+      "notes": [],
+      "authors": [
+        "Alpaydin, E.",
+        "Kaynak, C."
+      ],
+      "title": "Optical Recognition of Handwritten Digits",
+      "container": "UCI Machine Learning Repository",
+      "date": "1998",
+      "year": "1998",
+      "corporate_authors": [],
+      "doi": "10.24432/C50P49"
+    },
+    {
+      "number": 76,
+      "key": "Ref076",
+      "source_url": "https://winstonchurchill.org/resources/speeches/1941-1945-war-leader/the-bright-gleam-of-victory/",
+      "url": "https://winstonchurchill.org/resources/speeches/1941-1945-war-leader/the-bright-gleam-of-victory/",
+      "chapters": [],
+      "location": "作者扉页",
+      "accessed": "2026-11-11",
+      "kind": "online",
+      "metadata_sources": [
+        "https://winstonchurchill.org/resources/speeches/1941-1945-war-leader/the-bright-gleam-of-victory/"
+      ],
+      "notes": [
+        "日期为演讲日期；中文题辞依据该档案自译。"
+      ],
+      "authors": [
+        "Churchill, Winston"
+      ],
+      "title": "The Bright Gleam of Victory",
+      "container": "International Churchill Society 演讲档案",
+      "date": "1942-11-10",
+      "year": "1942",
+      "corporate_authors": []
+    }
+  ]
+}

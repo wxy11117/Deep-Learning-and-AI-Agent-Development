@@ -1,0 +1,210 @@
+{
+  "bike": {
+    "raw_days": 731,
+    "usable_days": 724,
+    "split": [
+      500,
+      100,
+      124
+    ],
+    "test_start": "2012-08-30",
+    "test_end": "2012-12-31",
+    "source": "https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip",
+    "sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+    "last_day": {
+      "mae": 904.6774193548387,
+      "rmse": 1320.0166421238298
+    },
+    "last_week": {
+      "mae": 1306.4354838709678,
+      "rmse": 1880.9024258275258
+    },
+    "ridge": {
+      "mae": 859.8131635112147,
+      "rmse": 1190.91438111889,
+      "alpha": 10
+    },
+    "mlp": [
+      {
+        "seed": 42,
+        "best_epoch": 20,
+        "mae": 1049.671151438067,
+        "rmse": 1303.8018900877867
+      },
+      {
+        "seed": 43,
+        "best_epoch": 4,
+        "mae": 1118.7889847293977,
+        "rmse": 1364.347765234874
+      },
+      {
+        "seed": 44,
+        "best_epoch": 5,
+        "mae": 958.55664554719,
+        "rmse": 1300.514896272654
+      }
+    ],
+    "elapsed_seconds": 7.86
+  },
+  "digits": {
+    "n": 1797,
+    "split": [
+      1078,
+      359,
+      360
+    ],
+    "split_protocol": "fixed stratified sample split; NOT writer-independent",
+    "logistic": {
+      "accuracy": 0.9555555555555556,
+      "macro_f1": 0.9555211335459697
+    },
+    "cnn": [
+      {
+        "seed": 42,
+        "best_epoch": 28,
+        "accuracy": 0.9638888888888889,
+        "macro_f1": 0.9641296134540861,
+        "parameters": 3818
+      },
+      {
+        "seed": 43,
+        "best_epoch": 33,
+        "accuracy": 0.9638888888888889,
+        "macro_f1": 0.9639831422325698,
+        "parameters": 3818
+      },
+      {
+        "seed": 44,
+        "best_epoch": 44,
+        "accuracy": 0.9777777777777777,
+        "macro_f1": 0.9777603719042374,
+        "parameters": 3818
+      }
+    ],
+    "elapsed_seconds": 5.41
+  },
+  "sensor": {
+    "data": "SIMULATED, not hardware measurements",
+    "unit": "cm",
+    "episodes": [
+      80,
+      20,
+      20
+    ],
+    "windows": [
+      6480,
+      1620,
+      1620
+    ],
+    "best_epoch": 35,
+    "raw": {
+      "mae": 2.1767953734281025,
+      "rmse": 4.401161541483202
+    },
+    "causal_median5": {
+      "mae": 1.2996573867759147,
+      "rmse": 1.6108697763302793
+    },
+    "cnn": {
+      "mae": 1.2240500185959782,
+      "rmse": 1.6239246096970956
+    },
+    "elapsed_seconds": 3.64
+  },
+  "segmentation": {
+    "data": "SIMULATED grayscale scratches; not production defects",
+    "split": [
+      240,
+      60,
+      100
+    ],
+    "best_epoch": 30,
+    "aggregation": "global pixel sums",
+    "unet_threshold": 0.7,
+    "baseline_threshold": 0.6,
+    "intensity_baseline": {
+      "iou": 0.7252204585537919,
+      "dice": 0.8407278675117563
+    },
+    "tiny_unet": {
+      "iou": 0.8877517868745939,
+      "dice": 0.9405386799759057
+    },
+    "elapsed_seconds": 3.91
+  },
+  "retrieval": {
+    "corpus": "AUTHOR-WRITTEN FICTIONAL device manual; not a real device specification",
+    "documents": 12,
+    "queries": 15,
+    "recall_at_k": {
+      "1": 0.9333333333333333,
+      "3": 1.0,
+      "5": 1.0
+    },
+    "mrr": 0.9666666666666667,
+    "generative_llm_executed": false,
+    "queries_and_targets": [
+      [
+        "启动自检需要多长时间",
+        0
+      ],
+      [
+        "设备需要什么电源电压",
+        0
+      ],
+      [
+        "高温报警要持续多久才触发",
+        1
+      ],
+      [
+        "数据采样间隔是多少",
+        2
+      ],
+      [
+        "断线十秒会发生什么",
+        3
+      ],
+      [
+        "擦镜头前先做什么",
+        4
+      ],
+      [
+        "升级后如何确认版本",
+        5
+      ],
+      [
+        "E12故障怎样处理",
+        6
+      ],
+      [
+        "E21意味着什么",
+        7
+      ],
+      [
+        "日志最多保存多久",
+        8
+      ],
+      [
+        "急停后怎么恢复",
+        9
+      ],
+      [
+        "手动模式自动调度会怎样",
+        10
+      ],
+      [
+        "电量不足什么时候停止任务",
+        11
+      ],
+      [
+        "多少摄氏度会报警",
+        1
+      ],
+      [
+        "怎么导出操作记录",
+        8
+      ]
+    ],
+    "elapsed_seconds": 0.02
+  }
+}

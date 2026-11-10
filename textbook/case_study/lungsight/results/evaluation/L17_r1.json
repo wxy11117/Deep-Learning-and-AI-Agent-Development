@@ -1,0 +1,272 @@
+{
+  "case_id": "L17",
+  "phase": "evaluation",
+  "repeat": 1,
+  "category": "task",
+  "question": "DEMO-001 第四折（从 1 起编号）的最高概率类别是什么？value 只填类别字母。",
+  "expected": {
+    "status": "answered",
+    "value": "C",
+    "source_ids": [],
+    "task_id": "DEMO-001"
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:23:28+0800",
+  "elapsed_seconds": 1.791,
+  "usage": {
+    "input_tokens": 2154,
+    "output_tokens": 106
+  },
+  "estimated_usd_peak_cache_miss": 0.0007734,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:23:26+0800",
+      "request_bytes": 3009,
+      "status": "received",
+      "response_id": "cef96790-8451-4090-be0b-a2de32d0b779",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 861,
+        "completion_tokens": 43,
+        "total_tokens": 904,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 221
+      },
+      "elapsed_ms": 855.896,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:23:27+0800",
+      "request_bytes": 4196,
+      "status": "received",
+      "response_id": "01251f41-8d6e-4641-874e-abb7fd91235b",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1293,
+        "completion_tokens": 63,
+        "total_tokens": 1356,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 397
+      },
+      "elapsed_ms": 934.969,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"answered\",\"answer\":\"DEMO-001 第四折概率为 [0.1, 0.3, 0.5, 0.1]，对应类别 A/B/C/D，最高概率类别为 C（0.5）。\",\"value\":\"C\",\"citations\":[]}",
+    "turns": 2,
+    "calls": 1,
+    "history": [
+      {
+        "role": "user",
+        "text": "DEMO-001 第四折（从 1 起编号）的最高概率类别是什么？value 只填类别字母。"
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_JG8pIPaeocSIfLytiPyb7599",
+            "name": "get_task_summary",
+            "arguments": {
+              "task_id": "DEMO-001"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_JG8pIPaeocSIfLytiPyb7599",
+              "type": "function",
+              "function": {
+                "name": "get_task_summary",
+                "arguments": "{\"task_id\": \"DEMO-001\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_JG8pIPaeocSIfLytiPyb7599",
+            "ok": true,
+            "value": {
+              "task_id": "DEMO-001",
+              "data_kind": "AUTHOR_CONSTRUCTED_PROBABILITIES",
+              "class_labels": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "fold_probabilities": [
+                [
+                  0.1,
+                  0.6,
+                  0.2,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.55,
+                  0.25,
+                  0.1
+                ],
+                [
+                  0.15,
+                  0.45,
+                  0.3,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.3,
+                  0.5,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.65,
+                  0.15,
+                  0.1
+                ]
+              ],
+              "model_version": "research-fivefold-20260902-165455",
+              "review_status": "pending",
+              "id": "DEMO-001",
+              "version": "research-fivefold-20260902-165455",
+              "text": "教学构造数据，A/B/C/D 为抽象类别；以下数值由程序对五折概率计算。",
+              "mean_probabilities": {
+                "A": 0.11,
+                "B": 0.51,
+                "C": 0.28,
+                "D": 0.1
+              },
+              "fold_top_classes": [
+                "B",
+                "B",
+                "B",
+                "C",
+                "B"
+              ],
+              "top_class": "B",
+              "fold_agreement": 0.8,
+              "top_two_margin": 0.23,
+              "class_spreads": {
+                "A": 0.05,
+                "B": 0.35,
+                "C": 0.35,
+                "D": 0.0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"answered\",\"answer\":\"DEMO-001 第四折概率为 [0.1, 0.3, 0.5, 0.1]，对应类别 A/B/C/D，最高概率类别为 C（0.5）。\",\"value\":\"C\",\"citations\":[]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"answered\",\"answer\":\"DEMO-001 第四折概率为 [0.1, 0.3, 0.5, 0.1]，对应类别 A/B/C/D，最高概率类别为 C（0.5）。\",\"value\":\"C\",\"citations\":[]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 861,
+          "completion_tokens": 43,
+          "total_tokens": 904,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 221
+        },
+        "mode": "live_api",
+        "elapsed_ms": 856.002
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "get_task_summary",
+        "call_id": "call_00_JG8pIPaeocSIfLytiPyb7599",
+        "ok": true,
+        "elapsed_ms": 0.112,
+        "result_sha256": "849e3476aab5fbf67be0e3267430521e58748ac6b34e3e572c5812520bcd6e6b"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1293,
+          "completion_tokens": 63,
+          "total_tokens": 1356,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 397
+        },
+        "mode": "live_api",
+        "elapsed_ms": 935.121
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "answered",
+      "answer": "DEMO-001 第四折概率为 [0.1, 0.3, 0.5, 0.1]，对应类别 A/B/C/D，最高概率类别为 C（0.5）。",
+      "value": "C",
+      "citations": []
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

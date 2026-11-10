@@ -1,0 +1,505 @@
+{
+  "case_id": "REPORT02",
+  "phase": "integrated_revised",
+  "repeat": 1,
+  "category": "integrated",
+  "question": "请为教学任务 DEMO-001 生成一段约 100—200 字的科研结果说明草稿。先读取任务，再检索并读取相应模型说明，核对模型版本；解释最高平均概率类别、平均概率和五折分歧，并说明当前复核状态。最终 JSON 的 value 为对象，恰有 architecture、top_class、mean_probability、fold_agreement、review_status 五个字段；分别填网络名称、类别字母、数值、数值、状态代码。正文放 answer，来源放 citations。 来源表达要求：正文开头明确本例概率由作者人工构造、按 LungSight 接口组织；公开仓库的 ResNet18 架构与权重版本作为参照信息单独说明。区分项目真实属性、本例构造数据和模拟待复核状态。",
+  "expected": {
+    "status": "answered",
+    "value": {
+      "architecture": "ResNet18",
+      "top_class": "B",
+      "mean_probability": 0.51,
+      "fold_agreement": 0.8,
+      "review_status": "pending"
+    },
+    "source_ids": [
+      "LS01"
+    ],
+    "task_id": "DEMO-001"
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:33:59+0800",
+  "elapsed_seconds": 6.537,
+  "usage": {
+    "input_tokens": 5330,
+    "output_tokens": 722
+  },
+  "estimated_usd_peak_cache_miss": 0.0024654,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:33:53+0800",
+      "request_bytes": 3670,
+      "status": "received",
+      "response_id": "c5308ed0-905a-4e36-a72e-1708f80e829b",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1000,
+        "completion_tokens": 112,
+        "total_tokens": 1112,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 232
+      },
+      "elapsed_ms": 1284.559,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:33:54+0800",
+      "request_bytes": 5961,
+      "status": "received",
+      "response_id": "042ae588-fc3c-43be-9ece-177eaa3d3a8a",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1799,
+        "completion_tokens": 143,
+        "total_tokens": 1942,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 775
+      },
+      "elapsed_ms": 1826.645,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:33:56+0800",
+      "request_bytes": 8272,
+      "status": "received",
+      "response_id": "ec065349-f0b2-4238-bc61-fc131233611d",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 2531,
+        "completion_tokens": 467,
+        "total_tokens": 2998,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 611
+      },
+      "elapsed_ms": 3419.694,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"answered\",\"answer\":\"本例概率由作者人工构造、按 LungSight 接口组织（A/B/C/D 为抽象教学类别），非真实患者推理结果。五折平均概率最高为 B 类，均值 0.51；五折中 4 折的折内最高类别为 B、1 折为 C，一致比例 0.8，说明存在一定折间分歧（B 类折间极差 0.35）。该任务复核状态为 pending，属模拟待复核。公开仓库参照信息：LungSight 为肺部 CT 四分类科研教学原型，非医疗器械；其本地五折 ResNet18 研究推理权重版本为 research-fivefold-20260902-165455，与本任务 model_version 一致。\",\"value\":{\"architecture\":\"ResNet18\",\"top_class\":\"B\",\"mean_probability\":0.51,\"fold_agreement\":0.8,\"review_status\":\"pending\"},\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。\"},{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"LungSight 是面向肺部 CT 四分类研究的本地智能辅助分析原型，包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流。\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。\"}]}",
+    "turns": 3,
+    "calls": 4,
+    "history": [
+      {
+        "role": "user",
+        "text": "请为教学任务 DEMO-001 生成一段约 100—200 字的科研结果说明草稿。先读取任务，再检索并读取相应模型说明，核对模型版本；解释最高平均概率类别、平均概率和五折分歧，并说明当前复核状态。最终 JSON 的 value 为对象，恰有 architecture、top_class、mean_probability、fold_agreement、review_status 五个字段；分别填网络名称、类别字母、数值、数值、状态代码。正文放 answer，来源放 citations。 来源表达要求：正文开头明确本例概率由作者人工构造、按 LungSight 接口组织；公开仓库的 ResNet18 架构与权重版本作为参照信息单独说明。区分项目真实属性、本例构造数据和模拟待复核状态。"
+      },
+      {
+        "role": "assistant",
+        "text": "我先读取任务摘要，并检索模型说明资料。",
+        "calls": [
+          {
+            "id": "call_00_w4QUYgsUUI0PAPWri8cW5094",
+            "name": "get_task_summary",
+            "arguments": {
+              "task_id": "DEMO-001"
+            }
+          },
+          {
+            "id": "call_01_kRS7Mfv9EuYlJlVMUAyd6706",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "LungSight 模型架构 ResNet18 权重版本",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "我先读取任务摘要，并检索模型说明资料。",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_w4QUYgsUUI0PAPWri8cW5094",
+              "type": "function",
+              "function": {
+                "name": "get_task_summary",
+                "arguments": "{\"task_id\": \"DEMO-001\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "call_01_kRS7Mfv9EuYlJlVMUAyd6706",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"LungSight 模型架构 ResNet18 权重版本\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_w4QUYgsUUI0PAPWri8cW5094",
+            "ok": true,
+            "value": {
+              "task_id": "DEMO-001",
+              "data_kind": "AUTHOR_CONSTRUCTED_PROBABILITIES",
+              "class_labels": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "fold_probabilities": [
+                [
+                  0.1,
+                  0.6,
+                  0.2,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.55,
+                  0.25,
+                  0.1
+                ],
+                [
+                  0.15,
+                  0.45,
+                  0.3,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.3,
+                  0.5,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.65,
+                  0.15,
+                  0.1
+                ]
+              ],
+              "model_version": "research-fivefold-20260902-165455",
+              "review_status": "pending",
+              "id": "DEMO-001",
+              "version": "research-fivefold-20260902-165455",
+              "text": "教学构造数据，A/B/C/D 为抽象类别；以下数值由程序对五折概率计算。",
+              "mean_probabilities": {
+                "A": 0.11,
+                "B": 0.51,
+                "C": 0.28,
+                "D": 0.1
+              },
+              "fold_top_classes": [
+                "B",
+                "B",
+                "B",
+                "C",
+                "B"
+              ],
+              "top_class": "B",
+              "fold_agreement": 0.8,
+              "top_two_margin": 0.23,
+              "class_spreads": {
+                "A": 0.05,
+                "B": 0.35,
+                "C": 0.35,
+                "D": 0.0
+              }
+            }
+          },
+          {
+            "id": "call_01_kRS7Mfv9EuYlJlVMUAyd6706",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS01",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地模型架构 五折 ResNet18 权重版本",
+                  "score": 0.381032
+                },
+                {
+                  "id": "LS02",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "项目定义 四分类 科研教学用途",
+                  "score": 0.179721
+                },
+                {
+                  "id": "LS05",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "自动 RAG 评测使用模拟模型",
+                  "score": 0.091627
+                },
+                {
+                  "id": "LS07",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地引文如何验证",
+                  "score": 0.069392
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_FZVIxdNmJxXjMBfESAZ07967",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          },
+          {
+            "id": "call_01_6KDXnDKRl3oRlW5XXyHX1687",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS02",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_FZVIxdNmJxXjMBfESAZ07967",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS01\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "call_01_6KDXnDKRl3oRlW5XXyHX1687",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS02\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_FZVIxdNmJxXjMBfESAZ07967",
+            "ok": true,
+            "value": {
+              "id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "本地模型架构 五折 ResNet18 权重版本",
+              "text": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。支持内置二维 CT 示例，也支持上传 PNG、JPG、BMP、TIFF 图片或基础单帧 CT DICOM 序列。",
+              "path": "README.md",
+              "lines": [
+                9,
+                9
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L9-L9",
+              "excerpt_sha256": "58d0527ec9a0295bfb666395be32d21a1ff68503c76e7b5fd8c1cafe53ec675c"
+            }
+          },
+          {
+            "id": "call_01_6KDXnDKRl3oRlW5XXyHX1687",
+            "ok": true,
+            "value": {
+              "id": "LS02",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "项目定义 四分类 科研教学用途",
+              "text": "LungSight 是面向肺部 CT 四分类研究的本地智能辅助分析原型，包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流。当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。",
+              "path": "README.md",
+              "lines": [
+                5,
+                5
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L5-L5",
+              "excerpt_sha256": "a41d5b8645a614c5f85f25c3d32fd452068b59ae89a0d3c7f4f7537d182b396b"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"answered\",\"answer\":\"本例概率由作者人工构造、按 LungSight 接口组织（A/B/C/D 为抽象教学类别），非真实患者推理结果。五折平均概率最高为 B 类，均值 0.51；五折中 4 折的折内最高类别为 B、1 折为 C，一致比例 0.8，说明存在一定折间分歧（B 类折间极差 0.35）。该任务复核状态为 pending，属模拟待复核。公开仓库参照信息：LungSight 为肺部 CT 四分类科研教学原型，非医疗器械；其本地五折 ResNet18 研究推理权重版本为 research-fivefold-20260902-165455，与本任务 model_version 一致。\",\"value\":{\"architecture\":\"ResNet18\",\"top_class\":\"B\",\"mean_probability\":0.51,\"fold_agreement\":0.8,\"review_status\":\"pending\"},\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。\"},{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"LungSight 是面向肺部 CT 四分类研究的本地智能辅助分析原型，包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流。\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。\"}]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"answered\",\"answer\":\"本例概率由作者人工构造、按 LungSight 接口组织（A/B/C/D 为抽象教学类别），非真实患者推理结果。五折平均概率最高为 B 类，均值 0.51；五折中 4 折的折内最高类别为 B、1 折为 C，一致比例 0.8，说明存在一定折间分歧（B 类折间极差 0.35）。该任务复核状态为 pending，属模拟待复核。公开仓库参照信息：LungSight 为肺部 CT 四分类科研教学原型，非医疗器械；其本地五折 ResNet18 研究推理权重版本为 research-fivefold-20260902-165455，与本任务 model_version 一致。\",\"value\":{\"architecture\":\"ResNet18\",\"top_class\":\"B\",\"mean_probability\":0.51,\"fold_agreement\":0.8,\"review_status\":\"pending\"},\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。\"},{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"LungSight 是面向肺部 CT 四分类研究的本地智能辅助分析原型，包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流。\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。\"}]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 1000,
+          "completion_tokens": 112,
+          "total_tokens": 1112,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 232
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1284.867
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "get_task_summary",
+        "call_id": "call_00_w4QUYgsUUI0PAPWri8cW5094",
+        "ok": true,
+        "elapsed_ms": 0.236,
+        "result_sha256": "a97eff22257562f3f6f0be8f6e80cf6c973c8f71b1f8c8e1a23450ced207c728"
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_01_kRS7Mfv9EuYlJlVMUAyd6706",
+        "ok": true,
+        "elapsed_ms": 3.827,
+        "result_sha256": "b3663844c98932ba81d6054c69d2034e751120668f86f971ff1b14adf4741d59"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1799,
+          "completion_tokens": 143,
+          "total_tokens": 1942,
+          "prompt_tokens_details": {
+            "cached_tokens": 1024
+          },
+          "prompt_cache_hit_tokens": 1024,
+          "prompt_cache_miss_tokens": 775
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1827.014
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_00_FZVIxdNmJxXjMBfESAZ07967",
+        "ok": true,
+        "elapsed_ms": 0.126,
+        "result_sha256": "0ee634a6878be464be201ee40103e175d26b69c74592eeac004aadf3a3e629bb"
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_01_6KDXnDKRl3oRlW5XXyHX1687",
+        "ok": true,
+        "elapsed_ms": 0.059,
+        "result_sha256": "4834c050ff3303c074f9b9582bffc5a95c46773b2fa019cb8a2d6cca29db2869"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {
+          "prompt_tokens": 2531,
+          "completion_tokens": 467,
+          "total_tokens": 2998,
+          "prompt_tokens_details": {
+            "cached_tokens": 1920
+          },
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 611
+        },
+        "mode": "live_api",
+        "elapsed_ms": 3420.332
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "answered",
+      "answer": "本例概率由作者人工构造、按 LungSight 接口组织（A/B/C/D 为抽象教学类别），非真实患者推理结果。五折平均概率最高为 B 类，均值 0.51；五折中 4 折的折内最高类别为 B、1 折为 C，一致比例 0.8，说明存在一定折间分歧（B 类折间极差 0.35）。该任务复核状态为 pending，属模拟待复核。公开仓库参照信息：LungSight 为肺部 CT 四分类科研教学原型，非医疗器械；其本地五折 ResNet18 研究推理权重版本为 research-fivefold-20260902-165455，与本任务 model_version 一致。",
+      "value": {
+        "architecture": "ResNet18",
+        "top_class": "B",
+        "mean_probability": 0.51,
+        "fold_agreement": 0.8,
+        "review_status": "pending"
+      },
+      "citations": [
+        {
+          "id": "LS01",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。"
+        },
+        {
+          "id": "LS01",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。"
+        },
+        {
+          "id": "LS02",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "LungSight 是面向肺部 CT 四分类研究的本地智能辅助分析原型，包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流。"
+        },
+        {
+          "id": "LS02",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。"
+        }
+      ]
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "bbceba361092cc78a2412749fde47d737e3814d6723033e4e510522721c9ed03",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

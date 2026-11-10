@@ -1,0 +1,1907 @@
+{
+  "pages": 274,
+  "author_pages": 1,
+  "copyright_pages": 1,
+  "body_start_physical": 23,
+  "front_pages": 20,
+  "body_pages": 244,
+  "reference_pages": 8,
+  "locations": {
+    "copyright": {
+      "physical": 3,
+      "label": "i"
+    },
+    "reading-guide": {
+      "physical": 4,
+      "label": "ii"
+    },
+    "overview": {
+      "physical": 6,
+      "label": "iv"
+    },
+    "contents": {
+      "physical": 8,
+      "label": "vi"
+    },
+    "part-01": {
+      "physical": 23,
+      "label": "1"
+    },
+    "chapter-01": {
+      "physical": 24,
+      "label": "2"
+    },
+    "section-01-01": {
+      "physical": 24,
+      "label": "2"
+    },
+    "section-01-02": {
+      "physical": 24,
+      "label": "2"
+    },
+    "section-01-03": {
+      "physical": 25,
+      "label": "3"
+    },
+    "section-01-04": {
+      "physical": 27,
+      "label": "5"
+    },
+    "section-01-05": {
+      "physical": 27,
+      "label": "5"
+    },
+    "section-01-06": {
+      "physical": 28,
+      "label": "6"
+    },
+    "section-01-07": {
+      "physical": 28,
+      "label": "6"
+    },
+    "section-01-08": {
+      "physical": 29,
+      "label": "7"
+    },
+    "chapter-02": {
+      "physical": 30,
+      "label": "8"
+    },
+    "section-02-01": {
+      "physical": 30,
+      "label": "8"
+    },
+    "section-02-02": {
+      "physical": 30,
+      "label": "8"
+    },
+    "section-02-03": {
+      "physical": 31,
+      "label": "9"
+    },
+    "section-02-04": {
+      "physical": 32,
+      "label": "10"
+    },
+    "section-02-05": {
+      "physical": 32,
+      "label": "10"
+    },
+    "section-02-06": {
+      "physical": 33,
+      "label": "11"
+    },
+    "section-02-07": {
+      "physical": 33,
+      "label": "11"
+    },
+    "section-02-08": {
+      "physical": 34,
+      "label": "12"
+    },
+    "section-02-09": {
+      "physical": 34,
+      "label": "12"
+    },
+    "chapter-03": {
+      "physical": 35,
+      "label": "13"
+    },
+    "section-03-01": {
+      "physical": 35,
+      "label": "13"
+    },
+    "section-03-02": {
+      "physical": 36,
+      "label": "14"
+    },
+    "section-03-03": {
+      "physical": 37,
+      "label": "15"
+    },
+    "section-03-04": {
+      "physical": 37,
+      "label": "15"
+    },
+    "section-03-05": {
+      "physical": 37,
+      "label": "15"
+    },
+    "section-03-06": {
+      "physical": 37,
+      "label": "15"
+    },
+    "section-03-07": {
+      "physical": 38,
+      "label": "16"
+    },
+    "section-03-08": {
+      "physical": 39,
+      "label": "17"
+    },
+    "section-03-09": {
+      "physical": 40,
+      "label": "18"
+    },
+    "chapter-04": {
+      "physical": 41,
+      "label": "19"
+    },
+    "section-04-01": {
+      "physical": 41,
+      "label": "19"
+    },
+    "section-04-02": {
+      "physical": 42,
+      "label": "20"
+    },
+    "section-04-03": {
+      "physical": 42,
+      "label": "20"
+    },
+    "section-04-04": {
+      "physical": 42,
+      "label": "20"
+    },
+    "section-04-05": {
+      "physical": 43,
+      "label": "21"
+    },
+    "section-04-06": {
+      "physical": 43,
+      "label": "21"
+    },
+    "section-04-07": {
+      "physical": 44,
+      "label": "22"
+    },
+    "section-04-08": {
+      "physical": 44,
+      "label": "22"
+    },
+    "section-04-09": {
+      "physical": 45,
+      "label": "23"
+    },
+    "chapter-05": {
+      "physical": 46,
+      "label": "24"
+    },
+    "section-05-01": {
+      "physical": 46,
+      "label": "24"
+    },
+    "section-05-02": {
+      "physical": 47,
+      "label": "25"
+    },
+    "section-05-03": {
+      "physical": 47,
+      "label": "25"
+    },
+    "section-05-04": {
+      "physical": 47,
+      "label": "25"
+    },
+    "section-05-05": {
+      "physical": 48,
+      "label": "26"
+    },
+    "section-05-06": {
+      "physical": 48,
+      "label": "26"
+    },
+    "section-05-07": {
+      "physical": 49,
+      "label": "27"
+    },
+    "section-05-08": {
+      "physical": 49,
+      "label": "27"
+    },
+    "section-05-09": {
+      "physical": 50,
+      "label": "28"
+    },
+    "chapter-06": {
+      "physical": 51,
+      "label": "29"
+    },
+    "section-06-01": {
+      "physical": 51,
+      "label": "29"
+    },
+    "section-06-02": {
+      "physical": 51,
+      "label": "29"
+    },
+    "section-06-03": {
+      "physical": 52,
+      "label": "30"
+    },
+    "section-06-04": {
+      "physical": 52,
+      "label": "30"
+    },
+    "section-06-05": {
+      "physical": 53,
+      "label": "31"
+    },
+    "section-06-06": {
+      "physical": 53,
+      "label": "31"
+    },
+    "section-06-07": {
+      "physical": 54,
+      "label": "32"
+    },
+    "section-06-08": {
+      "physical": 54,
+      "label": "32"
+    },
+    "section-06-09": {
+      "physical": 55,
+      "label": "33"
+    },
+    "section-06-10": {
+      "physical": 55,
+      "label": "33"
+    },
+    "chapter-07": {
+      "physical": 56,
+      "label": "34"
+    },
+    "section-07-01": {
+      "physical": 56,
+      "label": "34"
+    },
+    "section-07-02": {
+      "physical": 56,
+      "label": "34"
+    },
+    "section-07-03": {
+      "physical": 57,
+      "label": "35"
+    },
+    "section-07-04": {
+      "physical": 57,
+      "label": "35"
+    },
+    "section-07-05": {
+      "physical": 58,
+      "label": "36"
+    },
+    "section-07-06": {
+      "physical": 59,
+      "label": "37"
+    },
+    "section-07-07": {
+      "physical": 59,
+      "label": "37"
+    },
+    "section-07-08": {
+      "physical": 60,
+      "label": "38"
+    },
+    "section-07-09": {
+      "physical": 60,
+      "label": "38"
+    },
+    "chapter-08": {
+      "physical": 61,
+      "label": "39"
+    },
+    "section-08-01": {
+      "physical": 61,
+      "label": "39"
+    },
+    "section-08-02": {
+      "physical": 62,
+      "label": "40"
+    },
+    "section-08-03": {
+      "physical": 62,
+      "label": "40"
+    },
+    "section-08-04": {
+      "physical": 63,
+      "label": "41"
+    },
+    "section-08-05": {
+      "physical": 63,
+      "label": "41"
+    },
+    "section-08-06": {
+      "physical": 63,
+      "label": "41"
+    },
+    "section-08-07": {
+      "physical": 64,
+      "label": "42"
+    },
+    "section-08-08": {
+      "physical": 65,
+      "label": "43"
+    },
+    "section-08-09": {
+      "physical": 65,
+      "label": "43"
+    },
+    "chapter-09": {
+      "physical": 66,
+      "label": "44"
+    },
+    "section-09-01": {
+      "physical": 66,
+      "label": "44"
+    },
+    "section-09-02": {
+      "physical": 66,
+      "label": "44"
+    },
+    "section-09-03": {
+      "physical": 67,
+      "label": "45"
+    },
+    "section-09-04": {
+      "physical": 67,
+      "label": "45"
+    },
+    "section-09-05": {
+      "physical": 68,
+      "label": "46"
+    },
+    "section-09-06": {
+      "physical": 68,
+      "label": "46"
+    },
+    "section-09-07": {
+      "physical": 68,
+      "label": "46"
+    },
+    "section-09-08": {
+      "physical": 69,
+      "label": "47"
+    },
+    "section-09-09": {
+      "physical": 69,
+      "label": "47"
+    },
+    "section-09-10": {
+      "physical": 70,
+      "label": "48"
+    },
+    "section-09-11": {
+      "physical": 70,
+      "label": "48"
+    },
+    "chapter-10": {
+      "physical": 71,
+      "label": "49"
+    },
+    "section-10-01": {
+      "physical": 71,
+      "label": "49"
+    },
+    "section-10-02": {
+      "physical": 71,
+      "label": "49"
+    },
+    "section-10-03": {
+      "physical": 71,
+      "label": "49"
+    },
+    "section-10-04": {
+      "physical": 72,
+      "label": "50"
+    },
+    "section-10-05": {
+      "physical": 72,
+      "label": "50"
+    },
+    "section-10-06": {
+      "physical": 73,
+      "label": "51"
+    },
+    "section-10-07": {
+      "physical": 73,
+      "label": "51"
+    },
+    "section-10-08": {
+      "physical": 74,
+      "label": "52"
+    },
+    "section-10-09": {
+      "physical": 75,
+      "label": "53"
+    },
+    "chapter-11": {
+      "physical": 76,
+      "label": "54"
+    },
+    "section-11-01": {
+      "physical": 76,
+      "label": "54"
+    },
+    "section-11-02": {
+      "physical": 76,
+      "label": "54"
+    },
+    "section-11-03": {
+      "physical": 77,
+      "label": "55"
+    },
+    "section-11-04": {
+      "physical": 77,
+      "label": "55"
+    },
+    "section-11-05": {
+      "physical": 77,
+      "label": "55"
+    },
+    "section-11-06": {
+      "physical": 78,
+      "label": "56"
+    },
+    "section-11-07": {
+      "physical": 78,
+      "label": "56"
+    },
+    "section-11-08": {
+      "physical": 78,
+      "label": "56"
+    },
+    "section-11-09": {
+      "physical": 79,
+      "label": "57"
+    },
+    "section-11-10": {
+      "physical": 79,
+      "label": "57"
+    },
+    "chapter-12": {
+      "physical": 80,
+      "label": "58"
+    },
+    "section-12-01": {
+      "physical": 80,
+      "label": "58"
+    },
+    "section-12-02": {
+      "physical": 80,
+      "label": "58"
+    },
+    "section-12-03": {
+      "physical": 81,
+      "label": "59"
+    },
+    "section-12-04": {
+      "physical": 81,
+      "label": "59"
+    },
+    "section-12-05": {
+      "physical": 81,
+      "label": "59"
+    },
+    "section-12-06": {
+      "physical": 81,
+      "label": "59"
+    },
+    "section-12-07": {
+      "physical": 82,
+      "label": "60"
+    },
+    "section-12-08": {
+      "physical": 82,
+      "label": "60"
+    },
+    "section-12-09": {
+      "physical": 83,
+      "label": "61"
+    },
+    "section-12-10": {
+      "physical": 83,
+      "label": "61"
+    },
+    "chapter-13": {
+      "physical": 84,
+      "label": "62"
+    },
+    "section-13-01": {
+      "physical": 84,
+      "label": "62"
+    },
+    "section-13-02": {
+      "physical": 85,
+      "label": "63"
+    },
+    "section-13-03": {
+      "physical": 86,
+      "label": "64"
+    },
+    "section-13-04": {
+      "physical": 86,
+      "label": "64"
+    },
+    "section-13-05": {
+      "physical": 86,
+      "label": "64"
+    },
+    "section-13-06": {
+      "physical": 87,
+      "label": "65"
+    },
+    "section-13-07": {
+      "physical": 87,
+      "label": "65"
+    },
+    "section-13-08": {
+      "physical": 88,
+      "label": "66"
+    },
+    "section-13-09": {
+      "physical": 88,
+      "label": "66"
+    },
+    "chapter-14": {
+      "physical": 90,
+      "label": "68"
+    },
+    "section-14-01": {
+      "physical": 90,
+      "label": "68"
+    },
+    "section-14-02": {
+      "physical": 90,
+      "label": "68"
+    },
+    "section-14-03": {
+      "physical": 91,
+      "label": "69"
+    },
+    "section-14-04": {
+      "physical": 91,
+      "label": "69"
+    },
+    "section-14-05": {
+      "physical": 91,
+      "label": "69"
+    },
+    "section-14-06": {
+      "physical": 92,
+      "label": "70"
+    },
+    "section-14-07": {
+      "physical": 93,
+      "label": "71"
+    },
+    "section-14-08": {
+      "physical": 93,
+      "label": "71"
+    },
+    "chapter-15": {
+      "physical": 94,
+      "label": "72"
+    },
+    "section-15-01": {
+      "physical": 94,
+      "label": "72"
+    },
+    "section-15-02": {
+      "physical": 94,
+      "label": "72"
+    },
+    "section-15-03": {
+      "physical": 94,
+      "label": "72"
+    },
+    "section-15-04": {
+      "physical": 95,
+      "label": "73"
+    },
+    "section-15-05": {
+      "physical": 95,
+      "label": "73"
+    },
+    "section-15-06": {
+      "physical": 95,
+      "label": "73"
+    },
+    "section-15-07": {
+      "physical": 96,
+      "label": "74"
+    },
+    "section-15-08": {
+      "physical": 96,
+      "label": "74"
+    },
+    "chapter-16": {
+      "physical": 97,
+      "label": "75"
+    },
+    "section-16-01": {
+      "physical": 97,
+      "label": "75"
+    },
+    "section-16-02": {
+      "physical": 97,
+      "label": "75"
+    },
+    "section-16-03": {
+      "physical": 99,
+      "label": "77"
+    },
+    "section-16-04": {
+      "physical": 99,
+      "label": "77"
+    },
+    "section-16-05": {
+      "physical": 100,
+      "label": "78"
+    },
+    "section-16-06": {
+      "physical": 100,
+      "label": "78"
+    },
+    "section-16-07": {
+      "physical": 101,
+      "label": "79"
+    },
+    "section-16-08": {
+      "physical": 102,
+      "label": "80"
+    },
+    "section-16-09": {
+      "physical": 102,
+      "label": "80"
+    },
+    "section-16-10": {
+      "physical": 103,
+      "label": "81"
+    },
+    "section-16-11": {
+      "physical": 104,
+      "label": "82"
+    },
+    "chapter-17": {
+      "physical": 105,
+      "label": "83"
+    },
+    "section-17-01": {
+      "physical": 105,
+      "label": "83"
+    },
+    "section-17-02": {
+      "physical": 105,
+      "label": "83"
+    },
+    "section-17-03": {
+      "physical": 106,
+      "label": "84"
+    },
+    "section-17-04": {
+      "physical": 106,
+      "label": "84"
+    },
+    "section-17-05": {
+      "physical": 106,
+      "label": "84"
+    },
+    "section-17-06": {
+      "physical": 106,
+      "label": "84"
+    },
+    "section-17-07": {
+      "physical": 107,
+      "label": "85"
+    },
+    "section-17-08": {
+      "physical": 107,
+      "label": "85"
+    },
+    "section-17-09": {
+      "physical": 108,
+      "label": "86"
+    },
+    "section-17-10": {
+      "physical": 108,
+      "label": "86"
+    },
+    "section-17-11": {
+      "physical": 109,
+      "label": "87"
+    },
+    "section-17-12": {
+      "physical": 110,
+      "label": "88"
+    },
+    "chapter-18": {
+      "physical": 111,
+      "label": "89"
+    },
+    "section-18-01": {
+      "physical": 111,
+      "label": "89"
+    },
+    "section-18-02": {
+      "physical": 111,
+      "label": "89"
+    },
+    "section-18-03": {
+      "physical": 111,
+      "label": "89"
+    },
+    "section-18-04": {
+      "physical": 112,
+      "label": "90"
+    },
+    "section-18-05": {
+      "physical": 112,
+      "label": "90"
+    },
+    "section-18-06": {
+      "physical": 113,
+      "label": "91"
+    },
+    "section-18-07": {
+      "physical": 114,
+      "label": "92"
+    },
+    "section-18-08": {
+      "physical": 114,
+      "label": "92"
+    },
+    "section-18-09": {
+      "physical": 115,
+      "label": "93"
+    },
+    "section-18-10": {
+      "physical": 115,
+      "label": "93"
+    },
+    "section-18-11": {
+      "physical": 116,
+      "label": "94"
+    },
+    "chapter-19": {
+      "physical": 117,
+      "label": "95"
+    },
+    "section-19-01": {
+      "physical": 117,
+      "label": "95"
+    },
+    "section-19-02": {
+      "physical": 117,
+      "label": "95"
+    },
+    "section-19-03": {
+      "physical": 118,
+      "label": "96"
+    },
+    "section-19-04": {
+      "physical": 118,
+      "label": "96"
+    },
+    "section-19-05": {
+      "physical": 118,
+      "label": "96"
+    },
+    "section-19-06": {
+      "physical": 119,
+      "label": "97"
+    },
+    "section-19-07": {
+      "physical": 119,
+      "label": "97"
+    },
+    "section-19-08": {
+      "physical": 120,
+      "label": "98"
+    },
+    "section-19-09": {
+      "physical": 120,
+      "label": "98"
+    },
+    "section-19-10": {
+      "physical": 121,
+      "label": "99"
+    },
+    "section-19-11": {
+      "physical": 122,
+      "label": "100"
+    },
+    "section-19-12": {
+      "physical": 122,
+      "label": "100"
+    },
+    "chapter-20": {
+      "physical": 123,
+      "label": "101"
+    },
+    "section-20-01": {
+      "physical": 123,
+      "label": "101"
+    },
+    "section-20-02": {
+      "physical": 123,
+      "label": "101"
+    },
+    "section-20-03": {
+      "physical": 124,
+      "label": "102"
+    },
+    "section-20-04": {
+      "physical": 124,
+      "label": "102"
+    },
+    "section-20-05": {
+      "physical": 125,
+      "label": "103"
+    },
+    "section-20-06": {
+      "physical": 125,
+      "label": "103"
+    },
+    "section-20-07": {
+      "physical": 126,
+      "label": "104"
+    },
+    "section-20-08": {
+      "physical": 127,
+      "label": "105"
+    },
+    "section-20-09": {
+      "physical": 127,
+      "label": "105"
+    },
+    "section-20-10": {
+      "physical": 128,
+      "label": "106"
+    },
+    "chapter-21": {
+      "physical": 129,
+      "label": "107"
+    },
+    "section-21-01": {
+      "physical": 129,
+      "label": "107"
+    },
+    "section-21-02": {
+      "physical": 130,
+      "label": "108"
+    },
+    "section-21-03": {
+      "physical": 131,
+      "label": "109"
+    },
+    "section-21-04": {
+      "physical": 131,
+      "label": "109"
+    },
+    "section-21-05": {
+      "physical": 131,
+      "label": "109"
+    },
+    "section-21-06": {
+      "physical": 132,
+      "label": "110"
+    },
+    "section-21-07": {
+      "physical": 132,
+      "label": "110"
+    },
+    "section-21-08": {
+      "physical": 132,
+      "label": "110"
+    },
+    "section-21-09": {
+      "physical": 133,
+      "label": "111"
+    },
+    "section-21-10": {
+      "physical": 133,
+      "label": "111"
+    },
+    "chapter-22": {
+      "physical": 134,
+      "label": "112"
+    },
+    "section-22-01": {
+      "physical": 134,
+      "label": "112"
+    },
+    "section-22-02": {
+      "physical": 135,
+      "label": "113"
+    },
+    "section-22-03": {
+      "physical": 136,
+      "label": "114"
+    },
+    "section-22-04": {
+      "physical": 137,
+      "label": "115"
+    },
+    "section-22-05": {
+      "physical": 137,
+      "label": "115"
+    },
+    "section-22-06": {
+      "physical": 138,
+      "label": "116"
+    },
+    "section-22-07": {
+      "physical": 139,
+      "label": "117"
+    },
+    "section-22-08": {
+      "physical": 139,
+      "label": "117"
+    },
+    "section-22-09": {
+      "physical": 140,
+      "label": "118"
+    },
+    "chapter-23": {
+      "physical": 141,
+      "label": "119"
+    },
+    "section-23-01": {
+      "physical": 141,
+      "label": "119"
+    },
+    "section-23-02": {
+      "physical": 142,
+      "label": "120"
+    },
+    "section-23-03": {
+      "physical": 142,
+      "label": "120"
+    },
+    "section-23-04": {
+      "physical": 143,
+      "label": "121"
+    },
+    "section-23-05": {
+      "physical": 143,
+      "label": "121"
+    },
+    "section-23-06": {
+      "physical": 144,
+      "label": "122"
+    },
+    "section-23-07": {
+      "physical": 145,
+      "label": "123"
+    },
+    "section-23-08": {
+      "physical": 146,
+      "label": "124"
+    },
+    "section-23-09": {
+      "physical": 147,
+      "label": "125"
+    },
+    "section-23-10": {
+      "physical": 147,
+      "label": "125"
+    },
+    "chapter-24": {
+      "physical": 148,
+      "label": "126"
+    },
+    "section-24-01": {
+      "physical": 148,
+      "label": "126"
+    },
+    "section-24-02": {
+      "physical": 149,
+      "label": "127"
+    },
+    "section-24-03": {
+      "physical": 149,
+      "label": "127"
+    },
+    "section-24-04": {
+      "physical": 150,
+      "label": "128"
+    },
+    "section-24-05": {
+      "physical": 150,
+      "label": "128"
+    },
+    "section-24-06": {
+      "physical": 151,
+      "label": "129"
+    },
+    "section-24-07": {
+      "physical": 152,
+      "label": "130"
+    },
+    "section-24-08": {
+      "physical": 152,
+      "label": "130"
+    },
+    "section-24-09": {
+      "physical": 152,
+      "label": "130"
+    },
+    "chapter-25": {
+      "physical": 153,
+      "label": "131"
+    },
+    "section-25-01": {
+      "physical": 153,
+      "label": "131"
+    },
+    "section-25-02": {
+      "physical": 154,
+      "label": "132"
+    },
+    "section-25-03": {
+      "physical": 154,
+      "label": "132"
+    },
+    "section-25-04": {
+      "physical": 155,
+      "label": "133"
+    },
+    "section-25-05": {
+      "physical": 155,
+      "label": "133"
+    },
+    "section-25-06": {
+      "physical": 156,
+      "label": "134"
+    },
+    "section-25-07": {
+      "physical": 157,
+      "label": "135"
+    },
+    "section-25-08": {
+      "physical": 158,
+      "label": "136"
+    },
+    "section-25-09": {
+      "physical": 158,
+      "label": "136"
+    },
+    "chapter-26": {
+      "physical": 159,
+      "label": "137"
+    },
+    "section-26-01": {
+      "physical": 159,
+      "label": "137"
+    },
+    "section-26-02": {
+      "physical": 159,
+      "label": "137"
+    },
+    "section-26-03": {
+      "physical": 160,
+      "label": "138"
+    },
+    "section-26-04": {
+      "physical": 160,
+      "label": "138"
+    },
+    "section-26-05": {
+      "physical": 161,
+      "label": "139"
+    },
+    "section-26-06": {
+      "physical": 161,
+      "label": "139"
+    },
+    "section-26-07": {
+      "physical": 162,
+      "label": "140"
+    },
+    "section-26-08": {
+      "physical": 162,
+      "label": "140"
+    },
+    "section-26-09": {
+      "physical": 162,
+      "label": "140"
+    },
+    "chapter-27": {
+      "physical": 163,
+      "label": "141"
+    },
+    "section-27-01": {
+      "physical": 163,
+      "label": "141"
+    },
+    "section-27-02": {
+      "physical": 163,
+      "label": "141"
+    },
+    "section-27-03": {
+      "physical": 164,
+      "label": "142"
+    },
+    "section-27-04": {
+      "physical": 164,
+      "label": "142"
+    },
+    "section-27-05": {
+      "physical": 165,
+      "label": "143"
+    },
+    "section-27-06": {
+      "physical": 165,
+      "label": "143"
+    },
+    "section-27-07": {
+      "physical": 166,
+      "label": "144"
+    },
+    "section-27-08": {
+      "physical": 166,
+      "label": "144"
+    },
+    "section-27-09": {
+      "physical": 167,
+      "label": "145"
+    },
+    "section-27-10": {
+      "physical": 167,
+      "label": "145"
+    },
+    "chapter-28": {
+      "physical": 168,
+      "label": "146"
+    },
+    "section-28-01": {
+      "physical": 168,
+      "label": "146"
+    },
+    "section-28-02": {
+      "physical": 168,
+      "label": "146"
+    },
+    "section-28-03": {
+      "physical": 169,
+      "label": "147"
+    },
+    "section-28-04": {
+      "physical": 169,
+      "label": "147"
+    },
+    "section-28-05": {
+      "physical": 170,
+      "label": "148"
+    },
+    "section-28-06": {
+      "physical": 170,
+      "label": "148"
+    },
+    "section-28-07": {
+      "physical": 170,
+      "label": "148"
+    },
+    "section-28-08": {
+      "physical": 171,
+      "label": "149"
+    },
+    "section-28-09": {
+      "physical": 171,
+      "label": "149"
+    },
+    "section-28-10": {
+      "physical": 171,
+      "label": "149"
+    },
+    "part-02": {
+      "physical": 172,
+      "label": "150"
+    },
+    "chapter-29": {
+      "physical": 173,
+      "label": "151"
+    },
+    "section-29-01": {
+      "physical": 173,
+      "label": "151"
+    },
+    "section-29-02": {
+      "physical": 173,
+      "label": "151"
+    },
+    "section-29-03": {
+      "physical": 174,
+      "label": "152"
+    },
+    "section-29-04": {
+      "physical": 174,
+      "label": "152"
+    },
+    "section-29-05": {
+      "physical": 175,
+      "label": "153"
+    },
+    "section-29-06": {
+      "physical": 175,
+      "label": "153"
+    },
+    "section-29-07": {
+      "physical": 175,
+      "label": "153"
+    },
+    "section-29-08": {
+      "physical": 176,
+      "label": "154"
+    },
+    "section-29-09": {
+      "physical": 176,
+      "label": "154"
+    },
+    "section-29-10": {
+      "physical": 177,
+      "label": "155"
+    },
+    "chapter-30": {
+      "physical": 178,
+      "label": "156"
+    },
+    "section-30-01": {
+      "physical": 178,
+      "label": "156"
+    },
+    "section-30-02": {
+      "physical": 178,
+      "label": "156"
+    },
+    "section-30-03": {
+      "physical": 179,
+      "label": "157"
+    },
+    "section-30-04": {
+      "physical": 179,
+      "label": "157"
+    },
+    "section-30-05": {
+      "physical": 180,
+      "label": "158"
+    },
+    "section-30-06": {
+      "physical": 180,
+      "label": "158"
+    },
+    "section-30-07": {
+      "physical": 181,
+      "label": "159"
+    },
+    "section-30-08": {
+      "physical": 181,
+      "label": "159"
+    },
+    "section-30-09": {
+      "physical": 182,
+      "label": "160"
+    },
+    "chapter-31": {
+      "physical": 183,
+      "label": "161"
+    },
+    "section-31-01": {
+      "physical": 183,
+      "label": "161"
+    },
+    "section-31-02": {
+      "physical": 185,
+      "label": "163"
+    },
+    "section-31-03": {
+      "physical": 185,
+      "label": "163"
+    },
+    "section-31-04": {
+      "physical": 186,
+      "label": "164"
+    },
+    "section-31-05": {
+      "physical": 187,
+      "label": "165"
+    },
+    "section-31-06": {
+      "physical": 188,
+      "label": "166"
+    },
+    "section-31-07": {
+      "physical": 188,
+      "label": "166"
+    },
+    "section-31-08": {
+      "physical": 189,
+      "label": "167"
+    },
+    "section-31-09": {
+      "physical": 189,
+      "label": "167"
+    },
+    "part-03": {
+      "physical": 190,
+      "label": "168"
+    },
+    "chapter-32": {
+      "physical": 191,
+      "label": "169"
+    },
+    "section-32-01": {
+      "physical": 191,
+      "label": "169"
+    },
+    "section-32-02": {
+      "physical": 193,
+      "label": "171"
+    },
+    "section-32-03": {
+      "physical": 193,
+      "label": "171"
+    },
+    "section-32-04": {
+      "physical": 194,
+      "label": "172"
+    },
+    "section-32-05": {
+      "physical": 194,
+      "label": "172"
+    },
+    "section-32-06": {
+      "physical": 195,
+      "label": "173"
+    },
+    "chapter-33": {
+      "physical": 196,
+      "label": "174"
+    },
+    "section-33-01": {
+      "physical": 196,
+      "label": "174"
+    },
+    "section-33-02": {
+      "physical": 196,
+      "label": "174"
+    },
+    "section-33-03": {
+      "physical": 197,
+      "label": "175"
+    },
+    "section-33-04": {
+      "physical": 198,
+      "label": "176"
+    },
+    "section-33-05": {
+      "physical": 198,
+      "label": "176"
+    },
+    "section-33-06": {
+      "physical": 199,
+      "label": "177"
+    },
+    "section-33-07": {
+      "physical": 199,
+      "label": "177"
+    },
+    "section-33-08": {
+      "physical": 199,
+      "label": "177"
+    },
+    "chapter-34": {
+      "physical": 200,
+      "label": "178"
+    },
+    "section-34-01": {
+      "physical": 200,
+      "label": "178"
+    },
+    "section-34-02": {
+      "physical": 201,
+      "label": "179"
+    },
+    "section-34-03": {
+      "physical": 202,
+      "label": "180"
+    },
+    "section-34-04": {
+      "physical": 203,
+      "label": "181"
+    },
+    "section-34-05": {
+      "physical": 203,
+      "label": "181"
+    },
+    "section-34-06": {
+      "physical": 203,
+      "label": "181"
+    },
+    "section-34-07": {
+      "physical": 204,
+      "label": "182"
+    },
+    "section-34-08": {
+      "physical": 204,
+      "label": "182"
+    },
+    "section-34-09": {
+      "physical": 204,
+      "label": "182"
+    },
+    "section-34-10": {
+      "physical": 205,
+      "label": "183"
+    },
+    "chapter-35": {
+      "physical": 206,
+      "label": "184"
+    },
+    "section-35-01": {
+      "physical": 206,
+      "label": "184"
+    },
+    "section-35-02": {
+      "physical": 206,
+      "label": "184"
+    },
+    "section-35-03": {
+      "physical": 207,
+      "label": "185"
+    },
+    "section-35-04": {
+      "physical": 207,
+      "label": "185"
+    },
+    "section-35-05": {
+      "physical": 208,
+      "label": "186"
+    },
+    "section-35-06": {
+      "physical": 208,
+      "label": "186"
+    },
+    "section-35-07": {
+      "physical": 209,
+      "label": "187"
+    },
+    "section-35-08": {
+      "physical": 209,
+      "label": "187"
+    },
+    "chapter-36": {
+      "physical": 210,
+      "label": "188"
+    },
+    "section-36-01": {
+      "physical": 210,
+      "label": "188"
+    },
+    "section-36-02": {
+      "physical": 211,
+      "label": "189"
+    },
+    "section-36-03": {
+      "physical": 211,
+      "label": "189"
+    },
+    "section-36-04": {
+      "physical": 211,
+      "label": "189"
+    },
+    "section-36-05": {
+      "physical": 212,
+      "label": "190"
+    },
+    "section-36-06": {
+      "physical": 212,
+      "label": "190"
+    },
+    "section-36-07": {
+      "physical": 213,
+      "label": "191"
+    },
+    "section-36-08": {
+      "physical": 213,
+      "label": "191"
+    },
+    "chapter-37": {
+      "physical": 214,
+      "label": "192"
+    },
+    "section-37-01": {
+      "physical": 214,
+      "label": "192"
+    },
+    "section-37-02": {
+      "physical": 215,
+      "label": "193"
+    },
+    "section-37-03": {
+      "physical": 216,
+      "label": "194"
+    },
+    "section-37-04": {
+      "physical": 216,
+      "label": "194"
+    },
+    "section-37-05": {
+      "physical": 217,
+      "label": "195"
+    },
+    "section-37-06": {
+      "physical": 217,
+      "label": "195"
+    },
+    "section-37-07": {
+      "physical": 217,
+      "label": "195"
+    },
+    "section-37-08": {
+      "physical": 218,
+      "label": "196"
+    },
+    "section-37-09": {
+      "physical": 219,
+      "label": "197"
+    },
+    "chapter-38": {
+      "physical": 220,
+      "label": "198"
+    },
+    "section-38-01": {
+      "physical": 220,
+      "label": "198"
+    },
+    "section-38-02": {
+      "physical": 221,
+      "label": "199"
+    },
+    "section-38-03": {
+      "physical": 221,
+      "label": "199"
+    },
+    "section-38-04": {
+      "physical": 221,
+      "label": "199"
+    },
+    "section-38-05": {
+      "physical": 222,
+      "label": "200"
+    },
+    "section-38-06": {
+      "physical": 223,
+      "label": "201"
+    },
+    "section-38-07": {
+      "physical": 223,
+      "label": "201"
+    },
+    "section-38-08": {
+      "physical": 223,
+      "label": "201"
+    },
+    "section-38-09": {
+      "physical": 224,
+      "label": "202"
+    },
+    "section-38-10": {
+      "physical": 224,
+      "label": "202"
+    },
+    "section-38-11": {
+      "physical": 225,
+      "label": "203"
+    },
+    "chapter-39": {
+      "physical": 227,
+      "label": "205"
+    },
+    "section-39-01": {
+      "physical": 227,
+      "label": "205"
+    },
+    "section-39-02": {
+      "physical": 228,
+      "label": "206"
+    },
+    "section-39-03": {
+      "physical": 228,
+      "label": "206"
+    },
+    "section-39-04": {
+      "physical": 229,
+      "label": "207"
+    },
+    "section-39-05": {
+      "physical": 229,
+      "label": "207"
+    },
+    "section-39-06": {
+      "physical": 230,
+      "label": "208"
+    },
+    "section-39-07": {
+      "physical": 230,
+      "label": "208"
+    },
+    "chapter-40": {
+      "physical": 231,
+      "label": "209"
+    },
+    "section-40-01": {
+      "physical": 231,
+      "label": "209"
+    },
+    "section-40-02": {
+      "physical": 232,
+      "label": "210"
+    },
+    "section-40-03": {
+      "physical": 233,
+      "label": "211"
+    },
+    "section-40-04": {
+      "physical": 233,
+      "label": "211"
+    },
+    "section-40-05": {
+      "physical": 234,
+      "label": "212"
+    },
+    "section-40-06": {
+      "physical": 234,
+      "label": "212"
+    },
+    "section-40-07": {
+      "physical": 234,
+      "label": "212"
+    },
+    "section-40-08": {
+      "physical": 235,
+      "label": "213"
+    },
+    "section-40-09": {
+      "physical": 235,
+      "label": "213"
+    },
+    "section-40-10": {
+      "physical": 235,
+      "label": "213"
+    },
+    "section-40-11": {
+      "physical": 237,
+      "label": "215"
+    },
+    "section-40-12": {
+      "physical": 237,
+      "label": "215"
+    },
+    "section-40-13": {
+      "physical": 238,
+      "label": "216"
+    },
+    "section-40-14": {
+      "physical": 239,
+      "label": "217"
+    },
+    "chapter-41": {
+      "physical": 240,
+      "label": "218"
+    },
+    "section-41-01": {
+      "physical": 240,
+      "label": "218"
+    },
+    "section-41-02": {
+      "physical": 241,
+      "label": "219"
+    },
+    "section-41-03": {
+      "physical": 242,
+      "label": "220"
+    },
+    "section-41-04": {
+      "physical": 243,
+      "label": "221"
+    },
+    "section-41-05": {
+      "physical": 244,
+      "label": "222"
+    },
+    "section-41-06": {
+      "physical": 244,
+      "label": "222"
+    },
+    "section-41-07": {
+      "physical": 245,
+      "label": "223"
+    },
+    "section-41-08": {
+      "physical": 245,
+      "label": "223"
+    },
+    "chapter-42": {
+      "physical": 246,
+      "label": "224"
+    },
+    "section-42-01": {
+      "physical": 246,
+      "label": "224"
+    },
+    "section-42-02": {
+      "physical": 247,
+      "label": "225"
+    },
+    "section-42-03": {
+      "physical": 247,
+      "label": "225"
+    },
+    "section-42-04": {
+      "physical": 248,
+      "label": "226"
+    },
+    "section-42-05": {
+      "physical": 248,
+      "label": "226"
+    },
+    "section-42-06": {
+      "physical": 249,
+      "label": "227"
+    },
+    "section-42-07": {
+      "physical": 249,
+      "label": "227"
+    },
+    "section-42-08": {
+      "physical": 250,
+      "label": "228"
+    },
+    "section-42-09": {
+      "physical": 250,
+      "label": "228"
+    },
+    "chapter-43": {
+      "physical": 252,
+      "label": "230"
+    },
+    "section-43-01": {
+      "physical": 252,
+      "label": "230"
+    },
+    "section-43-02": {
+      "physical": 252,
+      "label": "230"
+    },
+    "section-43-03": {
+      "physical": 253,
+      "label": "231"
+    },
+    "section-43-04": {
+      "physical": 254,
+      "label": "232"
+    },
+    "section-43-05": {
+      "physical": 255,
+      "label": "233"
+    },
+    "section-43-06": {
+      "physical": 255,
+      "label": "233"
+    },
+    "chapter-44": {
+      "physical": 256,
+      "label": "234"
+    },
+    "section-44-01": {
+      "physical": 256,
+      "label": "234"
+    },
+    "section-44-02": {
+      "physical": 258,
+      "label": "236"
+    },
+    "section-44-03": {
+      "physical": 259,
+      "label": "237"
+    },
+    "section-44-04": {
+      "physical": 259,
+      "label": "237"
+    },
+    "section-44-05": {
+      "physical": 259,
+      "label": "237"
+    },
+    "section-44-06": {
+      "physical": 260,
+      "label": "238"
+    },
+    "section-44-07": {
+      "physical": 260,
+      "label": "238"
+    },
+    "section-44-08": {
+      "physical": 260,
+      "label": "238"
+    },
+    "section-44-09": {
+      "physical": 261,
+      "label": "239"
+    },
+    "section-44-10": {
+      "physical": 261,
+      "label": "239"
+    },
+    "section-44-11": {
+      "physical": 261,
+      "label": "239"
+    },
+    "section-44-12": {
+      "physical": 262,
+      "label": "240"
+    },
+    "section-44-13": {
+      "physical": 262,
+      "label": "240"
+    },
+    "section-44-14": {
+      "physical": 262,
+      "label": "240"
+    },
+    "section-44-15": {
+      "physical": 262,
+      "label": "240"
+    },
+    "section-44-16": {
+      "physical": 262,
+      "label": "240"
+    },
+    "section-44-17": {
+      "physical": 263,
+      "label": "241"
+    },
+    "section-44-18": {
+      "physical": 264,
+      "label": "242"
+    },
+    "section-44-19": {
+      "physical": 264,
+      "label": "242"
+    },
+    "section-44-20": {
+      "physical": 265,
+      "label": "243"
+    },
+    "bibliography": {
+      "physical": 267,
+      "label": "245"
+    },
+    "author-page": {
+      "physical": 2,
+      "label": "作者扉页"
+    }
+  }
+}

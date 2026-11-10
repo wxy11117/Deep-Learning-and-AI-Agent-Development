@@ -1,0 +1,24 @@
+{
+  "scope": "two fixed sequences, training-fit and implementation checks only",
+  "parameters": 3832,
+  "input_shape": [
+    2,
+    4
+  ],
+  "logit_shape": [
+    2,
+    4,
+    8
+  ],
+  "attention_shape": [
+    2,
+    4,
+    4,
+    4
+  ],
+  "initial_loss": 2.3488972187042236,
+  "final_loss": 0.017564337700605392,
+  "causality_max_earlier_logit_difference": 0.0,
+  "changed_last_position_difference": 5.6101884841918945,
+  "future_attention_max": 0.0
+}

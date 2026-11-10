@@ -1,0 +1,90 @@
+{
+  "DEMO-001": {
+    "task_id": "DEMO-001",
+    "data_kind": "AUTHOR_CONSTRUCTED_PROBABILITIES",
+    "class_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "fold_probabilities": [
+      [
+        0.1,
+        0.6,
+        0.2,
+        0.1
+      ],
+      [
+        0.1,
+        0.55,
+        0.25,
+        0.1
+      ],
+      [
+        0.15,
+        0.45,
+        0.3,
+        0.1
+      ],
+      [
+        0.1,
+        0.3,
+        0.5,
+        0.1
+      ],
+      [
+        0.1,
+        0.65,
+        0.15,
+        0.1
+      ]
+    ],
+    "model_version": "research-fivefold-20260902-165455",
+    "review_status": "pending"
+  },
+  "DEMO-002": {
+    "task_id": "DEMO-002",
+    "data_kind": "AUTHOR_CONSTRUCTED_PROBABILITIES",
+    "class_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "fold_probabilities": [
+      [
+        0.1,
+        0.6,
+        0.2,
+        0.1
+      ],
+      [
+        0.1,
+        0.55,
+        0.25,
+        0.1
+      ],
+      [
+        0.15,
+        0.45,
+        0.3,
+        0.1
+      ],
+      [
+        0.1,
+        0.3,
+        0.5,
+        0.1
+      ],
+      [
+        0.1,
+        0.65,
+        0.15,
+        0.1
+      ]
+    ],
+    "model_version": "future-model-not-in-snapshot",
+    "review_status": "pending"
+  }
+}

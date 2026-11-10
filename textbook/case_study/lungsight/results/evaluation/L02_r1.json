@@ -1,0 +1,625 @@
+{
+  "case_id": "L02",
+  "phase": "evaluation",
+  "repeat": 1,
+  "category": "source",
+  "question": "项目说明中的图像集成包含几折？value 填整数。",
+  "expected": {
+    "status": "answered",
+    "value": 5,
+    "source_ids": [
+      "LS01"
+    ],
+    "task_id": null
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:22:38+0800",
+  "elapsed_seconds": 5.549,
+  "usage": {
+    "input_tokens": 9316,
+    "output_tokens": 497
+  },
+  "estimated_usd_peak_cache_miss": 0.0033912,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:33+0800",
+      "request_bytes": 2973,
+      "status": "received",
+      "response_id": "f39a3b9f-32af-49b4-a1ac-bdee7e0b07e4",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 848,
+        "completion_tokens": 62,
+        "total_tokens": 910,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 208
+      },
+      "elapsed_ms": 753.236,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:34+0800",
+      "request_bytes": 3746,
+      "status": "received",
+      "response_id": "d7ec4c97-af45-4d56-821a-daad537a3cbd",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1095,
+        "completion_tokens": 76,
+        "total_tokens": 1171,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 199
+      },
+      "elapsed_ms": 882.784,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:35+0800",
+      "request_bytes": 4887,
+      "status": "received",
+      "response_id": "6608b9a9-65eb-46b5-b6e3-4e352f2e04dd",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1455,
+        "completion_tokens": 63,
+        "total_tokens": 1518,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 303
+      },
+      "elapsed_ms": 866.292,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:35+0800",
+      "request_bytes": 5367,
+      "status": "received",
+      "response_id": "c2ae9201-bef0-4e76-b3cf-284743839c1d",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1594,
+        "completion_tokens": 62,
+        "total_tokens": 1656,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 186
+      },
+      "elapsed_ms": 901.535,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:36+0800",
+      "request_bytes": 6474,
+      "status": "received",
+      "response_id": "b4083ae1-7a3b-4e5f-80ee-6c8cbf7ff423",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1969,
+        "completion_tokens": 76,
+        "total_tokens": 2045,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 433
+      },
+      "elapsed_ms": 899.532,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:37+0800",
+      "request_bytes": 7700,
+      "status": "received",
+      "response_id": "f68e6825-8a70-4121-9df0-178a64152d65",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 2355,
+        "completion_tokens": 158,
+        "total_tokens": 2513,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 435
+      },
+      "elapsed_ms": 1240.771,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"answered\",\"answer\":\"项目说明（README）指出当前版本使用真实的本地五折 ResNet18 研究推理，即图像集成包含 5 折。\",\"value\":5,\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流\"}]}",
+    "turns": 6,
+    "calls": 5,
+    "history": [
+      {
+        "role": "user",
+        "text": "项目说明中的图像集成包含几折？value 填整数。"
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_OrckAKvelhHE1gH7Snbi0323",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "图像集成 折 交叉验证",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_OrckAKvelhHE1gH7Snbi0323",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"图像集成 折 交叉验证\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_OrckAKvelhHE1gH7Snbi0323",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS02",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "项目定义 四分类 科研教学用途",
+                  "score": 0.031129
+                },
+                {
+                  "id": "LS07",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地引文如何验证",
+                  "score": 0.01717
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_JmPssW8JPaWk7yqdLAPa2688",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS02",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_JmPssW8JPaWk7yqdLAPa2688",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS02\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_JmPssW8JPaWk7yqdLAPa2688",
+            "ok": true,
+            "value": {
+              "id": "LS02",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "项目定义 四分类 科研教学用途",
+              "text": "LungSight 是面向肺部 CT 四分类研究的本地智能辅助分析原型，包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流。当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。",
+              "path": "README.md",
+              "lines": [
+                5,
+                5
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L5-L5",
+              "excerpt_sha256": "a41d5b8645a614c5f85f25c3d32fd452068b59ae89a0d3c7f4f7537d182b396b"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_BwGzblXHNU4opzguRpKR3865",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "图像集成 集成学习 折数",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_BwGzblXHNU4opzguRpKR3865",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"图像集成 集成学习 折数\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_BwGzblXHNU4opzguRpKR3865",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": []
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_0O2cYlonfwS2VXlgLeDp4082",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "五折 模型推理 集成",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_0O2cYlonfwS2VXlgLeDp4082",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"五折 模型推理 集成\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_0O2cYlonfwS2VXlgLeDp4082",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS02",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "项目定义 四分类 科研教学用途",
+                  "score": 0.16639
+                },
+                {
+                  "id": "LS01",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地模型架构 五折 ResNet18 权重版本",
+                  "score": 0.100791
+                },
+                {
+                  "id": "LS06",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "给大模型发送的内容 原始CT 数据隐私",
+                  "score": 0.077152
+                },
+                {
+                  "id": "LS03",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "DICOM 单帧导入 抽取层数",
+                  "score": 0.044544
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_kwlU4LSHdNMArO5zBRLi9259",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_kwlU4LSHdNMArO5zBRLi9259",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS01\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_kwlU4LSHdNMArO5zBRLi9259",
+            "ok": true,
+            "value": {
+              "id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "本地模型架构 五折 ResNet18 权重版本",
+              "text": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。支持内置二维 CT 示例，也支持上传 PNG、JPG、BMP、TIFF 图片或基础单帧 CT DICOM 序列。",
+              "path": "README.md",
+              "lines": [
+                9,
+                9
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L9-L9",
+              "excerpt_sha256": "58d0527ec9a0295bfb666395be32d21a1ff68503c76e7b5fd8c1cafe53ec675c"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"answered\",\"answer\":\"项目说明（README）指出当前版本使用真实的本地五折 ResNet18 研究推理，即图像集成包含 5 折。\",\"value\":5,\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流\"}]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"answered\",\"answer\":\"项目说明（README）指出当前版本使用真实的本地五折 ResNet18 研究推理，即图像集成包含 5 折。\",\"value\":5,\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流\"}]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 848,
+          "completion_tokens": 62,
+          "total_tokens": 910,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 208
+        },
+        "mode": "live_api",
+        "elapsed_ms": 753.33
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_00_OrckAKvelhHE1gH7Snbi0323",
+        "ok": true,
+        "elapsed_ms": 0.419,
+        "result_sha256": "4238d7c7b089fd7998af232820a872a1aa447df3604fe46f1c65d44925079f93"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1095,
+          "completion_tokens": 76,
+          "total_tokens": 1171,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 199
+        },
+        "mode": "live_api",
+        "elapsed_ms": 882.924
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_00_JmPssW8JPaWk7yqdLAPa2688",
+        "ok": true,
+        "elapsed_ms": 0.163,
+        "result_sha256": "35039a6a658d33122f03e96ee99bc5bca75f9268ebdaf7f629f062df6947e4e6"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {
+          "prompt_tokens": 1455,
+          "completion_tokens": 63,
+          "total_tokens": 1518,
+          "prompt_tokens_details": {
+            "cached_tokens": 1152
+          },
+          "prompt_cache_hit_tokens": 1152,
+          "prompt_cache_miss_tokens": 303
+        },
+        "mode": "live_api",
+        "elapsed_ms": 866.584
+      },
+      {
+        "event": "tool",
+        "turn": 2,
+        "name": "search_project_docs",
+        "call_id": "call_00_BwGzblXHNU4opzguRpKR3865",
+        "ok": true,
+        "elapsed_ms": 0.606,
+        "result_sha256": "520fafe4bf2159b50d07632b17d86800dec8fafedf186b05a9f1a59f8fe1fbab"
+      },
+      {
+        "event": "model",
+        "turn": 3,
+        "usage": {
+          "prompt_tokens": 1594,
+          "completion_tokens": 62,
+          "total_tokens": 1656,
+          "prompt_tokens_details": {
+            "cached_tokens": 1408
+          },
+          "prompt_cache_hit_tokens": 1408,
+          "prompt_cache_miss_tokens": 186
+        },
+        "mode": "live_api",
+        "elapsed_ms": 901.753
+      },
+      {
+        "event": "tool",
+        "turn": 3,
+        "name": "search_project_docs",
+        "call_id": "call_00_0O2cYlonfwS2VXlgLeDp4082",
+        "ok": true,
+        "elapsed_ms": 1.457,
+        "result_sha256": "2f3f3227b91940cca68c6ec6145d2636f893fd99d6fb3e6859ae5c71021d7e32"
+      },
+      {
+        "event": "model",
+        "turn": 4,
+        "usage": {
+          "prompt_tokens": 1969,
+          "completion_tokens": 76,
+          "total_tokens": 2045,
+          "prompt_tokens_details": {
+            "cached_tokens": 1536
+          },
+          "prompt_cache_hit_tokens": 1536,
+          "prompt_cache_miss_tokens": 433
+        },
+        "mode": "live_api",
+        "elapsed_ms": 900.021
+      },
+      {
+        "event": "tool",
+        "turn": 4,
+        "name": "read_source",
+        "call_id": "call_00_kwlU4LSHdNMArO5zBRLi9259",
+        "ok": true,
+        "elapsed_ms": 0.071,
+        "result_sha256": "1e8e8f28a39a452556a621a0a9aaf82ffa46c7d9996fb89b16d72197b99574da"
+      },
+      {
+        "event": "model",
+        "turn": 5,
+        "usage": {
+          "prompt_tokens": 2355,
+          "completion_tokens": 158,
+          "total_tokens": 2513,
+          "prompt_tokens_details": {
+            "cached_tokens": 1920
+          },
+          "prompt_cache_hit_tokens": 1920,
+          "prompt_cache_miss_tokens": 435
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1241.115
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "answered",
+      "answer": "项目说明（README）指出当前版本使用真实的本地五折 ResNet18 研究推理，即图像集成包含 5 折。",
+      "value": 5,
+      "citations": [
+        {
+          "id": "LS01",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理"
+        },
+        {
+          "id": "LS02",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流"
+        }
+      ]
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

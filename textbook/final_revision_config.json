@@ -1,0 +1,11 @@
+{
+  "edition": "2026-11-10 修订版",
+  "keep_programming_intro_chapter": 21,
+  "authors": ["Violet", "Star", "Sapphire"],
+  "author_signature_pt": 28,
+  "base_projects": 8,
+  "case_repository": "wxy11117/LungSight",
+  "case_commit": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+  "revision_scope": ["错漏与符号", "分层阅读", "单项目入口", "就地练习", "近年应用练习", "贯穿案例", "真实模型实验", "目录与版面核验"],
+  "publication_rule": "实验数字从实际记录生成；失败与未运行项目分别标明。"
+}

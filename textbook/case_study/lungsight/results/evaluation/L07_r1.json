@@ -1,0 +1,337 @@
+{
+  "case_id": "L07",
+  "phase": "evaluation",
+  "repeat": 1,
+  "category": "source",
+  "question": "未关联病例的主页问答采用哪个服务端模式？value 填模式代码。",
+  "expected": {
+    "status": "answered",
+    "value": "medical_general",
+    "source_ids": [
+      "LS04"
+    ],
+    "task_id": null
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:22:57+0800",
+  "elapsed_seconds": 3.158,
+  "usage": {
+    "input_tokens": 3740,
+    "output_tokens": 241
+  },
+  "estimated_usd_peak_cache_miss": 0.0014112,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:54+0800",
+      "request_bytes": 2994,
+      "status": "received",
+      "response_id": "18b5ba95-da6f-4f7f-a71a-67a6fd1a2fd7",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 852,
+        "completion_tokens": 65,
+        "total_tokens": 917,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 212
+      },
+      "elapsed_ms": 973.21,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:55+0800",
+      "request_bytes": 4092,
+      "status": "received",
+      "response_id": "30f8c220-7c87-48cc-a82f-7d9d4858580c",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 76,
+        "total_tokens": 1290,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 318
+      },
+      "elapsed_ms": 1068.188,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:56+0800",
+      "request_bytes": 5659,
+      "status": "received",
+      "response_id": "0e115f81-bbc4-49a4-8d55-5c3e2dc2863d",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1674,
+        "completion_tokens": 100,
+        "total_tokens": 1774,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 394
+      },
+      "elapsed_ms": 1114.05,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"answered\",\"answer\":\"主页医学Agent问答在未关联病例时采用服务端模式 medical_general，回答以模型已有医学知识为主，检索命中时可补充本地摘录。\",\"value\":\"medical_general\",\"citations\":[{\"id\":\"LS04\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"主页医学Agent问答，未关联病例 | `medical_general`\"}]}",
+    "turns": 3,
+    "calls": 2,
+    "history": [
+      {
+        "role": "user",
+        "text": "未关联病例的主页问答采用哪个服务端模式？value 填模式代码。"
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_BeXp8BgLNiGe4hBFyBQP3842",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "主页问答 服务端模式 未关联病例",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_BeXp8BgLNiGe4hBFyBQP3842",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"主页问答 服务端模式 未关联病例\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_BeXp8BgLNiGe4hBFyBQP3842",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS04",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "未关联与关联任务的问答模式",
+                  "score": 0.435928
+                },
+                {
+                  "id": "LS08",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "旧问答历史与报告保留规则",
+                  "score": 0.079153
+                },
+                {
+                  "id": "LS07",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地引文如何验证",
+                  "score": 0.040408
+                },
+                {
+                  "id": "LS02",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "项目定义 四分类 科研教学用途",
+                  "score": 0.024419
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_hOVr7MWZEh3BApf1LuPP6120",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS04",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_hOVr7MWZEh3BApf1LuPP6120",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS04\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_hOVr7MWZEh3BApf1LuPP6120",
+            "ok": true,
+            "value": {
+              "id": "LS04",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "未关联与关联任务的问答模式",
+              "text": "| 入口 | 服务端模式 | 回答来源 |\n| --- | --- | --- |\n| 主页医学Agent问答，未关联病例 | `medical_general` | 模型已有医学知识；检索命中时可补充本地摘录。没有本地资料不再直接拒答。 |\n| CT分析后的AI解读、关联病例的主页问答、医生复核页问答 | `ct_hybrid` | 当前账号拥有的CT结构化结果、医生复核/修正记录、检索到的本地资料，加上模型医学知识。 |\n\n模式由后端根据会话关联病例决定，不接受前端传入绕过策略的权限。已有会话不可改关联病例，需新建对话。三家已接入服务商共用同一策略：OpenAI Responses、Kimi、DeepSeek。",
+              "path": "documentation/medical-answer-modes.md",
+              "lines": [
+                5,
+                10
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/documentation/medical-answer-modes.md#L5-L10",
+              "excerpt_sha256": "c87b64093194924e960573e9c620d8b89612f91be99a87eb440a9567b31e58b2"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"answered\",\"answer\":\"主页医学Agent问答在未关联病例时采用服务端模式 medical_general，回答以模型已有医学知识为主，检索命中时可补充本地摘录。\",\"value\":\"medical_general\",\"citations\":[{\"id\":\"LS04\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"主页医学Agent问答，未关联病例 | `medical_general`\"}]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"answered\",\"answer\":\"主页医学Agent问答在未关联病例时采用服务端模式 medical_general，回答以模型已有医学知识为主，检索命中时可补充本地摘录。\",\"value\":\"medical_general\",\"citations\":[{\"id\":\"LS04\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"主页医学Agent问答，未关联病例 | `medical_general`\"}]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 852,
+          "completion_tokens": 65,
+          "total_tokens": 917,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 212
+        },
+        "mode": "live_api",
+        "elapsed_ms": 973.36
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_00_BeXp8BgLNiGe4hBFyBQP3842",
+        "ok": true,
+        "elapsed_ms": 1.268,
+        "result_sha256": "000cd3441520531af96ad8cc6fa1ef06bc613c7c46c073b07ed1adf67989becb"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1214,
+          "completion_tokens": 76,
+          "total_tokens": 1290,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 318
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1068.551
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_00_hOVr7MWZEh3BApf1LuPP6120",
+        "ok": true,
+        "elapsed_ms": 0.123,
+        "result_sha256": "bddcb919cdfb091f312edbf93e56d948a56baebe394a738e86fd43e08e3186f4"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {
+          "prompt_tokens": 1674,
+          "completion_tokens": 100,
+          "total_tokens": 1774,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280
+          },
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 394
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1114.426
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "answered",
+      "answer": "主页医学Agent问答在未关联病例时采用服务端模式 medical_general，回答以模型已有医学知识为主，检索命中时可补充本地摘录。",
+      "value": "medical_general",
+      "citations": [
+        {
+          "id": "LS04",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "主页医学Agent问答，未关联病例 | `medical_general`"
+        }
+      ]
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

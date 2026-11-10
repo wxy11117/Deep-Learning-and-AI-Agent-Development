@@ -1,0 +1,500 @@
+{
+  "case_id": "REPORT01",
+  "phase": "integrated",
+  "repeat": 1,
+  "category": "integrated",
+  "question": "请为教学任务 DEMO-001 生成一段约 100—200 字的科研结果说明草稿。先读取任务，再检索并读取相应模型说明，核对模型版本；解释最高平均概率类别、平均概率和五折分歧，并说明当前复核状态。最终 JSON 的 value 为对象，恰有 architecture、top_class、mean_probability、fold_agreement、review_status 五个字段；分别填网络名称、类别字母、数值、数值、状态代码。正文放 answer，来源放 citations。",
+  "expected": {
+    "status": "answered",
+    "value": {
+      "architecture": "ResNet18",
+      "top_class": "B",
+      "mean_probability": 0.51,
+      "fold_agreement": 0.8,
+      "review_status": "pending"
+    },
+    "source_ids": [
+      "LS01"
+    ],
+    "task_id": "DEMO-001"
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:27:42+0800",
+  "elapsed_seconds": 6.264,
+  "usage": {
+    "input_tokens": 5195,
+    "output_tokens": 644
+  },
+  "estimated_usd_peak_cache_miss": 0.0023313,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:27:35+0800",
+      "request_bytes": 3414,
+      "status": "received",
+      "response_id": "98e3ca01-ef2e-485b-8e03-0a65ab5fef72",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 947,
+        "completion_tokens": 110,
+        "total_tokens": 1057,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 179
+      },
+      "elapsed_ms": 2209.025,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:27:38+0800",
+      "request_bytes": 5725,
+      "status": "received",
+      "response_id": "c7cc798a-1a38-4435-98c1-18b379d90c6d",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1755,
+        "completion_tokens": 152,
+        "total_tokens": 1907,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 731
+      },
+      "elapsed_ms": 1486.925,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:27:39+0800",
+      "request_bytes": 8088,
+      "status": "received",
+      "response_id": "a67e8dca-f9a4-4643-b51a-03a7f6096db7",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 2493,
+        "completion_tokens": 382,
+        "total_tokens": 2875,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 701
+      },
+      "elapsed_ms": 2564.743,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"answered\",\"answer\":\"教学任务 DEMO-001 使用本地五折 ResNet18 研究推理，任务模型版本 research-fivefold-20260902-165455 与文档记载的审计后重训权重标识一致。五折平均概率中 B 类最高，为 0.51（A 0.11、C 0.28、D 0.10），故最高平均概率类别为 B。五折中四折的折内最高类别为 B、一折为 C，一致比例 0.8，说明存在一定折间分歧（B 与 C 的类别跨度均为 0.35，前两名差距 0.23）。当前复核状态为 pending，即尚未完成医生复核。以上为人工构造的教学数值，不构成临床结论。\",\"value\":{\"architecture\":\"ResNet18\",\"top_class\":\"B\",\"mean_probability\":0.51,\"fold_agreement\":0.8,\"review_status\":\"pending\"},\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理\"},{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。\"}]}",
+    "turns": 3,
+    "calls": 4,
+    "history": [
+      {
+        "role": "user",
+        "text": "请为教学任务 DEMO-001 生成一段约 100—200 字的科研结果说明草稿。先读取任务，再检索并读取相应模型说明，核对模型版本；解释最高平均概率类别、平均概率和五折分歧，并说明当前复核状态。最终 JSON 的 value 为对象，恰有 architecture、top_class、mean_probability、fold_agreement、review_status 五个字段；分别填网络名称、类别字母、数值、数值、状态代码。正文放 answer，来源放 citations。"
+      },
+      {
+        "role": "assistant",
+        "text": "我先读取任务摘要，同时检索模型说明资料。",
+        "calls": [
+          {
+            "id": "call_00_15vfkZ0Zz19kruAVTzca8486",
+            "name": "get_task_summary",
+            "arguments": {
+              "task_id": "DEMO-001"
+            }
+          },
+          {
+            "id": "call_01_PlS5XwJqtj3cLCYH7X1M2555",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "LungSight 模型架构 网络 说明",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "我先读取任务摘要，同时检索模型说明资料。",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_15vfkZ0Zz19kruAVTzca8486",
+              "type": "function",
+              "function": {
+                "name": "get_task_summary",
+                "arguments": "{\"task_id\": \"DEMO-001\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "call_01_PlS5XwJqtj3cLCYH7X1M2555",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"LungSight 模型架构 网络 说明\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_15vfkZ0Zz19kruAVTzca8486",
+            "ok": true,
+            "value": {
+              "task_id": "DEMO-001",
+              "data_kind": "AUTHOR_CONSTRUCTED_PROBABILITIES",
+              "class_labels": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "fold_probabilities": [
+                [
+                  0.1,
+                  0.6,
+                  0.2,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.55,
+                  0.25,
+                  0.1
+                ],
+                [
+                  0.15,
+                  0.45,
+                  0.3,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.3,
+                  0.5,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.65,
+                  0.15,
+                  0.1
+                ]
+              ],
+              "model_version": "research-fivefold-20260902-165455",
+              "review_status": "pending",
+              "id": "DEMO-001",
+              "version": "research-fivefold-20260902-165455",
+              "text": "教学构造数据，A/B/C/D 为抽象类别；以下数值由程序对五折概率计算。",
+              "mean_probabilities": {
+                "A": 0.11,
+                "B": 0.51,
+                "C": 0.28,
+                "D": 0.1
+              },
+              "fold_top_classes": [
+                "B",
+                "B",
+                "B",
+                "C",
+                "B"
+              ],
+              "top_class": "B",
+              "fold_agreement": 0.8,
+              "top_two_margin": 0.23,
+              "class_spreads": {
+                "A": 0.05,
+                "B": 0.35,
+                "C": 0.35,
+                "D": 0.0
+              }
+            }
+          },
+          {
+            "id": "call_01_PlS5XwJqtj3cLCYH7X1M2555",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS02",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "项目定义 四分类 科研教学用途",
+                  "score": 0.198101
+                },
+                {
+                  "id": "LS01",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地模型架构 五折 ResNet18 权重版本",
+                  "score": 0.083333
+                },
+                {
+                  "id": "LS06",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "给大模型发送的内容 原始CT 数据隐私",
+                  "score": 0.051031
+                },
+                {
+                  "id": "LS05",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "自动 RAG 评测使用模拟模型",
+                  "score": 0.049875
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "读取模型架构文档，核对权重版本标识。",
+        "calls": [
+          {
+            "id": "call_00_T8862VOihgoBmdfFLsqT6274",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          },
+          {
+            "id": "call_01_RhHhHLnu4HGGPxYxzgY48372",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS02",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "读取模型架构文档，核对权重版本标识。",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_T8862VOihgoBmdfFLsqT6274",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS01\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "call_01_RhHhHLnu4HGGPxYxzgY48372",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS02\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_T8862VOihgoBmdfFLsqT6274",
+            "ok": true,
+            "value": {
+              "id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "本地模型架构 五折 ResNet18 权重版本",
+              "text": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。支持内置二维 CT 示例，也支持上传 PNG、JPG、BMP、TIFF 图片或基础单帧 CT DICOM 序列。",
+              "path": "README.md",
+              "lines": [
+                9,
+                9
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L9-L9",
+              "excerpt_sha256": "58d0527ec9a0295bfb666395be32d21a1ff68503c76e7b5fd8c1cafe53ec675c"
+            }
+          },
+          {
+            "id": "call_01_RhHhHLnu4HGGPxYxzgY48372",
+            "ok": true,
+            "value": {
+              "id": "LS02",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "项目定义 四分类 科研教学用途",
+              "text": "LungSight 是面向肺部 CT 四分类研究的本地智能辅助分析原型，包含影像任务、五折模型推理、质控提示、医生复核、循证医学问答和结构化报告工作流。当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。",
+              "path": "README.md",
+              "lines": [
+                5,
+                5
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L5-L5",
+              "excerpt_sha256": "a41d5b8645a614c5f85f25c3d32fd452068b59ae89a0d3c7f4f7537d182b396b"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"answered\",\"answer\":\"教学任务 DEMO-001 使用本地五折 ResNet18 研究推理，任务模型版本 research-fivefold-20260902-165455 与文档记载的审计后重训权重标识一致。五折平均概率中 B 类最高，为 0.51（A 0.11、C 0.28、D 0.10），故最高平均概率类别为 B。五折中四折的折内最高类别为 B、一折为 C，一致比例 0.8，说明存在一定折间分歧（B 与 C 的类别跨度均为 0.35，前两名差距 0.23）。当前复核状态为 pending，即尚未完成医生复核。以上为人工构造的教学数值，不构成临床结论。\",\"value\":{\"architecture\":\"ResNet18\",\"top_class\":\"B\",\"mean_probability\":0.51,\"fold_agreement\":0.8,\"review_status\":\"pending\"},\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理\"},{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。\"}]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"answered\",\"answer\":\"教学任务 DEMO-001 使用本地五折 ResNet18 研究推理，任务模型版本 research-fivefold-20260902-165455 与文档记载的审计后重训权重标识一致。五折平均概率中 B 类最高，为 0.51（A 0.11、C 0.28、D 0.10），故最高平均概率类别为 B。五折中四折的折内最高类别为 B、一折为 C，一致比例 0.8，说明存在一定折间分歧（B 与 C 的类别跨度均为 0.35，前两名差距 0.23）。当前复核状态为 pending，即尚未完成医生复核。以上为人工构造的教学数值，不构成临床结论。\",\"value\":{\"architecture\":\"ResNet18\",\"top_class\":\"B\",\"mean_probability\":0.51,\"fold_agreement\":0.8,\"review_status\":\"pending\"},\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理\"},{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重\"},{\"id\":\"LS02\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。\"}]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 947,
+          "completion_tokens": 110,
+          "total_tokens": 1057,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 179
+        },
+        "mode": "live_api",
+        "elapsed_ms": 2209.28
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "get_task_summary",
+        "call_id": "call_00_15vfkZ0Zz19kruAVTzca8486",
+        "ok": true,
+        "elapsed_ms": 0.178,
+        "result_sha256": "0da682028b39c1f6c48a4aabb83ddc350e1badc04dc86888e408d02f5737e42e"
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_01_PlS5XwJqtj3cLCYH7X1M2555",
+        "ok": true,
+        "elapsed_ms": 2.359,
+        "result_sha256": "6fdcca02214b3be11a6244feca87af768d35e30eeb8d3f0346c6d3b58845d92e"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1755,
+          "completion_tokens": 152,
+          "total_tokens": 1907,
+          "prompt_tokens_details": {
+            "cached_tokens": 1024
+          },
+          "prompt_cache_hit_tokens": 1024,
+          "prompt_cache_miss_tokens": 731
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1487.119
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_00_T8862VOihgoBmdfFLsqT6274",
+        "ok": true,
+        "elapsed_ms": 0.071,
+        "result_sha256": "1057812c584f058c22e4e6d367f1fcb34e101b7f2b4237706d23edb6ce056b6e"
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_01_RhHhHLnu4HGGPxYxzgY48372",
+        "ok": true,
+        "elapsed_ms": 0.034,
+        "result_sha256": "ab3ac0b6f0a0ebf11a9be29246a9a53fce61d4d7cacd9f59a47f74dccf78e79e"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {
+          "prompt_tokens": 2493,
+          "completion_tokens": 382,
+          "total_tokens": 2875,
+          "prompt_tokens_details": {
+            "cached_tokens": 1792
+          },
+          "prompt_cache_hit_tokens": 1792,
+          "prompt_cache_miss_tokens": 701
+        },
+        "mode": "live_api",
+        "elapsed_ms": 2565.086
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "answered",
+      "answer": "教学任务 DEMO-001 使用本地五折 ResNet18 研究推理，任务模型版本 research-fivefold-20260902-165455 与文档记载的审计后重训权重标识一致。五折平均概率中 B 类最高，为 0.51（A 0.11、C 0.28、D 0.10），故最高平均概率类别为 B。五折中四折的折内最高类别为 B、一折为 C，一致比例 0.8，说明存在一定折间分歧（B 与 C 的类别跨度均为 0.35，前两名差距 0.23）。当前复核状态为 pending，即尚未完成医生复核。以上为人工构造的教学数值，不构成临床结论。",
+      "value": {
+        "architecture": "ResNet18",
+        "top_class": "B",
+        "mean_probability": 0.51,
+        "fold_agreement": 0.8,
+        "review_status": "pending"
+      },
+      "citations": [
+        {
+          "id": "LS01",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理"
+        },
+        {
+          "id": "LS01",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重"
+        },
+        {
+          "id": "LS02",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "当前版本仅供科研、教学与产品验证，不是医疗器械，不能替代医生诊断、病理检查或治疗决策。"
+        }
+      ]
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3e581f515b204b33544863200d8b22298e457d5d391eebf754243963c5b8cdeb",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

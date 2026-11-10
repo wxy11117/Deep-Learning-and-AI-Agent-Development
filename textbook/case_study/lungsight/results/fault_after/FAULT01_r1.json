@@ -1,0 +1,426 @@
+{
+  "case_id": "FAULT01",
+  "phase": "fault_after",
+  "repeat": 1,
+  "category": "development",
+  "question": "查找项目说明：请给出本地图像模型的网络名称，value 只写名称。",
+  "expected": {
+    "status": "answered",
+    "value": "ResNet18",
+    "source_ids": [
+      "LS01"
+    ],
+    "task_id": null
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:24:18+0800",
+  "elapsed_seconds": 4.914,
+  "usage": {
+    "input_tokens": 4896,
+    "output_tokens": 304
+  },
+  "estimated_usd_peak_cache_miss": 0.0018336,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:24:13+0800",
+      "request_bytes": 2997,
+      "status": "received",
+      "response_id": "3b27270e-22b3-411a-a535-afab2c08c14d",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 852,
+        "completion_tokens": 61,
+        "total_tokens": 913,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 212
+      },
+      "elapsed_ms": 1605.85,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:24:15+0800",
+      "request_bytes": 3482,
+      "status": "received",
+      "response_id": "f934a26c-d16b-4d0b-b5f4-8bf475a5a2f2",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 976,
+        "completion_tokens": 61,
+        "total_tokens": 1037,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 208
+      },
+      "elapsed_ms": 1112.609,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:24:16+0800",
+      "request_bytes": 4586,
+      "status": "received",
+      "response_id": "45b8adc3-d9e4-4a10-b9dc-0e9e25dc58e9",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1341,
+        "completion_tokens": 76,
+        "total_tokens": 1417,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 317
+      },
+      "elapsed_ms": 1067.984,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:24:17+0800",
+      "request_bytes": 5812,
+      "status": "received",
+      "response_id": "126a2c53-dc00-4369-a638-5104c9f72114",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1727,
+        "completion_tokens": 106,
+        "total_tokens": 1833,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 319
+      },
+      "elapsed_ms": 1124.894,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"answered\",\"answer\":\"项目说明指出本地图像模型使用五折 ResNet18 网络（权重版本 research-fivefold-20260902-165455），来源为 README.md。\",\"value\":\"ResNet18\",\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理\"}]}",
+    "turns": 4,
+    "calls": 3,
+    "history": [
+      {
+        "role": "user",
+        "text": "查找项目说明：请给出本地图像模型的网络名称，value 只写名称。"
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_vSjNCV6uc4e0Mel5yKi90144",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "本地图像模型 网络名称",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_vSjNCV6uc4e0Mel5yKi90144",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"本地图像模型 网络名称\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_vSjNCV6uc4e0Mel5yKi90144",
+            "ok": false,
+            "error": "TEMPORARY_TIMEOUT: teaching fault injection; retry this read-only search once."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_Xfn8rWUJxjxdVTVL0lWe8566",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "本地图像模型 网络名称",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_Xfn8rWUJxjxdVTVL0lWe8566",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"本地图像模型 网络名称\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_Xfn8rWUJxjxdVTVL0lWe8566",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS06",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "给大模型发送的内容 原始CT 数据隐私",
+                  "score": 0.102062
+                },
+                {
+                  "id": "LS07",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地引文如何验证",
+                  "score": 0.097129
+                },
+                {
+                  "id": "LS04",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "未关联与关联任务的问答模式",
+                  "score": 0.084503
+                },
+                {
+                  "id": "LS01",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地模型架构 五折 ResNet18 权重版本",
+                  "score": 0.066667
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_KRdX0SLWegiwzdEzw4pR1652",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_KRdX0SLWegiwzdEzw4pR1652",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS01\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_KRdX0SLWegiwzdEzw4pR1652",
+            "ok": true,
+            "value": {
+              "id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "本地模型架构 五折 ResNet18 权重版本",
+              "text": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。支持内置二维 CT 示例，也支持上传 PNG、JPG、BMP、TIFF 图片或基础单帧 CT DICOM 序列。",
+              "path": "README.md",
+              "lines": [
+                9,
+                9
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L9-L9",
+              "excerpt_sha256": "58d0527ec9a0295bfb666395be32d21a1ff68503c76e7b5fd8c1cafe53ec675c"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"answered\",\"answer\":\"项目说明指出本地图像模型使用五折 ResNet18 网络（权重版本 research-fivefold-20260902-165455），来源为 README.md。\",\"value\":\"ResNet18\",\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理\"}]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"answered\",\"answer\":\"项目说明指出本地图像模型使用五折 ResNet18 网络（权重版本 research-fivefold-20260902-165455），来源为 README.md。\",\"value\":\"ResNet18\",\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理\"}]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 852,
+          "completion_tokens": 61,
+          "total_tokens": 913,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 212
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1605.987
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_00_vSjNCV6uc4e0Mel5yKi90144",
+        "ok": false,
+        "elapsed_ms": 0.056,
+        "result_sha256": "38945d78b8cce6620ddbfeb09a18eeb8a70620272c04dc9bb2b22ccfa6e3793c"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 976,
+          "completion_tokens": 61,
+          "total_tokens": 1037,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 208
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1112.812
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "search_project_docs",
+        "call_id": "call_00_Xfn8rWUJxjxdVTVL0lWe8566",
+        "ok": true,
+        "elapsed_ms": 1.302,
+        "result_sha256": "d24956298007a296a362f2fa11791d05b672eaacd324a4f21cea2d014de4c93c"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {
+          "prompt_tokens": 1341,
+          "completion_tokens": 76,
+          "total_tokens": 1417,
+          "prompt_tokens_details": {
+            "cached_tokens": 1024
+          },
+          "prompt_cache_hit_tokens": 1024,
+          "prompt_cache_miss_tokens": 317
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1068.204
+      },
+      {
+        "event": "tool",
+        "turn": 2,
+        "name": "read_source",
+        "call_id": "call_00_KRdX0SLWegiwzdEzw4pR1652",
+        "ok": true,
+        "elapsed_ms": 0.079,
+        "result_sha256": "968be4cbfb3a892fbaa2e5b8cc0157a40f15708fc0780df4397d046a4b5b534e"
+      },
+      {
+        "event": "model",
+        "turn": 3,
+        "usage": {
+          "prompt_tokens": 1727,
+          "completion_tokens": 106,
+          "total_tokens": 1833,
+          "prompt_tokens_details": {
+            "cached_tokens": 1408
+          },
+          "prompt_cache_hit_tokens": 1408,
+          "prompt_cache_miss_tokens": 319
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1125.17
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "answered",
+      "answer": "项目说明指出本地图像模型使用五折 ResNet18 网络（权重版本 research-fivefold-20260902-165455），来源为 README.md。",
+      "value": "ResNet18",
+      "citations": [
+        {
+          "id": "LS01",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理"
+        }
+      ]
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": true,
+  "recover_timeout": true,
+  "tool_events": [
+    {
+      "event": "injected_timeout",
+      "tool": "search_project_docs"
+    }
+  ],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

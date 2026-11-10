@@ -1,0 +1,435 @@
+{
+  "case_id": "L20",
+  "phase": "evaluation",
+  "repeat": 1,
+  "category": "version",
+  "question": "读取 DEMO-002 并查当前模型说明；这份任务的模型版本是否与资料版本匹配，足以据此解释模型架构？版本不匹配时标记资料不足，value 为 null。",
+  "expected": {
+    "status": "insufficient",
+    "value": null,
+    "source_ids": [
+      "LS01"
+    ],
+    "task_id": "DEMO-002"
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:23:39+0800",
+  "elapsed_seconds": 4.188,
+  "usage": {
+    "input_tokens": 4630,
+    "output_tokens": 360
+  },
+  "estimated_usd_peak_cache_miss": 0.001821,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:23:35+0800",
+      "request_bytes": 3099,
+      "status": "received",
+      "response_id": "787d3a65-5628-4a8d-8601-3b6738b8c28e",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 875,
+        "completion_tokens": 111,
+        "total_tokens": 986,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 235
+      },
+      "elapsed_ms": 1172.327,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:23:36+0800",
+      "request_bytes": 5403,
+      "status": "received",
+      "response_id": "68471a57-d93f-4105-abeb-7515121b65c3",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1674,
+        "completion_tokens": 98,
+        "total_tokens": 1772,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 778
+      },
+      "elapsed_ms": 1329.695,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:23:38+0800",
+      "request_bytes": 6736,
+      "status": "received",
+      "response_id": "25913802-9d9a-43d3-9714-08fd995fc998",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 2081,
+        "completion_tokens": 151,
+        "total_tokens": 2232,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 417
+      },
+      "elapsed_ms": 1683.912,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"insufficient\",\"answer\":\"DEMO-002 的 model_version 为 future-model-not-in-snapshot，而资料 LS01 记录的运行权重标识是 research-fivefold-20260902-165455，两者不匹配，因此不能据此解释该任务的模型架构；该任务仅为人工构造的 A/B/C/D 教学概率数据。\",\"value\":null,\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。\"}]}",
+    "turns": 3,
+    "calls": 3,
+    "history": [
+      {
+        "role": "user",
+        "text": "读取 DEMO-002 并查当前模型说明；这份任务的模型版本是否与资料版本匹配，足以据此解释模型架构？版本不匹配时标记资料不足，value 为 null。"
+      },
+      {
+        "role": "assistant",
+        "text": "我会并行获取任务摘要，并搜索模型文档。",
+        "calls": [
+          {
+            "id": "call_00_Ffmg2bxtiMzszpRbh0mH8291",
+            "name": "get_task_summary",
+            "arguments": {
+              "task_id": "DEMO-002"
+            }
+          },
+          {
+            "id": "call_01_q3LAvv4M10ioXOJSeR1W0413",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "LungSight 模型架构 权重版本 说明",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "我会并行获取任务摘要，并搜索模型文档。",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_Ffmg2bxtiMzszpRbh0mH8291",
+              "type": "function",
+              "function": {
+                "name": "get_task_summary",
+                "arguments": "{\"task_id\": \"DEMO-002\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "call_01_q3LAvv4M10ioXOJSeR1W0413",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"LungSight 模型架构 权重版本 说明\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_Ffmg2bxtiMzszpRbh0mH8291",
+            "ok": true,
+            "value": {
+              "task_id": "DEMO-002",
+              "data_kind": "AUTHOR_CONSTRUCTED_PROBABILITIES",
+              "class_labels": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "fold_probabilities": [
+                [
+                  0.1,
+                  0.6,
+                  0.2,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.55,
+                  0.25,
+                  0.1
+                ],
+                [
+                  0.15,
+                  0.45,
+                  0.3,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.3,
+                  0.5,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.65,
+                  0.15,
+                  0.1
+                ]
+              ],
+              "model_version": "future-model-not-in-snapshot",
+              "review_status": "pending",
+              "id": "DEMO-002",
+              "version": "future-model-not-in-snapshot",
+              "text": "教学构造数据，A/B/C/D 为抽象类别；以下数值由程序对五折概率计算。",
+              "mean_probabilities": {
+                "A": 0.11,
+                "B": 0.51,
+                "C": 0.28,
+                "D": 0.1
+              },
+              "fold_top_classes": [
+                "B",
+                "B",
+                "B",
+                "C",
+                "B"
+              ],
+              "top_class": "B",
+              "fold_agreement": 0.8,
+              "top_two_margin": 0.23,
+              "class_spreads": {
+                "A": 0.05,
+                "B": 0.35,
+                "C": 0.35,
+                "D": 0.0
+              }
+            }
+          },
+          {
+            "id": "call_01_q3LAvv4M10ioXOJSeR1W0413",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS02",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "项目定义 四分类 科研教学用途",
+                  "score": 0.207524
+                },
+                {
+                  "id": "LS01",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地模型架构 五折 ResNet18 权重版本",
+                  "score": 0.172848
+                },
+                {
+                  "id": "LS06",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "给大模型发送的内容 原始CT 数据隐私",
+                  "score": 0.048113
+                },
+                {
+                  "id": "LS05",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "自动 RAG 评测使用模拟模型",
+                  "score": 0.047023
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "任务模型版本是“future-model-not-in-snapshot”。我来读取架构文档，以核对权重标识。",
+        "calls": [
+          {
+            "id": "call_00_HwPtePXvu7f1BcxSz0iv9385",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "任务模型版本是“future-model-not-in-snapshot”。我来读取架构文档，以核对权重标识。",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_HwPtePXvu7f1BcxSz0iv9385",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS01\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_HwPtePXvu7f1BcxSz0iv9385",
+            "ok": true,
+            "value": {
+              "id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "本地模型架构 五折 ResNet18 权重版本",
+              "text": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。支持内置二维 CT 示例，也支持上传 PNG、JPG、BMP、TIFF 图片或基础单帧 CT DICOM 序列。",
+              "path": "README.md",
+              "lines": [
+                9,
+                9
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L9-L9",
+              "excerpt_sha256": "58d0527ec9a0295bfb666395be32d21a1ff68503c76e7b5fd8c1cafe53ec675c"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"insufficient\",\"answer\":\"DEMO-002 的 model_version 为 future-model-not-in-snapshot，而资料 LS01 记录的运行权重标识是 research-fivefold-20260902-165455，两者不匹配，因此不能据此解释该任务的模型架构；该任务仅为人工构造的 A/B/C/D 教学概率数据。\",\"value\":null,\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。\"}]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"insufficient\",\"answer\":\"DEMO-002 的 model_version 为 future-model-not-in-snapshot，而资料 LS01 记录的运行权重标识是 research-fivefold-20260902-165455，两者不匹配，因此不能据此解释该任务的模型架构；该任务仅为人工构造的 A/B/C/D 教学概率数据。\",\"value\":null,\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。\"}]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 875,
+          "completion_tokens": 111,
+          "total_tokens": 986,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 235
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1172.442
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "get_task_summary",
+        "call_id": "call_00_Ffmg2bxtiMzszpRbh0mH8291",
+        "ok": true,
+        "elapsed_ms": 0.105,
+        "result_sha256": "1e862c6768e64d070d9657f9460e4c021a1e91d065c0b07e7ed4713772163856"
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_01_q3LAvv4M10ioXOJSeR1W0413",
+        "ok": true,
+        "elapsed_ms": 0.755,
+        "result_sha256": "6c09036131960dd85e17077a5dac68b9ae46290e3b61f767664af6dbdd5a076a"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1674,
+          "completion_tokens": 98,
+          "total_tokens": 1772,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 778
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1329.962
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_00_HwPtePXvu7f1BcxSz0iv9385",
+        "ok": true,
+        "elapsed_ms": 0.06,
+        "result_sha256": "23e0eed6702e5e1d8be28fafdefcc32f359ea178b2d70011526bb772e7de9610"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {
+          "prompt_tokens": 2081,
+          "completion_tokens": 151,
+          "total_tokens": 2232,
+          "prompt_tokens_details": {
+            "cached_tokens": 1664
+          },
+          "prompt_cache_hit_tokens": 1664,
+          "prompt_cache_miss_tokens": 417
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1684.217
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "insufficient",
+      "answer": "DEMO-002 的 model_version 为 future-model-not-in-snapshot，而资料 LS01 记录的运行权重标识是 research-fivefold-20260902-165455，两者不匹配，因此不能据此解释该任务的模型架构；该任务仅为人工构造的 A/B/C/D 教学概率数据。",
+      "value": null,
+      "citations": [
+        {
+          "id": "LS01",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。"
+        }
+      ]
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

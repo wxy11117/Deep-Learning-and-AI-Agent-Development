@@ -1,0 +1,95 @@
+{
+  "filepath": "publication/references.bib",
+  "total_entries": 76,
+  "valid_entries": 76,
+  "errors": [],
+  "warnings": [
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref005: Missing recommended field \"pages\"",
+      "entry": "Ref005"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref008: Missing recommended field \"pages\"",
+      "entry": "Ref008"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref012: Missing recommended field \"pages\"",
+      "entry": "Ref012"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref015: Missing recommended field \"pages\"",
+      "entry": "Ref015"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref016: Missing recommended field \"pages\"",
+      "entry": "Ref016"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref019: Missing recommended field \"pages\"",
+      "entry": "Ref019"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref025: Missing recommended field \"pages\"",
+      "entry": "Ref025"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref026: Missing recommended field \"pages\"",
+      "entry": "Ref026"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref029: Missing recommended field \"pages\"",
+      "entry": "Ref029"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref046: Missing recommended field \"pages\"",
+      "entry": "Ref046"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Ref056: Missing recommended field \"pages\"",
+      "entry": "Ref056"
+    }
+  ],
+  "duplicates": [],
+  "venue_standard_checked": null,
+  "min_count_checked": null,
+  "manuscript_results": {
+    "checked": false,
+    "manuscript_filepath": null,
+    "cited_keys": [],
+    "missing_keys": [],
+    "unused_keys": []
+  }
+}

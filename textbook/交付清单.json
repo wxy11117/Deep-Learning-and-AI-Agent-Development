@@ -1,0 +1,63 @@
+{
+  "title": "深度学习与 AI Agent 开发：原理、实战与应用",
+  "edition": "2026-11-11 修订版",
+  "authors": [
+    "Violet",
+    "Star",
+    "Sapphire"
+  ],
+  "pages": 274,
+  "front_pages": 20,
+  "body_pages": 244,
+  "copyright_pages": 1,
+  "reference_pages": 8,
+  "references": 76,
+  "licenses": {
+    "book_text_and_figures": "rights reserved",
+    "original_code": "MIT",
+    "scope": "publication/code_license_scope.json",
+    "third_party": "THIRD_PARTY_NOTICES.md",
+    "lungsight": "retains upstream rights; AGPLv3 reference only"
+  },
+  "chapters": 44,
+  "figures": 68,
+  "base_projects": 8,
+  "real_model_case": "LungSight public snapshot and constructed tasks",
+  "programming_intro_chapter": 21,
+  "author_signature_pt": 28,
+  "toc_entries": 472,
+  "overview_entries": 47,
+  "checks": {
+    "core": 27,
+    "mcp": 8,
+    "numerical": 26,
+    "final_project": 49,
+    "final_content": 51
+  },
+  "live_model": {
+    "provider": "DeepSeek",
+    "model": "deepseek-flash",
+    "date": "2026-11-10",
+    "frozen_tasks": 20,
+    "specified_checks_passed": 20,
+    "runs_including_controls": 32,
+    "input_tokens": 120517,
+    "output_tokens": 9511,
+    "cost_estimate_usd": 0.0475683,
+    "billing_receipt": false
+  },
+  "files": {
+    "深度学习与AI_Agent开发_精排版.pdf": {
+      "bytes": 11147707,
+      "sha256": "26143783c5a2975434d8bc5567038b8eba3b8334fcbb9424b8bbbebb21c94ecf"
+    },
+    "深度学习与AI_Agent开发_阅读版.html": {
+      "bytes": 15619759,
+      "sha256": "f7bb88205edfd39693dbdf295bae3c798683c56685ad0e34f2c6200ab7943276"
+    },
+    "深度学习与AI_Agent开发.md": {
+      "bytes": 538201,
+      "sha256": "deb2037a55c83a2691594354e380f826f14ecd291bd6ac95414a88a298e1c92a"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-11",
+  "authors": ["Violet", "Star", "Sapphire"],
+  "edition": "2026 年 11 月修订版",
+  "book_text_and_figures": "rights reserved",
+  "original_code_license": "MIT",
+  "user_confirmed": true,
+  "user_choice": "采用上述 MIT 方案（推荐）",
+  "lungsight_agpl_image": "reference only; no repository license change",
+  "followup_user_choice": "作为 LungSight 的许可参考，教材原创代码仍用 MIT（推荐）",
+  "third_party_code": "retains existing rights and license",
+  "upstream_commit": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+  "upstream_license_file_found_at_commit": false
+}

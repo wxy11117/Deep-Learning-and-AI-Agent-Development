@@ -1,0 +1,24 @@
+{
+  "pages": 274,
+  "author_page_physical": 2,
+  "author_name": "Violet, Star, Sapphire",
+  "authors": [
+    "Violet",
+    "Star",
+    "Sapphire"
+  ],
+  "author_css_size_pt": 28,
+  "author_rendered_size_pt": 27.91,
+  "author_font": "GreatVibes-Regular",
+  "author_page_text_matches_approved_reference": true,
+  "first_page_labels": [
+    "封面",
+    "作者扉页",
+    "i",
+    "ii"
+  ],
+  "source_links": [
+    "https://winstonchurchill.org/resources/speeches/1941-1945-war-leader/the-bright-gleam-of-victory/"
+  ],
+  "pdf_sha256": "26143783c5a2975434d8bc5567038b8eba3b8334fcbb9424b8bbbebb21c94ecf"
+}

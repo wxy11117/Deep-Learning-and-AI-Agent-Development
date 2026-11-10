@@ -1,0 +1,272 @@
+{
+  "case_id": "DEV02",
+  "phase": "development",
+  "repeat": 1,
+  "category": "development",
+  "question": "读取教学任务 DEMO-001，平均分布中前两类的概率差是多少？value 填数值。",
+  "expected": {
+    "status": "answered",
+    "value": 0.23,
+    "source_ids": [],
+    "task_id": "DEMO-001"
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:21:44+0800",
+  "elapsed_seconds": 2.275,
+  "usage": {
+    "input_tokens": 2147,
+    "output_tokens": 120
+  },
+  "estimated_usd_peak_cache_miss": 0.0007881,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:21:42+0800",
+      "request_bytes": 3006,
+      "status": "received",
+      "response_id": "37b97f64-941f-40d8-bc5b-fc1a80d192de",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 857,
+        "completion_tokens": 43,
+        "total_tokens": 900,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 217
+      },
+      "elapsed_ms": 959.994,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:21:43+0800",
+      "request_bytes": 4193,
+      "status": "received",
+      "response_id": "981dda12-ccb2-4f64-bde4-f57e62f7fa0d",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1290,
+        "completion_tokens": 77,
+        "total_tokens": 1367,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 394
+      },
+      "elapsed_ms": 1313.948,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"answered\",\"answer\":\"DEMO-001 平均分布中前两类为 B（0.51）与 C（0.28），概率差为 0.23（即 top_two_margin）。数据为人工构造教学概率，模型版本 research-fivefold-20260902-165455。\",\"value\":0.23,\"citations\":[]}",
+    "turns": 2,
+    "calls": 1,
+    "history": [
+      {
+        "role": "user",
+        "text": "读取教学任务 DEMO-001，平均分布中前两类的概率差是多少？value 填数值。"
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_EGXN4LcR2MLLSamEEHxr3982",
+            "name": "get_task_summary",
+            "arguments": {
+              "task_id": "DEMO-001"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_EGXN4LcR2MLLSamEEHxr3982",
+              "type": "function",
+              "function": {
+                "name": "get_task_summary",
+                "arguments": "{\"task_id\": \"DEMO-001\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_EGXN4LcR2MLLSamEEHxr3982",
+            "ok": true,
+            "value": {
+              "task_id": "DEMO-001",
+              "data_kind": "AUTHOR_CONSTRUCTED_PROBABILITIES",
+              "class_labels": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "fold_probabilities": [
+                [
+                  0.1,
+                  0.6,
+                  0.2,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.55,
+                  0.25,
+                  0.1
+                ],
+                [
+                  0.15,
+                  0.45,
+                  0.3,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.3,
+                  0.5,
+                  0.1
+                ],
+                [
+                  0.1,
+                  0.65,
+                  0.15,
+                  0.1
+                ]
+              ],
+              "model_version": "research-fivefold-20260902-165455",
+              "review_status": "pending",
+              "id": "DEMO-001",
+              "version": "research-fivefold-20260902-165455",
+              "text": "教学构造数据，A/B/C/D 为抽象类别；以下数值由程序对五折概率计算。",
+              "mean_probabilities": {
+                "A": 0.11,
+                "B": 0.51,
+                "C": 0.28,
+                "D": 0.1
+              },
+              "fold_top_classes": [
+                "B",
+                "B",
+                "B",
+                "C",
+                "B"
+              ],
+              "top_class": "B",
+              "fold_agreement": 0.8,
+              "top_two_margin": 0.23,
+              "class_spreads": {
+                "A": 0.05,
+                "B": 0.35,
+                "C": 0.35,
+                "D": 0.0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"answered\",\"answer\":\"DEMO-001 平均分布中前两类为 B（0.51）与 C（0.28），概率差为 0.23（即 top_two_margin）。数据为人工构造教学概率，模型版本 research-fivefold-20260902-165455。\",\"value\":0.23,\"citations\":[]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"answered\",\"answer\":\"DEMO-001 平均分布中前两类为 B（0.51）与 C（0.28），概率差为 0.23（即 top_two_margin）。数据为人工构造教学概率，模型版本 research-fivefold-20260902-165455。\",\"value\":0.23,\"citations\":[]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 857,
+          "completion_tokens": 43,
+          "total_tokens": 900,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 217
+        },
+        "mode": "live_api",
+        "elapsed_ms": 960.106
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "get_task_summary",
+        "call_id": "call_00_EGXN4LcR2MLLSamEEHxr3982",
+        "ok": true,
+        "elapsed_ms": 0.158,
+        "result_sha256": "6690beb0e8bb5d4e8c4aa4ec23e947a384131e879f4df6e327f1308ed3d80008"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1290,
+          "completion_tokens": 77,
+          "total_tokens": 1367,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 394
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1314.154
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "answered",
+      "answer": "DEMO-001 平均分布中前两类为 B（0.51）与 C（0.28），概率差为 0.23（即 top_two_margin）。数据为人工构造教学概率，模型版本 research-fivefold-20260902-165455。",
+      "value": 0.23,
+      "citations": []
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "a18b9d48bafda9c2f499e73b8ba9b44e6d873e152f72f4280bf773f8bd634a70",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

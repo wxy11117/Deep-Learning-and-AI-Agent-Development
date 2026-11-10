@@ -1,0 +1,13 @@
+{
+  "name": "deep-learning-ai-agent-textbook",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build_book.mjs",
+    "diagrams": "node figures/render_structures.mjs"
+  },
+  "dependencies": {
+    "marked": "17.0.5",
+    "playwright": "1.62.1"
+  }
+}

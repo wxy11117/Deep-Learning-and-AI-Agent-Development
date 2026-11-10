@@ -1,0 +1,204 @@
+{
+  "case_id": "L18",
+  "phase": "evaluation",
+  "repeat": 1,
+  "category": "missing",
+  "question": "请读取任务 DEMO-999，报告它的最高概率类别。找不到该任务时请标记资料不足，value 为 null。",
+  "expected": {
+    "status": "insufficient",
+    "value": null,
+    "source_ids": [],
+    "task_id": null
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:23:30+0800",
+  "elapsed_seconds": 1.991,
+  "usage": {
+    "input_tokens": 1824,
+    "output_tokens": 87
+  },
+  "estimated_usd_peak_cache_miss": 0.0006516,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:23:28+0800",
+      "request_bytes": 3032,
+      "status": "received",
+      "response_id": "3134035e-320a-4f01-832f-7fdd13d03845",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 862,
+        "completion_tokens": 43,
+        "total_tokens": 905,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 222
+      },
+      "elapsed_ms": 998.73,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:23:29+0800",
+      "request_bytes": 3425,
+      "status": "received",
+      "response_id": "6375b6db-2e3b-4cd7-93aa-af59c24ecb2c",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 962,
+        "completion_tokens": 44,
+        "total_tokens": 1006,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 194
+      },
+      "elapsed_ms": 991.503,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"insufficient\",\"answer\":\"任务 DEMO-999 不存在（工具返回 TASK_NOT_FOUND），无法报告其最高概率类别，资料不足。\",\"value\":null,\"citations\":[]}",
+    "turns": 2,
+    "calls": 1,
+    "history": [
+      {
+        "role": "user",
+        "text": "请读取任务 DEMO-999，报告它的最高概率类别。找不到该任务时请标记资料不足，value 为 null。"
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_jdn6812cKVV9vZ6rPhkD9778",
+            "name": "get_task_summary",
+            "arguments": {
+              "task_id": "DEMO-999"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_jdn6812cKVV9vZ6rPhkD9778",
+              "type": "function",
+              "function": {
+                "name": "get_task_summary",
+                "arguments": "{\"task_id\": \"DEMO-999\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_jdn6812cKVV9vZ6rPhkD9778",
+            "ok": false,
+            "error": "TASK_NOT_FOUND: DEMO-999"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"insufficient\",\"answer\":\"任务 DEMO-999 不存在（工具返回 TASK_NOT_FOUND），无法报告其最高概率类别，资料不足。\",\"value\":null,\"citations\":[]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"insufficient\",\"answer\":\"任务 DEMO-999 不存在（工具返回 TASK_NOT_FOUND），无法报告其最高概率类别，资料不足。\",\"value\":null,\"citations\":[]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 862,
+          "completion_tokens": 43,
+          "total_tokens": 905,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 222
+        },
+        "mode": "live_api",
+        "elapsed_ms": 998.846
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "get_task_summary",
+        "call_id": "call_00_jdn6812cKVV9vZ6rPhkD9778",
+        "ok": false,
+        "elapsed_ms": 0.028,
+        "result_sha256": "ae6638f319a8b3edbcda12a99deb8f06ed0f4bf7f24308aa13a02492d153f864"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 962,
+          "completion_tokens": 44,
+          "total_tokens": 1006,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 194
+        },
+        "mode": "live_api",
+        "elapsed_ms": 991.652
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "insufficient",
+      "answer": "任务 DEMO-999 不存在（工具返回 TASK_NOT_FOUND），无法报告其最高概率类别，资料不足。",
+      "value": null,
+      "citations": []
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

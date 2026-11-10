@@ -1,0 +1,407 @@
+{
+  "case_id": "L19",
+  "phase": "repeat",
+  "repeat": 2,
+  "category": "missing",
+  "question": "请查当前资料库：该项目在 2027 年独立多中心试验中的总体准确率是多少？未记录时 value 为 null，并标记资料不足。",
+  "expected": {
+    "status": "insufficient",
+    "value": null,
+    "source_ids": [],
+    "task_id": null
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:24:37+0800",
+  "elapsed_seconds": 4.783,
+  "usage": {
+    "input_tokens": 4362,
+    "output_tokens": 428
+  },
+  "estimated_usd_peak_cache_miss": 0.0018222,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:24:32+0800",
+      "request_bytes": 3063,
+      "status": "received",
+      "response_id": "3915151f-7143-4f4f-9219-7861918cbb43",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 870,
+        "completion_tokens": 127,
+        "total_tokens": 997,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 230
+      },
+      "elapsed_ms": 968.532,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:24:33+0800",
+      "request_bytes": 4502,
+      "status": "received",
+      "response_id": "30a7e775-f811-4292-beb9-1b06dece4489",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1322,
+        "completion_tokens": 159,
+        "total_tokens": 1481,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 426
+      },
+      "elapsed_ms": 2148.039,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:24:35+0800",
+      "request_bytes": 7327,
+      "status": "received",
+      "response_id": "4321541b-03c2-4649-83d3-8e584351fce2",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 2170,
+        "completion_tokens": 142,
+        "total_tokens": 2312,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 762
+      },
+      "elapsed_ms": 1665.145,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"insufficient\",\"answer\":\"资料库中未记录该项目在 2027 年独立多中心试验中的总体准确率；现有文档只说明本地五折 ResNet18 研究推理权重版本（research-fivefold-20260902-165455），没有多中心试验数据，因此无法给出该数值。\",\"value\":null,\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。\"}]}",
+    "turns": 3,
+    "calls": 4,
+    "history": [
+      {
+        "role": "user",
+        "text": "请查当前资料库：该项目在 2027 年独立多中心试验中的总体准确率是多少？未记录时 value 为 null，并标记资料不足。"
+      },
+      {
+        "role": "assistant",
+        "text": "我会先在项目文档中搜索相关信息。",
+        "calls": [
+          {
+            "id": "call_00_H2lIQ1QqbApbwW6gEF3c9453",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "2027 独立多中心试验 总体准确率",
+              "top_k": 4
+            }
+          },
+          {
+            "id": "call_01_A7RwnW4vQSLLslyolVFG4450",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "多中心试验 准确率 结果",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "我会先在项目文档中搜索相关信息。",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_H2lIQ1QqbApbwW6gEF3c9453",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"2027 独立多中心试验 总体准确率\", \"top_k\": 4}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "call_01_A7RwnW4vQSLLslyolVFG4450",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"多中心试验 准确率 结果\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_H2lIQ1QqbApbwW6gEF3c9453",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS01",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地模型架构 五折 ResNet18 权重版本",
+                  "score": 0.05164
+                }
+              ]
+            }
+          },
+          {
+            "id": "call_01_A7RwnW4vQSLLslyolVFG4450",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS01",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地模型架构 五折 ResNet18 权重版本",
+                  "score": 0.022222
+                },
+                {
+                  "id": "LS04",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "未关联与关联任务的问答模式",
+                  "score": 0.016901
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "我会读取这两份文档，以确认其中是否记录了任何多中心试验结果。",
+        "calls": [
+          {
+            "id": "call_00_SCbYNvADQSRUeyWhkIPn1993",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          },
+          {
+            "id": "call_01_606kegauGeJ1uA93QKGY4263",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS04",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "我会读取这两份文档，以确认其中是否记录了任何多中心试验结果。",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_SCbYNvADQSRUeyWhkIPn1993",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS01\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "call_01_606kegauGeJ1uA93QKGY4263",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS04\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_SCbYNvADQSRUeyWhkIPn1993",
+            "ok": true,
+            "value": {
+              "id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "本地模型架构 五折 ResNet18 权重版本",
+              "text": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。支持内置二维 CT 示例，也支持上传 PNG、JPG、BMP、TIFF 图片或基础单帧 CT DICOM 序列。",
+              "path": "README.md",
+              "lines": [
+                9,
+                9
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L9-L9",
+              "excerpt_sha256": "58d0527ec9a0295bfb666395be32d21a1ff68503c76e7b5fd8c1cafe53ec675c"
+            }
+          },
+          {
+            "id": "call_01_606kegauGeJ1uA93QKGY4263",
+            "ok": true,
+            "value": {
+              "id": "LS04",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "未关联与关联任务的问答模式",
+              "text": "| 入口 | 服务端模式 | 回答来源 |\n| --- | --- | --- |\n| 主页医学Agent问答，未关联病例 | `medical_general` | 模型已有医学知识；检索命中时可补充本地摘录。没有本地资料不再直接拒答。 |\n| CT分析后的AI解读、关联病例的主页问答、医生复核页问答 | `ct_hybrid` | 当前账号拥有的CT结构化结果、医生复核/修正记录、检索到的本地资料，加上模型医学知识。 |\n\n模式由后端根据会话关联病例决定，不接受前端传入绕过策略的权限。已有会话不可改关联病例，需新建对话。三家已接入服务商共用同一策略：OpenAI Responses、Kimi、DeepSeek。",
+              "path": "documentation/medical-answer-modes.md",
+              "lines": [
+                5,
+                10
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/documentation/medical-answer-modes.md#L5-L10",
+              "excerpt_sha256": "c87b64093194924e960573e9c620d8b89612f91be99a87eb440a9567b31e58b2"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"insufficient\",\"answer\":\"资料库中未记录该项目在 2027 年独立多中心试验中的总体准确率；现有文档只说明本地五折 ResNet18 研究推理权重版本（research-fivefold-20260902-165455），没有多中心试验数据，因此无法给出该数值。\",\"value\":null,\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。\"}]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"insufficient\",\"answer\":\"资料库中未记录该项目在 2027 年独立多中心试验中的总体准确率；现有文档只说明本地五折 ResNet18 研究推理权重版本（research-fivefold-20260902-165455），没有多中心试验数据，因此无法给出该数值。\",\"value\":null,\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。\"}]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 870,
+          "completion_tokens": 127,
+          "total_tokens": 997,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 230
+        },
+        "mode": "live_api",
+        "elapsed_ms": 968.629
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_00_H2lIQ1QqbApbwW6gEF3c9453",
+        "ok": true,
+        "elapsed_ms": 0.455,
+        "result_sha256": "f5b3b1f4c95e5ede9a46351c666b9e40a3051e34fcd4f8119b6054b06b87e10e"
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_01_A7RwnW4vQSLLslyolVFG4450",
+        "ok": true,
+        "elapsed_ms": 0.342,
+        "result_sha256": "ba5df5e03c8b7ef5fed6efce6fd4a008233334bb772526d20357d845d9b91ab4"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1322,
+          "completion_tokens": 159,
+          "total_tokens": 1481,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 426
+        },
+        "mode": "live_api",
+        "elapsed_ms": 2148.137
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_00_SCbYNvADQSRUeyWhkIPn1993",
+        "ok": true,
+        "elapsed_ms": 0.03,
+        "result_sha256": "655418a22b157b23a45d8f0251d4e134d9152efeee2eb764598f0e3bb0ca8cc6"
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_01_606kegauGeJ1uA93QKGY4263",
+        "ok": true,
+        "elapsed_ms": 0.014,
+        "result_sha256": "a832fd66b19832cf1670a8d589b54e70b3d85dac167316f57f92a630d00d3b2f"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {
+          "prompt_tokens": 2170,
+          "completion_tokens": 142,
+          "total_tokens": 2312,
+          "prompt_tokens_details": {
+            "cached_tokens": 1408
+          },
+          "prompt_cache_hit_tokens": 1408,
+          "prompt_cache_miss_tokens": 762
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1665.285
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "insufficient",
+      "answer": "资料库中未记录该项目在 2027 年独立多中心试验中的总体准确率；现有文档只说明本地五折 ResNet18 研究推理权重版本（research-fivefold-20260902-165455），没有多中心试验数据，因此无法给出该数值。",
+      "value": null,
+      "citations": [
+        {
+          "id": "LS01",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。"
+        }
+      ]
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}

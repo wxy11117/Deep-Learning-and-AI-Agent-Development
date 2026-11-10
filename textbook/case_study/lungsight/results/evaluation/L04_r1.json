@@ -1,0 +1,384 @@
+{
+  "case_id": "L04",
+  "phase": "evaluation",
+  "repeat": 1,
+  "category": "source",
+  "question": "项目当前研究权重的版本标识是什么？value 填完整标识。",
+  "expected": {
+    "status": "answered",
+    "value": "research-fivefold-20260902-165455",
+    "source_ids": [
+      "LS01"
+    ],
+    "task_id": null
+  },
+  "real_model_executed": true,
+  "provider": "DeepSeek",
+  "requested_model": "deepseek-flash",
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "finished_at": "2026-11-10T23:22:47+0800",
+  "elapsed_seconds": 3.558,
+  "usage": {
+    "input_tokens": 4143,
+    "output_tokens": 334
+  },
+  "estimated_usd_peak_cache_miss": 0.0016437,
+  "requests": [
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:43+0800",
+      "request_bytes": 2985,
+      "status": "received",
+      "response_id": "23b5125f-5fda-4770-919d-7d7179bc503b",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 849,
+        "completion_tokens": 121,
+        "total_tokens": 970,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 209
+      },
+      "elapsed_ms": 1349.629,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:44+0800",
+      "request_bytes": 4858,
+      "status": "received",
+      "response_id": "40d7fa23-ca34-41c8-b093-bec58c896a32",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1454,
+        "completion_tokens": 76,
+        "total_tokens": 1530,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 558
+      },
+      "elapsed_ms": 1135.695,
+      "finish_reason": "tool_calls"
+    },
+    {
+      "requested_model": "deepseek-flash",
+      "started_at": "2026-11-10T23:22:46+0800",
+      "request_bytes": 6084,
+      "status": "received",
+      "response_id": "efabd4c5-7be1-4d15-8b5a-6ce111822199",
+      "returned_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 1840,
+        "completion_tokens": 137,
+        "total_tokens": 1977,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 432
+      },
+      "elapsed_ms": 1070.216,
+      "finish_reason": "stop"
+    }
+  ],
+  "result": {
+    "status": "completed",
+    "text": "{\"status\":\"answered\",\"answer\":\"项目当前研究权重（本地五折 ResNet18 研究推理权重）的版本标识为 research-fivefold-20260902-165455，是审计后重新训练的权重，并非最初程序包权重。来源：LS01（README.md）。\",\"value\":\"research-fivefold-20260902-165455\",\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。\"}]}",
+    "turns": 3,
+    "calls": 3,
+    "history": [
+      {
+        "role": "user",
+        "text": "项目当前研究权重的版本标识是什么？value 填完整标识。"
+      },
+      {
+        "role": "assistant",
+        "text": "我会在项目文档中搜索权重版本标识。",
+        "calls": [
+          {
+            "id": "call_00_MnI6Cvtasfs0WuqSwsJD4463",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "研究权重 版本标识 权重",
+              "top_k": 4
+            }
+          },
+          {
+            "id": "call_01_Xop8F9yK4SCAm7SmseHV5406",
+            "name": "search_project_docs",
+            "arguments": {
+              "query": "model version weights identifier",
+              "top_k": 4
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "我会在项目文档中搜索权重版本标识。",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_MnI6Cvtasfs0WuqSwsJD4463",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"研究权重 版本标识 权重\", \"top_k\": 4}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "call_01_Xop8F9yK4SCAm7SmseHV5406",
+              "type": "function",
+              "function": {
+                "name": "search_project_docs",
+                "arguments": "{\"query\": \"model version weights identifier\", \"top_k\": 4}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_MnI6Cvtasfs0WuqSwsJD4463",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS01",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地模型架构 五折 ResNet18 权重版本",
+                  "score": 0.201008
+                },
+                {
+                  "id": "LS02",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "项目定义 四分类 科研教学用途",
+                  "score": 0.053093
+                }
+              ]
+            }
+          },
+          {
+            "id": "call_01_Xop8F9yK4SCAm7SmseHV5406",
+            "ok": true,
+            "value": {
+              "revision": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "matches": [
+                {
+                  "id": "LS08",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "旧问答历史与报告保留规则",
+                  "score": 0.285507
+                },
+                {
+                  "id": "LS07",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "本地引文如何验证",
+                  "score": 0.199889
+                },
+                {
+                  "id": "LS05",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "自动 RAG 评测使用模拟模型",
+                  "score": 0.196732
+                },
+                {
+                  "id": "LS04",
+                  "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+                  "title": "未关联与关联任务的问答模式",
+                  "score": 0.095649
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "",
+        "calls": [
+          {
+            "id": "call_00_Dou6m6oSZMAimyb6c9lY3918",
+            "name": "read_source",
+            "arguments": {
+              "doc_id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac"
+            }
+          }
+        ],
+        "native": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "call_00_Dou6m6oSZMAimyb6c9lY3918",
+              "type": "function",
+              "function": {
+                "name": "read_source",
+                "arguments": "{\"doc_id\": \"LS01\", \"version\": \"80932e2d34eefbfd3031e0a04370986562cf40ac\"}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "results": [
+          {
+            "id": "call_00_Dou6m6oSZMAimyb6c9lY3918",
+            "ok": true,
+            "value": {
+              "id": "LS01",
+              "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+              "title": "本地模型架构 五折 ResNet18 权重版本",
+              "text": "当前版本已经把网页中的模拟结果替换为真实的本地五折 ResNet18 研究推理，并完成任务留痕、复核和报告下载闭环。技术架构沿用最初方案，但运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。支持内置二维 CT 示例，也支持上传 PNG、JPG、BMP、TIFF 图片或基础单帧 CT DICOM 序列。",
+              "path": "README.md",
+              "lines": [
+                9,
+                9
+              ],
+              "url": "https://github.com/wxy11117/LungSight/blob/80932e2d34eefbfd3031e0a04370986562cf40ac/README.md#L9-L9",
+              "excerpt_sha256": "58d0527ec9a0295bfb666395be32d21a1ff68503c76e7b5fd8c1cafe53ec675c"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "text": "{\"status\":\"answered\",\"answer\":\"项目当前研究权重（本地五折 ResNet18 研究推理权重）的版本标识为 research-fivefold-20260902-165455，是审计后重新训练的权重，并非最初程序包权重。来源：LS01（README.md）。\",\"value\":\"research-fivefold-20260902-165455\",\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。\"}]}",
+        "calls": [],
+        "native": {
+          "role": "assistant",
+          "content": "{\"status\":\"answered\",\"answer\":\"项目当前研究权重（本地五折 ResNet18 研究推理权重）的版本标识为 research-fivefold-20260902-165455，是审计后重新训练的权重，并非最初程序包权重。来源：LS01（README.md）。\",\"value\":\"research-fivefold-20260902-165455\",\"citations\":[{\"id\":\"LS01\",\"version\":\"80932e2d34eefbfd3031e0a04370986562cf40ac\",\"quote\":\"运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。\"}]}"
+        }
+      }
+    ],
+    "trace": [
+      {
+        "event": "model",
+        "turn": 0,
+        "usage": {
+          "prompt_tokens": 849,
+          "completion_tokens": 121,
+          "total_tokens": 970,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 209
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1349.737
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_00_MnI6Cvtasfs0WuqSwsJD4463",
+        "ok": true,
+        "elapsed_ms": 0.883,
+        "result_sha256": "cf86baeb49effbbcac727fb2fb6c53143bf0fa6babe76735ebc183a32396d467"
+      },
+      {
+        "event": "tool",
+        "turn": 0,
+        "name": "search_project_docs",
+        "call_id": "call_01_Xop8F9yK4SCAm7SmseHV5406",
+        "ok": true,
+        "elapsed_ms": 0.748,
+        "result_sha256": "fc64b95e34b5239c2bed9d6f7c6453f8906e6fd45b71e5524cc8850d5f15b9de"
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "usage": {
+          "prompt_tokens": 1454,
+          "completion_tokens": 76,
+          "total_tokens": 1530,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 558
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1135.874
+      },
+      {
+        "event": "tool",
+        "turn": 1,
+        "name": "read_source",
+        "call_id": "call_00_Dou6m6oSZMAimyb6c9lY3918",
+        "ok": true,
+        "elapsed_ms": 0.059,
+        "result_sha256": "c3a7efda8356edd50d8559cf4cc9ada6b98844cf49201b5845ff0221ef6c5f23"
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "usage": {
+          "prompt_tokens": 1840,
+          "completion_tokens": 137,
+          "total_tokens": 1977,
+          "prompt_tokens_details": {
+            "cached_tokens": 1408
+          },
+          "prompt_cache_hit_tokens": 1408,
+          "prompt_cache_miss_tokens": 432
+        },
+        "mode": "live_api",
+        "elapsed_ms": 1070.486
+      }
+    ]
+  },
+  "error": null,
+  "score": {
+    "passed": true,
+    "checks": {
+      "json": true,
+      "status": true,
+      "value": true,
+      "citations": true,
+      "required_sources": true,
+      "task_read": true,
+      "looked_up": true,
+      "task_complete": true
+    },
+    "answer": {
+      "status": "answered",
+      "answer": "项目当前研究权重（本地五折 ResNet18 研究推理权重）的版本标识为 research-fivefold-20260902-165455，是审计后重新训练的权重，并非最初程序包权重。来源：LS01（README.md）。",
+      "value": "research-fivefold-20260902-165455",
+      "citations": [
+        {
+          "id": "LS01",
+          "version": "80932e2d34eefbfd3031e0a04370986562cf40ac",
+          "quote": "运行权重是审计后重新训练的 `research-fivefold-20260902-165455`，不是最初程序包权重。"
+        }
+      ]
+    },
+    "reason": [],
+    "scope": "checks the requested fact value, source provenance and necessary reads; free prose quality is reviewed separately"
+  },
+  "injected_fault": false,
+  "recover_timeout": true,
+  "tool_events": [],
+  "prompt_sha256": "49a7f18d1681e13a737952d654019b7b7486933e34196f26db8eab5f68a4d814",
+  "source_manifest_sha256": "7a239d9f67578d3530d4df0d3902c85139dbdbd5109d9f8df31d6431d73018e6",
+  "evaluation_cases_sha256": "83c73caa070e341e35d57106143d31d7da4e592fe32d45c6f63eb3b9b6bcf443",
+  "implementation_sha256": {
+    "run_experiment.py": "3d1fa54efc0295277f7e2cae4d88c45be811fe855c7f19f8ec1252e6f55f7280",
+    "case_tools.py": "92e58d28605e4a6de1fc01f1333bece4b28ec91950f5129b372dc714c76a3504",
+    "core.py": "17eb16a17011299150e0bbce22bf6764f984cca371f6c40a8e0c9309c724b417",
+    "deepseek_provider.py": "3ee7d59f151de453ac57842c1295ad7c98bd7dd1b51b1d9676dab731e10229b6"
+  }
+}
